@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>23&nbsp; Dienstplanung – Praxis-IT</title>
+<title>26&nbsp; IT-Sicherheit – Praxis-IT</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./datenschutz.html" rel="next">
-<link href="./qualitaetsmanagement.html" rel="prev">
+<link href="./diskurs.html" rel="next">
+<link href="./gesetzgebung.html" rel="prev">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -143,7 +143,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./buchhaltung.html">Verwaltung</a></li><li class="breadcrumb-item"><a href="./dienstplanung.html"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Dienstplanung</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./buchhaltung.html">Verwaltung</a></li><li class="breadcrumb-item"><a href="./it-sicherheit.html"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">IT-Sicherheit</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -343,7 +343,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./dienstplanung.html" class="sidebar-item-text sidebar-link active">
+  <a href="./dienstplanung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Dienstplanung</span></span></a>
   </div>
 </li>
@@ -361,7 +361,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./it-sicherheit.html" class="sidebar-item-text sidebar-link">
+  <a href="./it-sicherheit.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">IT-Sicherheit</span></span></a>
   </div>
 </li>
@@ -390,8 +390,23 @@ cookieconsent.run({
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#beispiele-für-it-schwachstellen" id="toc-beispiele-für-it-schwachstellen" class="nav-link active" data-scroll-target="#beispiele-für-it-schwachstellen"><span class="header-section-number">26.1</span> Beispiele für IT-Schwachstellen</a></li>
+  <li><a href="#praxisspezifische-it-sicherheitsanforderungen" id="toc-praxisspezifische-it-sicherheitsanforderungen" class="nav-link" data-scroll-target="#praxisspezifische-it-sicherheitsanforderungen"><span class="header-section-number">26.2</span> Praxisspezifische IT-Sicherheitsanforderungen</a>
+  <ul class="collapse">
+  <li><a href="#nach-praxisgröße" id="toc-nach-praxisgröße" class="nav-link" data-scroll-target="#nach-praxisgröße"><span class="header-section-number">26.2.1</span> <strong>Nach Praxisgröße:</strong></a></li>
+  <li><a href="#nach-medizintechnik" id="toc-nach-medizintechnik" class="nav-link" data-scroll-target="#nach-medizintechnik"><span class="header-section-number">26.2.2</span> <strong>Nach Medizintechnik:</strong></a></li>
+  <li><a href="#telematikinfrastruktur-ti" id="toc-telematikinfrastruktur-ti" class="nav-link" data-scroll-target="#telematikinfrastruktur-ti"><span class="header-section-number">26.2.3</span> <strong>Telematikinfrastruktur (TI):</strong></a></li>
+  <li><a href="#zusammenfassung-der-anlagen" id="toc-zusammenfassung-der-anlagen" class="nav-link" data-scroll-target="#zusammenfassung-der-anlagen"><span class="header-section-number">26.2.4</span> <strong>Zusammenfassung der Anlagen:</strong></a></li>
+  </ul></li>
+  <li><a href="#gesetzgebung-bezüglich-it-sicherheit" id="toc-gesetzgebung-bezüglich-it-sicherheit" class="nav-link" data-scroll-target="#gesetzgebung-bezüglich-it-sicherheit"><span class="header-section-number">26.3</span> Gesetzgebung bezüglich IT-Sicherheit</a></li>
+  <li><a href="#beispiel-it-architektur-praxis" id="toc-beispiel-it-architektur-praxis" class="nav-link" data-scroll-target="#beispiel-it-architektur-praxis"><span class="header-section-number">26.4</span> Beispiel IT-Architektur Praxis</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/bsenst/praxis-it/edit/main/it-sicherheit.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bsenst/praxis-it/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -405,9 +420,9 @@ cookieconsent.run({
   gtag('config', 'G-THQ4G1SE9W');
 </script>
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./buchhaltung.html">Verwaltung</a></li><li class="breadcrumb-item"><a href="./dienstplanung.html"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Dienstplanung</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./buchhaltung.html">Verwaltung</a></li><li class="breadcrumb-item"><a href="./it-sicherheit.html"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">IT-Sicherheit</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Dienstplanung</span></h1>
+<h1 class="title"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">IT-Sicherheit</span></h1>
 </div>
 
 
@@ -424,101 +439,134 @@ cookieconsent.run({
 </header>
 
 
-<p>Ein effektives Dienstplanungstool für eine Arztpraxis sollte folgende wesentliche Merkmale besitzen:</p>
+<p>Die <strong>KBV IT-Sicherheitsrichtlinie</strong> wurde von der <strong>Kassenärztlichen Bundesvereinigung (KBV)</strong> entwickelt, um die Anforderungen von <strong>§ 75b SGB V</strong> zu erfüllen, einem Gesetz zur Stärkung der IT-Sicherheit im Gesundheitswesen. Die Richtlinie standardisiert technische und organisatorische Maßnahmen (TOMs) zur Datensicherheit gemäß Artikel 32 der DSGVO und unterscheidet sich nach Praxisgröße und IT-Infrastruktur. Sie fokussiert sich auf die Ziele Vertraulichkeit, Integrität und Verfügbarkeit von Daten und wird jährlich mit dem BSI aktualisiert. Diese Richtlinie ist für alle Praxen im gesetzlichen Krankenversicherungssystem verpflichtend und unterstützt eine schrittweise Umsetzung. <span class="citation" data-cites="KBV_IT_Sicherheitsrichtlinie_2020">(<a href="referenzen.html#ref-KBV_IT_Sicherheitsrichtlinie_2020" role="doc-biblioref">(KBV) 2020</a>)</span></p>
+<section id="beispiele-für-it-schwachstellen" class="level2" data-number="26.1">
+<h2 data-number="26.1" class="anchored" data-anchor-id="beispiele-für-it-schwachstellen"><span class="header-section-number">26.1</span> Beispiele für IT-Schwachstellen</h2>
+<p>Der “CyberPraxMed”-Bericht des BSI <span class="citation" data-cites="CyberPraxMed2023">(<a href="referenzen.html#ref-CyberPraxMed2023" role="doc-biblioref">Sicherheit in der Informationstechnik 2023</a>)</span> untersucht die IT-Sicherheitslage in deutschen Arztpraxen. Die Wahrscheinlichkeit eines erfolgreichen Cyberangriffs wird als hoch eingestuft, während die bestehenden Richtlinien oft nicht umgesetzt werden. Der Bericht listet spezifische Risiken auf:</p>
 <ul>
-<li><strong>Benutzerfreundlichkeit</strong>: Eine intuitive Oberfläche, leicht zu bedienen für Ärzte und Praxismitarbeiter.</li>
-<li><strong>Automatisierte Schichtplanung</strong>: Automatische Zuweisung von Schichten basierend auf Verfügbarkeiten, Qualifikationen und gesetzlichen Anforderungen.</li>
-<li><strong>Flexibilität und Anpassbarkeit</strong>: Anpassung an Praxisspezifika, wie Notdienste oder Urlaub.</li>
-<li><strong>Echtzeit-Überwachung</strong>: Sofortige Benachrichtigung über Schichtänderungen.</li>
-<li><strong>Mitarbeiter-Selbstservice</strong>: Eingabe von Verfügbarkeiten und Urlaubswünschen durch Mitarbeiter.</li>
-<li><strong>Integration und Kompatibilität</strong>: Nahtlose Verbindung mit Praxis-Software und Kalendern.</li>
-<li><strong>Mobile Zugänglichkeit</strong>: Zugriff auf Schichtpläne via App oder optimierter Webseite.</li>
-<li><strong>Zeiterfassung und -management</strong>: Präzise Erfassung von Arbeitszeiten für Abrechnungen und Überstunden.</li>
-<li><strong>Benachrichtigungssysteme</strong>: Automatische Updates über Änderungen.</li>
-<li><strong>Berichterstellung und Analyse</strong>: Überwachung von Überstunden oder Effizienz im Dienstplan.</li>
-<li><strong>Compliance und Regeln</strong>: Sicherstellung der Einhaltung von Arbeitszeitgesetzen.</li>
-<li><strong>Datenmanagement und Sicherheit</strong>: Schutz der sensiblen Daten gemäß Datenschutzrichtlinien.</li>
-<li><strong>Export- und Import-Funktionen</strong>: Datenmanagement in und aus Excel oder CSV.</li>
-<li><strong>Kommunikationswerkzeuge</strong>: Interne Kommunikation für Schichtplanung und Notizen.</li>
+<li><strong>Unbeaufsichtigte PCs</strong>: Viele Praxen haben Computer, die mit aktiven Benutzersitzungen unbeaufsichtigt gelassen werden, sodass Patienten oder andere externe Personen Zugang zu diesen Systemen haben könnten.</li>
+<li><strong>Unsicherer Fernzugriff</strong>: Praxen nutzen häufig VPN oder RDP-Verbindungen zur Netzwerkzugriffs, manchmal mit privaten Geräten zur Datenverarbeitung und -speicherung, was sensible Informationen gefährden kann.</li>
+<li><strong>Fehlende Backup-Tests</strong>: Regelmäßige Tests der Backup-Funktionen werden oft nicht durchgeführt, was bedeutet, dass nach einem Angriff möglicherweise keine Datenwiederherstellung möglich ist.</li>
+<li><strong>Unsichere Netzwerkbuchsen</strong>: Es gibt oft offene oder ungeschützte Netzwerkbuchsen in den Praxen, die als Angriffspunkte genutzt werden könnten.</li>
+<li><strong>Private Geräte</strong>: Viele Praxen integrieren private Geräte in das gleiche Netzwerk wie ihre professionelle Ausrüstung, was die Sicherheit des gesamten Netzwerks gefährden kann.</li>
+<li><strong>Fehlende Netzwerksegmentierung</strong>: Es fehlt an der Trennung von LAN, WLAN, medizinischen Geräten und IT-Ausrüstung, was das Risiko der Malwareverbreitung erhöht.</li>
+<li><strong>Unverschlüsselte E-Mails</strong>: Einige Praxen tauschen Patientendaten über unverschlüsselte E-Mails aus, wodurch diese Daten leicht abgefangen werden können.</li>
+<li><strong>Fehlende Sicherheitssysteme</strong>: Viele Praxen verwenden keine Systeme zur Eindringungserkennung oder -verhinderung (IDS/IPS), was Angriffe weniger wahrscheinlich macht zu entdecken oder zu verhindern.</li>
+<li><strong>Fehlende IT-Dokumentation</strong>: Es gibt häufig keine ausreichende Dokumentation der IT-Struktur und -Sicherheitsmaßnahmen, was bedeutet, dass Schwachstellen oft unbemerkt und unbehandelt bleiben.</li>
 </ul>
-<p>Diese Merkmale fördern Transparenz, Flexibilität und Effizienz, was zur Zufriedenheit und Produktivität im Praxisteam beiträgt.</p>
-<table class="caption-top table">
-<caption>Übersicht Softwarelösungen Dienstplanung</caption>
-<thead>
-<tr class="header">
-<th>Produkt</th>
-<th>Anbieter</th>
-<th>URL</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Shiftbase</td>
-<td>Shiftbase</td>
-<td><a href="https://www.shiftbase.com/de/">Shiftbase</a></td>
-</tr>
-<tr class="even">
-<td>Mein Schichtplan</td>
-<td>Mein Schichtplan</td>
-<td><a href="https://www.mein-schichtplan.de/de/">Mein Schichtplan</a></td>
-</tr>
-<tr class="odd">
-<td>Schichtplaner-Online</td>
-<td>Schichtplaner-Online</td>
-<td><a href="https://schichtplaner-online.de/">Schichtplaner-Online</a></td>
-</tr>
-<tr class="even">
-<td>Planday</td>
-<td>Planday</td>
-<td><a href="https://www.planday.com/de/">Planday</a></td>
-</tr>
-<tr class="odd">
-<td>Aplano</td>
-<td>Aplano</td>
-<td><a href="https://aplano.de/">Aplano</a></td>
-</tr>
-<tr class="even">
-<td>Vote2Work</td>
-<td>Vote2Work</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Planerio</td>
-<td>Planerio</td>
-<td><a href="https://planerio.com/">Planerio</a></td>
-</tr>
-<tr class="even">
-<td>Staffomatic</td>
-<td>Staffomatic</td>
-<td><a href="https://www.staffomatic.com/">Staffomatic</a></td>
-</tr>
-<tr class="odd">
-<td>biduum</td>
-<td>biduum</td>
-<td><a href="https://www.sieda.com/biduum/online-dienstplan/">biduum</a></td>
-</tr>
-<tr class="even">
-<td>Dyflexis</td>
-<td>Dyflexis</td>
-<td><a href="https://www.dyflexis.de/">Dyflexis</a></td>
-</tr>
-<tr class="odd">
-<td>Ordio</td>
-<td>Ordio</td>
-<td><a href="https://www.ordio.com/">Ordio</a></td>
-</tr>
-<tr class="even">
-<td>Crewmeister</td>
-<td>Crewmeister</td>
-<td><a href="https://crewmeister.com/de">Crewmeister</a></td>
-</tr>
-<tr class="odd">
-<td>TimeMonkey</td>
-<td>MonkeyDent GmbH</td>
-<td><a href="http://monkeydent.de">monkeydent.de</a></td>
-</tr>
-</tbody>
-</table>
+</section>
+<section id="praxisspezifische-it-sicherheitsanforderungen" class="level2" data-number="26.2">
+<h2 data-number="26.2" class="anchored" data-anchor-id="praxisspezifische-it-sicherheitsanforderungen"><span class="header-section-number">26.2</span> Praxisspezifische IT-Sicherheitsanforderungen</h2>
+<section id="nach-praxisgröße" class="level3" data-number="26.2.1">
+<h3 data-number="26.2.1" class="anchored" data-anchor-id="nach-praxisgröße"><span class="header-section-number">26.2.1</span> <strong>Nach Praxisgröße:</strong></h3>
+<ul>
+<li><strong>Kleine Praxen (1-5 Personen im Datenerfassungsprozess):</strong>
+<ul>
+<li><strong>Grundanforderungen:</strong>
+<ul>
+<li><strong>Anlage 1</strong> und <strong>Anlage 5</strong> der KBV IT-Sicherheitsrichtlinien müssen eingehalten werden.</li>
+</ul></li>
+</ul></li>
+<li><strong>Mittelgroße Praxen (6-20 Personen im Datenerfassungsprozess):</strong>
+<ul>
+<li><strong>Grund- und Zusatzanforderungen:</strong>
+<ul>
+<li><strong>Anlage 1 und 5</strong>, plus zusätzliche Maßnahmen in <strong>Anlage 2</strong> (wie App-Berechtigungen, Zugangskontrolle für Webanwendungen, sichere Authentifizierung, Protokolle für mobile Geräte und Datentransfer).</li>
+</ul></li>
+</ul></li>
+<li><strong>Große Praxen (mehr als 21 Personen oder hohes Datenaufkommen):</strong>
+<ul>
+<li><strong>Umfassende Anforderungen:</strong>
+<ul>
+<li><strong>Anlagen 1, 2 und 5</strong>, sowie zusätzliche Maßnahmen in <strong>Anlage 3</strong> (strengere Regelungen für IT-Komponenten, Verschlüsselung, sicherer Datentransfer).</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="nach-medizintechnik" class="level3" data-number="26.2.2">
+<h3 data-number="26.2.2" class="anchored" data-anchor-id="nach-medizintechnik"><span class="header-section-number">26.2.2</span> <strong>Nach Medizintechnik:</strong></h3>
+<ul>
+<li><strong>Praxen mit großer Medizintechnik (z.B. CT, MRT, PET-Scanner):</strong>
+<ul>
+<li><strong>Zusätzliche Gerätespezifische Anforderungen:</strong>
+<ul>
+<li><strong>Anlage 4</strong> muss eingehalten werden, welche spezifische Sicherheitsmaßnahmen für solche Geräte umfasst.</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="telematikinfrastruktur-ti" class="level3" data-number="26.2.3">
+<h3 data-number="26.2.3" class="anchored" data-anchor-id="telematikinfrastruktur-ti"><span class="header-section-number">26.2.3</span> <strong>Telematikinfrastruktur (TI):</strong></h3>
+<ul>
+<li><strong>Für Alle Praxen:</strong>
+<ul>
+<li><strong>Anlage 5</strong> für den sicheren Betrieb von TI-Komponenten wie Konnektoren, Kartenlesern und Praxis-ID-Karten.</li>
+</ul></li>
+</ul>
+</section>
+<section id="zusammenfassung-der-anlagen" class="level3" data-number="26.2.4">
+<h3 data-number="26.2.4" class="anchored" data-anchor-id="zusammenfassung-der-anlagen"><span class="header-section-number">26.2.4</span> <strong>Zusammenfassung der Anlagen:</strong></h3>
+<ul>
+<li><strong>Anlage 1:</strong> Grundlegende IT-Sicherheitsmaßnahmen für alle Praxen (sicherer App-Nutzung, Virenschutz, Firewalls, Datensicherung).</li>
+<li><strong>Anlage 2:</strong> Zusätzliche Sicherheit für mittelgroße Praxen (App-Berechtigungen, Webanwendung-Zugangskontrolle, Mobilitätssicherheit).</li>
+<li><strong>Anlage 3:</strong> Weitere Anforderungen für große Praxen (Verschlüsselung, sicherer Datentransfer).</li>
+<li><strong>Anlage 4:</strong> Sicherheit für große medizinische Geräte.</li>
+<li><strong>Anlage 5:</strong> Sicherheit für TI-Komponenten.</li>
+</ul>
+</section>
+</section>
+<section id="gesetzgebung-bezüglich-it-sicherheit" class="level2" data-number="26.3">
+<h2 data-number="26.3" class="anchored" data-anchor-id="gesetzgebung-bezüglich-it-sicherheit"><span class="header-section-number">26.3</span> Gesetzgebung bezüglich IT-Sicherheit</h2>
+<ul>
+<li><strong>§ 75b SGB V</strong>:
+<ul>
+<li>Verpflichtet Arztpraxen zur Implementierung von IT-Sicherheitsmaßnahmen, basierend auf dem Digitalen-Versorgungs-Gesetz (DVG) 2019.</li>
+<li><strong>KBV</strong> gibt verbindliche Richtlinien heraus, abhängig von Praxisgröße und Medizintechnik.</li>
+</ul></li>
+<li><strong>§ 203 StGB</strong>:
+<ul>
+<li>Regelt das <strong>ärztliche Schweigeprivileg</strong>, was den Schutz von Patientendaten priorisiert.</li>
+</ul></li>
+<li><strong>§ 32 DSGVO</strong>:
+<ul>
+<li>Verlangt technische und organisatorische Maßnahmen (TOMs) zur Sicherung von Daten.</li>
+</ul></li>
+<li><strong>§ 291a SGB V</strong>:
+<ul>
+<li>Bezieht sich auf die Telematikinfrastruktur (TI) und die Rolle der <strong>gematik</strong> bei Datenschutz.</li>
+</ul></li>
+<li><strong>§ 3 Abs. 9 &amp; § 28 Abs. 6-9 BDSG</strong>:
+<ul>
+<li>Allgemeine Datenschutzanforderungen.</li>
+</ul></li>
+<li><strong>§ 22 BDSG</strong>:
+<ul>
+<li>Regelung zur Nutzung von Patientendaten, die auf die Behandlung beschränkt ist; zusätzliche Verwendung benötigt Zustimmung des Patienten.</li>
+</ul></li>
+<li><strong>§ 2 Absatz 9 BSI-Gesetz</strong>:
+<ul>
+<li>Klärt, dass Arztpraxen <strong>nicht</strong> zu kritischen Infrastrukturen zählen.</li>
+</ul></li>
+</ul>
+<p><strong>Weitere gesetzliche Rahmenbedingungen:</strong></p>
+<ul>
+<li><strong>BSI-Gesetz</strong>:
+<ul>
+<li>Betrifft das Bundesamt für Sicherheit in der Informationstechnik (BSI), welches Richtlinien wie den IT-Grundschutz liefert.</li>
+</ul></li>
+<li><strong>MBO-Ä § 10 Abs. 5 &amp; MBO-Pt § 10 Abs. 2</strong>:
+<ul>
+<li>Berufsordnungsregeln für Ärzte und Psychotherapeuten betreffend elektronische Patientenakten.</li>
+</ul></li>
+<li><strong>IFSG &amp; MPG</strong>:
+<ul>
+<li>Infektionsschutzgesetz und Medizinproduktegesetz für Patienten- und Mitarbeiterschutz.</li>
+</ul></li>
+</ul>
+</section>
+<section id="beispiel-it-architektur-praxis" class="level2" data-number="26.4">
+<h2 data-number="26.4" class="anchored" data-anchor-id="beispiel-it-architektur-praxis"><span class="header-section-number">26.4</span> Beispiel IT-Architektur Praxis</h2>
+<p><a href="https://mermaid.live/edit#pako:eNp9Vetu2jAUfpXIUqdNIlUTwlLyYxJru27qZWigTZrpD5MciEViI19GL-rb7E32YjNxAIcUIiW2v_PZ59jnO84LSnkGKEFzQZa5N76cMM88JyfeV6KXakEUzLmgwLwMhPdt7A9EmlMFC6WFpUo9tXOHRBmeAmbx9bOFyELB-8bog2UByyZsfyFBHqn8A2JFCqXZfLfezy0m5ZNUUOJ9bo0_7OaMQZSULQvCQODd4E3uYCogzR0bbiEPh-O-g4w-U0ZlmoM3qtiwW_vq5hqb178G8e-vcpx-LrTKhE4XeNsrQcr5Pu-WTLnA1dfawDEa3yM-UysiADfjqNEjcd-Del6BWOxW-8G1MqdlG8fLFyrAHHSBNx3HNlpRlebYNg7-63Zwj9cff5CmZl_-kFOm5JF4rlhWb9BR0gUeiClQJaUyMuLMKHJ4IR0_l-uDM0HXrffOG6WEsUb8YzItQElct0diuOFlqRldVL5cMRUw44ywgswBN0aOmyv_jtAC28Yf7atsWwdLLhQp8HdWUAb-HtwOzhSlKYApZZmR46bMGkXl-f6ndpFYYguuyG51HOO16uAY2RHjJnaj_Lapof63zZXcDy1q9VlZN4KsBlaDVXctPEt2wOFFC6pV08JrpWw8NjJeEWwM9SarhLfgvcQ27IcZjcQeyrVzKKiDSpNMQjNzm7-sJ0yQytdXEEpMN4MZ0YWaoAl7NVSiFR89sRQlSmjoIMH1PEfJjBTSjPQyMxf_JSWmGMotuiTsN-eNMUpe0CNK_G4YnvbO4qAf9nu9IOoHHfSEkijsn4Zx3I3Oe2dRGAXd7msHPVdLBKdxHPQ-Bv3zszCKo37c7SBzbSku7uz_qPotvf4HLoAwsA"><img src="https://mermaid.ink/img/pako:eNp9Vetu2jAUfpXIUqdNIlUTwlLyYxJru27qZWigTZrpD5MciEViI19GL-rb7E32YjNxAIcUIiW2v_PZ59jnO84LSnkGKEFzQZa5N76cMM88JyfeV6KXakEUzLmgwLwMhPdt7A9EmlMFC6WFpUo9tXOHRBmeAmbx9bOFyELB-8bog2UByyZsfyFBHqn8A2JFCqXZfLfezy0m5ZNUUOJ9bo0_7OaMQZSULQvCQODd4E3uYCogzR0bbiEPh-O-g4w-U0ZlmoM3qtiwW_vq5hqb178G8e-vcpx-LrTKhE4XeNsrQcr5Pu-WTLnA1dfawDEa3yM-UysiADfjqNEjcd-Del6BWOxW-8G1MqdlG8fLFyrAHHSBNx3HNlpRlebYNg7-63Zwj9cff5CmZl_-kFOm5JF4rlhWb9BR0gUeiClQJaUyMuLMKHJ4IR0_l-uDM0HXrffOG6WEsUb8YzItQElct0diuOFlqRldVL5cMRUw44ywgswBN0aOmyv_jtAC28Yf7atsWwdLLhQp8HdWUAb-HtwOzhSlKYApZZmR46bMGkXl-f6ndpFYYguuyG51HOO16uAY2RHjJnaj_Lapof63zZXcDy1q9VlZN4KsBlaDVXctPEt2wOFFC6pV08JrpWw8NjJeEWwM9SarhLfgvcQ27IcZjcQeyrVzKKiDSpNMQjNzm7-sJ0yQytdXEEpMN4MZ0YWaoAl7NVSiFR89sRQlSmjoIMH1PEfJjBTSjPQyMxf_JSWmGMotuiTsN-eNMUpe0CNK_G4YnvbO4qAf9nu9IOoHHfSEkijsn4Zx3I3Oe2dRGAXd7msHPVdLBKdxHPQ-Bv3zszCKo37c7SBzbSku7uz_qPotvf4HLoAwsA?type=png.png" class="img-fluid" alt="Beispiel IT-Architektur"></a> {#fig-it-architecture}</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -676,6 +724,7 @@ Versluis, Anke, Anke Versluis, Sanne van Luenen, Sanne van Luenen, Eline Meijer,
 Wilcox, Adam B., Adam B. Wilcox, Watson A. Bowes, Watson A. Bowes, Sidney N. Thornton, Sidney N. Thornton, Scott P. Narus, and Scott P. Narus. 2008. <span>“Physician Use of Outpatient Electronic Health Records to Improve Care.”</span> <em>Null</em>. <a href="https://doi.org/null">https://doi.org/null</a>.
 </div>
 </div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1097,13 +1146,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./qualitaetsmanagement.html" class="pagination-link" aria-label="Qualitätsmanagement">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Qualitätsmanagement</span></span>
+      <a href="./gesetzgebung.html" class="pagination-link" aria-label="Gesetzgebung">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Gesetzgebung</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./datenschutz.html" class="pagination-link" aria-label="Datenschutz">
-        <span class="nav-page-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Datenschutz</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./diskurs.html" class="pagination-link" aria-label="Diskurs">
+        <span class="nav-page-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Diskurs</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1115,7 +1164,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 
-<div class="toc-actions"><ul><li><a href="https://github.com/bsenst/praxis-it/edit/main/dienstplanung.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bsenst/praxis-it/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/bsenst/praxis-it/edit/main/it-sicherheit.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/bsenst/praxis-it/issues" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
