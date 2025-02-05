@@ -37,7 +37,6 @@ Diese Richtlinie schreibt ein internes Qualitätsmanagement für Vertragsärzte 
 | 14 | Q.wiki           | Q.wiki GmbH                       | [q-wiki.de](https://q-wiki.de)          |
 | 15 | BabtecQ          | Babtec Informationssysteme GmbH   | [babtec.de](https://babtec.de)          |
 | 16 | WissIntra NG     | Wissensmanagement GmbH            | [wissintra.dbeyond.group/de](https://wissintra.dbeyond.group/de/)       |
-| 17 | Testify          | Testify GmbH                      | [testify.io](https://testify.io)         |
 | 18 | iqs CAQ          | iqs Software GmbH                 | [iqs.de](https://iqs.de)             |
 | 19 | SmartProcess     | CWA GmbH                          | [cwa-software.com](https://cwa-software.com)   |
 | 20 | BITqms           | BITWORKS EDV-Dienstleistungs-GmbH | [bitworks.net](https://bitworks.net)       |
