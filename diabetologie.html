@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -205,7 +225,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kimdienst.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">KIM Dienste</span></a>
+  <a href="./kimdienst.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Telematikinfrastruktur</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -411,6 +431,8 @@ cookieconsent.run({
 </header>
 
 
+<p>Die Übersichtsarbeit von Eberle et al.&nbsp;„Diabetology 4.0: Scoping Review of Novel Insights and Possibilities Offered by Digitalization“ stellt Entwicklungen der Digitalisierung im Bereich der Diabetologie dar. Es gibt verschiedene Technologien wie Glukose-Monitoring-Systeme, smarte Insulinpens, Insulinpumpen, geschlossene Regelkreissysteme, mobile Gesundheits-Apps, Telemedizin und elektronische Gesundheitsakten. Die Autorinnen identifizieren Herausforderungen wie Datenschutz, Interoperabilität und Standardisierung. <span class="citation" data-cites="Eberle2021">(<a href="referenzen.html#ref-Eberle2021" role="doc-biblioref">Eberle, Stichling, und Löhnert 2021</a>)</span></p>
+<p>Künstliche Intelligenz (KI) wird in der Diabetologie in mehreren Bereichen eingesetzt. Automatische Netzhautscreenings, wie das KI-System IDx-DR, ermöglichen die frühzeitige Erkennung diabetischer Retinopathie anhand von Fundusbildern. Zudem unterstützt KI die klinische Diagnostik, etwa durch Systeme wie “DreaMed Advisor Pro”, das Insulindosierungen auf Basis kontinuierlicher Glukosemonitoring-Daten (CGM) optimiert. Für Patienten gibt es KI-gestützte Selbstmanagement-Tools wie das “Guardian Connect System” von Medtronic, das frühzeitig vor Hypoglykämien warnt und so zur besseren Blutzuckerkontrolle beiträgt. Darüber hinaus wird KI zur Risikostratifizierung und Vorhersage von Diabetes eingesetzt, indem Machine-Learning-Modelle individuelle Krankheitsrisiken berechnen. <span class="citation" data-cites="Nomura2021">(<a href="referenzen.html#ref-Nomura2021" role="doc-biblioref">Nomura u.&nbsp;a. 2021</a>)</span></p>
 <table class="caption-top table">
 <caption>Apps für Ärzt:innen (B2B)</caption>
 <thead>
@@ -440,15 +462,8 @@ cookieconsent.run({
 <td><a href="https://www.glooko.com">glooko.com</a></td>
 <td>Integration von Daten aus verschiedenen Blutzuckermessgeräten</td>
 </tr>
-<tr class="even">
-<td><strong>Nightscout</strong></td>
-<td>Open-Source-Community</td>
-<td><a href="https://en.wikipedia.org/wiki/Nightscout">Nightscout</a></td>
-<td>Echtzeit-Überwachung von Blutzuckerwerten, ursprünglich für Kinder mit Diabetes entwickelt</td>
-</tr>
 </tbody>
 </table>
-<hr>
 <table class="caption-top table">
 <caption>Apps für Patient:innen (D2C)</caption>
 <thead>
@@ -522,8 +537,35 @@ cookieconsent.run({
 </tr>
 </tbody>
 </table>
+<table class="caption-top table">
+<caption>Open-Source Software</caption>
+<thead>
+<tr class="header">
+<th>Software</th>
+<th>Anbieter</th>
+<th>URL</th>
+<th>Anmerkungen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Nightscout</strong></td>
+<td>Open-Source-Community</td>
+<td><a href="https://en.wikipedia.org/wiki/Nightscout">Nightscout</a></td>
+<td>Echtzeit-Überwachung von Blutzuckerwerten, ursprünglich für Kinder mit Diabetes entwickelt</td>
+</tr>
+</tbody>
+</table>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-Eberle2021" class="csl-entry" role="listitem">
+Eberle, Claudia, Stefanie Stichling, und Maxine Löhnert. 2021. <span>„Diabetology 4.0: Scoping Review of Novel Insights and Possibilities Offered by Digitalization“</span>. <em>Journal of Medical Internet Research</em> 23 (3): e23475. <a href="https://doi.org/10.2196/23475">https://doi.org/10.2196/23475</a>.
+</div>
+<div id="ref-Nomura2021" class="csl-entry" role="listitem">
+Nomura, Akihiro, Masahiro Noguchi, Mitsuhiro Kometani, Kenji Furukawa, und Takashi Yoneda. 2021. <span>„Artificial Intelligence in Current Diabetes Management and Prediction“</span>. <em>Current Diabetes Reports</em> 21 (61). <a href="https://doi.org/10.1007/s11892-021-01423-2">https://doi.org/10.1007/s11892-021-01423-2</a>.
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
