@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Telemedizin – Praxis-IT</title>
+<title>Neurologie &amp; Psychiatrie – Praxis-IT</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +50,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./wartezimmer.html" rel="next">
-<link href="./videosprechstunde.html" rel="prev">
+<link href="./ambulantes-operieren.html" rel="next">
+<link href="./psychotherapie.html" rel="prev">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -126,7 +146,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./telefonanlage.html">Kommunikation</a></li><li class="breadcrumb-item"><a href="./telemedizin.html"><span class="chapter-title">Telemedizin</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./dermatologie.html">Fachdisziplinen</a></li><li class="breadcrumb-item"><a href="./neurologie.html"><span class="chapter-title">Neurologie &amp; Psychiatrie</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -163,24 +183,24 @@ cookieconsent.run({
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Kommunikation</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Fachdisziplinen</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -204,22 +224,13 @@ cookieconsent.run({
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#telemonitoring-plattformen" id="toc-telemonitoring-plattformen" class="nav-link active" data-scroll-target="#telemonitoring-plattformen">Telemonitoring-Plattformen</a></li>
-  <li><a href="#herzinsuffizienz" id="toc-herzinsuffizienz" class="nav-link" data-scroll-target="#herzinsuffizienz">Herzinsuffizienz</a></li>
-  <li><a href="#chronische-lungenerkrankungen" id="toc-chronische-lungenerkrankungen" class="nav-link" data-scroll-target="#chronische-lungenerkrankungen">Chronische Lungenerkrankungen</a></li>
-  <li><a href="#herzrhythmusstörungen" id="toc-herzrhythmusstörungen" class="nav-link" data-scroll-target="#herzrhythmusstörungen">Herzrhythmusstörungen</a></li>
-  <li><a href="#ebm-gesetzliche-krankenversicherung" id="toc-ebm-gesetzliche-krankenversicherung" class="nav-link" data-scroll-target="#ebm-gesetzliche-krankenversicherung">EBM (gesetzliche Krankenversicherung):</a></li>
-  <li><a href="#goä-private-krankenversicherung" id="toc-goä-private-krankenversicherung" class="nav-link" data-scroll-target="#goä-private-krankenversicherung">GOÄ (private Krankenversicherung):</a></li>
-  <li><a href="#studien-zur-wirksamkeit-von-telemedizin" id="toc-studien-zur-wirksamkeit-von-telemedizin" class="nav-link" data-scroll-target="#studien-zur-wirksamkeit-von-telemedizin">Studien zur Wirksamkeit von Telemedizin</a>
-  <ul class="collapse">
-  <li><a href="#herzinsuffizienz-telemonitoring" id="toc-herzinsuffizienz-telemonitoring" class="nav-link" data-scroll-target="#herzinsuffizienz-telemonitoring">Herzinsuffizienz-Telemonitoring:</a></li>
-  <li><a href="#fernüberwachung-implantierbarer-geräte" id="toc-fernüberwachung-implantierbarer-geräte" class="nav-link" data-scroll-target="#fernüberwachung-implantierbarer-geräte">Fernüberwachung implantierbarer Geräte:</a></li>
-  <li><a href="#dx-technologie-zur-arrhythmie-erkennung" id="toc-dx-technologie-zur-arrhythmie-erkennung" class="nav-link" data-scroll-target="#dx-technologie-zur-arrhythmie-erkennung">DX-Technologie zur Arrhythmie-Erkennung:</a></li>
-  <li><a href="#telemonitoring-bei-copd-und-atemwegserkrankungen" id="toc-telemonitoring-bei-copd-und-atemwegserkrankungen" class="nav-link" data-scroll-target="#telemonitoring-bei-copd-und-atemwegserkrankungen">Telemonitoring bei COPD und Atemwegserkrankungen:</a></li>
-  </ul></li>
-  <li><a href="#übersichtstabelle" id="toc-übersichtstabelle" class="nav-link" data-scroll-target="#übersichtstabelle">Übersichtstabelle</a></li>
+  <li><a href="#teleneuropsychologie" id="toc-teleneuropsychologie" class="nav-link active" data-scroll-target="#teleneuropsychologie">Teleneuropsychologie</a></li>
+  <li><a href="#digitales-kopfschmerztagebuch" id="toc-digitales-kopfschmerztagebuch" class="nav-link" data-scroll-target="#digitales-kopfschmerztagebuch">Digitales Kopfschmerztagebuch</a></li>
+  <li><a href="#weitere-digitale-anwendungen" id="toc-weitere-digitale-anwendungen" class="nav-link" data-scroll-target="#weitere-digitale-anwendungen">Weitere digitale Anwendungen</a></li>
+  <li><a href="#öffentlicher-datensatz-floodlight-app" id="toc-öffentlicher-datensatz-floodlight-app" class="nav-link" data-scroll-target="#öffentlicher-datensatz-floodlight-app">Öffentlicher Datensatz Floodlight App</a></li>
+  <li><a href="#online-ressourcen" id="toc-online-ressourcen" class="nav-link" data-scroll-target="#online-ressourcen">Online Ressourcen</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/bsenst/praxis-it/edit/main/telemedizin.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/bsenst/praxis-it/issues" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/bsenst/praxis-it/edit/main/neurologie.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/bsenst/praxis-it/issues" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
 <p>Projektpartner</p>
 <p><a href="https://www.dilob-mhb.de/"><img src="https://fotos.verwaltungsportal.de/seitengenerator/407f55ff710519029305c290b37aa683252916/DiLoB-Logo-Transparent.png" class="img-fluid" width="100"></a></p>
@@ -238,9 +249,9 @@ cookieconsent.run({
   gtag('config', 'G-THQ4G1SE9W');
 </script>
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./telefonanlage.html">Kommunikation</a></li><li class="breadcrumb-item"><a href="./telemedizin.html"><span class="chapter-title">Telemedizin</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./dermatologie.html">Fachdisziplinen</a></li><li class="breadcrumb-item"><a href="./neurologie.html"><span class="chapter-title">Neurologie &amp; Psychiatrie</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Telemedizin</span></h1>
+<h1 class="title"><span class="chapter-title">Neurologie &amp; Psychiatrie</span></h1>
 </div>
 
 
@@ -257,363 +268,78 @@ cookieconsent.run({
 </header>
 
 
-<section id="telemonitoring-plattformen" class="level2">
-<h2 class="anchored" data-anchor-id="telemonitoring-plattformen">Telemonitoring-Plattformen</h2>
-<ul>
-<li><strong>SaniQ:</strong> Flexibles Tool für Ärzte; integriert Daten von Chronischkranken via Wearables; Video-Konsultation möglich.</li>
-<li><strong>BIOTRONIK Home Monitoring:</strong> Fernüberwachung von Herzgeräten; Patienten-App zur Beteiligung.</li>
-<li><strong>inCareNet HF:</strong> Für Telemonitoring-Zentren; unterstützt G-BA-Kriterien und Abrechnung.</li>
-<li><strong>Medtronic CareLink:</strong> Überwachung implantierter Geräte; einfache Datenübertragung.</li>
-<li><strong>TytoCare:</strong> Handgerät für Fernuntersuchungen; Versionen für Kliniken und Heimgebrauch.</li>
-</ul>
+<section id="teleneuropsychologie" class="level2">
+<h2 class="anchored" data-anchor-id="teleneuropsychologie">Teleneuropsychologie</h2>
+<p>Teleneuropsychologie, die Fernanwendung neuropsychologischer Tests über Telefon oder Videokonferenz, erweitert den Zugang zu Gesundheitsdiensten für Patienten in abgelegenen Gebieten oder mit Mobilitätseinschränkungen. Die Übersichtsarbeit von „Remote Neuropsychological Assessment: Teleneuropsychology“ von Elif Yıldırım et al.&nbsp;untersucht die Ergebnisse von Studien zur Teleneuropsychologie und deren Grundprinzipien, einschließlich einer speziell für die Türkei entwickelten Leitlinie für teleneuropsychologische Assessments zu Hause. Studien zeigen, dass Tests zu Aufmerksamkeit, Gedächtnis, exekutiven Funktionen und Sprache, insbesondere verbal durchgeführte, zuverlässig remote angewendet werden können, wobei Faktoren wie Patientenauswahl, Testwahl und ethische Aspekte berücksichtigt werden müssen. Obwohl direkter Patientenkontakt in der klinischen Neuropsychologie essenziell bleibt, bietet die Teleneuropsychologie, wenn sie von geschulten Experten korrekt angewendet wird, eine gute Alternative zu persönlichen Evaluationsmethoden. <span class="citation" data-cites="yildirim2024remote">(<a href="referenzen.html#ref-yildirim2024remote" role="doc-biblioref">Yıldırım u.&nbsp;a. 2024</a>)</span></p>
+<p>Der Artikel „Applications of Teleneuropsychology to the Screening and Monitoring of Epilepsy“ von Chris Tailby et al.&nbsp;untersucht drei Ansätze für Fernbewertungen – unbeaufsichtigte, computerbasierte Tests, telefonische Assessments und videokonferenzbasierte Tests – und zeigt, dass diese Methoden trotz langsamer Adaption in der Epilepsie-Neuropsychologie vielversprechend sind. Unbeaufsichtigte, computeradministrative Tests (z. B. via Browser oder Apps) sind in der Altersforschung etabliert und zeigen Zuverlässigkeit bei Geschwindigkeit und Arbeitsgedächtnis, wurden jedoch in Epilepsie-Studien kaum untersucht, mit begrenzter Sensitivität für epilepsiespezifische Defizite. Telefonische Assessments sind bei älteren Kohorten weit verbreitet und technisch zugänglich, decken aber nicht alle kognitiven Domänen ab, während videokonferenzbasierte Tests diese Lücke teilweise schließen, jedoch oft traditionelle Materialien nutzen statt die Technologie voll auszuschöpfen. Die Autoren plädieren für die Entwicklung integrierter, videokonferenzbasierter, computerunterstützter Testverfahren, die Vorteile menschlicher und computergestützter Ansätze kombinieren, um eine breite Anwendbarkeit über neuropsychologische Erkrankungen hinweg zu ermöglichen, von Kindheit bis ins hohe Alter. <span class="citation" data-cites="tailby2024applications">(<a href="referenzen.html#ref-tailby2024applications" role="doc-biblioref">Tailby u.&nbsp;a. 2024</a>)</span></p>
 </section>
-<section id="herzinsuffizienz" class="level2">
-<h2 class="anchored" data-anchor-id="herzinsuffizienz">Herzinsuffizienz</h2>
-<ul>
-<li><strong>SaniQ HERZ</strong> und <strong>inCareNet HF</strong> ermöglichen die Fernüberwachung für Herzinsuffizienzpatienten.</li>
-<li>Reduziert Krankenhausaufenthalte, verbessert Überlebensraten, und verhindert Dekompensation.</li>
-<li>In Deutschland standardisiert und von Krankenkassen abrechenbar.</li>
-</ul>
+<section id="digitales-kopfschmerztagebuch" class="level2">
+<h2 class="anchored" data-anchor-id="digitales-kopfschmerztagebuch">Digitales Kopfschmerztagebuch</h2>
+<p>Die DMKG-App ist ein elektronischer Kopfschmerzkalender der Deutschen Migräne- und Kopfschmerzgesellschaft e.V. Nutzende können sich an Einträge erinnern lassen und eine übersichtliche Zusammenfassung in der App ansehen oder herunterladen. Sie unterstützt zudem die Kopfschmerzforschung in Deutschland als Teil des „Kopfschmerzregister“-Projekts, indem pseudonymisierte Daten für wissenschaftliche Auswertungen genutzt werden, um die Kopfschmerzversorgung langfristig zu verbessern. Die App ist kostenlos, werbefrei und sowohl für Android als auch iOS verfügbar. Weitere Infos gibt es unter <a href="https://www.kopfschmerzregister.de">www.kopfschmerzregister.de</a>.</p>
 </section>
-<section id="chronische-lungenerkrankungen" class="level2">
-<h2 class="anchored" data-anchor-id="chronische-lungenerkrankungen">Chronische Lungenerkrankungen</h2>
-<ul>
-<li><strong>SaniQ</strong> unterstützt die Überwachung von Asthma, COPD, Lungenemphysem und zystischer Fibrose.</li>
-<li>Früherkennung von Verschlechterungen, weniger Arztbesuche.</li>
-</ul>
-</section>
-<section id="herzrhythmusstörungen" class="level2">
-<h2 class="anchored" data-anchor-id="herzrhythmusstörungen">Herzrhythmusstörungen</h2>
-<ul>
-<li><strong>BIOTRONIK Home Monitoring</strong> zur Überwachung von Herzrhythmusstörungen; erkennt subklinische Vorhofflimmern.</li>
-</ul>
-</section>
-<section id="ebm-gesetzliche-krankenversicherung" class="level2">
-<h2 class="anchored" data-anchor-id="ebm-gesetzliche-krankenversicherung">EBM (gesetzliche Krankenversicherung):</h2>
-<ul>
-<li><strong>Telemonitoring bei Herzinsuffizienz</strong> seit Januar 2022 abrechenbar:
-<ul>
-<li><strong>GOP 13583</strong>: Einweisung und Schulung: <strong>€10,92</strong> (1x pro Jahr).</li>
-<li><strong>GOP 40910</strong>: Grundausstattung: <strong>€68,00</strong> (1x pro Quartal).</li>
-<li><strong>GOP 13586</strong>: Telemonitoring: <strong>€241,32</strong> (1x pro Quartal).</li>
-<li><strong>GOP 13587</strong>: Zusatz für verstärktes Monitoring: <strong>€27,01</strong> (1x pro Quartal).</li>
-</ul></li>
-<li><strong>Maximaler Erstattungsbetrag</strong>: Bis zu <strong>€1.356,24 pro Patient pro Jahr</strong>.</li>
-<li><strong>Telemedizinisches Zentrum (TMZ)</strong>: Kardiologen können als TMZ abrechnen.</li>
-<li><strong>Infrastruktur</strong>: Service- und Infrastrukturkosten werden erstattet.</li>
-<li><strong>Extrabudgetäre Vergütung</strong>: Mögliche bei Nutzung von Plattformen wie SaniQ HERZ.</li>
-</ul>
-</section>
-<section id="goä-private-krankenversicherung" class="level2">
-<h2 class="anchored" data-anchor-id="goä-private-krankenversicherung">GOÄ (private Krankenversicherung):</h2>
-<ul>
-<li><strong>Gemeinsame Abrechnungsrichtlinien</strong> seit Januar 2024:
-<ul>
-<li><strong>Analog Code 33 GOÄ</strong>: Einweisung und Schulung: <strong>€17,49/40,22/61,20</strong> (1x zu Beginn).</li>
-<li><strong>Analog Code 551 GOÄ</strong>: Alarme bei Herzimplantaten: <strong>€2,80/5,04/6,99</strong> (pro Tag).</li>
-<li><strong>Analog Code 600 GOÄ</strong>: Alarme mit externen Geräten: <strong>€4,25/9,79/14,89</strong> (pro Tag).</li>
-<li><strong>Analog Code 60 GOÄ</strong>: Konsultation und Dokumentation: <strong>€6,99/16,09/24,48</strong> (pro Arzt).</li>
-</ul></li>
-</ul>
-</section>
-<section id="studien-zur-wirksamkeit-von-telemedizin" class="level2">
-<h2 class="anchored" data-anchor-id="studien-zur-wirksamkeit-von-telemedizin">Studien zur Wirksamkeit von Telemedizin</h2>
-<section id="herzinsuffizienz-telemonitoring" class="level3">
-<h3 class="anchored" data-anchor-id="herzinsuffizienz-telemonitoring">Herzinsuffizienz-Telemonitoring:</h3>
-<ul>
-<li><strong>TIM-HF2-Studie</strong>: Zeigte, dass <strong>telemedizinische Betreuung bei Herzinsuffizienz</strong> positive Ergebnisse liefert, egal wie stark die Pumpfunktion des linken Ventrikels beeinträchtigt ist.</li>
-<li><strong>Meta-Analyse von IN-TIME, ECOST, TRUST (TRUECOIN)</strong>: Unterstützung für den Nutzen der täglichen Fernüberwachung von ICDs.</li>
-<li><strong>IN-TIME-Studie</strong>: Reduzierte <strong>Mortalität um 60%</strong> und Verschlechterung des Herzversagens um 30%.</li>
-</ul>
-</section>
-<section id="fernüberwachung-implantierbarer-geräte" class="level3">
-<h3 class="anchored" data-anchor-id="fernüberwachung-implantierbarer-geräte">Fernüberwachung implantierbarer Geräte:</h3>
-<ul>
-<li><strong>TRUST-Studie</strong>: Reduzierte <strong>geplante persönliche Nachkontrollen um 60%</strong>.</li>
-<li><strong>COMPAS-Studie</strong>: Verringerte <strong>Krankenhauseinweisungen um 66%</strong> bei Vorhofflimmern.</li>
-<li><strong>ECOST-Studie</strong>: Verringerte <strong>Hospitalisierungen um 72%</strong> bei unangemessenen ICD-Schocks.</li>
-</ul>
-</section>
-<section id="dx-technologie-zur-arrhythmie-erkennung" class="level3">
-<h3 class="anchored" data-anchor-id="dx-technologie-zur-arrhythmie-erkennung">DX-Technologie zur Arrhythmie-Erkennung:</h3>
-<ul>
-<li><strong>MATRIX-Studie</strong>: Verbesserte <strong>Erkennung subklinischer Vorhofflimmern</strong> durch DX-ICD-Systeme.</li>
-<li><strong>THINGS-Register</strong>: DX-Systeme erkennen <strong>AT/AF fast viermal häufiger</strong>.</li>
-<li><strong>SENSE-Studie</strong>: Vorteile der DX-ICD-Systeme bei der Erkennung von AHRE.</li>
-</ul>
-</section>
-<section id="telemonitoring-bei-copd-und-atemwegserkrankungen" class="level3">
-<h3 class="anchored" data-anchor-id="telemonitoring-bei-copd-und-atemwegserkrankungen">Telemonitoring bei COPD und Atemwegserkrankungen:</h3>
-<ul>
-<li><strong>TELEMENTOR COPD-Studie</strong>: Prüft die Reduktion von Rückfällen bei COPD-Patienten mit SaniQ.</li>
-<li><strong>Studie während der Pandemie</strong>: Zeigte Verbesserungen bei Asthma, COPD und SARS-CoV-2 Patienten.</li>
-<li><strong>Mortalität und Kostenstudie (2016)</strong>: Zeigte, dass digitale Überwachung die Mortalität bei COPD-Patienten halbiert.</li>
-</ul>
-</section>
-</section>
-<section id="übersichtstabelle" class="level2">
-<h2 class="anchored" data-anchor-id="übersichtstabelle">Übersichtstabelle</h2>
+<section id="weitere-digitale-anwendungen" class="level2">
+<h2 class="anchored" data-anchor-id="weitere-digitale-anwendungen">Weitere digitale Anwendungen</h2>
 <table class="caption-top table">
-<caption>Übersicht Telemedizinische Anbieter</caption>
+<caption>Übersicht digitale Anwendungen Neurologie</caption>
 <thead>
 <tr class="header">
-<th style="text-align: right;"></th>
-<th style="text-align: left;">Software</th>
-<th style="text-align: left;">Anbieter</th>
-<th style="text-align: left;">URL</th>
+<th>Name</th>
+<th>URL</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: right;">1</td>
-<td style="text-align: left;">Qurasoft</td>
-<td style="text-align: left;">Qurasoft GmbH</td>
-<td style="text-align: left;"><a href="https://qurasoft.de/">qurasoft.de</a></td>
+<td>Floodlight MS</td>
+<td><a href="https://www.roche.de/presse/news/software-von-roche-foerdert-individuelles-therapiemanagement-bei-multipler-sklerose">Roche Pressemitteilung</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">2</td>
-<td style="text-align: left;">MedKitDoc</td>
-<td style="text-align: left;">MedKitDoc GmbH</td>
-<td style="text-align: left;"><a href="https://medkitdoc.de/">medkitdoc.de</a></td>
+<td>Emendia MS</td>
+<td><a href="https://neurosys.de/emendia/">neurosys.de/emendia</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">3</td>
-<td style="text-align: left;">TytoCare</td>
-<td style="text-align: left;">TytoCare Inc.</td>
-<td style="text-align: left;"><a href="https://www.tytocare.com/providers-telehealth-hub/">tytocare.com</a></td>
+<td>Brisa</td>
+<td><a href="https://play.google.com/store/apps/details?id=com.temedica.ms_companion">Brisa App Google Play Store</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">4</td>
-<td style="text-align: left;">Getemed</td>
-<td style="text-align: left;">Getemed Medizin- und Informationstechnik GmbH</td>
-<td style="text-align: left;"><a href="https://www.getemed.de/en/">getemed.de</a></td>
+<td>Neolexon</td>
+<td><a href="https://www.neolexon.de">neolexon.de</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">5</td>
-<td style="text-align: left;">Biotronik</td>
-<td style="text-align: left;">Biotronik SE &amp; Co.&nbsp;KG</td>
-<td style="text-align: left;"><a href="https://www.biotronik.com/de-de/patienten/herzmonitoring/home-monitoring">biotronik.com</a></td>
+<td>NeuroNation MED</td>
+<td><a href="https://neuronation-med.de/">neuronation-med.de</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">6</td>
-<td style="text-align: left;">Medtronic</td>
-<td style="text-align: left;">Medtronic GmbH</td>
-<td style="text-align: left;"><a href="https://www.medtronic.com/de-de/patienten/produkte-therapien/pacemaker/carelink.html">medtronic.com</a></td>
+<td>MoveApp</td>
+<td><a href="https://www.deutsche-parkinson-hilfe.de/foerderprojekte/moveapp/">deutsche-parkinson-hilfe.de/foerderprojekte/moveapp</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;">7</td>
-<td style="text-align: left;">Abbott</td>
-<td style="text-align: left;">Abbott Laboratories</td>
-<td style="text-align: left;"><a href="https://www.cardiovascular.abbott/de/de/hcp/products/cardiac-rhythm-management/connectivity-remote-care.html">abbott.com</a></td>
+<td>MS Kognition</td>
+<td><a href="https://www.dmsg.de/ms-kognition/">dmsg.de/ms-kognition</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: right;">8</td>
-<td style="text-align: left;">Medgate</td>
-<td style="text-align: left;">Medgate AG</td>
-<td style="text-align: left;"><a href="https://medgate.de/">Medgate</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">9</td>
-<td style="text-align: left;">Zava</td>
-<td style="text-align: left;">Zava GmbH</td>
-<td style="text-align: left;"><a href="https://www.zavamed.com/de/home-spl.html">Zava</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">10</td>
-<td style="text-align: left;">Sanvartis</td>
-<td style="text-align: left;">Sanvartis GmbH</td>
-<td style="text-align: left;"><a href="https://www.sanvartis.de/">Sanvartis</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">11</td>
-<td style="text-align: left;">MD Medicus</td>
-<td style="text-align: left;">MD Medicus GmbH</td>
-<td style="text-align: left;"><a href="https://www.md-medicus.net/de">MD Medicus</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">12</td>
-<td style="text-align: left;">Dermanostic</td>
-<td style="text-align: left;">Dermanostic GmbH</td>
-<td style="text-align: left;"><a href="https://dermanostic.com/">Dermanostic</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">13</td>
-<td style="text-align: left;">Cosinuss</td>
-<td style="text-align: left;">Cosinuss GmbH</td>
-<td style="text-align: left;"><a href="https://www.cosinuss.com/de/">cosinuss.com</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">14</td>
-<td style="text-align: left;">Onlinedoctor</td>
-<td style="text-align: left;">Onlinedoctor GmbH</td>
-<td style="text-align: left;"><a href="https://www.onlinedoctor.de/">Onlinedoctor</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">15</td>
-<td style="text-align: left;">Meliva</td>
-<td style="text-align: left;">Meliva GmbH</td>
-<td style="text-align: left;"><a href="https://meliva.de/digitale-praxis/">Meliva</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">16</td>
-<td style="text-align: left;">TK Doc</td>
-<td style="text-align: left;">Techniker Krankenkasse</td>
-<td style="text-align: left;"><a href="https://www.tk.de/techniker/magazin/digitale-gesundheit/gesundheits-apps/tk-doc-app-2073986">TK Doc</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">17</td>
-<td style="text-align: left;">DAK Online-Videosprechstunde</td>
-<td style="text-align: left;">Deutsche Angestellten-Krankenkasse</td>
-<td style="text-align: left;"><a href="https://www.dak.de/dak/leistungen/digitale-gesundheit/dak-online-videosprechstunde_59932">DAK Online-Videosprechstunde</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">18</td>
-<td style="text-align: left;">Clarimedis Videosprechstunde</td>
-<td style="text-align: left;">AOK PLUS</td>
-<td style="text-align: left;"><a href="https://www.aok.de/pk/leistungen/medizinische-behandlung/clarimedis-videosprechstunde/">Clarimedis Videosprechstunde</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">19</td>
-<td style="text-align: left;">Teledoktor</td>
-<td style="text-align: left;">BARMER</td>
-<td style="text-align: left;"><a href="https://www.barmer.de/unsere-leistungen/leistungen-a-z/apps-skills/teledoktor-app">Teledoktor</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">20</td>
-<td style="text-align: left;">Myoncare</td>
-<td style="text-align: left;">Myoncare GmbH</td>
-<td style="text-align: left;"><a href="https://www.myoncare.com/de/startseite">myoncare.com</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">21</td>
-<td style="text-align: left;">Vita Group</td>
-<td style="text-align: left;">Vita Group AG</td>
-<td style="text-align: left;"><a href="https://www.vitagroup.ag/">Vita Group</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">22</td>
-<td style="text-align: left;">Veritas Videoconsult</td>
-<td style="text-align: left;">Veritas Videoconsult GmbH</td>
-<td style="text-align: left;"><a href="https://www.veritas-videoconsult.de/">Veritas Videoconsult</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">23</td>
-<td style="text-align: left;">4Sigma</td>
-<td style="text-align: left;">4Sigma GmbH</td>
-<td style="text-align: left;"><a href="https://www.4sigma.de/">4Sigma</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">24</td>
-<td style="text-align: left;">BetterDoc</td>
-<td style="text-align: left;">BetterDoc GmbH</td>
-<td style="text-align: left;"><a href="https://www.betterdoc.org/">BetterDoc</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">25</td>
-<td style="text-align: left;">iSansys</td>
-<td style="text-align: left;">iSansys GmbH</td>
-<td style="text-align: left;"><a href="https://www.isansys.com/en/isansys-gmbh">isansys.com</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">25</td>
-<td style="text-align: left;">IEM</td>
-<td style="text-align: left;">IEM GmbH</td>
-<td style="text-align: left;"><a href="https://www.iem.de/de">iem.de</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">25</td>
-<td style="text-align: left;">Hedy</td>
-<td style="text-align: left;">Hedy GmbH</td>
-<td style="text-align: left;"><a href="https://hedy.de/">hedy.de</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">26</td>
-<td style="text-align: left;">Pinzon Health</td>
-<td style="text-align: left;">Pinzon Health GmbH</td>
-<td style="text-align: left;"><a href="https://pinzon.health/">pinzon.health</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">27</td>
-<td style="text-align: left;">Platform24</td>
-<td style="text-align: left;">Platform24 GmbH</td>
-<td style="text-align: left;"><a href="https://platform24.com/de/">platform24.com</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">28</td>
-<td style="text-align: left;">Smart Care</td>
-<td style="text-align: left;">Smart Care GmbH</td>
-<td style="text-align: left;"><a href="https://smartcarehealth.de/">smartcarehealth.de</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">29</td>
-<td style="text-align: left;">Semdatex</td>
-<td style="text-align: left;">Semdatex GmbH</td>
-<td style="text-align: left;"><a href="https://www.semdatex.com/de/digitale-loesungen">semdatex.com</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">30</td>
-<td style="text-align: left;">ZTM</td>
-<td style="text-align: left;">ZTM GmbH</td>
-<td style="text-align: left;"><a href="https://www.ztm.de/">ztm.de</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">31</td>
-<td style="text-align: left;">Noah Labs</td>
-<td style="text-align: left;">Noah Labs GmbH</td>
-<td style="text-align: left;"><a href="https://www.noah-labs.com/">noah-labs.com</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">32</td>
-<td style="text-align: left;">ProCarement</td>
-<td style="text-align: left;">ProCarement GmbH</td>
-<td style="text-align: left;"><a href="https://procarement.com/">procarement.com</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">33</td>
-<td style="text-align: left;">i-atros</td>
-<td style="text-align: left;">i-atros GmbH</td>
-<td style="text-align: left;"><a href="https://www.i-atros.com/">i-atros.com</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">34</td>
-<td style="text-align: left;">Doccla</td>
-<td style="text-align: left;">Doccla GmbH</td>
-<td style="text-align: left;"><a href="https://www.doccla.de/">doccla.de</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">35</td>
-<td style="text-align: left;">Luscii</td>
-<td style="text-align: left;">Luscii Healthtech B.V.</td>
-<td style="text-align: left;"><a href="https://luscii.com/de/">luscii.com</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">36</td>
-<td style="text-align: left;">SaniQ</td>
-<td style="text-align: left;">Qurasoft GmbH</td>
-<td style="text-align: left;"><a href="https://qurasoft.de/die-digitale-arztpraxis/">SaniQ</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">36</td>
-<td style="text-align: left;">esysta Diabetes</td>
-<td style="text-align: left;">esysta GmbH</td>
-<td style="text-align: left;"><a href="https://esysta-diabetes.com/">esysta-diabetes.com</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">37</td>
-<td style="text-align: left;">Vivora</td>
-<td style="text-align: left;">Vivora Health GmbH</td>
-<td style="text-align: left;"><a href="https://vivora.health/">vivora.health</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">38</td>
-<td style="text-align: left;">Actimi</td>
-<td style="text-align: left;">Actimi GmbH</td>
-<td style="text-align: left;"><a href="https://actimi.com/">actimi.com</a></td>
+<td>HeadApp</td>
+<td><a href="https://www.headapp.com/de/startseite/">headapp.com/de</a></td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="öffentlicher-datensatz-floodlight-app" class="level2">
+<h2 class="anchored" data-anchor-id="öffentlicher-datensatz-floodlight-app">Öffentlicher Datensatz Floodlight App</h2>
+<p>Der „Floodlight MS Dataset“ auf Kaggle, bereitgestellt von Kevin Mader, umfasst Smartphone-Daten zur Erforschung des täglichen Krankheitsverlaufs bei Multipler Sklerose (MS). Er enthält Messungen aus der Floodlight® MS-App, die kognitive, motorische und funktionelle Fähigkeiten von MS-Patienten über Sensoren wie Beschleunigungsmesser und Touchscreen-Interaktionen erfasst. Ziel ist es, Einblicke in die Lebensqualität und Krankheitsdynamik zu gewinnen, indem Daten wie Reaktionszeiten, Gehgeschwindigkeit und Handkoordination analysiert werden. Der Datensatz ist öffentlich zugänglich und eignet sich für maschinelles Lernen, um Muster und Veränderungen bei MS zu untersuchen. Weitere Details zur Datenerhebung und Nutzung finden sich auf der Kaggle-Seite unter <a href="https://www.kaggle.com/datasets/kmader/floodlight-ms-dataset">kaggle.com/datasets/kmader/floodlight-ms-dataset</a>.</p>
+</section>
+<section id="online-ressourcen" class="level2">
+<h2 class="anchored" data-anchor-id="online-ressourcen">Online Ressourcen</h2>
+<p><a href="https://eisai-epitrack.com/">eisai-epitrack.com</a> ist eine Plattform von Eisai, einem globalen Pharmaunternehmen, die EpiTrack® vorstellt, ein klinisches Werkzeug zur Beurteilung von Aufmerksamkeit und exekutiven Funktionen bei Patienten mit Epilepsie. EpiTrack dient Ärzten, Pflegekräften, Psychologen und anderen Gesundheitsfachkräften als Screening-Instrument, um kognitive Nebenwirkungen von Antiepileptika sowie Auswirkungen von Anfällen zu verfolgen.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-tailby2024applications" class="csl-entry" role="listitem">
+Tailby, Chris, Jodie E Chapman, Remy Pugh, A Holth Skogan, Christoph Helmstaedter, und Graeme D Jackson. 2024. <span>„Applications of teleneuropsychology to the screening and monitoring of epilepsy“</span>. <em>Seizure: European Journal of Epilepsy</em>.
+</div>
+<div id="ref-yildirim2024remote" class="csl-entry" role="listitem">
+Yıldırım, Elif, Ezgi Soncu Büyükişcan, Şükriye Akça Kalem, und İ Hakan Gürvit. 2024. <span>„Remote Neuropscyhological Assessment: Teleneuropsychology“</span>. <em>Archives of Neuropsychiatry</em> 61 (2): 167.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -1184,13 +910,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <input type="hidden" id="giscus-alt-theme" value="dark">
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./videosprechstunde.html" class="pagination-link" aria-label="Videosprechstunde">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Videosprechstunde</span></span>
+      <a href="./psychotherapie.html" class="pagination-link" aria-label="Psychotherapie">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Psychotherapie</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./wartezimmer.html" class="pagination-link" aria-label="Wartezimmer">
-        <span class="nav-page-text"><span class="chapter-title">Wartezimmer</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ambulantes-operieren.html" class="pagination-link" aria-label="Ambulantes Operieren">
+        <span class="nav-page-text"><span class="chapter-title">Ambulantes Operieren</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1202,7 +928,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/bsenst/praxis-it/edit/main/telemedizin.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/bsenst/praxis-it/issues" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/bsenst/praxis-it/edit/main/neurologie.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/bsenst/praxis-it/issues" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
