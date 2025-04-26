@@ -464,10 +464,12 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#funktionen" id="toc-funktionen" class="nav-link active" data-scroll-target="#funktionen">Funktionen</a></li>
+  <li><a href="#impfausweis-in-der-epa" id="toc-impfausweis-in-der-epa" class="nav-link" data-scroll-target="#impfausweis-in-der-epa">Impfausweis in der ePA</a></li>
   <li><a href="#kosten" id="toc-kosten" class="nav-link" data-scroll-target="#kosten">Kosten</a></li>
   <li><a href="#reiseimpfungen" id="toc-reiseimpfungen" class="nav-link" data-scroll-target="#reiseimpfungen">Reiseimpfungen</a></li>
   <li><a href="#übersichtstabelle" id="toc-übersichtstabelle" class="nav-link" data-scroll-target="#übersichtstabelle">Übersichtstabelle</a></li>
   <li><a href="#medizinisches-informationsobjekt" id="toc-medizinisches-informationsobjekt" class="nav-link" data-scroll-target="#medizinisches-informationsobjekt">Medizinisches Informationsobjekt</a></li>
+  <li><a href="#impfsoftware-während-covid-19-pandemie" id="toc-impfsoftware-während-covid-19-pandemie" class="nav-link" data-scroll-target="#impfsoftware-während-covid-19-pandemie">Impfsoftware während COVID-19 Pandemie</a></li>
   <li><a href="#nutzung-von-digitalen-impfinformationssystem" id="toc-nutzung-von-digitalen-impfinformationssystem" class="nav-link" data-scroll-target="#nutzung-von-digitalen-impfinformationssystem">Nutzung von digitalen Impfinformationssystem</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/bsenst/praxis-it/edit/main/impfsoftware.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/bsenst/praxis-it/issues" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
@@ -524,6 +526,21 @@ cookieconsent.run({
 <li><p><strong>Interoperabilität:</strong> Einige Software, wie impf.app, konzentrieren sich auf die Kompatibilität verschiedener Systeme, um den Datenaustausch zwischen Patienten und Ärzten zu ermöglichen.</p></li>
 <li><p><strong>Digitale Zertifikate:</strong> Einige Systeme generieren digitale Impfzertifikate, die als Nachweis für Impfungen verwendet werden können.</p></li>
 </ul>
+</section>
+<section id="impfausweis-in-der-epa" class="level2">
+<h2 class="anchored" data-anchor-id="impfausweis-in-der-epa">Impfausweis in der ePA</h2>
+<p>Das Video „TK-Safe Challenge“ zeigt wesentliche Vorteile des digitalen Impfausweises gegenüber der analogen Version:</p>
+<ul>
+<li>Übersichtlichkeit: Alle Impfungen sind zentral in der App abrufbar, mit klarem Überblick über den Impfstatus.<br>
+</li>
+<li>Erinnerungsfunktion: Die App benachrichtigt automatisch, wenn Impfungen (z. B. Tetanus) aufgefrischt werden müssen.<br>
+</li>
+<li>Einfache Handhabung: Impfdaten sind jederzeit digital zugänglich, ohne mühsames Suchen oder Arztbesuche zur Statusprüfung.</li>
+</ul>
+<blockquote class="blockquote">
+<p>“Wenn du dich zum Beispiel gegen Tetanus hast impfen lassen vor Jahren und die Wirkung der Impfung lässt nach, bekommst du von TK-Safe eine Erinnerung […]”</p>
+</blockquote>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/90rbtNu64q4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 <section id="kosten" class="level2">
 <h2 class="anchored" data-anchor-id="kosten">Kosten</h2>
@@ -636,6 +653,10 @@ cookieconsent.run({
 <section id="medizinisches-informationsobjekt" class="level2">
 <h2 class="anchored" data-anchor-id="medizinisches-informationsobjekt">Medizinisches Informationsobjekt</h2>
 <p>Die <a href="https://hub.kbv.de/display/IM1X1X0/Impfpass+1.1.0">Impfpass-Spezifikation als Medizinisches Informationsobjekt (MIO)</a> der Kassenärztlichen Bundesvereinigung (KBV) definiert den elektronischen Impfpass zur strukturierten Dokumentation von Impfunge. Das MIO definiert die Softwarestrukturen für die digitale Erfassung und Verwaltung von Impfdaten, einschließlich Impfstoff, Chargennummer, Datum, verabreichender Person und Immunitätsnachweisen wie Titeruntersuchungen oder durchgemachten Erkrankungen. Basierend auf FHIR® (Fast Healthcare Interoperability Resources) unterstützt das MIO eine einheitliche, interoperable Datenstruktur für die Integration in elektronische Patientenakten (ePA). Eine Umsetzungspflicht für IT-Systeme besteht aktuell nicht (Stand Juli 2024).</p>
+</section>
+<section id="impfsoftware-während-covid-19-pandemie" class="level2">
+<h2 class="anchored" data-anchor-id="impfsoftware-während-covid-19-pandemie">Impfsoftware während COVID-19 Pandemie</h2>
+<p>Während der COVID-19-Pandemie spielte Software eine zentrale Rolle bei der Verwaltung und Nachverfolgung von COVID-Impfungen. Digitale Impfpässe, wie die EU-COVID-Zertifikate oder nationale Apps (z. B. CovPass in Deutschland), ermöglichten die Erfassung, Validierung und Vorlage von Impfdaten über standardisierte QR-Codes. Diese Systeme basierten oft auf FHIR-Standards und unterstützten die Interoperabilität. Regulatorische Bemühungen, etwa durch die WHO oder nationale Gesundheitsbehörden, fokussierten auf Datenschutz, Sicherheit und einheitliche Standards, um Impfstatus international vergleichbar zu machen. Softwarelösungen wie Impfmanagementsysteme optimierten Terminvergaben und Impfstofflogistik, während Meldesysteme (z. B. zum RKI) die Überwachung von Impfraten und Nebenwirkungen unterstützten.</p>
 </section>
 <section id="nutzung-von-digitalen-impfinformationssystem" class="level2">
 <h2 class="anchored" data-anchor-id="nutzung-von-digitalen-impfinformationssystem">Nutzung von digitalen Impfinformationssystem</h2>
