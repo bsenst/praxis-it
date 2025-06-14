@@ -75,6 +75,16 @@ Digitale Innovationen können über direkte und indirekte Zugangswege in den ers
 
 : Übersicht Initiativen
 
+### Digimanagerin
+
+{{< video https://www.youtube.com/watch?v=dGgFFKb9tsE >}}
+
+Die Fortbildung „Digi-ManagerIn“ der KVWL qualifiziert nichtärztliches Praxispersonal in Westfalen-Lippe zu Digitalisierungsbeauftragten. Sie umfasst 205 Stunden und wird in Kooperation mit der Ärztekammer Westfalen-Lippe und der Universität Witten/Herdecke durchgeführt. Theoretische Module behandeln Datenschutz, Telematikinfrastruktur und digitale Kommunikation. Praktische Anwendungen finden in der digitalen Musterpraxis „dipraxis“ statt. Teilnehmende erstellen eine praxisindividuelle Digitalisierungsstrategie mit dem KVWL-Reifegradmodell. Praxen erhalten 5.000 Euro Aufwandsentschädigung für die Freistellung. Das Programm startete im April 2023 und wird ab 2025 zweimal jährlich angeboten. In Baden-Württemberg bietet die Landesärztekammer mit der MAK und dem Bosch Digital Innovation Hub ein Blended-Learning-Seminar „Digi-Managerin (Arztpraxis)“ an. Es richtet sich an medizinisches Fachpersonal, umfasst 40 Unterrichtseinheiten über fünf Tage in Stuttgart und kostet 298 Euro. Weitere Informationen gibt es unter www.aerztekammer-bw.de. Andere Bundesländer bieten derzeit keine vergleichbare Fortbildung mit diesem Titel an. Ähnliche Weiterbildungen zur Digitalisierung existieren jedoch deutschlandweit. [kv-innovationsscout.de/projekt/digi-managerin](https://kv-innovationsscout.de/projekt/digi-managerin) [aerztekammer-bw.de/digi-managerin](https://www.aerztekammer-bw.de/digi-managerin-3e6cf1a855ca6d7d) [kvwl.de/themen-a-z/digi-managerin](https://www.kvwl.de/themen-a-z/digi-managerin) [kvbawue.de/kvbw/aktuelles/news-artikel/neues-mak-seminar-digi-managerin](https://www.kvbawue.de/kvbw/aktuelles/news-artikel/neues-mak-seminar-digi-managerin)
+
+### Referenzpraxis
+
+Die Kassenärztliche Vereinigung Westfalen-Lippe (KVWL) präsentiert mit der [„dipraxis“](https://www.kvwl.de/dipraxis) eine Ausstellung zur Digitalisierung im Gesundheitswesen. In dieser Beispielpraxis können Vertragsärzte und -psychotherapeuten digitale Tools wie Online-Terminbuchungen, digitales Patientenmanagement und Telematikinfrastruktur-Anwendungen direkt testen und Fortbildungspunkte sammeln. Die KVWL bietet neutrale, herstellerunabhängige Beratung, zeigt auf Touchscreens Datenanalysen und teilt Erfahrungsberichte von Kollegen. Ähnlich unterstützt die KV Berlin mit der [„DEMO E-Health Showpraxis“](https://www.kvberlin.de/demo) Praxisteams durch interaktive Einblicke in digitale Lösungen, die Praxisabläufe optimieren, die Zusammenarbeit fördern und die Patientenversorgung verbessern. Termine für beide Showrooms sind online buchbar. Die KV Brandenburg fördert [digitale Referenzpraxen](https://www.kvbb.de/praxis/aktuelles/news-detail/meldung-default-e6619f01b1152ce8fb6089ffca47fb75) mit monatlich 1.000 Euro, um praxistaugliche Innovationen zu testen.
+
 ## Plattformen
 
 [Medxsmart.de](https://medxsmart.de/) ist eine Vergleichsplattform, die speziell für digitale Tools in Arztpraxen entwickelt wurde. Sie bietet Ärztinnen und Ärzten die Möglichkeit, verschiedene Lösungen zu durchsuchen und zu vergleichen, um die Digitalisierung ihrer Praxis zu optimieren. 
@@ -109,9 +119,17 @@ Der [DiGA-Analyzer von fbeta](https://fbeta.de/diga-analyzer/) ist ein Analyseto
 
 Die Studie von Shaheen E. Lakhan, veröffentlicht im Mai 2025 in Cureus, stellt den Composite Digital Therapeutic Index (cDTI) vor, ein Rahmenwerk zur Bewertung von verschreibungspflichtigen digitalen Therapeutika (PDTs). Der cDTI kombiniert vier Domänen – Wirksamkeit, Engagement, Evidenzqualität und Sicherheit – zu einem einzigen Score, um von der FDA zugelassene PDTs zu vergleichen. Der cDTI bietet ein transparentes, reproduzierbares Werkzeug für Stakeholder, mit Plänen zur Erweiterung um Real-World-Daten und weitere Domänen wie Gerechtigkeit und Kosteneffizienz. [@lakhan2025composite]
 
+## Evaluierung digitaler Gesundheits-Technologien
+
+Das "Evidence Standards Framework" (ESF) des National Institute for Health and Care Excellence (NICE) für digitale Gesundheits- und Pflege-Technologien (DHTs) wurde 2018 entwickelt stellt eine standardisierte Vorgehensweise für die klinische und wirtschaftliche Bewertung von DHTs durch Gesundheitssysteme bereit. Der Rahmen wurde mit einem agilen und iterativen Ansatz entwickelt, der eine Literaturrecherche, Expertenkonsultationen und Stakeholder-Feedback beinhaltete. [@Unsworth_2021]
+
 ## Gründungszentren
 
 Startup-Inkubatoren und -Acceleratoren für digitale Gesundheitsunternehmen unterstützen digitale Lösungen im Gesundheitswesen, indem sie Gründern Ressourcen, Netzwerke und Finanzierung bereitstellen. [Flying Health](https://www.flyinghealth.com/) in Berlin verbindet Startups mit etablierten Akteuren der Gesundheitsbranche, bietet strategische Beratung und unterstützt bei der Entwicklung zukunftsfähiger Geschäftsmodelle. [Startupbootcamp Digital Health](https://www.startupbootcamp.org/) mit Sitz in Berlin beschleunigt junge Unternehmen durch ein intensives Programm, das von Partnern wie Sanofi oder Munich Re unterstützt wird, und hat Erfolge wie BOCAhealth (Hydrationsmessung) vorzuweisen. [G4A Health](https://www.g4a.health/), initiiert von Bayer, bietet Startups bis zu 100.000 Euro, 100 Tage Co-Working-Space und Mentoring, wobei seit 2013 über 150 digitale Gesundheitsfirmen gefördert wurden, darunter Okko Health (Augen-Biomarker). [Speedinvest](https://www.speedinvest.com/), ein europäischer Venture-Capital-Fonds, investiert in frühe Phasen digitaler Gesundheitslösungen und bietet neben Kapital auch strategische Unterstützung. [Bosch Health Campus](https://www.bosch-health-campus.de/de) in Stuttgart fördert interdisziplinäre Innovationen im Gesundheitsbereich mit Fokus auf Forschung und Kooperationen. [Hubs Sidepreneur](https://hubs.sidepreneur.de/alle-hubs/) listet verschiedene deutsche Inkubatoren auf, die teils auch Health-Startups unterstützen, wobei der Fokus jedoch breiter gefasst ist. Diese Programme unterscheiden sich in ihrer Ausrichtung – von praxisnaher Frühentwicklung bis hin zu langfristiger Forschungskooperation – und tragen gemeinsam dazu bei, die Digitalisierung im Gesundheitswesen voranzutreiben.
+
+## Veranstaltungsformate
+
+Die [Ideenkampagne ADRENALIN@UKSH](https://www.uksh.de/jahresberichte/2020+%7C+2021/Konzern+UKSH/UKSH+der+Zukunft/Ideenkampagne+ADRENALIN%40UKSH.html) startete 2021 am Universitätsklinikum Schleswig-Holstein mit dem Ziel, Mitarbeitende aktiv in die Zukunftsgestaltung einzubinden. Für ambulante Praxen ist dabei besonders relevant, dass der Erfolg digitaler Innovationen von einer offenen internen Kommunikation und dem Engagement des Teams abhängt. Über eine ganzheitliche Strategie, die technische Lösungen mit sozialen und organisatorischen Faktoren verbindet, lassen sich digitale Technologien in den Praxisalltag integrieren. [Hackathons](https://www.healthcare-hackathon.info/) bringen interdisziplinäre Teams zusammen, um komplexe Probleme des Gesundheitswesens kreativ zu lösen. Sie fördern den Wissenstransfer zwischen Forschung, Wirtschaft und Praxis, treiben technologische und organisatorische Innovationen voran und stärken durch Kooperationen.
 
 ## Technologische Disruption
 
@@ -150,6 +168,8 @@ Private Forschungsorganisationen:
 
 * [inav-berlin.de](https://inav-berlin.de/leistungen/ditital-health/)
 * [agenon.de](https://www.agenon.de/leistungen/digitalisierung/)
+
+Die Studie „A systematic review of clinicians’ acceptance and use of clinical decision support systems over time“ von Nicki Newton et al., veröffentlicht in npj Digital Medicine (2025), untersucht die Faktoren, die die Akzeptanz und Nutzung von klinischen Entscheidungsunterstützungssystemen (CDS) in Krankenhäusern über die Zeit beeinflussen. Die systematische Überprüfung analysierte 67 Studien aus den Jahren 2007 bis 2024 und kategorisierte die Faktoren nach dem Zeitpunkt der Datenerhebung nach der CDS-Implementierung. Zu den durchgehend relevanten Faktoren zählen die Nützlichkeit des Systems und dessen Integration in bestehende Arbeitsabläufe. Wahrgenommene Ergebnisse waren im ersten Jahr besonders prominent, während individuelle Faktoren nach sechs Monaten an Bedeutung gewannen. Nach fünf Jahren wurden Strategien zur Umgehung von Systembeschränkungen berichtet. Die Ergebnisse bieten Leitlinien für die Entwicklung, Implementierung und langfristige Unterstützung von CDS-Systemen. [@newton2025systematic]
 
 ## Institutionalisierung
 
