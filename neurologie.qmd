@@ -57,6 +57,10 @@ Der „Floodlight MS Dataset“ auf Kaggle, bereitgestellt von Kevin Mader, umfa
 
 Die Studie „Co-Designing a ‘win-win’ in Predictive AI“ untersucht die Perspektiven von Menschen mit Parkinson-Krankheit (PwP) im Rahmen der partizipativen Entwicklung von KI-Tools für die Parkinson-Behandlung. Durch qualitative Triangulation aus 13 Interviews und zwei Fokusgruppen mit 14 PwP aus sechs europäischen Ländern wurden deren Ansichten zu KI-Tools und Faktoren für ihr Engagement analysiert. Die Ergebnisse zeigen, dass PwP großes Potenzial in KI-gestützter Medikamentenresponse-Vorhersage sehen, während Risikobewertungstools Skepsis hervorrufen. Die Teilnehmenden betonten die Bedeutung von Krankheitskomplexität, individuellen Faktoren, Datenschutz und Transparenz in der KI-Entwicklung. Der Co-Design-Prozess wurde als entscheidend angesehen, um vertrauenswürdige und nutzbringende Tools zu schaffen, die sowohl die Lebensqualität der Patienten verbessern als auch die klinische Praxis optimieren können. [@luckhaus2025co]
 
+### Neuromuskuläre Erkrankungen
+
+Die Studie AI-Enabled Video Biomechanics: A New Frontier for Clinical Care and Trial Readiness in Neuromuscular Disease zeigt, wie KI-gestützte Videoanalysen Bewegungsdaten effizienter und sensibler erfassen können als klassische Methoden bei neuromuskulären Erkrankungen wie Fazioskapulohumerale Muskeldystrophie (FSHD) und Myotone Dystrophie (DM). Mit dem System OpenCap wurden bei 129 Teilnehmenden, darunter 86 Patientinnen und Patienten, innerhalb von weniger als 20 Minuten 34 kinematische Merkmale aus neun Bewegungen extrahiert. Diese Analyse wies eine sehr hohe Übereinstimmung mit konventionellen Funktionstests auf und konnte zudem subtilere Bewegungsauffälligkeiten identifizieren, die in klinischen Studien oder der personalisierten Versorgung entscheidend sein können. [@Voet2025]
+
 ### Essstörungen
 
 {{< video https://www.youtube.com/watch?v=gT2l0oJQfko >}}
