@@ -57,3 +57,7 @@ Die Studie „The Effectiveness of a Chatbot Single-Session Intervention for Peo
 ### Partizipation
 
 Die Studie „A Self-Harm Awareness Training Module for School Staff: Co-Design and User Testing Study“ befasst sich mit der Entwicklung und Erprobung eines E-Learning-Trainingsmoduls zur Sensibilisierung von Schulpersonal für das Thema Selbstverletzung bei Jugendlichen. Ziel war es, mithilfe eines partizipativen, schülerorientierten Ansatzes ein praxisnahes Schulungsangebot zu schaffen, das Lehrkräfte und weitere Mitarbeitende in Schulen dabei unterstützt, sicherer und kompetenter auf selbstverletzendes Verhalten von Schüler*innen zu reagieren. Die Ergebnisse zeigen, dass das Training von den Teilnehmenden als sehr nützlich, akzeptabel und alltagstauglich eingeschätzt wird und sowohl das Wissen als auch das Selbstvertrauen im Umgang mit betroffenen Jugendlichen stärkt. [@burn2025self]
+
+### Benchmarking von Sprachmodellen
+
+Psychosis-Bench [github.com/w-is-h/psychosis-bench](https://github.com/w-is-h/psychosis-bench) ist eine Python-Bibliothek zur Bewertung von Sprachmodellen im Umgang mit klinischen Szenarien. Der Benchmark umfasst 16 standardisierte Testfälle in verschiedenen Symptomfeldern und schlägt drei Kernmetriken vor: die Delusion Confirmation Score (DCS), die Harm Enablement Score (HES) sowie die Safety Intervention Score (SIS). Damit erlaubt das Tool eine systematische Analyse, ob Modelle Wahnvorstellungen bestätigen, schädliche Handlungen begünstigen oder Sicherheitshinweise geben und ermöglicht den Verweis auf professionelle Hilfe.
