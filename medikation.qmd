@@ -65,6 +65,42 @@ Die [Spezifikation für den bundeseinheitlichen Medikationsplan (BMP) gemäß §
 
 ![Barcode Medikationsplan](assets/barcode.png)
 
+## XML Spezifikation
+
+```
+<MP v="027" U="F5FDC0E5E10E44EFBAC1D4A2B540A957" l="de-DE">
+ <P g="Michaela" f="Musterhausen" b="19361213" s="W" t="Dr." v="von" z="Freifrau"/>
+ <A
+lanr="123456667" n="Dr. Manfred Überall" s="Hauptstraße 55" z="01234" c="Am Ort" p="04562-
+12345" e="m.ue@praxis-ueberall.de" t="2023-04-01T12:00:00"/>
+ <O ai="Penicillin" w="85.0"/>
+ <S>
+ <M f="TAB" m="1" du="1" i="während der Mahlzeit" r="Bluthochdruck">
+ <W w="Ramipril" s="5 mg"/>
+ </M>
+ <M p="6453174" m="1" du="1" i="während der Mahlzeit" r="Bluthochdruck"/>
+ <M p="4129423" v="1" du="1" i="während der Mahlzeit" r="art. Verschluss"/>
+ <M p="232207" v="1" du="1" i="nach der Mahlzeit" r="erhöhte Blutfette"/>
+ <M p="544786" m="20" v="10" dud="IE" i="subkutan" r="Diabetes"/>
+ </S>
+ <S t="Bedarfsmedikation">
+ <M p="11084508" t="max. 3" du="5" i="akut" r="Herzschmerzen"/>
+ <M p="2083906" h="1" du="1" i="bei Bedarf" r="Schlaflosigkeit"/>
+ <M p="9285530" m="1" d="1" v="1" du="1" r="Erkältung/ Nasennebenhöhlen"/>
+ </S>
+ <S c="424">
+ <M p="7273534" m="1" d="1" v="1" du="1" i="alle 8 Stunden einnehmen"
+r="Nebenhöhlenentzündung" x="Sofort mit Einnahme beginnen, für 10 Tage (bis 10.03.2023)"/>
+ </S>
+ <S c="422">
+ <X t="Bitte messen Sie Ihren Blutdruck täglich!"/>
+ </S>
+</MP> 
+```
+
+* [kbv.de/.../medikationsplan-anlage-3.pdf)](https://www.kbv.de/documents/infothek/rechtsquellen/weitere-vertraege/praxen/medikationsplan/medikationsplan-anlage-3.pdf)
+* [hl7.de/ukf/Testfaelle_ukf201.pdf](https://download.hl7.de/ukf/Testfaelle_ukf201.pdf)
+
 ## Betäubungsmittel
 
 Der Referentenentwurf der Vierten Verordnung zur Änderung der Betäubungsmittel-Verschreibungsverordnung sieht die verpflichtende Einführung der elektronischen Betäubungsmittel-Verordnung (eBtM) in der vertragsärztlichen Versorgung vor. Die [KBV begrüßt die Digitalisierung](https://www.kbv.de/html/68523.php), fordert jedoch vollständige digitale Lösungen für alle BtM-Verordnungen, rechtssichere Direktzuweisung von Substitutionsmitteln, ausschließlich elektronische Dokumentation, minimierte dezentrale Dokumentation, digitale Verordnung von Praxisbedarf, ausreichende Erprobung in Modellregionen, Übertragbarkeit auf Praxisvertreter, keine Verzögerungen bei der Datenübermittlung und Vermeidung doppelter Verordnungen. Die KBV erwartet steigende Kosten und Aufwände für Praxen und kritisiert die angenommene Kostenneutralität. Siehe dazu [KBV-Stellungnahme zum Referentenentwurf der vierten Verordnung zur Änderung der Betäubungsmittel-Verschreibungsverordnung, Stand 21.03.2024, PDF 251 KB](https://www.kbv.de/media/sp/2024-03-21_KBV_Stellungnahme_eBtM-Rezepte.pdf)
@@ -78,3 +114,4 @@ Die Studie "Patient-reported usability challenges when implementing integrated E
 Der Telefonassistent [gesund.de KIRA](https://gesund-versorger.de/presse-news/2025-07-28/gesundde-bringt-ki-telefonie-deutsche-apotheken) ist eine KI-basierte Sprachlösung, die eingehende Anrufe in Apotheken entgegennimmt, häufige Standardfragen beantwortet und komplexere Anliegen automatisch an das Apothekenteam weiterleitet. Laut Befragung von gesund.de und Workshops mit Apothekeninhaberinnen und -inhabern erhalten Apotheken im Schnitt 44 Anrufe täglich, überwiegend zu Themen wie Medikamentenverfügbarkeit, Vorbestellungen oder Öffnungszeiten; genau diese Anliegen übernimmt KIRA. Durch diese Automatisierung werden die Teams spürbar entlastet, Arbeitsunterbrechungen reduziert und die Erreichbarkeit der Apotheken auch bei Personalmangel oder außerhalb der Öffnungszeiten gewährleistet. Die Lösung ist DSGVO-konform und individuell an den Bedarf der Apotheke anpassbar.
 
 [pharma4u](https://www.pharma4u.de) bietet digitale Lösungen für Studium und Apothekenpraxis mit Fokus auf Dokumentation, Eigenrevision und Medikationsmanagement. Mit der Software ApoRevision wird die digitale Eigenrevision samt Pflichtschulungen unterstützt, während LabXpert rechtskonforme Dokumentation in Rezeptur und Labor ermöglicht. MediCheck fördert die digitale Umsetzung von Medikationsanalysen für mehr Arzneimitteltherapiesicherheit. Ergänzt wird das Angebot durch interaktive Lernprogramme, Webseminare und Kompetenz-Foren, die den digitalen Wissenstransfer in der Pharmazie stärken.
+
