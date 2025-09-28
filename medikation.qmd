@@ -67,7 +67,7 @@ Die [Spezifikation für den bundeseinheitlichen Medikationsplan (BMP) gemäß §
 
 ## XML Spezifikation
 
-```
+```xml
 <MP v="027" U="F5FDC0E5E10E44EFBAC1D4A2B540A957" l="de-DE">
  <P g="Michaela" f="Musterhausen" b="19361213" s="W" t="Dr." v="von" z="Freifrau"/>
  <A
@@ -98,7 +98,7 @@ r="Nebenhöhlenentzündung" x="Sofort mit Einnahme beginnen, für 10 Tage (bis 1
 </MP> 
 ```
 
-* [kbv.de/.../medikationsplan-anlage-3.pdf)](https://www.kbv.de/documents/infothek/rechtsquellen/weitere-vertraege/praxen/medikationsplan/medikationsplan-anlage-3.pdf)
+* [kbv.de/.../medikationsplan-anlage-3.pdf](https://www.kbv.de/documents/infothek/rechtsquellen/weitere-vertraege/praxen/medikationsplan/medikationsplan-anlage-3.pdf)
 * [hl7.de/ukf/Testfaelle_ukf201.pdf](https://download.hl7.de/ukf/Testfaelle_ukf201.pdf)
 
 ## Betäubungsmittel
@@ -114,4 +114,5 @@ Die Studie "Patient-reported usability challenges when implementing integrated E
 Der Telefonassistent [gesund.de KIRA](https://gesund-versorger.de/presse-news/2025-07-28/gesundde-bringt-ki-telefonie-deutsche-apotheken) ist eine KI-basierte Sprachlösung, die eingehende Anrufe in Apotheken entgegennimmt, häufige Standardfragen beantwortet und komplexere Anliegen automatisch an das Apothekenteam weiterleitet. Laut Befragung von gesund.de und Workshops mit Apothekeninhaberinnen und -inhabern erhalten Apotheken im Schnitt 44 Anrufe täglich, überwiegend zu Themen wie Medikamentenverfügbarkeit, Vorbestellungen oder Öffnungszeiten; genau diese Anliegen übernimmt KIRA. Durch diese Automatisierung werden die Teams spürbar entlastet, Arbeitsunterbrechungen reduziert und die Erreichbarkeit der Apotheken auch bei Personalmangel oder außerhalb der Öffnungszeiten gewährleistet. Die Lösung ist DSGVO-konform und individuell an den Bedarf der Apotheke anpassbar.
 
 [pharma4u](https://www.pharma4u.de) bietet digitale Lösungen für Studium und Apothekenpraxis mit Fokus auf Dokumentation, Eigenrevision und Medikationsmanagement. Mit der Software ApoRevision wird die digitale Eigenrevision samt Pflichtschulungen unterstützt, während LabXpert rechtskonforme Dokumentation in Rezeptur und Labor ermöglicht. MediCheck fördert die digitale Umsetzung von Medikationsanalysen für mehr Arzneimitteltherapiesicherheit. Ergänzt wird das Angebot durch interaktive Lernprogramme, Webseminare und Kompetenz-Foren, die den digitalen Wissenstransfer in der Pharmazie stärken.
+
 
