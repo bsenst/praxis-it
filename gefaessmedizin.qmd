@@ -43,6 +43,8 @@ Die [Sektion eCardiology](https://dgk.org/ueber-uns/staendige-ausschuesse/ecardi
 
 myon.coach ist eine digitale Plattform zur Unterstützung und Überwachung von Herz-Kreislauf-Patienten, die den Austausch zwischen Patient:innen und medizinischem Fachpersonal erleichtert. Über die [myoncare App](https://myon.coach/) oder Web-App können Gesundheitsdaten wie Blutdruckwerte, Medikamenteneinnahmen und Nachrichten sicher übermittelt werden. Ärzt:innen erhalten Benachrichtigungen, können den Gesundheitsstatus in Echtzeit überwachen und Therapiepläne individuell anpassen. Ziel ist es, die Therapieadhärenz zu verbessern, Komplikationen früh zu erkennen und Patient:innen zu mehr Selbstmanagement zu befähigen.
 
+* [bnk-service.de](https://www.bnk-service.de/)
+
 ## Forschung
 
 Das [Cardiovascular Data Science Lab](https://www.cards-lab.org/) (CarDS) an der Yale University treibt Innovationen in der kardiovaskulären Versorgung durch angewandte Datenwissenschaft und KI voran u.a. in der Entwicklung von Tools wie AI-Echo, AI-ECG und CarDSPlus.
