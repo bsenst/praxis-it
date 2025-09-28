@@ -66,9 +66,9 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8ebee2e809eeb4f1533d2c3035762504.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-b858d256b70879538b2a95f174721b9f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8ebee2e809eeb4f1533d2c3035762504.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8d8403fb905aa7205e9eac3fdf959d30.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-f7c30dea7d667096cf49c894ce2051cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-8d8403fb905aa7205e9eac3fdf959d30.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -785,6 +785,7 @@ cookieconsent.run({
   <li><a href="#athina" id="toc-athina" class="nav-link" data-scroll-target="#athina">ATHINA</a></li>
   <li><a href="#pharmazeutische-dienstleistung-polymedikation" id="toc-pharmazeutische-dienstleistung-polymedikation" class="nav-link" data-scroll-target="#pharmazeutische-dienstleistung-polymedikation">Pharmazeutische Dienstleistung Polymedikation</a></li>
   <li><a href="#datenmatrix-qr-code-medikationsplan" id="toc-datenmatrix-qr-code-medikationsplan" class="nav-link" data-scroll-target="#datenmatrix-qr-code-medikationsplan">Datenmatrix QR Code Medikationsplan</a></li>
+  <li><a href="#xml-spezifikation" id="toc-xml-spezifikation" class="nav-link" data-scroll-target="#xml-spezifikation">XML Spezifikation</a></li>
   <li><a href="#betäubungsmittel" id="toc-betäubungsmittel" class="nav-link" data-scroll-target="#betäubungsmittel">Betäubungsmittel</a></li>
   <li><a href="#medikamenteneinnahmeerinnerung" id="toc-medikamenteneinnahmeerinnerung" class="nav-link" data-scroll-target="#medikamenteneinnahmeerinnerung">Medikamenteneinnahmeerinnerung</a></li>
   <li><a href="#digitalisierung-von-apotheken" id="toc-digitalisierung-von-apotheken" class="nav-link" data-scroll-target="#digitalisierung-von-apotheken">Digitalisierung von Apotheken</a></li>
@@ -937,6 +938,41 @@ cookieconsent.run({
 <figcaption>Barcode Medikationsplan</figcaption>
 </figure>
 </div>
+</section>
+<section id="xml-spezifikation" class="level2">
+<h2 class="anchored" data-anchor-id="xml-spezifikation">XML Spezifikation</h2>
+<pre><code>&lt;MP v="027" U="F5FDC0E5E10E44EFBAC1D4A2B540A957" l="de-DE"&gt;
+ &lt;P g="Michaela" f="Musterhausen" b="19361213" s="W" t="Dr." v="von" z="Freifrau"/&gt;
+ &lt;A
+lanr="123456667" n="Dr. Manfred Überall" s="Hauptstraße 55" z="01234" c="Am Ort" p="04562-
+12345" e="m.ue@praxis-ueberall.de" t="2023-04-01T12:00:00"/&gt;
+ &lt;O ai="Penicillin" w="85.0"/&gt;
+ &lt;S&gt;
+ &lt;M f="TAB" m="1" du="1" i="während der Mahlzeit" r="Bluthochdruck"&gt;
+ &lt;W w="Ramipril" s="5 mg"/&gt;
+ &lt;/M&gt;
+ &lt;M p="6453174" m="1" du="1" i="während der Mahlzeit" r="Bluthochdruck"/&gt;
+ &lt;M p="4129423" v="1" du="1" i="während der Mahlzeit" r="art. Verschluss"/&gt;
+ &lt;M p="232207" v="1" du="1" i="nach der Mahlzeit" r="erhöhte Blutfette"/&gt;
+ &lt;M p="544786" m="20" v="10" dud="IE" i="subkutan" r="Diabetes"/&gt;
+ &lt;/S&gt;
+ &lt;S t="Bedarfsmedikation"&gt;
+ &lt;M p="11084508" t="max. 3" du="5" i="akut" r="Herzschmerzen"/&gt;
+ &lt;M p="2083906" h="1" du="1" i="bei Bedarf" r="Schlaflosigkeit"/&gt;
+ &lt;M p="9285530" m="1" d="1" v="1" du="1" r="Erkältung/ Nasennebenhöhlen"/&gt;
+ &lt;/S&gt;
+ &lt;S c="424"&gt;
+ &lt;M p="7273534" m="1" d="1" v="1" du="1" i="alle 8 Stunden einnehmen"
+r="Nebenhöhlenentzündung" x="Sofort mit Einnahme beginnen, für 10 Tage (bis 10.03.2023)"/&gt;
+ &lt;/S&gt;
+ &lt;S c="422"&gt;
+ &lt;X t="Bitte messen Sie Ihren Blutdruck täglich!"/&gt;
+ &lt;/S&gt;
+&lt;/MP&gt; </code></pre>
+<ul>
+<li><a href="https://www.kbv.de/documents/infothek/rechtsquellen/weitere-vertraege/praxen/medikationsplan/medikationsplan-anlage-3.pdf">kbv.de/…/medikationsplan-anlage-3.pdf)</a></li>
+<li><a href="https://download.hl7.de/ukf/Testfaelle_ukf201.pdf">hl7.de/ukf/Testfaelle_ukf201.pdf</a></li>
+</ul>
 </section>
 <section id="betäubungsmittel" class="level2">
 <h2 class="anchored" data-anchor-id="betäubungsmittel">Betäubungsmittel</h2>
