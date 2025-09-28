@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -941,36 +976,36 @@ cookieconsent.run({
 </section>
 <section id="xml-spezifikation" class="level2">
 <h2 class="anchored" data-anchor-id="xml-spezifikation">XML Spezifikation</h2>
-<pre><code>&lt;MP v="027" U="F5FDC0E5E10E44EFBAC1D4A2B540A957" l="de-DE"&gt;
- &lt;P g="Michaela" f="Musterhausen" b="19361213" s="W" t="Dr." v="von" z="Freifrau"/&gt;
- &lt;A
-lanr="123456667" n="Dr. Manfred Überall" s="Hauptstraße 55" z="01234" c="Am Ort" p="04562-
-12345" e="m.ue@praxis-ueberall.de" t="2023-04-01T12:00:00"/&gt;
- &lt;O ai="Penicillin" w="85.0"/&gt;
- &lt;S&gt;
- &lt;M f="TAB" m="1" du="1" i="während der Mahlzeit" r="Bluthochdruck"&gt;
- &lt;W w="Ramipril" s="5 mg"/&gt;
- &lt;/M&gt;
- &lt;M p="6453174" m="1" du="1" i="während der Mahlzeit" r="Bluthochdruck"/&gt;
- &lt;M p="4129423" v="1" du="1" i="während der Mahlzeit" r="art. Verschluss"/&gt;
- &lt;M p="232207" v="1" du="1" i="nach der Mahlzeit" r="erhöhte Blutfette"/&gt;
- &lt;M p="544786" m="20" v="10" dud="IE" i="subkutan" r="Diabetes"/&gt;
- &lt;/S&gt;
- &lt;S t="Bedarfsmedikation"&gt;
- &lt;M p="11084508" t="max. 3" du="5" i="akut" r="Herzschmerzen"/&gt;
- &lt;M p="2083906" h="1" du="1" i="bei Bedarf" r="Schlaflosigkeit"/&gt;
- &lt;M p="9285530" m="1" d="1" v="1" du="1" r="Erkältung/ Nasennebenhöhlen"/&gt;
- &lt;/S&gt;
- &lt;S c="424"&gt;
- &lt;M p="7273534" m="1" d="1" v="1" du="1" i="alle 8 Stunden einnehmen"
-r="Nebenhöhlenentzündung" x="Sofort mit Einnahme beginnen, für 10 Tage (bis 10.03.2023)"/&gt;
- &lt;/S&gt;
- &lt;S c="422"&gt;
- &lt;X t="Bitte messen Sie Ihren Blutdruck täglich!"/&gt;
- &lt;/S&gt;
-&lt;/MP&gt; </code></pre>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">MP</span><span class="ot"> v=</span><span class="st">"027"</span><span class="ot"> U=</span><span class="st">"F5FDC0E5E10E44EFBAC1D4A2B540A957"</span><span class="ot"> l=</span><span class="st">"de-DE"</span>&gt;</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">P</span><span class="ot"> g=</span><span class="st">"Michaela"</span><span class="ot"> f=</span><span class="st">"Musterhausen"</span><span class="ot"> b=</span><span class="st">"19361213"</span><span class="ot"> s=</span><span class="st">"W"</span><span class="ot"> t=</span><span class="st">"Dr."</span><span class="ot"> v=</span><span class="st">"von"</span><span class="ot"> z=</span><span class="st">"Freifrau"</span>/&gt;</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">A</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ot">lanr=</span><span class="st">"123456667"</span><span class="ot"> n=</span><span class="st">"Dr. Manfred Überall"</span><span class="ot"> s=</span><span class="st">"Hauptstraße 55"</span><span class="ot"> z=</span><span class="st">"01234"</span><span class="ot"> c=</span><span class="st">"Am Ort"</span><span class="ot"> p=</span><span class="st">"04562-</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">12345"</span><span class="ot"> e=</span><span class="st">"m.ue@praxis-ueberall.de"</span><span class="ot"> t=</span><span class="st">"2023-04-01T12:00:00"</span>/&gt;</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">O</span><span class="ot"> ai=</span><span class="st">"Penicillin"</span><span class="ot"> w=</span><span class="st">"85.0"</span>/&gt;</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span>&gt;</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> f=</span><span class="st">"TAB"</span><span class="ot"> m=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"während der Mahlzeit"</span><span class="ot"> r=</span><span class="st">"Bluthochdruck"</span>&gt;</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">W</span><span class="ot"> w=</span><span class="st">"Ramipril"</span><span class="ot"> s=</span><span class="st">"5 mg"</span>/&gt;</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">M</span>&gt;</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"6453174"</span><span class="ot"> m=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"während der Mahlzeit"</span><span class="ot"> r=</span><span class="st">"Bluthochdruck"</span>/&gt;</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"4129423"</span><span class="ot"> v=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"während der Mahlzeit"</span><span class="ot"> r=</span><span class="st">"art. Verschluss"</span>/&gt;</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"232207"</span><span class="ot"> v=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"nach der Mahlzeit"</span><span class="ot"> r=</span><span class="st">"erhöhte Blutfette"</span>/&gt;</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"544786"</span><span class="ot"> m=</span><span class="st">"20"</span><span class="ot"> v=</span><span class="st">"10"</span><span class="ot"> dud=</span><span class="st">"IE"</span><span class="ot"> i=</span><span class="st">"subkutan"</span><span class="ot"> r=</span><span class="st">"Diabetes"</span>/&gt;</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">S</span>&gt;</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span><span class="ot"> t=</span><span class="st">"Bedarfsmedikation"</span>&gt;</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"11084508"</span><span class="ot"> t=</span><span class="st">"max. 3"</span><span class="ot"> du=</span><span class="st">"5"</span><span class="ot"> i=</span><span class="st">"akut"</span><span class="ot"> r=</span><span class="st">"Herzschmerzen"</span>/&gt;</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"2083906"</span><span class="ot"> h=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"bei Bedarf"</span><span class="ot"> r=</span><span class="st">"Schlaflosigkeit"</span>/&gt;</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"9285530"</span><span class="ot"> m=</span><span class="st">"1"</span><span class="ot"> d=</span><span class="st">"1"</span><span class="ot"> v=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> r=</span><span class="st">"Erkältung/ Nasennebenhöhlen"</span>/&gt;</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">S</span>&gt;</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span><span class="ot"> c=</span><span class="st">"424"</span>&gt;</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"7273534"</span><span class="ot"> m=</span><span class="st">"1"</span><span class="ot"> d=</span><span class="st">"1"</span><span class="ot"> v=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"alle 8 Stunden einnehmen"</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ot">r=</span><span class="st">"Nebenhöhlenentzündung"</span><span class="ot"> x=</span><span class="st">"Sofort mit Einnahme beginnen, für 10 Tage (bis 10.03.2023)"</span>/&gt;</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">S</span>&gt;</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span><span class="ot"> c=</span><span class="st">"422"</span>&gt;</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">X</span><span class="ot"> t=</span><span class="st">"Bitte messen Sie Ihren Blutdruck täglich!"</span>/&gt;</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">S</span>&gt;</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">MP</span>&gt; </span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
-<li><a href="https://www.kbv.de/documents/infothek/rechtsquellen/weitere-vertraege/praxen/medikationsplan/medikationsplan-anlage-3.pdf">kbv.de/…/medikationsplan-anlage-3.pdf)</a></li>
+<li><a href="https://www.kbv.de/documents/infothek/rechtsquellen/weitere-vertraege/praxen/medikationsplan/medikationsplan-anlage-3.pdf">kbv.de/…/medikationsplan-anlage-3.pdf</a></li>
 <li><a href="https://download.hl7.de/ukf/Testfaelle_ukf201.pdf">hl7.de/ukf/Testfaelle_ukf201.pdf</a></li>
 </ul>
 </section>
