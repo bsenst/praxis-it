@@ -24,6 +24,8 @@ Die [easyRadiology AG](https://easyradiology.de/) bietet ein Image-Management-Sy
 
 : Beispiele Radiologiesoftware
 
+Die Website [entscheidung-bildgebung.de](https://entscheidung-bildgebung.de/), Teil des Betti-Projektes (better imaging), unterstützt Patientinnen und Ärztinnen bei der Entscheidung, ob und wann Bildgebung bei Schmerzen des Bewegungsapparates sinnvoll ist. Sie richtet sich an Betroffene, Interessierte sowie (Haus-)Ärzt*innen und Behandelnde.
+
 ## Forschung
 
 ### Künstliche Intelligenz
