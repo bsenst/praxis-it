@@ -52,6 +52,10 @@ Die PARI Kinder App, vorgestellt auf https://www.pari.com/de/kinderecke/, ist ei
 
 : Beispiele Anwendungen
 
+## Soziale Medien
+
+[PneumoPearls](https://pneumopearls.de/) ist ein digitaler Social-Media-Info-Hub, der pneumologisches Fachwissen verständlich und praxisnah vermittelt. Es werden aktuelle Erkenntnisse, Therapien und Tipps in kompakten Erklärvideos, Infografiken und fundierten Beiträgen geteilt. Die Plattform richtet sich an Fach- und Hausärzt:innen, Patient:innen, Angehörige und alle Interessierten, bietet fachliche Tiefe und fördert den Austausch über Themen rund um Atmung, Lunge und moderne Pneumologie.
+
 ## Forschung
 
 Der Artikel „Die Zukunft der Pneumologie ist digital“ von Holger Woehrle und Christoph Schöbel, veröffentlicht in Pneumo News (2021), beleuchtet die fortschreitende Digitalisierung in der Medizin, insbesondere in der Pneumologie. Er beschreibt, wie Big Data und Künstliche Intelligenz Krankheitsverläufe präziser analysieren und individualisierte Therapien ermöglichen können. Datenschutz und die Datenhoheit der Patienten werden als zentrale Herausforderungen betont, ebenso wie die Notwendigkeit einheitlicher Plattformen und skalierbarer Systeme. Telemedizinische Ansätze, wie Apps auf Rezept und digitale Überwachungssysteme, bieten Potenzial zur Verbesserung der Patientenversorgung, etwa in der Schlaf- und Beatmungsmedizin. Die Autoren fordern eine aktive Gestaltung der Digitalisierung, um Ärzte zu unterstützen, nicht zu ersetzen, und betonen die Bedeutung einer patientenzentrierten Präzisionsmedizin. [@woehrle2021zukunft]
