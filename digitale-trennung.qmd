@@ -1,6 +1,12 @@
 # Digitale Trennung
 
-Die Studie „Bridging the digital health divide: a narrative review of the causes, implications, and solutions for digital health inequalities“ untersucht die Ungleichheiten im Zugang, den Fähigkeiten und den Vorteilen digitaler Gesundheitsinterventionen, die als digitale Gesundheitskluft bezeichnet werden. Sie analysiert die Ursachen dieser Kluft, einschließlich digitaler Gesundheitskompetenz, sozialen und gesellschaftlichen Determinanten, Technologieentwicklung und Forschungspraxis, und schlägt Lösungen für eine gerechtere Gestaltung digitaler Gesundheitsangebote vor. Die Autoren betonen die Notwendigkeit inklusiver Designs und gezielter Unterstützung für vulnerable Gruppen, um die digitale Kluft zu verringern und sicherzustellen, dass digitale Technologien allen zugutekommen.
+Die Studie „Bridging the digital health divide: a narrative review of the causes, implications, and solutions for digital health inequalities“ beschreibt die digitale Gesundheitskluft auf drei Stufen:
+
+1. **Erste Stufe (Zugang)**: Ungleichheiten im Zugang zu digitaler Technologie, wie Internet und Geräten (z. B. Smartphones), die oft mit sozioökonomischem Status verbunden sind. In einkommensschwachen Ländern oder Regionen bleibt die Erschwinglichkeit ein Hindernis.
+
+2. **Zweite Stufe (Fähigkeiten)**: Unterschiede in den Kenntnissen und Fähigkeiten, digitale Gesundheitsdienste zu nutzen, einschließlich digitaler Gesundheitskompetenz. Dies umfasst das Finden, Interpretieren und Anwenden von Gesundheitsinformationen sowie das Navigieren in digitalen Plattformen.
+
+3. **Dritte Stufe (Nutzen)**: Ungleichheiten in den gesundheitlichen Vorteilen, die aus digitalen Technologien resultieren. Selbst bei Zugang und Fähigkeiten profitieren nicht alle gleichermaßen, z. B. aufgrund sozioökonomischer Faktoren, was bestehende Gesundheitsungleichheiten verstärken kann.
 
 ## Auswirkungen der Digitalisierung & Digitale Trennung
 
