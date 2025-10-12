@@ -24,6 +24,8 @@ Die [easyRadiology AG](https://easyradiology.de/) bietet ein Image-Management-Sy
 
 : Beispiele Radiologiesoftware
 
+Die Website [entscheidung-bildgebung.de](https://entscheidung-bildgebung.de/), Teil des Betti-Projektes (better imaging), unterstützt Patientinnen und Ärztinnen bei der Entscheidung, ob und wann Bildgebung bei Schmerzen des Bewegungsapparates sinnvoll ist. Sie richtet sich an Betroffene, Interessierte sowie (Haus-)Ärzt*innen und Behandelnde.
+
 ## Forschung
 
 ### Künstliche Intelligenz
@@ -39,6 +41,9 @@ Die Studie „Efficiency and Quality of Generative AI–Assisted Radiograph Repo
 Der Artikel mit dem Titel „Evaluation of Reliability, Repeatability, Robustness, and Confidence of GPT-3.5 and GPT-4 on a Radiology Board–style Examination“ untersucht die Leistungsfähigkeit der KI-Modelle GPT-3.5 und GPT-4 bei radiologischen Prüfungsfragen. Im Rahmen der Studie wurden die Zuverlässigkeit, Wiederholbarkeit, Robustheit und das Vertrauen der Modelle bei der Beantwortung komplexer radiologischer Multiple-Choice-Fragen analysiert. Dabei zeigte GPT-4 eine signifikant bessere Gesamtgenauigkeit und verbesserte Leistung insbesondere bei schwierigen Fragestellungen im Vergleich zu GPT-3.5. Die Ergebnisse verdeutlichen das Potenzial großer Sprachmodelle wie GPT-4 als unterstützende Werkzeuge in der Radiologie, wobei jedoch auch ihre Grenzen berücksichtigt werden müssen. Die Studie liefert wichtige Erkenntnisse zur Integration solcher KI-Modelle in die medizinische Diagnostik und Ausbildung. [@krishna2024evaluation]
 
 Die Studie „Prospektive multizentrische Validierung künstlicher Intelligenz zur Erkennung von Tuberkulose und Thoraxröntgenanomalien“ untersucht den Einsatz von KI-Algorithmen zur Analyse von Thoraxaufnahmen. In mehreren klinischen Einrichtungen wurde geprüft, wie zuverlässig die Systeme Tuberkulose-typische Veränderungen sowie andere Auffälligkeiten auf Röntgenbildern erkennen. Ziel war es, den diagnostischen Ablauf zu verbessern und den Einsatz molekularer Nachweisverfahren insbesondere in Ländern mit hoher Krankheitslast effizienter zu gestalten. Die Arbeit basiert auf einer prospektiven Datenerhebung und vergleicht die Leistung der KI mit etablierten diagnostischen Verfahren, ohne subjektive Wertung der Ergebnisse. [@doi:10.1056/AIoa2400018]
+
+* [gleamer.ai/solutions/boneview](https://www.gleamer.ai/solutions/boneview)
+* [radiobotics.com/solutions/rbfracture](https://radiobotics.com/solutions/rbfracture)
 
 ### Patientenkommunikation
 

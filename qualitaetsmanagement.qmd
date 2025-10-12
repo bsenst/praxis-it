@@ -32,6 +32,8 @@ Diese Richtlinie schreibt ein internes Qualitätsmanagement für Vertragsärzte 
 
 : Übersicht Softwarelösungen Qualitätsmanagement Praxis
 
+* [matrix42.com/de/branchen/healthcare](https://www.matrix42.com/de/branchen/healthcare)
+
 | Software         | Anbieter                          | URL                | Anmerkungen                                                                                   |
 |:-----------------|:----------------------------------|:-------------------|:-----------------------------------------------------------------------------------------------|
 | eQMS             | Page-Tec GmbH                     | [page-tec.de](https://page-tec.de)        | formal auch für Gesundheitswesen, aber eher für andere Unternehmen            |

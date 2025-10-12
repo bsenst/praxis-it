@@ -31,6 +31,8 @@ Das [Digital Rheumatology Network](https://digitalrheumatology.org/) vernetzt ei
 
 Der Artikel „Five years of the Digital Rheumatology Network: insights and future directions“ beschreibt die Entwicklung und Erfolge des Digital Rheumatology Network (DRN) in den letzten fünf Jahren. DRN hat sich als bedeutende Plattform etabliert, die digitale Innovationen in der Rheumatologie fördert und Fachleute aus Medizin, Technologie und Patienten zusammenbringt. Thematisch liegt der Fokus auf künstlicher Intelligenz, Fernüberwachung, digitalen Therapien und der Verbesserung elektronischer Patientenakten. Trotz großer Fortschritte bestehen noch Herausforderungen wie mangelnde Dateninteroperabilität und begrenzte digitale Kompetenz. Zukünftig will DRN die digitale Transformation begleiten, die Zusammenarbeit stärken und die digitale Bildung weiter ausbauen. [@chan2025five]
 
+* [bdrh-service.de](https://www.bdrh-service.de/)
+
 ### Umfrage der Kommission Digitale Rheumatologie 2020
 
 Die [Kommission "Digitale Rheumatologie"](https://dgrh.de/Start/DGRh/Die-Gesellschaft/Kommissionen-Amtszeit-2023-2025/Kommission-Digitale-Rheumatologie.html)

@@ -6,6 +6,8 @@ In seinem JAMA Artikel „How AI Could Reshape Health Care—Rise in Direct-to-C
 
 Die Studie „A scoping review of ethical aspects of public-private partnerships in digital health“ von Marieke A. R. Bak et al. (npj Digital Medicine, 2025) analysiert ethische Herausforderungen von öffentlich-privaten Partnerschaften (PPPs) im Bereich digitaler Gesundheit anhand von 46 Studien aus PubMed, EMBASE und Web of Science. Drei Hauptthemen wurden identifiziert: Datenschutz und Einwilligung, Sicherstellung öffentlicher Vorteile und Zugang sowie gute Governance und Vertrauenswürdigkeit. Die Ergebnisse zeigen, dass PPPs Datenschutzbedenken, unklare Definitionen von „öffentlichem Nutzen“ und Machtungleichgewichte zwischen Partnern aufwerfen, wie beispielsweise in den kontroversen Fällen care.data, NHS/DeepMind und deCODE. Die Autoren empfehlen frühzeitige, kontextbezogene Ethikrichtlinien, transparente Governance und öffentliche Beteiligung, um verantwortungsvolle Innovation zu fördern, und fordern weitere Forschung zu tripartiten Partnerschaften und der „Ökonomisierung“ digitaler Gesundheit. [@bak2025scoping]
 
+Patienten übernehmen zunehmend selbst die Verantwortung für ihre Gesundheit. In Anbetracht langer Wartezeiten, Ärztemangels und einer wachsenden Auswahl an Selbsthilfe-Tools ist ein unbeantworteter Bedarf entstanden. Labortests, etwa von Quest Diagnostics, ermöglichen es, Blutuntersuchungen für chronische Erkrankungen ohne ärztliche Überweisung zu bestellen, wobei die Ergebnisse mit einem Arzt besprochen werden sollten. Tragbare Geräte wie der KardiaMobile-EKG-Monitor erlauben die Überwachung des Herzrhythmus zu Hause. KI-Tools wie ChatGPT werden genutzt, um Symptome zu recherchieren und Diagnosen vorzuschlagen, wie im Fall eines Jungen, dessen Tethered-Cord-Syndrom durch die Analyse seiner Mutter mit ChatGPT erkannt wurde. Experten weisen auf Risiken hin, darunter unzuverlässige KI-Ergebnisse und Datenschutzprobleme, und betonen die Notwendigkeit klinischer Validierung und ärztlicher Aufsicht für eine sichere und effektive Nutzung dieser Technologien. [@landro2025;holohan2023]
+
 ## Übersicht Digitale Technologien
 
 Die Studie „The Nature of Digital Technologies – Development of a Multi-layer Taxonomy“ von Stephan Berger, Marie-Sophie Denner und Maximilian Röglinger entwickelt eine mehrschichtige Taxonomie zur Klassifizierung digitaler Technologien (DTs). Sie strukturiert diese entlang vier Schichten (Service, Content, Network, Device) und acht Dimensionen, basierend auf einer umfassenden Literaturrecherche und der Methode von Nickerson et al. (2013). Durch die Klassifizierung von 45 DTs aus dem Gartner Hype Cycle und eine Clusteranalyse wurden sieben Archetypen identifiziert, darunter Plattformen, Konnektivität und augmented Interaction. Die Taxonomie und Archetypen fördern das Verständnis der Natur von DTs und unterstützen fundierte Entscheidungen über deren Einsatz. Die Studie betont die Notwendigkeit, das sich schnell entwickelnde Feld der DTs kontinuierlich zu überarbeiten, und trägt zum deskriptiven Wissen bei. [@berger2018nature]
@@ -215,6 +217,8 @@ Beratungsunternehmen unterstützen bei der digitalen Transformation. Der Beratun
   <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7361724103050809345?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 </div>
 ```
+
+* [dachverband-beratung.de](https://dachverband-beratung.de/)
 
 ### Digitale Transformation
 
