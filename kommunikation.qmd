@@ -1,5 +1,7 @@
 # Kommunikation
 
+Das Buch *Digitale Patientenkommunikation* beleuchtet die vielfältigen Möglichkeiten der Digitalisierung in der Patientenkommunikation und deren Einfluss auf Versorgungsprozesse in Prävention, Diagnostik, Therapie und Nachsorge. Es analysiert Technologien wie Telemedizin, Patientenportale, digitale Gesundheitsanwendungen (DiGAs), virtuelle Realität und Künstliche Intelligenz hinsichtlich ihrer Einsatzmöglichkeiten und Evidenz. Ein interdisziplinäres Autorenteam aus Medizin, Pflege, Psychologie, Informatik und Ökonomie behandelt regulatorische, konzeptionelle und technologische Aspekte. Das Werk richtet sich an Ärztinnen, Ärzte, Pflegekräfte und andere Gesundheitsberufe, die einen fundierten Einstieg in dieses Thema suchen.
+
 ## Forschung
 
 Die Studie mit dem Titel „Collaborating Across Organizational Boundaries to Develop, Evaluate, and Implement eHealth: Scoping Review“ untersucht, wie organisatorische Grenzen die Zusammenarbeit zwischen verschiedenen Organisationen bei der Entwicklung, Evaluation und Implementierung von eHealth beeinflussen können. Sie zeigt, dass diese Grenzen sowohl förderlich als auch hinderlich sein können und hebt drei wesentliche Lernmechanismen hervor – Identifikation, Koordination und Reflexion – die dazu beitragen, diese Grenzen erfolgreich zu überbrücken und die interorganisationale Zusammenarbeit zu verbessern. Dabei betont die Studie die Bedeutung offener Kommunikation und gezielter Koordination für den Erfolg von eHealth-Projekten. [@info:doi/10.2196/67839]
