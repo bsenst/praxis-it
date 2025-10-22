@@ -21,6 +21,8 @@ Telefonassistenzsysteme zeichnen sich durch eine Reihe gemeinsamer Kriterien aus
 
 : Übersicht Telefonassistenzsysteme für Arztpraxen
 
+MedicBot ist ein KI-Assistent für Arztpraxen, der administrative Aufgaben unterstützt. Er nimmt Anrufe entgegen, triagiert Anliegen, dokumentiert Gespräche und integriert diese in das Praxismanagementsystem (PVS). Mit sechs Modulen, darunter AutoGuide, AutoPhone und AutoDok, werden Patientenkommunikation und Dokumentation automatisiert. Die automedic App ermöglicht Patienten die Verwaltung von Terminen und Rezepten. MedicBot entspricht der DSGVO und nutzt Rechenzentren in Deutschland.
+
 ## Allgemeine Telefonassistenzsysteme
 
 |  Anbieter                  |  Internetadresse                |
