@@ -95,3 +95,8 @@ Die Studie mit dem Titel „A personal health large language model for sleep and
 ## Soziale Medien
 
 Der YouTube-Kanal der [Deutschen Atemwegsliga e. V.](https://www.youtube.com/user/Atemwegsliga) bietet ein umfangreiches Informationsangebot rund um Atemwegserkrankungen. Die Videos thematisieren unter anderem Lungensport, Inhalationstechniken, neue Leitlinien zur Diagnostik und Therapie sowie den Einsatz von Biologika bei schwerem Asthma. Ergänzt wird das Angebot durch mehrsprachige Anleitungen zur richtigen Anwendung von Inhalationssystemen und praxisnahe Tipps zur nichtmedikamentösen Therapie. Ziel ist es, Patient*innen, Angehörige und Fachpersonal bei der Versorgung und dem Verständnis chronischer Lungenerkrankungen zu unterstützen.
+
+# Weiteres 
+
+Die Studie „Identification of clinically meaningful, overlapping obstructive respiratory disease subtypes via data-driven approaches in a primary care population“ identifiziert mithilfe unüberwachter Machine-Learning-Methoden und elektronischer Gesundheitsdaten aus England sieben klinisch relevante Subtypen obstruktiver Atemwegserkrankungen wie Asthma, Bronchiektasen und COPD, die über traditionelle Diagnosegrenzen hinweggehen. Diese Subtypen – darunter hoch-BMI-weiblich-dominiert, älter-männlich mit Kardiovaskulären Komorbiditäten, eosinophil-atopisch, älter-nicht-komorbid, nicht-komorbid-niedrig-BMI, neutrophiler Raucher und ängstlich/depressiv-weiblich-dominiert – zeigen unterschiedliche Muster bei Exazerbationen, Mortalität und genetischen Assoziationen. Die Ergebnisse unterstreichen die Heterogenität dieser Erkrankungen und legen den Grundstein für präzisere, personalisierte Therapieansätze.
+
