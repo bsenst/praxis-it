@@ -82,3 +82,8 @@ Die Studie „A Digital Health Maturity Assessment for General Practice“ unter
 
 * [arcinnovation.org](https://arcinnovation.org/)
 * [himss.org/events-overview](https://www.himss.org/events-overview/)
+
+## Weiteres 
+
+MyHealthDoc ermöglicht es allen Ärzten in Griechenland, direkt auf ein einziges, einheitliches zentrales Repository medizinischer Informationen für alle Bürger zuzugreifen, mit dem Ziel einer effektiveren Behandlung von Vorfällen und des bestmöglichen Service für den Bürger/Patienten. EDICA ist das Portal des Nationalen Projekts für elektronische Gesundheitsakten in Griechenland. Es ermöglicht Bürgern, Ärzten und Softwareherstellern sicheren Zugriff auf medizinische Daten und Informationen zu neuen Gesundheitsdiensten. Bürger erhalten sofortigen Einblick in ihre persönlichen Gesundheitsdaten, Ärzte können Patientenakten einsehen und verwalten, während Entwickler Interoperabilität mit der nationalen Patientenakte umsetzen. Gefördert durch Griechenland 2.0 und NextGenerationEU der Europäischen Union, startete das System (E.I.F.Y.) am 26. Mai 2025.
+
