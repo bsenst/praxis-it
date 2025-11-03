@@ -27,6 +27,8 @@ Die DMKG-App ist ein elektronischer Kopfschmerzkalender der Deutschen Migräne- 
 
 [TinySteps](https://alexion.de/tinysteps) ist eine kostenlose Bewegungs-App, entwickelt von Alexion Pharma Germany GmbH in Zusammenarbeit mit Patient:innen, Physiotherapeut:innen und Neurolog:innen, um Menschen mit Myasthenia gravis (MG) und Neuromyelitis-Optica-Spektrum-Erkrankungen (NMOSD) zu mehr Aktivität im Alltag zu verhelfen. Die App bietet kurze, herunterladbare Übungsvideos, die auch offline genutzt werden können, sowie Live-Übungen alle zwei Wochen, wissenswerte Artikel und eine Erinnerungsfunktion. Sie ist kein medizinisches Produkt, sondern dient als Vorlage für Bewegung nach therapeutischer Rücksprache, mit dem Ziel, die Lebensqualität Betroffener durch kleine, machbare Schritte zu verbessern. TinySteps ist sofort nutzbar, ohne Anmeldung, und wurde speziell auf die Bedürfnisse neuromuskulär Erkrankter abgestimmt.
 
+Brainhero GmbH entwickelte eine zertifizierte, skalierbare Plattform für neurofeedbackbasiertes Heimtraining bei ASD und ADHD an. Sie umfasste mobiles EEG, eine interaktive Tablet-App und ein Dashboard für Fachkräfte. Brainhero wurde 2018 von einem Elternteil eines autistischen Kindes gegründet und sollte Therapielücken schließen sowie Wartezeiten reduzieren. Mittlerweile musste das Unternehmen seine Geschäftstätigkeiten einstellen.
+
 ## Online Ressourcen
 
 [eisai-epitrack.com](https://eisai-epitrack.com/) ist eine Plattform von Eisai, einem globalen Pharmaunternehmen, die EpiTrack® vorstellt, ein klinisches Werkzeug zur Beurteilung von Aufmerksamkeit und exekutiven Funktionen bei Patienten mit Epilepsie. EpiTrack dient Ärzten, Pflegekräften, Psychologen und anderen Gesundheitsfachkräften als Screening-Instrument, um kognitive Nebenwirkungen von Antiepileptika sowie Auswirkungen von Anfällen zu verfolgen.
@@ -74,4 +76,4 @@ Forschende entwickelten in der Studie "Expert-Level Detection of Epilepsy Marker
 ## Weiteres 
 
 Die Studie „Applying Machine Learning to Predict Complex Clinical Course in Youth With Eating Disorders“ von Stephanie Ryall und Kollegen untersucht die Vorhersage eines komplexen klinischen Verlaufs bei Jugendlichen mit Essstörungen. Anhand klinischer Daten aus der ersten Behandlungsepisode von 327 Patienten des Children's Hospital of Eastern Ontario (2018–2024) wurden sieben Machine-Learning-Modelle mit logistischer Regression verglichen. Das Random-Forest-Modell mit Aufnahme- und Entlassungsdaten erreichte die beste Leistung (AUC = 0,723; Brier = 0,176) und übertraf signifikant die logistische Regression. Modelle mit nur Aufnahmedaten zeigten schlechte Diskrimination (AUC < 0,6), während Entlassungsdaten die Vorhersagekraft verbesserten; der wichtigste Prädiktor war die Gewichtsveränderung während der Behandlung. Die Ergebnisse unterstreichen das Potenzial von Machine Learning für personalisierte Medizin bei Essstörungen.
-
+
