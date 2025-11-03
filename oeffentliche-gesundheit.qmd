@@ -44,3 +44,4 @@ Die Studie „Machine Learning Applications in Population and Public Health: Gui
 
 * [Lausitzer Zentrum für Digital Public Health (LauZeDiPH)](https://www.b-tu.de/digital-public-health)
 
+Die Bertelsmann Stiftung ist eine unabhängige Stiftung mit Sitz in Gütersloh, die sich auf gesellschaftliche Herausforderungen konzentriert und im Gesundheitsbereich durch den „Faktencheck Gesundheit“ Daten und Fakten zur medizinischen Versorgung liefert. Das Projekt, das 2017 mit dem „Faktencheck Rücken“ endete und nicht mehr aktualisiert wird, beleuchtet regionale Unterschiede in Behandlungen wie Rückenoperationen (bis zu 13-mal häufiger in manchen Regionen) oder Arztbesuchen und bietet interaktive Karten sowie Studien zu Themen wie Depression, Krankenhausstruktur und Pflegepersonal. 
