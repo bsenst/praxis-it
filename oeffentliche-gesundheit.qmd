@@ -41,4 +41,6 @@ Die Studie „Analyzing Reddit Social Media Content in the United States Related
 ## Weiteres
 
 Die Studie „Machine Learning Applications in Population and Public Health: Guidelines for Development, Testing, and Implementation“ wurde am 24. Oktober 2025 in JMIR Public Health and Surveillance (Vol. 11) veröffentlicht. Ein interdisziplinäres Expertenteam entwickelte auf Basis von Literaturrecherche und einem modifizierten Delphi-Prozess fünf zentrale Empfehlungen. Diese umfassen die Priorisierung von Partnerschaften mit benachteiligten Gemeinschaften, den Einsatz von ML in dynamischen Situationen unter ethischen Standards, Risikoanalysen mit Bias-Minderung, technische Transparenz durch öffentliche Daten- und Methodenfreigabe sowie den interdisziplinären Dialog zur Sensibilisierung für potenzielle Schäden. Die Leitlinien zielen auf eine ethisch fundierte, faire und realisierbare Anwendung von Machine Learning in der Bevölkerungs- und Public-Health-Praxis ab.
-
+
+* [Lausitzer Zentrum für Digital Public Health (LauZeDiPH)](https://www.b-tu.de/digital-public-health)
+
