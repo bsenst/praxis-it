@@ -38,6 +38,10 @@ Der Leitfaden "A guide to telemedicine in primary healthcare" wurde im Oktober 2
 
 Die Studie „Digital Media for Primary Health Care in Austria“ untersucht den Einsatz digitaler Medien in der Primärversorgung in Österreich. Ziel ist eine patientenzentrierte und wohnortnahe Gesundheitsversorgung durch organisatorische und interdisziplinäre Neuausrichtung sowie verstärkte Nutzung digitaler Technologien. Durch Literaturrecherche und eine Online-Umfrage unter österreichischen Ärzten wurden aktuelle und zukünftige Herausforderungen identifiziert, wobei Dokumentation, Kommunikation und Koordination in Arztpraxen im Vordergrund stehen. Zukünftig soll die regionale und interprofessionelle Vernetzung durch digitale Medien gefördert werden, um die Versorgungsqualität zu verbessern. [@kriegel2017digital]
 
+* [tiliah.com](https://www.tiliah.com/)
+* [edupression.com](https://edupression.com/)
+* [stresscoach.app](https://www.stresscoach.app/)
+
 ### National Health Service Vereinigtes Königreich
 
 Die Studie „Informing NHS policy in ‘digital-first primary care’: a rapid evidence synthesis“ untersucht digitale Kommunikationsmodelle in der Primärversorgung, bei denen der erste Kontakt eines Patienten mit einem Arzt über digitale Kanäle erfolgt. Ziel war es, NHS England durch eine schnelle Evidenzsynthese zu unterstützen, die in zwei Phasen durchgeführt wurde: zunächst eine Literaturübersicht und anschließend die Beantwortung spezifischer Fragen zu digitalen Engagement-Modellen. Die Ergebnisse zeigen, dass die Nutzung digitaler Alternativen zu persönlichen Konsultationen gering ist und vor allem jüngere, weibliche, besser gebildete und einkommensstärkere Patienten diese nutzen. Es gibt Hinweise, dass Online-Triage-Tools die Nachfrage von der Primärversorgung ablenken können, jedoch variieren die Ergebnisse. Barrieren wie unzureichende NHS-Technologie und Bedenken von Mitarbeitern hinsichtlich Arbeitsbelastung und Vertraulichkeit wurden identifiziert, jedoch fehlen ausreichende empirische Daten, um diese Bedenken zu bestätigen oder zu widerlegen. [@rodgers2019informing]
@@ -82,3 +86,9 @@ Die Studie „A Digital Health Maturity Assessment for General Practice“ unter
 
 * [arcinnovation.org](https://arcinnovation.org/)
 * [himss.org/events-overview](https://www.himss.org/events-overview/)
+
+## Weiteres 
+
+MyHealthDoc ermöglicht es allen Ärzten in Griechenland, direkt auf ein einziges, einheitliches zentrales Repository medizinischer Informationen für alle Bürger zuzugreifen, mit dem Ziel einer effektiveren Behandlung von Vorfällen und des bestmöglichen Service für den Bürger/Patienten. EDICA ist das Portal des Nationalen Projekts für elektronische Gesundheitsakten in Griechenland. Es ermöglicht Bürgern, Ärzten und Softwareherstellern sicheren Zugriff auf medizinische Daten und Informationen zu neuen Gesundheitsdiensten. Bürger erhalten sofortigen Einblick in ihre persönlichen Gesundheitsdaten, Ärzte können Patientenakten einsehen und verwalten, während Entwickler Interoperabilität mit der nationalen Patientenakte umsetzen. Gefördert durch Griechenland 2.0 und NextGenerationEU der Europäischen Union, startete das System (E.I.F.Y.) am 26. Mai 2025.
+
+
