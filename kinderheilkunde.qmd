@@ -57,3 +57,8 @@ Der Artikel „Applying the Nonadoption, Abandonment, Scale-Up, Spread, and Sust
 ## Fachgesellschaft
 
 Die [Gesellschaft für Pädiatrische Gastroenterologie und Ernährung (GPGE)](https://www.gpge.eu) treibt die Digitalisierung in der Kindermedizin voran. Mit digitalen Angeboten wie dem Podcast „Die Expertise-Piraten“ vermittelt sie Fachwissen zu Magen-Darm-Erkrankungen und Ernährung zugänglich. Die Stuhlfarbkarte im Kinderuntersuchungsheft unterstützt die Früherkennung cholestatischer Lebererkrankungen digital und mehrsprachig. Zudem fördert die GPGE durch Online-Plattformen wie Studienregister und virtuelle Veranstaltungen die Zusammenarbeit und Weiterbildung.
+
+## Weiteres
+
+Die Studie „Understanding Pediatric Patient Experiences with Urotherapy Tools: Qualitative Focus Group Study“ untersucht die Erfahrungen von Kindern mit traditionellen Urotherapie-Werkzeugen bei kindlicher Harninkontinenz. In einer qualitativen Fokusgruppen-Untersuchung mit 19 Kindern im Alter von 9 bis 13 Jahren, die in einer Klinikgruppe behandelt wurden, wurden Einstellungen, soziale Akzeptanz, kontextuelle Einflüsse und der Wunsch nach digitaler Integration thematisiert. Die Analyse ergab vier Hauptthemen: variierende Motivation, Stigma und Peer-Wahrnehmung, Einfluss von Umfeldern wie Schule und Arztbesuchen sowie die Wahrnehmung herkömmlicher Tools als veraltet mit Vorschlägen für gamifizierte Alternativen. Die Ergebnisse unterstreichen die Notwendigkeit kindzentrierter, personalisierter und stigmaarmer Designs.
+
