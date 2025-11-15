@@ -76,6 +76,10 @@ Die Studie mit dem Titel „The State of Remote Patient Monitoring for Chronic D
 
 Der Artikel „How digital transformation can accelerate data use in health systems“ untersucht die Digitalisierung von Gesundheitssystemen in fünf afrikanischen Ländern: Burkina Faso, Äthiopien, Malawi, Südafrika und Tansania. Ziel ist es, ein ganzheitliches Modell für die digitale Transformation zu entwickeln, das die wesentlichen Erfolgskomponenten und deren Wechselwirkungen identifiziert. Die Studie zeigt, dass erfolgreiche Digitalisierungsbemühungen über Systeme und Werkzeuge hinausgehen und Aspekte wie Stakeholder-Engagement, Gesundheitsfachkräfte-Kapazitäten und Governance-Strukturen berücksichtigen. Zwei neue kritische Komponenten wurden hervorgehoben: die Förderung einer Datennutzungskultur und das Management systemweiter Verhaltensänderungen. Das Modell bietet evidenzbasierte Strategien für Regierungen, Politikgestalter und Geldgeber, um die Datennutzung in Gesundheitssystemen zu verbessern. [@werner2023digital]
 
+### Indien
+
+[Clinikk](https://clinikk.com/) ist ein digitaler Anbieter Primärversorgung in Bengaluru mit 12 Health Hubs. Das Unternehmen bietet 24/7-Zugang zu Allgemeinmedizinern, kostenlose Konsultationen, Medikamente und Tests im Rahmen einer Mitgliedschaft sowie eine optionale Gruppenkrankenversicherung durch Reliance Insurance. Es umfasst Krankenhausbehandlungen, fachärztliche Versorgung und präventive Leistungen wie Mutterschaftsversorgung.
+
 ### China
 
 Die Studie „The Landscape of Medical AI in China“, veröffentlicht in NEJM AI im Juni 2025, untersucht den aktuellen Stand und die Entwicklung von medizinischer KI in China. Die Autorinnen und Autoren zeigen, dass China in den letzten zwei Jahren die USA in der Anzahl medizinischer KI‑Publikationen überholt hat, wobei der Schwerpunkt vor allem auf technischer Entwicklung liegt. Wichtige Akteure sind die Chinesische Akademie der Wissenschaften sowie führende Universitäten mit angeschlossenen Spitzenkrankenhäusern. Trotz wachsender staatlicher Förderung, besserem Zugang zu Rechenressourcen und einer optimierten Regulierungsstruktur bestehen weiterhin Herausforderungen, wie fragmentierte Datenquellen und eine eingeschränkte Integration von KI in den klinischen Alltag. [@doi:10.1056/AIp2401234]
@@ -94,5 +98,6 @@ Die Studie „A Digital Health Maturity Assessment for General Practice“ unter
 ## Weiteres 
 
 MyHealthDoc ermöglicht es allen Ärzten in Griechenland, direkt auf ein einziges, einheitliches zentrales Repository medizinischer Informationen für alle Bürger zuzugreifen, mit dem Ziel einer effektiveren Behandlung von Vorfällen und des bestmöglichen Service für den Bürger/Patienten. EDICA ist das Portal des Nationalen Projekts für elektronische Gesundheitsakten in Griechenland. Es ermöglicht Bürgern, Ärzten und Softwareherstellern sicheren Zugriff auf medizinische Daten und Informationen zu neuen Gesundheitsdiensten. Bürger erhalten sofortigen Einblick in ihre persönlichen Gesundheitsdaten, Ärzte können Patientenakten einsehen und verwalten, während Entwickler Interoperabilität mit der nationalen Patientenakte umsetzen. Gefördert durch Griechenland 2.0 und NextGenerationEU der Europäischen Union, startete das System (E.I.F.Y.) am 26. Mai 2025.
+
 
 
