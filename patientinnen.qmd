@@ -18,6 +18,10 @@ Der [Malteser Online-Assistent Patientenverfügung](https://onlineassistent.malt
 
 Das digitale Organspende-Register in Deutschland ermöglicht es Bürgerinnen und Bürgern ab 16 Jahren, ihre Entscheidung zur Organ- und Gewebespende rechtlich verbindlich und kostenfrei online zu dokumentieren. Die Registrierung erfolgt über die Webseite [organspende-register.de](https://organspende-register.de) unter Nutzung der Online-Ausweisfunktion des Personalausweises (eID) zur sicheren Identifikation. Nach Eingabe der persönlichen Daten kann die Entscheidung für oder gegen eine Spende abgegeben, geändert oder widerrufen werden. Das Register wird vom Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) betrieben und stellt sicher, dass die Erklärung im Ernstfall für berechtigte medizinische Einrichtungen abrufbar ist.
 
+### Rente
+
+RentenNavi ist ein KI-basierter Agent, der angehende Rentner bei der Erstellung von Rentenanträgen unterstützt. Über Messenger-Dienste werden Text-, Sprach- und Bildinformationen erfasst und in den Antrag integriert, wobei die Interaktion in leichter Sprache und im individuellen Stil des Nutzers erfolgt. Das Startup existiert seit 2023 und wird als skalierbare Lösung für weitere Rententhemen aufgebaut, mit Fokus auf den deutschen Markt.
+
 ## Digitale Gesundheitsaufklärung
 
 Plattformen wie washabich.de und gesund.bund.de bieten verlässliche Gesundheitsinformationen für Patientinnen. Sie bieten Gesundheitsinformationen in einer leicht verständlichen Form, die es Patientinnen ermöglicht, komplexe medizinische Konzepte zu begreifen, ohne dass sie Fachwissen voraussetzen.
@@ -144,5 +148,6 @@ Das 2022 in Social Science & Medicine veröffentlichte Paper von Roberta Bernard
 ## Weiteres
 
 Die Studie „Effectiveness of an Interactive Digital Intervention Program on Knowledge, Health Literacy, and Learner Engagement in Senior High School Students: Intragroup and Intergroup Comparison of 2 Teaching Models“ untersuchte die Wirksamkeit eines interaktiven digitalen Interventionsprogramms (IDI) zur Prävention von Substanzkonsum bei 651 Schülern im Alter von 16 bis 18 Jahren aus neun taiwanesischen Schulen. In einem quasi-experimentellen Pre-Post-Design wurde das IDI mit sechs webbasierten Einheiten (inklusive Videos, Quizzen und Szenario-Diskussionen) einem traditionellen Lehrbuchunterricht gegenübergestellt. Die IDI-Gruppe zeigte signifikante Verbesserungen in Wissen, Gesundheitskompetenz (funktional, kritisch, kommunikativ) und Lernengagement (kognitiv und emotional), während intergruppale Vergleiche die Überlegenheit des digitalen Ansatzes unterstrichen, wenngleich nicht alle Zielvariablen wie Ablehnungsfähigkeiten gleichermaßen profitierten.
+
 
 {{< video https://youtu.be/DeT50OlKHKg >}}
