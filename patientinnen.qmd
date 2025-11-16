@@ -10,6 +10,8 @@ Die Studie „Consumer Data is Key to Artificial Intelligence Value: Welcome to 
 
 ## Digitale Verwaltungsvorgänge
 
+* [Caritas Bürgergeld KI Chat](https://ki-chat.das-steht-dir-zu.de/)
+
 ### Patientenverfügung
 
 Der [Malteser Online-Assistent Patientenverfügung](https://onlineassistent.malteser.de/) ist ein webbasiertes Hilfsangebot zur Erstellung einer individuellen Patientenverfügung. Nutzerinnen und Nutzer werden Schritt für Schritt durch die Inhalte geführt und erhalten begleitende Erläuterungen zu medizinischen, ethischen und rechtlichen Fragestellungen. Textbausteine, Videos und Freitextfelder unterstützen bei der Formulierung eigener Wünsche. Nach Abschluss kann die Patientenverfügung ausgedruckt und unterschrieben werden.
