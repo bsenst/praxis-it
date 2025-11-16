@@ -50,6 +50,8 @@ Digitale Innovationen können über direkte und indirekte Zugangswege in den ers
 7. **Besondere Versorgung (§140a SGB V)**:
    - Verträge zwischen Krankenkassen und Leistungserbringern, z. B. für sektorenübergreifende Lösungen.
 
+Mehrere Studien beleuchten ethische, wirtschaftliche und politische Herausforderungen im Kontext der Digitalisierung und Kommerzialisierung des Gesundheitswesens durch nicht-traditionelle Akteure. „Ethical concerns with online direct-to-consumer pharmaceutical companies“ von Henry Curtis und Joseph Milner analysiert Interessenkonflikte bei Ärzten und potenzielle Patientenschäden durch fehlenden direkten Kontakt in Online-Verschreibungsmodellen. „The dominant logic of Big Tech in healthcare and pharma“ von Alexander Schuhmacher et al. beschreibt die Geschäftsstrategien von Technologiekonzernen wie Alphabet und Amazon. „Retail Outlets Using Telehealth Pose Significant Policy Questions For Health Care“ von Keisuke Nakagawa, Joseph Kvedar und Peter Yellowlees untersucht die Integration von Telehealth in Einzelhandelsstrukturen, resultierende Marktkonsolidierung sowie regulatorische Fragen zu Datenschutz, Privatsphäre und Anbieterunabhängigkeit.
+
 ### Indirekte Zugangswege (B2B-Modelle)
 
 1. **Krankenhauszukunftsgesetz (KHZG)**:
