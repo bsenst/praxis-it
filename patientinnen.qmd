@@ -150,6 +150,8 @@ Das 2022 in Social Science & Medicine veröffentlichte Paper von Roberta Bernard
 ## Weiteres
 
 Die Studie „Effectiveness of an Interactive Digital Intervention Program on Knowledge, Health Literacy, and Learner Engagement in Senior High School Students: Intragroup and Intergroup Comparison of 2 Teaching Models“ untersuchte die Wirksamkeit eines interaktiven digitalen Interventionsprogramms (IDI) zur Prävention von Substanzkonsum bei 651 Schülern im Alter von 16 bis 18 Jahren aus neun taiwanesischen Schulen. In einem quasi-experimentellen Pre-Post-Design wurde das IDI mit sechs webbasierten Einheiten (inklusive Videos, Quizzen und Szenario-Diskussionen) einem traditionellen Lehrbuchunterricht gegenübergestellt. Die IDI-Gruppe zeigte signifikante Verbesserungen in Wissen, Gesundheitskompetenz (funktional, kritisch, kommunikativ) und Lernengagement (kognitiv und emotional), während intergruppale Vergleiche die Überlegenheit des digitalen Ansatzes unterstrichen, wenngleich nicht alle Zielvariablen wie Ablehnungsfähigkeiten gleichermaßen profitierten.
-
-
+
 {{< video https://youtu.be/DeT50OlKHKg >}}
+
+Das Buch „Personalized Medicine: Empowered Patients in the 21st Century?“ von Barbara Prainsack, Professorin für Vergleichende Politikanalyse an der Universität Wien, erschien 2017 bei New York University Press. Es untersucht die zunehmende Beteiligung von Patienten an Diagnose, Behandlung und Medikation im Kontext datengetriebener personalisierter Medizin. Prainsack analysiert, wie diese Entwicklung zu einem technologiezentrierten Individualismus führen kann, aber auch Chancen für Solidarität bietet. Das Werk integriert empirische Arbeiten und kritische Analysen aus Medizin, Public Health, Datenwissenschaft, Bioethik und digitaler Soziologie. Es plädiert für eine Personalisierung, die patientenorientiert bleibt und nicht von Technologien dominiert wird.
+
