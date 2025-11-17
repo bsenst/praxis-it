@@ -67,7 +67,7 @@ Die [Spezifikation für den bundeseinheitlichen Medikationsplan (BMP) gemäß §
 
 ## XML Spezifikation
 
-```
+```xml
 <MP v="027" U="F5FDC0E5E10E44EFBAC1D4A2B540A957" l="de-DE">
  <P g="Michaela" f="Musterhausen" b="19361213" s="W" t="Dr." v="von" z="Freifrau"/>
  <A
@@ -98,7 +98,7 @@ r="Nebenhöhlenentzündung" x="Sofort mit Einnahme beginnen, für 10 Tage (bis 1
 </MP> 
 ```
 
-* [kbv.de/.../medikationsplan-anlage-3.pdf)](https://www.kbv.de/documents/infothek/rechtsquellen/weitere-vertraege/praxen/medikationsplan/medikationsplan-anlage-3.pdf)
+* [kbv.de/.../medikationsplan-anlage-3.pdf](https://www.kbv.de/documents/infothek/rechtsquellen/weitere-vertraege/praxen/medikationsplan/medikationsplan-anlage-3.pdf)
 * [hl7.de/ukf/Testfaelle_ukf201.pdf](https://download.hl7.de/ukf/Testfaelle_ukf201.pdf)
 
 ## Betäubungsmittel
