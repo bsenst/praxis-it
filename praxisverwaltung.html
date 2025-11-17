@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,9 +61,9 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-8d8403fb905aa7205e9eac3fdf959d30.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -338,9 +338,7 @@ cookieconsent.run({
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./index.html" class="sidebar-logo-link">
-      </a>
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Praxis-IT</a> 
         <div class="sidebar-tools-main tools-wide">
@@ -802,6 +800,8 @@ cookieconsent.run({
   <li><a href="#effiziente-dateneingabe" id="toc-effiziente-dateneingabe" class="nav-link" data-scroll-target="#effiziente-dateneingabe">Effiziente Dateneingabe</a></li>
   <li><a href="#integration-von-sprachmodellen-in-elektronischen-patientenakten" id="toc-integration-von-sprachmodellen-in-elektronischen-patientenakten" class="nav-link" data-scroll-target="#integration-von-sprachmodellen-in-elektronischen-patientenakten">Integration von Sprachmodellen in elektronischen Patientenakten</a></li>
   <li><a href="#gesundheitsinformationssysteme" id="toc-gesundheitsinformationssysteme" class="nav-link" data-scroll-target="#gesundheitsinformationssysteme">Gesundheitsinformationssysteme</a></li>
+  <li><a href="#llm-integration-pvs-patientenakte" id="toc-llm-integration-pvs-patientenakte" class="nav-link" data-scroll-target="#llm-integration-pvs-patientenakte">LLM-Integration PVS &amp; Patientenakte</a></li>
+  <li><a href="#weiteres" id="toc-weiteres" class="nav-link" data-scroll-target="#weiteres">Weiteres</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/bsenst/praxis-it/edit/main/praxisverwaltung.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/bsenst/praxis-it/issues" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     <div class="quarto-margin-footer"><div class="margin-footer-item">
@@ -2147,6 +2147,15 @@ cookieconsent.run({
 <section id="gesundheitsinformationssysteme" class="level2">
 <h2 class="anchored" data-anchor-id="gesundheitsinformationssysteme">Gesundheitsinformationssysteme</h2>
 <p>Das Buch Health Information Systems: Technological and Management Perspectives von Alfred Winter, Elske Ammenwerth, Reinhold Haux, Michael Marschollek, Bianca Steiner und Franziska Jahn bietet eine umfassende Einführung in die Technologien und Managementansätze von Gesundheitsinformationssystemen. In dieser überarbeiteten Open-Access-Ausgabe von 2023 wird detailliert beschrieben, wie diese Systeme in verschiedenen Kontexten – von der Prävention über die Behandlung akuter und chronischer Krankheiten bis hin zur medizinischen Forschung – aufgebaut, verwaltet und deren Qualität bewertet werden kann. <span class="citation" data-cites="winter2023health">(<a href="referenzen.html#ref-winter2023health" role="doc-biblioref">Winter u.&nbsp;a. 2023</a>)</span></p>
+</section>
+<section id="llm-integration-pvs-patientenakte" class="level2">
+<h2 class="anchored" data-anchor-id="llm-integration-pvs-patientenakte">LLM-Integration PVS &amp; Patientenakte</h2>
+<p><a href="https://support.tomedo.de/handbuch/tomedo/tomedo-intelligence/karteichat/">Kartei-Chat</a> ermöglicht den Zugriff auf Patienteninformationen in der tomedo®-Praxissoftware durch ein großes Sprachmodell. Jede bereitgestellte Information ist mit der Quelle in der Kartei verknüpft, um Verifikation zu erleichtern und Halluzinationen zu erkennen. Berücksichtigt werden Karteieinträge, Formulare, Laborergebnisse als Karteieintrag und Patientenkurzinfos; Anhänge, Scheine und Leistungen werden nicht einbezogen. Der Chat dient ausschließlich der Suche vorhandener Informationen, nicht der Diagnose oder Therapieunterstützung. Eine AMBOSS-Integration erlaubt medizinische Fachfragen mit Quellenangabe und Link zu AMBOSS-Inhalten, wobei ein Abonnement für vollständige Artikel erforderlich ist. Nutzer tragen die Verantwortung für klinische Entscheidungen.</p>
+<p><a href="https://medatixx.de/ki-in-der-praxis">KI in der Praxis</a> beschreibt KI-Anwendungen in der medatixx-Praxissoftware zur Automatisierung von Prozessen und Unterstützung medizinischen Personals. Der medatixx-Copilot, seit Mitte 2025 verfügbar und in der monatlichen Softwarepflege enthalten, nutzt eine Wissensbasis aus Handbüchern und Supportfragen, um rund um die Uhr Fragen zur Software zu beantworten und bei Bedarf Servicemeldungen zu erstellen. Die Echtzeit-Transkription mit x.scribe, entwickelt in Kooperation mit Corti, zeichnet Patientengespräche auf, erzeugt Zusammenfassungen und strukturierte Dokumentationen für den Import in die Software und wird ab Ende 2025 schrittweise ausgerollt, trainiert mit anonymisierten medizinischen Daten. Das Klinische Entscheidungsunterstützungssystem (CDSS) analysiert Patientendaten mit regelbasierten Algorithmen und maschinellem Lernen, um personalisierte Diagnose- und Therapieempfehlungen in Echtzeit zu geben, und soll zukünftig über eine Schnittstelle in ausgewählte Softwarelösungen integriert werden.</p>
+</section>
+<section id="weiteres" class="level2">
+<h2 class="anchored" data-anchor-id="weiteres">Weiteres</h2>
+<p>Die Studie “Missing Clinical Information During Primary Care Visits” von Peter C. Smith et al., veröffentlicht 2005 in JAMA, untersuchte das Vorkommen fehlender klinischer Informationen in der Primärversorgung. In einer Querschnittsbefragung von 253 Klinikern in 32 Praxen in Colorado wurden 1614 Patientenbesuche analysiert. Kliniker berichteten in 13,6 % der Besuche über fehlende wichtige Informationen, hauptsächlich Laborergebnisse (6,1 %), Briefe/Diktate (5,4 %) und Radiologieergebnisse (3,8 %). Solche Lücken wurden häufig außerhalb des eigenen Versorgungssystems vermutet (52,3 %), verursachten Zeitaufwand bei der Suche und wurden in 44 % der Fälle als potenziell patientenschädigend eingestuft. Risikofaktoren waren neue Patienten, kürzliche Immigranten und multiple Erkrankungen; elektronische Patientenakten reduzierten das Risiko.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
