@@ -10,6 +10,8 @@ Die Studie „Consumer Data is Key to Artificial Intelligence Value: Welcome to 
 
 ## Digitale Verwaltungsvorgänge
 
+* [Caritas Bürgergeld KI Chat](https://ki-chat.das-steht-dir-zu.de/)
+
 ### Patientenverfügung
 
 Der [Malteser Online-Assistent Patientenverfügung](https://onlineassistent.malteser.de/) ist ein webbasiertes Hilfsangebot zur Erstellung einer individuellen Patientenverfügung. Nutzerinnen und Nutzer werden Schritt für Schritt durch die Inhalte geführt und erhalten begleitende Erläuterungen zu medizinischen, ethischen und rechtlichen Fragestellungen. Textbausteine, Videos und Freitextfelder unterstützen bei der Formulierung eigener Wünsche. Nach Abschluss kann die Patientenverfügung ausgedruckt und unterschrieben werden.
@@ -17,6 +19,10 @@ Der [Malteser Online-Assistent Patientenverfügung](https://onlineassistent.malt
 ### Organspende
 
 Das digitale Organspende-Register in Deutschland ermöglicht es Bürgerinnen und Bürgern ab 16 Jahren, ihre Entscheidung zur Organ- und Gewebespende rechtlich verbindlich und kostenfrei online zu dokumentieren. Die Registrierung erfolgt über die Webseite [organspende-register.de](https://organspende-register.de) unter Nutzung der Online-Ausweisfunktion des Personalausweises (eID) zur sicheren Identifikation. Nach Eingabe der persönlichen Daten kann die Entscheidung für oder gegen eine Spende abgegeben, geändert oder widerrufen werden. Das Register wird vom Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) betrieben und stellt sicher, dass die Erklärung im Ernstfall für berechtigte medizinische Einrichtungen abrufbar ist.
+
+### Rente
+
+RentenNavi ist ein KI-basierter Agent, der angehende Rentner bei der Erstellung von Rentenanträgen unterstützt. Über Messenger-Dienste werden Text-, Sprach- und Bildinformationen erfasst und in den Antrag integriert, wobei die Interaktion in leichter Sprache und im individuellen Stil des Nutzers erfolgt. Das Startup existiert seit 2023 und wird als skalierbare Lösung für weitere Rententhemen aufgebaut, mit Fokus auf den deutschen Markt.
 
 ## Digitale Gesundheitsaufklärung
 
@@ -76,6 +82,8 @@ Die Studie „From Internet to Artificial Intelligence (AI) Bots: Symbiotic Evol
 Das White Paper mit dem Titel [Mit KI zur gemeinsamen Entscheidungsfindung in der Medizin: Ein praktischer Wegweiser](https://fachportal.roche.de/services/whitepaper-kuenstliche-intelligenz-in-der-gemeinsamen-entscheidungsfindung-sdm.html) befasst sich damit, wie Künstliche Intelligenz (KI) Patient:innen dazu befähigen kann, eine aktivere Rolle in Therapieentscheidungen zu spielen und das Shared Decision Making (SDM) zu verbessern. Es beleuchtet sowohl die Chancen als auch die Herausforderungen der KI-Integration in die Medizin und dient als umfassende Diskussionsgrundlage für Patient:innen, medizinisches Fachpersonal sowie Vertreter:innen aus Politik und Wirtschaft. Ziel ist es, praktische Tipps für den Einsatz von KI-Tools zu geben, um Patient:innen eine bessere Vorbereitung auf Arztgespräche und fundierte Entscheidungen zu ermöglichen. [@noauthor_white_nodate]
 
 Die Studie "Opinion leader empowered patients about the era of digital health: a qualitative study" untersucht, wie israelische Ärzte aus vier Fachrichtungen mit internetinformierten E-Patienten umgehen und ihre neuen beruflichen Rollen reflektieren. Durch 32 Tiefeninterviews zeigt sie, dass die Grenzen zwischen ärztlichem und patienteneigenem Wissen, ärztlicher Autorität und Patientenautonomie sowie zwischen positivem und humanistischem Wissen verschwimmen. Diese Verschiebung führt zu einer kollaborativen Diagnosearbeit und einer neuen Form des medizinischen Professionalismus, genannt „integrierte medizinische Expertise“. Ärzte erkennen die Vorteile der Wissenssuche von Patienten an, fühlen sich jedoch teilweise unsicher und betonen die Bedeutung von Kommunikation und Empathie. Die Studie deutet darauf hin, dass diese Veränderungen die Arzt-Patient-Beziehung zu einer Partnerschaft transformieren, die sowohl liberale als auch nicht-liberale Werte integriert. [@mesko2019opinion]
+
+From Internet to Artificial Intelligence (AI) Bots: Symbiotic Evolutions of Digital Technologies and e-Patients ist eine Studie von Daniel Z. Sands und Nancy B. Finn, veröffentlicht am 4. Juni 2025 im Journal of Participatory Medicine. Sie beschreibt die symbiotische Entwicklung digitaler Technologien und des e-Patient-Konzepts, das Patienten als ausgestattet, befähigt, ermächtigt und engagiert charakterisiert. Beginnend mit dem World Wide Web und E-Mail über soziale Netzwerke, elektronische Gesundheitsakten, Patientenportale, Smartphones, patientengenerierte Gesundheitsdaten und Telemedizin bis hin zu Künstlicher Intelligenz werden aufeinander aufbauende Innovationen analysiert, die die Kommunikation, Kollaboration und Koordination zwischen Patienten und Klinikern verbessern. Die Autoren schlussfolgern, dass diese Technologien ein sichereres und patientenbedürfnisorientierteres Gesundheitssystem fördern.
 
 ### Arzt-Patienten-Beziehung
 
@@ -145,4 +153,11 @@ Das 2022 in Social Science & Medicine veröffentlichte Paper von Roberta Bernard
 
 Die Studie „Effectiveness of an Interactive Digital Intervention Program on Knowledge, Health Literacy, and Learner Engagement in Senior High School Students: Intragroup and Intergroup Comparison of 2 Teaching Models“ untersuchte die Wirksamkeit eines interaktiven digitalen Interventionsprogramms (IDI) zur Prävention von Substanzkonsum bei 651 Schülern im Alter von 16 bis 18 Jahren aus neun taiwanesischen Schulen. In einem quasi-experimentellen Pre-Post-Design wurde das IDI mit sechs webbasierten Einheiten (inklusive Videos, Quizzen und Szenario-Diskussionen) einem traditionellen Lehrbuchunterricht gegenübergestellt. Die IDI-Gruppe zeigte signifikante Verbesserungen in Wissen, Gesundheitskompetenz (funktional, kritisch, kommunikativ) und Lernengagement (kognitiv und emotional), während intergruppale Vergleiche die Überlegenheit des digitalen Ansatzes unterstrichen, wenngleich nicht alle Zielvariablen wie Ablehnungsfähigkeiten gleichermaßen profitierten.
 
+
 {{< video https://youtu.be/DeT50OlKHKg >}}
+
+Das Buch „Personalized Medicine: Empowered Patients in the 21st Century?“ von Barbara Prainsack, Professorin für Vergleichende Politikanalyse an der Universität Wien, erschien 2017 bei New York University Press. Es untersucht die zunehmende Beteiligung von Patienten an Diagnose, Behandlung und Medikation im Kontext datengetriebener personalisierter Medizin. Prainsack analysiert, wie diese Entwicklung zu einem technologiezentrierten Individualismus führen kann, aber auch Chancen für Solidarität bietet. Das Werk integriert empirische Arbeiten und kritische Analysen aus Medizin, Public Health, Datenwissenschaft, Bioethik und digitaler Soziologie. Es plädiert für eine Personalisierung, die patientenorientiert bleibt und nicht von Technologien dominiert wird.
+
+Die Studie „The “We” in the “Me”: Solidarity and Health Care in the Era of Personalized Medicine“ von Barbara Prainsack kritisiert die gängige Annahme in rechtlichen und ethischen Instrumenten der Gesundheitsversorgung, wonach Personen ideale, unabhängige und strategisch rationale Individuen sind. Diese Sichtweise erweist sich als ungeeignet, da sie die relationale Natur des Menschen vernachlässigt und konkrete Probleme in der Medizin verursacht. Prainsack schlägt eine solidaritätsbasierte Perspektive vor, die relationale Ansätze betont und neue Lösungen für ethische und regulatorische Fragen ermöglicht, etwa in der Sterbebegleitung, bei Organspenden oder der Gesundheitsdatennutzung. Sie unterstreicht die Bedeutung universeller Gesundheitsversorgung und zeigt, wie individuelle Rechte durch gemeinsame soziale Praktiken geformt werden, um eine übermäßige Individualisierung in der personalisierten Medizin zu vermeiden.
+
+
