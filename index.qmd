@@ -48,6 +48,8 @@ Das Geschlecht von ambulant tätigen Ärztinnen und Ärzten beeinflusst die digi
 
 ![Digitalisierung Ambulante Gesundheitsversorgung](assets/digitalisierung_plot.png)
 
+[Interaktive Visualisierung in Graphistry](https://hub.graphistry.com/graph/graph.html?dataset=ff55c38917044204ac4b44a101fba8bf)
+
 ## Digital transformiertes Arbeitsleben
 
 Die Studie "social health@work" der BARMER und der Universität St. Gallen untersucht, wie die Digitalisierung und mobiles Arbeiten die Gesundheit der Beschäftigten beeinflussen. Je höher der digitale Reifegrad eines Unternehmens ist, desto geringer ist das Stressempfinden der Beschäftigten und desto besser ist ihre Arbeitsfähigkeit. Wenn Unternehmen und mobil arbeitende Beschäftigte Spielregeln wie die Trennung von Beruf und Privatleben einhalten, machen flexibles Arbeiten und der digitale Wandel die Mitarbeitenden gesünder und leistungsfähiger. Zudem wirkt sich das Zugehörigkeitsgefühl der Mitarbeitenden in ihrem Team positiv auf deren Gesundheit aus und spielt für die erfolgreiche Gestaltung mobiler Arbeit eine zentrale Rolle. [@2699-7304-962]
