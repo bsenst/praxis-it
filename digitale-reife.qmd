@@ -79,12 +79,12 @@ Der Bericht „Framework for Selecting Digital Health Maturity Assessments“ de
 | NHS CDMI | National Health Service Clinical Digital Maturity Index |
 | NHS DMA | National Health Service Digital Maturity Assessment |
 | NHSE DMI | National Health Service England Digital Maturity Index |
-| PAHO IS4H-MM | Pan American Health Organization Information Systems for Health – Maturity Model[1] |
-| PHIT | Public Health Information Technology Maturity Index[1] |
-| Raimo | Krankenhausbezogenes Reifegradmodell nach Raimo et al.[1] |
-| SeMA | Saudi eHealth Maturity Assessment[1] |
-| Teixeira | Reifegradmodell für allgemeinmedizinische Versorgung nach Teixeira[1] |
-| TMSMM | Telemedicine Service Maturity Model[1] |
-| VCMM | Virtual Care Maturity Model[1] |
-| VDHMM | Victorian Digital Health Maturity Model[1] |
-| Weik | Reifegradmodell für hausärztliche Versorgung nach Weik[1] |
+| PAHO IS4H-MM | Pan American Health Organization Information Systems for Health – Maturity Model |
+| PHIT | Public Health Information Technology Maturity Index |
+| Raimo | Krankenhausbezogenes Reifegradmodell nach Raimo et al. |
+| SeMA | Saudi eHealth Maturity Assessment |
+| Teixeira | Reifegradmodell für allgemeinmedizinische Versorgung nach Teixeira |
+| TMSMM | Telemedicine Service Maturity Model |
+| VCMM | Virtual Care Maturity Model |
+| VDHMM | Victorian Digital Health Maturity Model |
+| Weik | Reifegradmodell für hausärztliche Versorgung nach Weik |
