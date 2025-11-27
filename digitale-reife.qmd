@@ -39,4 +39,52 @@ Die Studie „Associations between digital maturity in health and primary health
 Die Studie „Development and Validation of a Questionnaire to Measure Digital Maturity of General Practitioner Practices: Web-Based Cross-Sectional Survey Study“ wurde in einer webbasierten Querschnittsbefragung unter 201 Hausärzten in Deutschland durchgeführt. Mittels explorativer und konfirmatorischer Faktoranalysen wurden sechs Dimensionen der digitalen Reife identifiziert und validiert: Wirkungen der Digitalisierung, Beteiligung des Praxispersonals, Reife des Praxismanagementsystems, Mitarbeiterkompetenzen und Verantwortungsbewusstsein, IT-Sicherheit und Datenschutz sowie digital unterstützte Prozesse. Der entwickelte Fragebogen umfasst 16 Items mit guter interner Konsistenz (Cronbach α = .809) und ermöglicht eine standardisierte Messung der Digitalisierungsstufe in Hausarztpraxen. Die durchschnittliche digitale Reife lag bei 3,77 von 5 Punkten, wobei IT-Sicherheit am höchsten (4,45) und die Wirkungen der Digitalisierung am niedrigsten (3,10) bewertet wurden. Dieses Instrument unterstützt Praxen bei der Selbsteinschätzung, Benchmarking und Strategieentwicklung sowie Politik bei der Planung von Fördermaßnahmen.
 
 Der Artikel „Super Users’ Reported Best Practices for Coordinating Proactive Integrated Use of Virtual Health Care Resources: Prospective Concurrent Mixed Methods Human-Centered Design Study“ wurde am 14. November 2025 im Journal of Medical Internet Research (Vol 27, e81414) veröffentlicht. Die prospektive, concurrente Mixed-Methods-Studie mit human-centered-design-Ansatz untersuchte an einem großen Department of Veterans Affairs-Krankenhaus in den USA die Praktiken von 15 als „Super Users“ identifizierten Klinikmitarbeitern aus fünf Fachbereichen (Kardiologie, Whole Health, Spinal Cord Injury, Rehabilitation und Education). Dabei wurden 57 Best Practices für den proaktiven, integrierten Einsatz von 60 virtuellen Gesundheitsressourcen (VHR) entlang des Versorgungskontinuums identifiziert und in 11 Hauptkategorien sowie 43 Subkategorien gegliedert. Häufig genutzte VHR waren u. a. das Computerized Patient Record System, Secure Messaging und VA Video Connect. Die Ergebnisse dokumentieren konkrete Anwendungsszenarien, liefern Grundlagen für Schulungen und die Etablierung sowie De-Implementierung von Praktiken und sollen die Verbreitung proaktiver VHR-Nutzung im Veterans Health Administration fördern.
-
+
+Der Bericht „Framework for Selecting Digital Health Maturity Assessments“ der Global Digital Health Partnership beschreibt ein strukturierendes Rahmenwerk, das Entscheidungstragenden bei der Auswahl geeigneter Assessments zur Messung der digitalen Reife von Gesundheitssystemen unterstützen soll. Auf Basis eines Rapid Reviews und einer internationalen Umfrage unter 26 GDHP-Mitgliedsländern werden digitale Gesundheitsreife als strategischer Hebel zur Verbesserung von Versorgungsqualität, Patientenerfahrung und Systemeffizienz definiert, zentrale Meta-Domänen und Sub-Domänen (u. a. Führung und Governance, Infrastruktur, Daten und Analytik, Nutzerkompetenz sowie Qualitätsverbesserung) herausgearbeitet und existierende Modelle anhand ihrer Abdeckung dieser Domänen systematisch gegenübergestellt. Das Dokument bietet damit ein evidenzbasiertes, nicht-preskriptives Instrumentarium, mit dem Länder und Organisationen die Passung von Reifegradmodellen zu Einsatzkontext, Versorgungssektor und politischen Zielen prüfen und Lücken in aktuellen Bewertungsansätzen identifizieren können.
+
+| Kürzel/Modell | Vollständiger Name (soweit angegeben) |
+| --- | --- |
+| Africa CDC HIEMAM | Africa Centres for Disease Control and Prevention Health Information Exchange Maturity Assessment Model |
+| Alyahya | Reifegradmodell nach Alyahya (Bezeichnung im Bericht nicht weiter spezifiziert) |
+| CHIME | College of Healthcare Information Management Executives – Digital Health / Most Wired Reifegradmodell |
+| CVCMM | Canadian Virtual Care Maturity Model |
+| DHAT | Digital Health Assessment Toolkit |
+| DHMA Gippsland | Digital Health Maturity Assessment – Gippsland |
+| DHPMAT | Digital Health Profile and Maturity Assessment Toolkit |
+| DHSMS | Digital Health System Maturity Score |
+| DMAACCS | Digital Maturity in Australian Aged and Community Care Survey |
+| DMAPP | Digital Maturity Assessment of Primary Healthcare Providers |
+| DR | DigitalRadar |
+| DRM | Digitalization Road Map |
+| Duncan | Krankenhausbezogenes Reifegradmodell nach Duncan et al. |
+| EDIT | Early-Stage Digital Health Investment Tool |
+| EMM | Electronic Medical Records Maturity Model |
+| Eymann | Reifegradmodell nach Eymann für Public Health Services |
+| Flott | Reifegradmodell für eine digitale Lösung innerhalb eines Versorgungspfads nach Flott et al. |
+| GDHM | Global Digital Health Monitor |
+| Greenhalgh | Virtual-Care-Reifegradmodell nach Greenhalgh et al. |
+| HIMSS AMAM | HIMSS Adoption Model for Analytics Maturity |
+| HIMSS C-COMM | HIMSS Community Care Outcomes Maturity Model |
+| HIMSS DHI Full | HIMSS Digital Health Indicator (Full) |
+| HIMSS DHI Rapid | HIMSS Digital Health Indicator (Rapid) |
+| HIMSS EMRAM | HIMSS Electronic Medical Record Adoption Model |
+| HISIMT | Health Information Systems Interoperability Maturity Toolkit |
+| HIS SOCI | Health Information System Stages of Continuous Improvement Toolkit |
+| HITVHF | Health Information Technology Value Hierarchy Framework |
+| ICMM | Informatics Capability Maturity Model |
+| Krasuska | Krankenhaus-Reifegradmodell nach Krasuska et al. |
+| Lee | Krankenhaus-Reifegradmodell nach Lee et al. |
+| LTC ITM | Long Term Care IT Maturity Model |
+| Nebati | Krankenhaus-Reifegradmodell nach Nebati et al. |
+| NHS CDMI | National Health Service Clinical Digital Maturity Index |
+| NHS DMA | National Health Service Digital Maturity Assessment |
+| NHSE DMI | National Health Service England Digital Maturity Index |
+| PAHO IS4H-MM | Pan American Health Organization Information Systems for Health – Maturity Model[1] |
+| PHIT | Public Health Information Technology Maturity Index[1] |
+| Raimo | Krankenhausbezogenes Reifegradmodell nach Raimo et al.[1] |
+| SeMA | Saudi eHealth Maturity Assessment[1] |
+| Teixeira | Reifegradmodell für allgemeinmedizinische Versorgung nach Teixeira[1] |
+| TMSMM | Telemedicine Service Maturity Model[1] |
+| VCMM | Virtual Care Maturity Model[1] |
+| VDHMM | Victorian Digital Health Maturity Model[1] |
+| Weik | Reifegradmodell für hausärztliche Versorgung nach Weik[1] |
