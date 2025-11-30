@@ -57,3 +57,8 @@ Die Studie mit dem Titel „Privacy-Preserving Glycemic Management in Type 1 Dia
 | **Nightscout**           | Open-Source-Community                      | [nightscout.info](http://www.nightscout.info/) | Echtzeit-Überwachung von Blutzuckerwerten, ursprünglich für Kinder mit Diabetes entwickelt  |
 
 : Open-Source Software
+
+## Weiteres
+
+Die Studie „Evaluation of Machine Learning Model Performance in Diabetic Foot Ulcer: Retrospective Cohort Study“ (JMIR Med Inform 2025;13:e71994, doi:10.2196/71994) untersucht die Vorhersagekraft verschiedener Machine-Learning-Modelle zur Prognose der vollständigen Wundheilung bei diabetischen Fußulzera (DFU). Anhand einer retrospektiven Kohorte von 700 Patienten des Haaglanden Medical Center (2013–2021) wurden nach gründlicher Datenvorverarbeitung – einschließlich Imputation fehlender Werte mit MIDAS Touch, Feature-Selektion und Ausgleich der Klassenumgleichheit mittels ADASYN – sieben Modelle verglichen: logistische Regression, Support Vector Machine (SVM), k-Nearest Neighbors, Random Forest (RF), XGBoost, Bayesian Additive Regression Trees und ein künstliches neuronales Netz. Das SVM erreichte die beste Leistung mit einer Genauigkeit von 0,853 (95 %-KI 0,810–0,896) und einer AUC von 0,922, gefolgt von RF und XGBoost; alle drei Modelle zeigten gute Kalibrierung und den höchsten klinischen Nutzen in der Decision Curve Analysis. Die Arbeit liefert ein umfassendes Rahmenkonzept für den klinisch relevanten Einsatz von Machine Learning bei multifaktoriellen Erkrankungen.
+
