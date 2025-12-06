@@ -149,3 +149,7 @@ Der Artikel „Protecting patient privacy in tabular synthetic health data: a re
 ## Digitale Werkzeuge
 
 Das Projekt [Evidence Synthesis Hackathon](https://www.eshackathon.org/) entwickelt Open-Source-Softwaretools zur Unterstützung von Evidenzsynthese, insbesondere für systematische Reviews und Meta-Analysen. Es umfasst eine Vielzahl von R-Paketen und Shiny-Apps wie GSscraper für das Scraping von Google Scholar, PRISMA2020 und ROSESflowchart für Flussdiagramme, bibfix zur Verbesserung bibliografischer Daten, citationchaser für Zitationsverfolgung und EviAtlas für systematische Karten in der Umweltforschung. Weitere Tools wie forestr für interaktive Visualisierungen und Paperweight zur Verbesserung von Suchanfragen mittels NLP befinden sich in Entwicklung. Die Projekte fördern Transparenz, Effizienz und Reproduzierbarkeit in der wissenschaftlichen Forschung und werden durch Veranstaltungen wie die ESMARConf unterstützt.
+
+## Wissenschaftsintegrität
+
+* [research-signals.com](https://research-signals.com/)
