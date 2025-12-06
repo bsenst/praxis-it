@@ -440,6 +440,8 @@ Die [MarburgerBund App](https://www.marburger-bund.de/marburgerbund-app) soll Mi
 
 : Tabelle Veranstaltungen Digitale Medizin 
 
+* [digitalforum-gesundheit.de](https://www.digitalforum-gesundheit.de/)
+
 | Kalender              | URL                                         |
 |---------------------------|---------------------------------------------|
 | e-health-com Veranstaltungskalender | [e-health-com.de/veranstaltungskalender](https://e-health-com.de/veranstaltungskalender/) |
