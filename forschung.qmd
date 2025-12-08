@@ -149,3 +149,12 @@ Der Artikel „Protecting patient privacy in tabular synthetic health data: a re
 ## Digitale Werkzeuge
 
 Das Projekt [Evidence Synthesis Hackathon](https://www.eshackathon.org/) entwickelt Open-Source-Softwaretools zur Unterstützung von Evidenzsynthese, insbesondere für systematische Reviews und Meta-Analysen. Es umfasst eine Vielzahl von R-Paketen und Shiny-Apps wie GSscraper für das Scraping von Google Scholar, PRISMA2020 und ROSESflowchart für Flussdiagramme, bibfix zur Verbesserung bibliografischer Daten, citationchaser für Zitationsverfolgung und EviAtlas für systematische Karten in der Umweltforschung. Weitere Tools wie forestr für interaktive Visualisierungen und Paperweight zur Verbesserung von Suchanfragen mittels NLP befinden sich in Entwicklung. Die Projekte fördern Transparenz, Effizienz und Reproduzierbarkeit in der wissenschaftlichen Forschung und werden durch Veranstaltungen wie die ESMARConf unterstützt.
+
+## Wissenschaftsintegrität
+
+* [research-signals.com](https://research-signals.com/)
+
+## Weiteres 
+
+Der Blogbeitrag „A Sampling of 2025 Research Referencing Common Crawl“ vom 5. Dezember 2025 fasst zwölf ausgewählte wissenschaftliche Arbeiten des Jahres zusammen, die den Common-Crawl-Datensatz in vielfältigen Forschungsbereichen nutzen. Diese Publikationen, die aus Tausenden von Zitationen hervorgegangen sind, decken Themen wie maschinelles Lernen, Web-Analyse und Informationsverarbeitung ab und demonstrieren die Breite der Anwendungen seit der Datensammlung seit 2008. Besonders im Kontext der Gesundheit wird der Datensatz in der Studie „Combating Health Misinformation With Fusion-Based Credible Retrieval Techniques“ eingesetzt, um Desinformation durch clusteringbasierte Fusionstechniken zu bekämpfen und die Abrufung vertrauenswürdiger Gesundheitsinformationen zu optimieren, was eine Steigerung der Mean Average Precision um 60 Prozent und der NDCG_UCC-Metriken um über 30 Prozent im Vergleich zu Einzel-Systemen ermöglicht. Weitere Beiträge befassen sich mit Aspekten wie Phishing-Erkennung, semantischer Annotation und Web-Zugänglichkeit, unterstreichen die Rolle des Open-Datensatzes in der akademischen Forschung.
+
