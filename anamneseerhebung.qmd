@@ -114,3 +114,8 @@ Die Studie „Regulation of AI scribes in clinical practice“ untersucht die wa
 ### Einwilligung
 
 Die Studie „Informed Consent for Ambient Documentation Using Generative AI in Ambulatory Care“ untersucht, wie Patienten und Kliniker den Prozess der Einwilligungserklärung für KI-unterstützte ambient Dokumentation im ambulanten Bereich erleben. Die Ergebnisse zeigen, dass etwa 75% der Patienten mit der Nutzung der Technologie durch vertrauenswürdige Ärzte einverstanden sind, wobei Transparenz über Datenverwendung und Datenschutz entscheidend ist. Patienten bevorzugen diese Tools vor allem für Routineaufzeichnungen, während sensible Themen oft zu Selbstzensur führen. Kliniker schätzen die Effizienzsteigerung, stehen jedoch vor Herausforderungen wie Zeitdruck bei der Aufklärung. Die Studie empfiehlt einen flexiblen, mehrstufigen Einwilligungsprozess mit digitalen Informationen vor dem Besuch und persönlicher Klärung im Gespräch, um Akzeptanz und Vertrauen zu fördern. [@10.1001/jamanetworkopen.2025.22400]
+
+## Weiteres
+
+Der Artikel „Ambient AI Scribes in Clinical Practice: A Randomized Trial“ beschreibt eine randomisierte klinische Studie mit 238 ambulanten Ärzten aus 14 Fachrichtungen, die entweder Microsoft Dragon Ambient eXperience (DAX) Copilot, Nabla oder eine konventionelle Dokumentation als Kontrolle nutzten. Nabla reduzierte die Dokumentationszeit signifikant um 9,5 % im Vergleich zur Kontrolle, während DAX keinen signifikanten Effekt zeigte. Beide Systeme zeigten potenzielle Verbesserungen bei Burnout, kognitiver Belastung und Arbeitserschöpfung, die jedoch in größeren Studien bestätigt werden müssen. Klinisch bedeutsame Ungenauigkeiten traten gelegentlich auf, und eine anhaltende ärztliche Überwachung ist erforderlich.
+

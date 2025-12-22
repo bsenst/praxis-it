@@ -2,6 +2,14 @@
 
 Das Buch *Digitale Patientenkommunikation* beleuchtet die vielfältigen Möglichkeiten der Digitalisierung in der Patientenkommunikation und deren Einfluss auf Versorgungsprozesse in Prävention, Diagnostik, Therapie und Nachsorge. Es analysiert Technologien wie Telemedizin, Patientenportale, digitale Gesundheitsanwendungen (DiGAs), virtuelle Realität und Künstliche Intelligenz hinsichtlich ihrer Einsatzmöglichkeiten und Evidenz. Ein interdisziplinäres Autorenteam aus Medizin, Pflege, Psychologie, Informatik und Ökonomie behandelt regulatorische, konzeptionelle und technologische Aspekte. Das Werk richtet sich an Ärztinnen, Ärzte, Pflegekräfte und andere Gesundheitsberufe, die einen fundierten Einstieg in dieses Thema suchen.
 
+
+
+```{=html}
+<div style="display: flex; justify-content: center;">
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7394803366205272064?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</div>
+```
+
 ## Asynchrone Kommunikation
 
 Store-and-Forward-Kommunikation in der Primärversorgung ermöglicht den asynchronen Austausch klinischer Informationen, wie Bilder und Patientenakten, und verbessert den Zugang zu spezialisierten Leistungen, beispielsweise in der Teledermatologie. Studien wie Impact of Store-and-Forward (SAF) Teledermatology on Outpatient Dermatologic Care und Store-and-Forward Teledermatology Impact on Diagnosis, Treatment and Dermatology Referrals zeigen, dass 77–79 % der dermatologischen Konsultationen fernmündlich bearbeitet werden können, was unnötige Überweisungen reduziert und die Versorgungseffizienz in unterversorgten Gebieten steigert [@Nelson2016;@Pasadyn2022]. Sichere Nachrichtensysteme, untersucht in The Impact of Secure Messaging on Workflow in Primary Care und Primary Care Physicians’ Experiences With and Strategies for Managing Electronic Messages, fördern die Kommunikation, erhöhen jedoch die Arbeitsbelastung der Ärzte durch hohe Nachrichtenmengen [@Hoonakker2017;@Lieu2019]. Hindernisse wie Zeitaufwand und fehlende Vergütung, beschrieben in Attitudes and Perceived Barriers Toward Store-and-Forward Teledermatology Among Primary Care Providers of the Rural Mississippi und Clinical Consultations Using Store-and-Forward Telemedicine Technology, erfordern optimierte Arbeitsabläufe und angepasste Vergütungsmodelle [@Morrissette2022;@Houston1999]. [@Lenardis2014;@Dixon2010]
@@ -27,3 +35,7 @@ Die Studie „Use of a primary care online consultation system, by whom, when an
 ### Empathie
 
 Die Studie „AI chatbots versus human healthcare professionals: a systematic review and meta-analysis of empathy in patient care“ von Alastair Howcroft et al. untersuchte den Vergleich der Empathie zwischen KI-Chatbots und menschlichen Gesundheitsfachkräften. In 15 Studien aus den Jahren 2023–2024 wurden textbasierte Interaktionen analysiert, wobei 13 Studien signifikant höhere Empathiebewertungen für KI (vorwiegend ChatGPT-3.5/4) ergaben. Die Meta-Analyse von 13 Studien zeigte eine standardisierte mittlere Differenz von 0,87 (95%-KI: 0,54–1,20; p < 0,00001) zugunsten der KI. Einschränkungen umfassen die Beschränkung auf Textinteraktionen und die Verwendung nicht validierter Empathiemaße.
+
+## Mis- und Disinformation
+
+Die Plenarsitzung „EPH2025 – Plenary 2: Public health in the era of misinformation and disinformation“ beleuchtet die Herausforderungen für die öffentliche Gesundheit in einer Ära, in der sich Informationen schneller verbreiten als das Verständnis und Meinungen schneller als Beweise. Dabei wird zwischen *Misinformation* (falschen Informationen ohne schädliche Absicht) und *Disinformation* (vorsätzlich verbreiteten falschen Informationen zur Irreführung oder Schädigung) unterschieden. Ein zentrales Thema ist die dringende Notwendigkeit, das Vertrauen in Institutionen und die Wissenschaft wiederherzustellen, wobei betont wird, dass Wissenschaft durch Zweifel, Debatten und Korrekturen fortschreitet. Ferner werden die *digitalen Determinanten der Gesundheit* erörtert, da die zunehmend digitale soziale Lebenswelt neue strukturelle Ungleichheiten schafft, die durch Algorithmen und mangelnden Zugang verstärkt werden. Als Gegenmaßnahmen werden die Stärkung der Medien- und Gesundheitskompetenz, die Nutzung von KI zur Verlangsamung der Verbreitung von Falschinformationen sowie die Einrichtung einer europäischen Koordinierungsplattform zur Analyse und Bekämpfung von Gesundheits-Fehlinformationen genannt.
