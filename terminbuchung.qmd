@@ -80,4 +80,8 @@ Die Fallstudie „Automated Patient Self-Scheduling: Case Study“ von Woodcock,
 Chung et al. (2020) zeigen in ihrer retrospektiven Analyse „Patient-Centric Scheduling With the Implementation of Health Information Technology to Improve the Patient Experience and Access to Care“, dass die Einführung eines „Fast Pass“-Systems mit automatischer Neuvergabe frei gewordener Termine die No-Show-Rate signifikant senkt und die Praxisauslastung optimiert.
 
 Die qualitative Fallstudienreihe „Unveiling the Heterogeneous Utilisation of the Same Digital Patient Management Platform: Case Studies in Primary Healthcare in Sweden“ von Frennert et al. (2024) macht deutlich, dass der Erfolg derselben digitalen Plattform stark von der aktiven Einbindung des Praxisteams und gezieltem Patienten-Onboarding abhängt – bei guter Umsetzung steigen jedoch Autonomie der Patienten, Kontinuität der Versorgung und Teamkoordination merklich.
+
+# Weiteres
+
+Meppo aggregiert die wichtigsten Buchungsportale an einer zentralen Stelle, um die Suche nach verfügbaren Terminen zu erleichtern und unnötige Recherchen auf zahlreichen Websites zu vermeiden. Der Fokus liegt auf Geschwindigkeit, vollständiger Transparenz aller Optionen und patientenorientierter Entwicklung ohne algorithmische Priorisierungen. Laut den Angaben auf der Webseite von Meppo umfasst der deutsche Gesundheitsmarkt jährlich eine Milliarde Arztbesuche, von denen etwa 50 Prozent online buchbar sind, bei einem Markvolumen von 490 Milliarden Euro. Ziel von Meppo ist es, zum zentralen Hub für Arzttermine in Deutschland zu werden, durch Integration weiterer Portale, smarte Suchfunktionen sowie geplante Features wie Termin-Erinnerungen, Wartezeitvorhersagen und personalisierte Empfehlungen.
 
