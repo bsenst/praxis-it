@@ -117,7 +117,9 @@ book:
       chapters:
       - digitale-stellvertretung.qmd
     - digitale-innovation.qmd
-    - kuenstliche-intelligenz.qmd
+    - part: kuenstliche-intelligenz.qmd
+      chapters:
+      - grosse-sprachmodelle.qmd
     - ethik.qmd
     - international.qmd
     - zusammenfassung.qmd
