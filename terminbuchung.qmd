@@ -57,11 +57,11 @@ Digitale Terminplanungs- und Umfragetools vereinfachen die Organisation von Meet
 - [Bitpoll](https://bitpoll.de/)
 - [DuD-Poll](https://dud-poll.inf.tu-dresden.de/coffeebreak/)
 
-# Rechtliches
+## Rechtliches
 
 Das [Gesundheits-Digital-Agentur-Gesetz (GDAG)](https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/gesundheits-digitalagentur-gesetz-gdag.html) sieht vor, dass gemäß § 370c SGB V technische und prozessuale Anforderungen an digitale Terminbuchungsplattformen festgelegt werden. Dabei sollen Obergrenzen für Terminbuchungsmöglichkeiten über Online-Plattformen definiert werden. Außerdem werden Mindestvorgaben für die telefonische Erreichbarkeit von Ärztepraxen eingeführt. Die Online-Terminvergabe soll laut Gesetzgeber einen bedarfsgerechten und diskriminierungsfreien Zugang zu Terminen für Versicherte schaffen. Sie zielt darauf ab, eine wirtschaftliche Prüfung der Terminvergabe zu vermeiden, indem kurzfristige Termine nicht nur für extrabudgetar vergütete Leistungen reserviert werden. Zudem sollen gleiche Chancen für diejenigen gewährleistet werden, die Online-Terminbuchungen nicht nutzen können.
 
-# Forschung
+## Forschung
 
 Die Studie „Cross-sectional analyses of online appointment booking and repeat prescription ordering user characteristics in general practices of England in the years 2018–2020“ untersuchte Merkmale von Nutzern onlinebasierter Dienstleistungen in englischen Hausarztpraxen. Anhand von Daten der General Practice Patient Survey (GPPS) aus den Jahren 2018 bis 2020 mit 1.807.049 Befragten wurde die Nutzung von Online-Terminbuchung (15 %) und Online-Rezeptbestellung (19 %) analysiert. Mittels zweistufiger logistischer Regression ergab sich, dass Patienten mit Langzeiterkrankungen, regelmäßiger Einnahme mehrerer Medikamente oder Hörverlust häufiger Online-Dienste nutzten, während ältere Personen über 85 Jahre, Männer sowie Patienten mit schwarzer oder anderer Ethnie seltener darauf zurückgriffen. Die Nutzung stieg mit abnehmender Deprivation und war in städtischen Praxen für Terminbuchung höher, für Rezeptbestellung jedoch niedriger.
 
@@ -81,7 +81,7 @@ Chung et al. (2020) zeigen in ihrer retrospektiven Analyse „Patient-Centric Sc
 
 Die qualitative Fallstudienreihe „Unveiling the Heterogeneous Utilisation of the Same Digital Patient Management Platform: Case Studies in Primary Healthcare in Sweden“ von Frennert et al. (2024) macht deutlich, dass der Erfolg derselben digitalen Plattform stark von der aktiven Einbindung des Praxisteams und gezieltem Patienten-Onboarding abhängt – bei guter Umsetzung steigen jedoch Autonomie der Patienten, Kontinuität der Versorgung und Teamkoordination merklich.
 
-# Weiteres
+## Weiteres
 
 Meppo aggregiert die wichtigsten Buchungsportale an einer zentralen Stelle, um die Suche nach verfügbaren Terminen zu erleichtern und unnötige Recherchen auf zahlreichen Websites zu vermeiden. Der Fokus liegt auf Geschwindigkeit, vollständiger Transparenz aller Optionen und patientenorientierter Entwicklung ohne algorithmische Priorisierungen. Laut den Angaben auf der Webseite von Meppo umfasst der deutsche Gesundheitsmarkt jährlich eine Milliarde Arztbesuche, von denen etwa 50 Prozent online buchbar sind, bei einem Markvolumen von 490 Milliarden Euro. Ziel von Meppo ist es, zum zentralen Hub für Arzttermine in Deutschland zu werden, durch Integration weiterer Portale, smarte Suchfunktionen sowie geplante Features wie Termin-Erinnerungen, Wartezeitvorhersagen und personalisierte Empfehlungen.
 
