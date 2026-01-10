@@ -45,6 +45,10 @@ Die Studie „Analyzing Reddit Social Media Content in the United States Related
 
 Healthcare Geodata umfasst die systematische Erfassung, Verwaltung und Nutzung georeferenzierter Daten zu Gesundheitseinrichtungen. Die Studie von Macharia et al. (2025) fordert die Schaffung umfassender, aktueller, offen lizenzierter und geolokalisierter Gesundheitseinrichtungsdatenbanken (HFDB) und benennt erhebliche Defizite bei Vollständigkeit, Koordinatenqualität und offener Zugänglichkeit in der Region. Die Spatial Database von Maina et al. (2019) stellt mit 98.745 Einrichtungen in 50 Ländern eine wichtige Grundlage dar. Globale Analysen (Weiss et al., 2020) zeigen, dass Hunderte Millionen Menschen weltweit keinen Zugang zu Gesundheitseinrichtungen innerhalb einer Stunde haben. Eine harmonisierte, kontinentweite HFDB wird als Voraussetzung für effizientere Gesundheitsplanung, Ressourcenallokation und Krisenmanagement angesehen.
 
+## Digitale Gesellschaft
+
+* [networkofcenters.net/centers](https://networkofcenters.net/centers)
+
 ## Weiteres
 
 Die Studie „Machine Learning Applications in Population and Public Health: Guidelines for Development, Testing, and Implementation“ wurde am 24. Oktober 2025 in JMIR Public Health and Surveillance (Vol. 11) veröffentlicht. Ein interdisziplinäres Expertenteam entwickelte auf Basis von Literaturrecherche und einem modifizierten Delphi-Prozess fünf zentrale Empfehlungen. Diese umfassen die Priorisierung von Partnerschaften mit benachteiligten Gemeinschaften, den Einsatz von ML in dynamischen Situationen unter ethischen Standards, Risikoanalysen mit Bias-Minderung, technische Transparenz durch öffentliche Daten- und Methodenfreigabe sowie den interdisziplinären Dialog zur Sensibilisierung für potenzielle Schäden. Die Leitlinien zielen auf eine ethisch fundierte, faire und realisierbare Anwendung von Machine Learning in der Bevölkerungs- und Public-Health-Praxis ab.
@@ -58,4 +62,5 @@ Die Studie mit dem Titel „Augmenting community-driven vector surveillance with
 Der Artikel „Tracking Superbugs in the Digital Era“ von Isabelle Basbouss-Serhal, veröffentlicht am 4. Dezember 2025 im Journal of Medical Internet Research (Vol 27), beschreibt den Einsatz digitaler Technologien im Kampf gegen antimikrobielle Resistenzen (AMR). Traditionelle kultur-basierte Diagnostik wird zunehmend durch schnelle molekulare Verfahren wie PCR, Whole-Genome-Sequencing (WGS) und metagenomische Ansätze ergänzt oder ersetzt, die Resistenzgene innerhalb weniger Stunden identifizieren können. Künstliche Intelligenz und maschinelles Lernen ermöglichen prädiktive Modelle sowie Echtzeit-Dashboards, die unnötigen Breitbandantibiotika-Einsatz reduzieren und Ausbrüche frühzeitig erkennen lassen. Globale Surveillance-Systeme wie WHO-GLASS und NCBI-Pathogen Detection Portal fördern den datenbasierten Austausch. Der Beitrag hebt hervor, dass auch in ressourcenarmen Ländern wie dem Libanon Fortschritte durch lokale Initiativen und einfache digitale Tools erzielt werden, betont jedoch gleichzeitig die weiterhin bestehenden Herausforderungen: fehlende Infrastruktur, ungleicher Technologiezugang und ethische Fragen bei KI-Anwendungen. Insgesamt zeigt der Artikel, wie datengetriebene Innovationen die Bekämpfung der „stillen Pandemie“ AMR entscheidend verbessern können.
 
 * [healthsites.io](https://healthsites.io/)
+
 
