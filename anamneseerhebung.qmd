@@ -61,6 +61,8 @@ Digitale Lösungen in Arztpraxen ermöglichen die effiziente Verwaltung von Pati
 
 * [mpassist.ai](https://www.mpassist.ai/)
 
+Scriberr ist eine selbst-hostbare, vollständig offline arbeitende Audio-Transkriptionsanwendung. Sie nutzt KI-Modelle (NVIDIA Parakeet/Canary oder OpenAI Whisper), die lokal auf dem eigenen Gerät ausgeführt werden. Die Software bietet Funktionen wie automatische Zusammenfassungen, KI-Chat mit Transkripten, integrierten Recorder, YouTube-Transkription, Hardware-Beschleunigung (CUDA/CPU) und verarbeitet Audiodaten lokal ohne Cloud-Übertragung.
+
 ## Triagewerkzeuge
 
 Der [Patienten-Navi](https://www.116117.de/de/patienten-navi.php), ein digitales Tool der Kassenärztlichen Bundesvereinigung (KBV), das Hilfesuchenden eine Selbsteinschätzung ihrer medizinischen Beschwerden ermöglicht. Über einen Chatbot beantworten Nutzer Fragen zu ihren Symptomen, woraufhin die Software „Strukturierte medizinische Ersteinschätzung in Deutschland“ (SmED) Warnhinweise prüft und Empfehlungen zur Dringlichkeit und Versorgungsstufe (z. B. Arztpraxis, 116117 oder 112) gibt. Das Angebot ist anonym, ohne Anmeldung nutzbar und unterstützt die Entlastung des ärztlichen Bereitschaftsdienstes, indem es Patienten orientiert und bei Bedarf an weitere Dienste vermittelt.
