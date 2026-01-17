@@ -462,6 +462,8 @@ Die **Jahreskonferenz 2021** fand als hybride Veranstaltung statt, an der über 
 
 Die **Konferenz 2023** wurde über zwei Tage unter dem Titel „Digital kommunizieren – Digitales Kommunizieren“ ausgerichtet, wobei sie das erste Mal vollständig in Präsenz mit knapp 250 Teilnehmern stattfand. Der Fokus lag auf den Chancen und Herausforderungen digitaler Technologien für die Kommunikation sowie dem Umgang mit digitalen Themen in Politik, Medien, Arbeitswelt und Öffentlichkeit. Die Diskussionen wurden von vier Thesen geleitet, darunter, dass die Automatisierung digitaler Kommunikation kurzfristig überschätzt, aber langfristig unterschätzt werde, und dass die digitale Transformation der Arbeitswelt primär ein sozialer und kommunikativer Prozess sei. Wesentliche Themen waren die Rolle von generativer KI, und der Zustand der digitalen Debattenkultur.
 
+Die ecoCompute Conference 2025 bringt Softwareentwickler, Hardware-Designer und Rechenzentrumsfachleute zusammen, um praktische Lösungen für eine nachhaltige digitale Infrastruktur zu entwickeln und Austausch über energieeffizientes Computing, grüne Softwareentwicklung und umweltverträgliches Hardware-Design zu fördern.
+
 Weitere Veranstaltungen und Projekte beleuchteten spezifische Aspekte der digitalen Transformation.
 
 *   Das bidt-SZ-Digitalbarometer lieferte empirische Daten zur Wahrnehmung und Akzeptanz digitaler Transformation in Deutschland, wobei unter anderem digitale Kompetenzen, das Nutzungsverhalten und das E-Government untersucht wurden. Die Erhebung zeigte, dass Menschen mit höherer digitaler Kompetenz eher Chancen in der künstlichen Intelligenz sehen.

@@ -92,7 +92,7 @@ Der Artikel „How digital transformation can accelerate data use in health syst
 
 Der Artikel „Lessons Learned From Over 20 Years of Telemedicine Services in India: Scoping Review of Telemedicine Services Initiated From 2000 to 2023“ wurde von Osama Ummer und Kollegen im Journal of Medical Internet Research (Vol. 27, 2025) veröffentlicht. Die Autoren analysieren 115 einzigartige Telemedizin-Dienste in Indien, von denen 89 als mittel- bis großskalig eingestuft wurden. Von 2000 bis 2019 entstanden im Durchschnitt jährlich drei neue Dienste, überwiegend im privaten Sektor; ab 2020 stieg die Zahl durch die COVID-19-Pandemie deutlich an. Die meisten Dienste (64 %) werden privat betrieben, 19 % öffentlich und 17 % im Public-Private-Partnership-Modell. Etwa die Hälfte nutzt das Patient-to-Provider-Modell, ein Drittel kombiniert es mit Provider-to-Provider. 69 % der Dienste laufen synchron in Echtzeit, 75 der großskaligen Dienste verwenden spezialisierte Software. Evidenz zu Wirkung und Qualität liegt nur für 43 % der Dienste vor und ist methodisch oft begrenzt. Die Autoren schlussfolgern, dass Telemedizin in Indien großes Potenzial besitzt, jedoch belastbarere Studien zu Zugang, Versorgungsqualität, Kosten und Gesundheitsergebnissen dringend erforderlich sind.
 
-
+„Bridging the mental health gap: The scope, challenges, and future of digital psychiatry in India“ ist ein Review-Artikel, der im November 2024 in der Asian Journal of Psychiatry (Volume 101) erschienen ist. Die Autoren beschreiben die wachsende psychische Belastung in Indien sowie den hohen Behandlungsabbruch von 70–92 %. Der Beitrag beleuchtet das Potenzial digitaler Psychiatrie – einschließlich Smartphone-Apps, digitaler Phänotypisierung und telepsychiatrischer Dienste – zur Überbrückung dieser Lücke, insbesondere nach der COVID-19-Pandemie. Er diskutiert zentrale Herausforderungen bei der Umsetzung und schlägt Lösungsansätze wie den Einsatz von Digital Navigators vor, um die Akzeptanz und Wirksamkeit solcher Ansätze in der indischen Bevölkerung zu verbessern.
 
 ### China
 
@@ -112,6 +112,7 @@ Die Studie „A Digital Health Maturity Assessment for General Practice“ unter
 ## Weiteres 
 
 MyHealthDoc ermöglicht es allen Ärzten in Griechenland, direkt auf ein einziges, einheitliches zentrales Repository medizinischer Informationen für alle Bürger zuzugreifen, mit dem Ziel einer effektiveren Behandlung von Vorfällen und des bestmöglichen Service für den Bürger/Patienten. EDICA ist das Portal des Nationalen Projekts für elektronische Gesundheitsakten in Griechenland. Es ermöglicht Bürgern, Ärzten und Softwareherstellern sicheren Zugriff auf medizinische Daten und Informationen zu neuen Gesundheitsdiensten. Bürger erhalten sofortigen Einblick in ihre persönlichen Gesundheitsdaten, Ärzte können Patientenakten einsehen und verwalten, während Entwickler Interoperabilität mit der nationalen Patientenakte umsetzen. Gefördert durch Griechenland 2.0 und NextGenerationEU der Europäischen Union, startete das System (E.I.F.Y.) am 26. Mai 2025.
+
 
 
 
