@@ -8,9 +8,10 @@ Der [Digital-Kompass](https://www.digital-kompass.de/) fördert digitale Teilhab
 
 Die Studie „Consumer Data is Key to Artificial Intelligence Value: Welcome to the Health Care Future“ zeigt, dass der größte Nutzen von Künstlicher Intelligenz (KI) im Gesundheitswesen nur dann erreicht werden kann, wenn Patientinnen und Patienten ihre Gesundheitsdaten selbst verwalten und aggregieren. Durch technische Standards wie FHIR, gesetzliche Vorgaben der 21st Century Cures Act und die wachsende Bedeutung patienteneigener Daten – insbesondere in seltenen Erkrankungen – entsteht ein neues Modell, bei dem der Mensch als zentraler Verwalter seiner „Longitudinal Health Records“ agiert. Die Studie betont, dass KI-basierte Analysen und eine verbesserte medizinische Versorgung nur möglich sind, wenn umfassende, vollständige und aktuelle Gesundheitsdaten direkt von den Patienten bereitgestellt werden. [@info:doi/10.2196/68261]
 
-## Digitale Verwaltungsvorgänge
+## Digitale Hilfsangebote
 
 * [Caritas Bürgergeld KI Chat](https://ki-chat.das-steht-dir-zu.de/)
+* [Caritas Online-Beratung](https://www.caritas.de/hilfeundberatung/onlineberatung/onlineberatung)
 
 ### Patientenverfügung
 
@@ -188,4 +189,4 @@ Trauerbots, auch als Griefbots oder Deathbots bekannt, sind KI-basierte Chatbots
 „Trends in the Implementation of the Cyberchondria Severity Scale: Bibliometric Analysis“ ist eine im Januar 2026 in JMIR Mental Health veröffentlichte bibliometrische Studie von Adam C. Powell und Cayetana Calderon-Smith. Die Autoren untersuchten anhand von 117 englischsprachigen empirischen Artikeln aus den Jahren 2019 bis 2024, in welchem Umfang die originale 33-Item Cyberchondria Severity Scale (CSS) und ihre verkürzte 12-Item-Version (CSS-12) zur Messung von Cyberchondrie eingesetzt werden. Etwa 36 % der Studien nutzten die originale CSS, 33 % die CSS-12 und 31 % andere oder unbekannte Varianten. Während sich kein signifikanter Zusammenhang zwischen Erscheinungsjahr und Instrumentenwahl zeigte, nahm der relative Anteil der CSS-12 im Zeitverlauf tendenziell zu. Es bestand ein hochsignifikanter Zusammenhang zwischen der Sprache des eingesetzten Instruments und der gewählten Skalenversion, was auf kulturelle und sprachliche Einflüsse bei der Instrumentenauswahl hinweist.
 
 „Online Health Information–Seeking Among Older Adults and Predictors of Use, Motivations, and Barriers in the Context of Healthy Aging: Cross-Sectional Study“ ist eine im Januar 2026 veröffentlichte Querschnittsstudie aus der Schweiz. Sie untersucht das Verhalten von 1261 Internetnutzern ab 60 Jahren hinsichtlich der Suche nach Gesundheitsinformationen im Internet (OHIS). Rund 77,6 % der Befragten nutzen OHIS regelmäßig. Wichtige Prädiktoren für die Nutzung sind hohe digitale Kompetenz, häufige Internetnutzung und Vertrauen in Online-Gesundheitsinformationen. Die häufigste Motivation ist das bessere Verständnis von Erkrankungen. Bei Nichtnutzern dominieren hingegen Schwierigkeiten bei der Einschätzung der Vertrauenswürdigkeit, Misstrauen gegenüber den Inhalten sowie Bedenken vor fragwürdigen Anbietern. Gesundheitskompetenz (Health Literacy) zeigte keinen signifikanten Einfluss, während digitale Kompetenz als zentraler Faktor hervorgehoben wird.
-
+
