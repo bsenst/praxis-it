@@ -1,3 +1,13 @@
 # Digitale Stellvertretung
 
 Mehrere Arbeiten beleuchten digitale Proxys, also Personen, die für abhängige Erwachsene Online-Zugänge zu medizinischen und finanziellen Konten verwalten. In der Querschnittsstudie „The Prevalence and Predictors of Digital Proxy Behavior in the United States: Cross-Sectional Survey Study“ wird gezeigt, dass digitales Proxy-Verhalten weit verbreitet ist, informelle Zugänge wie Passwortteilen häufig auftreten und spezifische demografische sowie pflegebezogene Prädiktoren die Rollenverteilung beeinflussen [@foong2025proxy]. Die Studie „Security and Privacy Risks Associated With Adult Patient Portal Accounts in US Hospitals“ weist auf erhebliche Datenschutzrisiken hin, da Krankenhausmitarbeiter oft informelles Passwortteilen empfehlen und formale Zugänge schwer nutzbar sind [@latulipe2020portal]. Ergängzend beschreibt „Information Sharing Preferences of Older Patients and Their Families“, dass nur wenige Systeme eine granular einstellbare Informationsfreigabe an Proxys bieten [@crotty2015sharing]. Qualitative Analysen wie „Insights Into Older Adult Patient Concerns Around the Caregiver Proxy Portal Use“ verdeutlichen, dass ältere Erwachsene den Nutzen erkennen, aber Risiken sensibler Daten nicht vollständig einschätzen [@latulipe2018concerns]. In „Secure Messaging With Physicians by Proxies for Patients With Diabetes“ wird der Proxy-Einsatz für Kommunikation in chronischen Krankheitskontexten sichtbar [@semere2019secure], während „Facilitating Out-of-Home Caregiving Through Health Information Technology“ die Perspektive informeller Pflegender und ihre Barrieren bei Proxy-Nutzung systematisch erfasst [@zulman2013caregiving]. Schließlich zeigt „Use of Provider-Sponsored Patient Portals Among Older Adults and Their Family Caregivers“, dass die Akzeptanz institutionell angebotener Proxy-Portale noch gering, aber für die Versorgung potenziell bedeutend ist [@burgdorf2023portals].
+
+## Onlineplattformen
+
+* [betreuungs-experten.de](https://betreuungs-experten.de/)
+
+## Software
+
+* [bt-professional.de](https://www.bt-professional.de/)
+* [karedo.io](https://www.karedo.io/)
+* [kujali.de](https://kujali.de/)
