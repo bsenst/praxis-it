@@ -120,6 +120,7 @@ book:
     - part: kuenstliche-intelligenz.qmd
       chapters:
       - grosse-sprachmodelle.qmd
+      - chatbot.qmd
     - ethik.qmd
     - international.qmd
     - zusammenfassung.qmd
