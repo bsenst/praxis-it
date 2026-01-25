@@ -64,3 +64,5 @@ Der Artikel „Tracking Superbugs in the Digital Era“ von Isabelle Basbouss-Se
 * [healthsites.io](https://healthsites.io/)
 
 Climate × Health Pulse ist eine von DataKind in Zusammenarbeit mit Spectrum Africa und Jacaranda Health entwickelte webbasierte Plattform. Sie integriert lokalisierte Klimadaten, Gesundheitsindikatoren und prädiktive Analysen, um klimaabhängige Gesundheitsrisiken frühzeitig zu erkennen und gezielte Maßnahmen zu ermöglichen. Der Prototyp konzentriert sich auf den Bezirk Kajiado in Kenia, wo er Daten aus dem Kenya Health Information System, Copernicus ERA5-Klimadaten und community-basierten Berichten kombiniert, um Entscheidungsträger bei der Vorbereitung auf Hitzebelastung, Malaria-Ausbrüche und Ressourcenplanung zu unterstützen. Die Plattform ist so konzipiert, dass sie offen zugänglich (open source) wird und lokale Systeme langfristig stärkt.
+
+{{< video https://www.youtube.com/watch?v=2ihmQKZrVhM >}}
