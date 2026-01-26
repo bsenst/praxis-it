@@ -2,8 +2,6 @@
 
 Das Buch *Digitale Patientenkommunikation* beleuchtet die vielfältigen Möglichkeiten der Digitalisierung in der Patientenkommunikation und deren Einfluss auf Versorgungsprozesse in Prävention, Diagnostik, Therapie und Nachsorge. Es analysiert Technologien wie Telemedizin, Patientenportale, digitale Gesundheitsanwendungen (DiGAs), virtuelle Realität und Künstliche Intelligenz hinsichtlich ihrer Einsatzmöglichkeiten und Evidenz. Ein interdisziplinäres Autorenteam aus Medizin, Pflege, Psychologie, Informatik und Ökonomie behandelt regulatorische, konzeptionelle und technologische Aspekte. Das Werk richtet sich an Ärztinnen, Ärzte, Pflegekräfte und andere Gesundheitsberufe, die einen fundierten Einstieg in dieses Thema suchen.
 
-
-
 ```{=html}
 <div style="display: flex; justify-content: center;">
   <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7394803366205272064?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
