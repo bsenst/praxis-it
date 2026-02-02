@@ -44,7 +44,9 @@ book:
       - digitale-reife.qmd
       - digitale-kompetenz.qmd
       - digitale-trennung.qmd
-    - einleitung.qmd
+    - part: einleitung.qmd
+      chapters:
+      - zeitrdruck.qmd
     - praxisverwaltung.qmd
     - part: kommunikation.qmd
       chapters:
@@ -116,11 +118,14 @@ book:
     - part: patientinnen.qmd
       chapters:
       - digitale-stellvertretung.qmd
-    - digitale-innovation.qmd
+    - part: digitale-innovation.qmd
+      chapters:
+      - transformation.qmd
     - part: kuenstliche-intelligenz.qmd
       chapters:
       - grosse-sprachmodelle.qmd
       - chatbot.qmd
+      - agentische-ki.qmd
     - ethik.qmd
     - international.qmd
     - zusammenfassung.qmd
