@@ -65,6 +65,9 @@ Quelle: u.a. [@gematik-ti-messenger]
 
 : Weitere Kommunikationsanwendungen
 
+* [zulip.com](https://zulip.com/)
+* [gitter.im](https://gitter.im/)
+
 ## Sicherheit Nachrichtenverkehr
 
 ### Vergleich von Instant-Messaging-Diensten
