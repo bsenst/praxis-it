@@ -46,7 +46,7 @@ book:
       - digitale-trennung.qmd
     - part: einleitung.qmd
       chapters:
-      - zeitrdruck.qmd
+      - zeitdruck.qmd
     - praxisverwaltung.qmd
     - part: kommunikation.qmd
       chapters:
