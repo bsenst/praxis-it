@@ -171,10 +171,11 @@ Die Studie „Machine learning in general practice: scoping review of administra
 
 ### Arbeitsgruppen
 
-* Das [Schliep Lab](https://schlieplab.org/9 an der Brandenburgischen Technischen Universität erforscht mit KI neue Medikamente, untersucht Genome und entwickelt Algorithmen für Sequenzierungsdaten.
+* Das [Schliep Lab](https://schlieplab.org/) an der Brandenburgischen Technischen Universität erforscht mit KI neue Medikamente, untersucht Genome und entwickelt Algorithmen für Sequenzierungsdaten.
 * Das [van der Schaar Lab](https://www.vanderschaar-lab.com/) an der Universität Cambridge entwickelt KI- und maschinelle Lernmethoden für die Medizin.
 * Das [Digital Health Cluster](https://hpi.de/digital-health-cluster/home.html) des HPI forscht mit neuen Technologien an innovativen Lösungen, um die Gesundheit und das Wohlbefinden von Menschen und Gemeinschaften zu verbessern.
 * [Comprehensive Center for AI in Medicine, Medizinische Universität Wien](https://caim.meduniwien.ac.at/)
+* [Re-Mic Regensburg](https://informatik-mathematik.oth-regensburg.de/labore/remic/)
 
 [ARISE](https://www.arise-ai.org/) ist eine Forschungsinitiative, die sich mit der Entwicklung und Bewertung klinisch sicherer KI-Modelle für die Medizin beschäftigt und als zentrales Instrument den Do-NOHARM-Benchmark zur Messung klinischer Genauigkeit und Patientensicherheit bereitstellt.
 
