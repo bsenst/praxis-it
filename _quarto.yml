@@ -64,6 +64,7 @@ book:
       - anamneseerhebung.qmd
       - symptomchecker.qmd
       - medizinisches-wissen.qmd
+      - labor.qmd
       - wunddokumentation.qmd
       - impfsoftware.qmd
       - medikation.qmd
