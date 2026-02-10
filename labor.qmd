@@ -1,0 +1,6 @@
+# Labormedizin 
+
+## Forschung 
+
+SmartAlert: Implementing Machine Learning-Driven Clinical Decision Support for Inpatient Lab Utilization Reduction ist ein wissenschaftlicher Beitrag, der ein maschinelles Lernverfahren-basiertes klinisches Entscheidungsunterstützungssystem (CDS) vorstellt. Dieses in die elektronische Patientenakte integrierte System prognostiziert stabile Laborwerte, um unnötige Wiederholungstests – insbesondere beim großen Blutbild (CBC) – bei stationären Patienten zu verringern. In einer randomisiert-kontrollierten Pilotstudie mit 9270 Aufnahmen in acht Akutstationen zweier Krankenhäuser (15. August 2024 bis 15. März 2025) führte SmartAlert zu einer signifikanten Reduktion der CBC-Anforderungen innerhalb von 52 Stunden nach Alert-Anzeige (1,54 vs. 1,82, p < 0,01), entsprechend einer relativen Senkung um 15 %, ohne negative Auswirkungen auf Sicherheitsendpunkte. Der Text beschreibt den Implementierungsprozess, Herausforderungen sowie gewonnene Erkenntnisse zu Modellinterpretation, Stakeholder-Einbindung, Governance, Benutzeroberflächengestaltung und operativer Abstimmung.
+

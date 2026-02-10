@@ -12,3 +12,9 @@ Mehrere Arbeiten beleuchten digitale Proxys, also Personen, die für abhängige 
 * [karedo.io](https://www.karedo.io/)
 * [kujali.de](https://kujali.de/)
 * [fortytools.com/software-fuer-betreuungsdienste](https://www.fortytools.com/software-fuer-betreuungsdienste)
+
+## Betreuer
+
+Laut § 1814 BGB wird ein rechtlicher Betreuer nur bestellt, wenn ein Volljähriger wegen Krankheit oder Behinderung seine Angelegenheiten ganz oder teilweise nicht besorgen kann, dies erforderlich ist, keine ausreichenden Alternativen (wie Vorsorgevollmacht oder andere Hilfen) bestehen und – außer in Ausnahmefällen – nicht gegen seinen freien Willen.
+
+Das Betreuungsgericht bestellt einen geeigneten Betreuer, der den Wünschen des Volljährigen (einschließlich vorab geäußerter in einer Betreuungsverfügung) vorrangig folgt – es sei denn, die gewünschte Person ist ungeeignet oder es besteht ein Interessenkonflikt –, berücksichtigt bei fehlendem Vorschlag familiäre Bindungen und persönliche Beziehungen, bevorzugt ehrenamtliche Betreuer (ggf. mit Unterstützungsvereinbarung) und bestellt berufliche Betreuer nur, wenn keine geeignete ehrenamtliche Person verfügbar ist, wobei Personen mit Abhängigkeitsverhältnis zu Versorgungseinrichtungen des Betreuten grundsätzlich ausgeschlossen sind. (§ 1816 BGB)
