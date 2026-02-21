@@ -1,0 +1,9 @@
+# Lokale KI
+
+* [github.com/b4rtaz/distributed-llama](https://github.com/b4rtaz/distributed-llama)
+* [github.com/rafska/awesome-local-llm](https://github.com/rafska/awesome-local-llm)
+* [github.com/exo-explore/exo](https://github.com/exo-explore/exo
+
+* [github.com/a-ghorbani/pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai)
+* [github.com/google-ai-edge/gallery](https://github.com/google-ai-edge/gallery)
+* [github.com/shubham0204/SmolChat-Android](https://github.com/shubham0204/SmolChat-Android)
