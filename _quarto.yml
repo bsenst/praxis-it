@@ -125,6 +125,7 @@ book:
     - part: kuenstliche-intelligenz.qmd
       chapters:
       - daten-und-infrastruktur.qmd
+      - lokale-ki.qmd
       - grosse-sprachmodelle.qmd
       - chatbot.qmd
       - agentische-ki.qmd
