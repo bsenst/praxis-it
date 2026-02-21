@@ -1,5 +1,7 @@
 # Frauenheilkunde
 
+Die femfeel-App ist eine digitale Begleiterin für Frauen in den Wechseljahren. Die App bietet Übungen, Tipps, Soforthilfen sowie Kurse zu Themen wie Schlaf, Stress, Ernährung und Beckenboden, um typische Beschwerden zu lindern und das Wohlbefinden zu fördern. Entwickelt von Expertinnen und Teil der MEDICE Health Family, ist sie zertifiziert und wird von vielen gesetzlichen Krankenkassen bis zu 100 % erstattet, oft inklusive mehrerer Monate kostenlosem Premium-Zugang.
+
 ## Forschung
 
 Die Studie „How digital health affects the patient-physician relationship: An empirical-ethics study into the perspectives and experiences in obstetric care“ untersucht die Auswirkungen digitaler Gesundheitstechnologien auf die Arzt-Patienten-Beziehung in der Geburtshilfe. Durch qualitative Interviews mit 25 Teilnehmenden (14 Gesundheitsfachkräfte und 11 Patientinnen) zeigt die Studie, dass digitale Überwachung Patientinnen hilft, ihre Gesundheit besser zu verstehen und gemeinsame Entscheidungsfindung fördert. Dennoch bleibt die klinische Entscheidungsfindung bei Fachkräften, die digitale Daten entweder als objektive Grundlage oder als interpretationsbedürftig ansehen. Die Studie betont die Notwendigkeit, Standardisierung und Kontextualisierung auszubalancieren, und formuliert sechs ethische Empfehlungen für den Einsatz digitaler Technologien in der klinischen Praxis. [@jongsma2021digital]
