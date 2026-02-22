@@ -126,6 +126,7 @@ book:
       chapters:
       - daten-und-infrastruktur.qmd
       - lokale-ki.qmd
+      - entscheidungsunterstuetzung.qmd
       - grosse-sprachmodelle.qmd
       - chatbot.qmd
       - agentische-ki.qmd
