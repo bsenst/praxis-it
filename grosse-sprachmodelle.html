@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./chatbot.html" rel="next">
-<link href="./kuenstliche-intelligenz.html" rel="prev">
+<link href="./lokale-ki.html" rel="prev">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -770,6 +770,16 @@ cookieconsent.run({
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./daten-und-infrastruktur.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Daten &amp; Infrastruktur</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lokale-ki.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Lokale KI</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./grosse-sprachmodelle.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Große Sprachmodelle</span></a>
   </div>
 </li>
@@ -870,6 +880,8 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="weiteres">Weiteres</h2>
 <p>Die Studie „Evaluating the performance of general purpose large language models in identifying human facial emotions“ untersuchte die Fähigkeit dreier führender Large Language Models (GPT-4o, Gemini 2.0 Experimental und Claude 3.5 Sonnet), menschliche Gesichtsausdrücke anhand des NimStim-Datensatzes korrekt zu erkennen. GPT-4o und Gemini 2.0 Experimental erreichten eine nahezu perfekte Übereinstimmung mit den Ground-Truth-Labels (Cohen’s Kappa 0,83 bzw. 0,81) und lagen insgesamt im Bereich oder teilweise über der Leistung menschlicher Beurteiler. Alle Modelle zeigten insbesondere bei den Kategorien calm/neutral, happy und surprise gute Ergebnisse, wiesen jedoch deutliche Schwierigkeiten bei der Erkennung von fear auf, das häufig als surprise fehlklassifiziert wurde. Claude 3.5 Sonnet erreichte mit Kappa 0,70 und 74 % Gesamtgenauigkeit eine deutlich geringere Übereinstimmung. Die Leistung der Modelle variierte weder systematisch nach Geschlecht noch nach Ethnie der dargestellten Personen.</p>
 <p>Die Studie „Reliability of LLMs as medical assistants for the general public: a randomized preregistered study“, veröffentlicht am 9. Februar 2026 in Nature Medicine, untersucht die Zuverlässigkeit großer Sprachmodelle (LLMs) wie GPT-4o, Llama 3 und Command R+ als medizinische Berater für Laien. In einem randomisierten kontrollierten Versuch mit 1.298 Teilnehmern aus dem Vereinigten Königreich bearbeiteten Probanden zehn realistische medizinische Szenarien, um mögliche Erkrankungen zu erkennen und eine angemessene Handlungsempfehlung (Disposition) zu wählen. Während die Modelle allein in 94,9 % der Fälle relevante Erkrankungen korrekt identifizierten und in 56,3 % die richtige Disposition empfahlen, erreichten Teilnehmer mit LLM-Unterstützung deutlich schlechtere Werte (unter 34,5 % bei Erkrankungen und unter 44,2 % bei Disposition), die nicht besser als in der Kontrollgruppe ohne KI waren. Die Autoren führen dies auf Interaktionsprobleme zwischen Nutzern und Modellen zurück und betonen, dass gängige Benchmarks sowie Simulationen die tatsächlichen Schwächen in realen Mensch-KI-Interaktionen nicht vorhersagen. Sie empfehlen daher systematische Tests mit echten Nutzern vor einem breiten Einsatz von LLMs in der öffentlichen Gesundheitsberatung.</p>
+<p>Die Studie „Mapping the susceptibility of large language models to medical misinformation across clinical notes and social media: a cross-sectional benchmarking analysis“ wurde im Januar 2026 in der Zeitschrift The Lancet Digital Health (Volume 8, Issue 1, Artikel 100949) veröffentlicht. Sie untersucht in einer umfangreichen Querschnittsanalyse die Anfälligkeit von 20 großen Sprachmodellen (LLMs) für medizinische Fehlinformationen anhand von über 3,4 Millionen Prompts. Diese stammten aus drei Quellen: realen Krankenhaus-Entlassungsberichten mit eingefügten falschen Empfehlungen, echten Social-Media-Beiträgen (Reddit) mit medizinischen Mythen sowie validierten simulierten klinischen Szenarien. Zusätzlich wurde getestet, wie die Umformulierung der Inhalte als logische Fehlschlüsse (z. B. Appeal to Popularity oder Slippery Slope) die Akzeptanzrate beeinflusst. Die Ergebnisse zeigen eine durchschnittliche Anfälligkeit von etwa 32 % bei neutral formulierten falschen Aussagen, mit deutlich höheren Werten (46 %) bei klinisch formulierten Texten und niedrigeren bei informellen Social-Media-Inhalten; die meisten Fehlschluss-Umformulierungen verringerten die Anfälligkeit signifikant, während einige (wie Appeal to Authority) sie leicht erhöhten. Die Autoren schließen, dass die Sicherheit von LLMs im medizinischen Bereich stärker von kontextbezogenen Schutzmechanismen und Faktenverankerung abhängt als von Modellgröße allein.</p>
+<p>Die Studie mit dem Titel „Mapping the susceptibility of large language models to medical misinformation across clinical notes and social media: a cross-sectional benchmarking analysis“ erschien im Januar 2026 in The Lancet Digital Health. In dieser großangelegten Querschnittsanalyse untersuchten die Autoren die Anfälligkeit von 20 Large Language Models (LLMs) für medizinische Fehlinformationen anhand von über 3,4 Millionen Prompts. Diese stammten aus drei Quellen: realen Krankenhaus-Entlassungsberichten (mit eingefügter falscher Empfehlung), Social-Media-Beiträgen (z. B. Reddit) und validierten simulierten klinischen Vignetten. Die Modelle zeigten insgesamt in 31,7 % der neutralen Basis-Prompts Anfälligkeit für die fabrizierten Inhalte, wobei die höchste Rate (46,1 %) bei modifizierten klinischen Notizen auftrat und die niedrigste (8,9 %) bei Social-Media-Inhalten. Die Umformulierung der falschen Aussagen als logische Fehlschlüsse (z. B. Appeal to Popularity) reduzierte die Akzeptanzrate in den meisten Fällen signifikant, während Appeal to Authority und Slippery Slope sie teilweise erhöhten. GPT-Modelle erwiesen sich als am wenigsten anfällig und am besten in der Erkennung von Fehlschlüssen, während die Ergebnisse die Notwendigkeit besserer faktengestützter Schutzmechanismen in medizinischen Anwendungen unterstreichen.</p>
 
 
 </section>
@@ -1334,8 +1346,8 @@ cookieconsent.run({
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./kuenstliche-intelligenz.html" class="pagination-link" aria-label="Künstliche Intelligenz">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Künstliche Intelligenz</span>
+      <a href="./lokale-ki.html" class="pagination-link" aria-label="Lokale KI">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Lokale KI</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
