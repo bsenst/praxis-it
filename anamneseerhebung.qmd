@@ -60,6 +60,7 @@ Digitale Lösungen in Arztpraxen ermöglichen die effiziente Verwaltung von Pati
 [Medicstream](https://medicstream.net/de) ist eine Plattform, die Ärzten und Behandlungsteams ermöglicht, Patienten vor oder nach Gesprächen individuelle Informationen zu Erkrankungen und Behandlungen bereitzustellen. Über personalisierte Videoclips und digitale Inhalte, wie Kurse oder Apps, können Ärzte maßgeschneiderte „Infoboxen“ erstellen, die Patienten zeit- und ortsunabhängig nutzen können. Die Plattform entlastet Arzt-Patienten-Gespräche, indem sie Grundaufklärung digital vermittelt, und ist intuitiv ohne Vorkenntnisse nutzbar.
 
 * [mpassist.ai](https://www.mpassist.ai/)
+* [befundomat.de](https://befundomat.de/)
 
 Scriberr ist eine selbst-hostbare, vollständig offline arbeitende Audio-Transkriptionsanwendung. Sie nutzt KI-Modelle (NVIDIA Parakeet/Canary oder OpenAI Whisper), die lokal auf dem eigenen Gerät ausgeführt werden. Die Software bietet Funktionen wie automatische Zusammenfassungen, KI-Chat mit Transkripten, integrierten Recorder, YouTube-Transkription, Hardware-Beschleunigung (CUDA/CPU) und verarbeitet Audiodaten lokal ohne Cloud-Übertragung.
 
@@ -126,4 +127,4 @@ Die Studie „Informed Consent for Ambient Documentation Using Generative AI in 
 Der Artikel „Ambient AI Scribes in Clinical Practice: A Randomized Trial“ beschreibt eine randomisierte klinische Studie mit 238 ambulanten Ärzten aus 14 Fachrichtungen, die entweder Microsoft Dragon Ambient eXperience (DAX) Copilot, Nabla oder eine konventionelle Dokumentation als Kontrolle nutzten. Nabla reduzierte die Dokumentationszeit signifikant um 9,5 % im Vergleich zur Kontrolle, während DAX keinen signifikanten Effekt zeigte. Beide Systeme zeigten potenzielle Verbesserungen bei Burnout, kognitiver Belastung und Arbeitserschöpfung, die jedoch in größeren Studien bestätigt werden müssen. Klinisch bedeutsame Ungenauigkeiten traten gelegentlich auf, und eine anhaltende ärztliche Überwachung ist erforderlich.
 
 Ambient Artificial Intelligence Scribes and Physician Financial Productivity ist eine Research Letter, die am 9. Januar 2026 in JAMA Network Open veröffentlicht wurde. Die Studie untersucht anhand von Daten der University of California San Francisco (UCSF) aus den Jahren 2023 bis 2025, ob die Nutzung kommerzieller ambienter KI-Schreibtools mit Veränderungen der ärztlichen Produktivität einhergeht. Ergebnis: Ärzte, die KI-Scribes einsetzten, erzielten pro Begegnung durchschnittlich 0,04 RVUs mehr, pro Woche 1,81 RVUs und 0,80 zusätzliche ambulante Begegnungen, ohne dass die Rate abgelehnter Abrechnungen anstieg. Die Autoren schließen daraus, dass ambient KI-Scribes mit einer moderaten Steigerung der finanziellen Produktivität assoziiert sind.
-
+
