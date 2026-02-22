@@ -127,6 +127,7 @@ book:
       - daten-und-infrastruktur.qmd
       - lokale-ki.qmd
       - entscheidungsunterstuetzung.qmd
+      - monitoring.qmd
       - grosse-sprachmodelle.qmd
       - chatbot.qmd
       - agentische-ki.qmd
