@@ -38,6 +38,10 @@ Plattformen wie washabich.de und gesund.bund.de bieten verlässliche Gesundheits
 : Übersicht digitale Gesundheitsaufklärung 
 
 * [dwin.health](https://dwin.health/)
+* [befundhilfe.com](https://www.befundhilfe.com/de)
+* [befunddolmetscher.de](https://befunddolmetscher.de/)
+* [selbst-verstehen.de](https://selbst-verstehen.de/)
+* [balumed.com](https://balumed.com/)
 
 Es gibt Nachweise, die die Wirksamkeit von [TheraKey](https://www.therakey.de/) hervorheben. Es ist ein digitales Therapiebegleitprogramm, das Patient:innen mit chronischen Erkrankungen bei der Aufklärung, dem Selbstmanagement und der Therapietreue unterstützt. Evaluationen zeigen, dass 78 % der Nutzer:innen nach dem Einsatz des Onlineportals besser mit ihrer Erkrankung umgehen können. In einer Studie mit 185 Menschen zeigte nach drei Monaten Verbesserungen bei Selbstmanagement, Wohlbefinden, Adhärenz und einer Reduktion krankheitsbezogener Belastung. 84 % der Befragten vertrauten den TheraKey-Inhalten mehr als anderen Onlinequellen. [@kulzer2022626;@red2017therakey;@red2013online]
 
@@ -200,4 +204,4 @@ Das Buch "Patient Involvement in Health Technology Assessment, Second Edition", 
 AI Care Standard™ for Patient Communication ist ein Rahmenwerk, das zehn Kernprinzipien (Core Pillars) für sichere und verantwortungsvolle KI-gestützte Kommunikation mit Patienten definiert. Die Säulen umfassen unter anderem klinische Genauigkeit, situationsgerechtes Verhalten, klare Rückkopplung, Transparenz über KI-Nutzung, evidenzbasierte Informationen, Patientenautonomie, Berücksichtigung individueller Bedürfnisse sowie kontinuierliche Überwachung und Verbesserung. Ergänzend bietet das zugehörige Evaluation Framework™ ein strukturiertes Bewertungsinstrument mit acht Prüfbereichen, darunter Trainingsdatenqualität, Umgang mit unvollständigen Eingaben, Validierung, Schutz vulnerabler Situationen, Personalisierung, Offenlegung und Auswirkungen auf Klinikworkflows. Das Standardwerk wurde durch Experteninterviews, Roundtables und Szenario-Tests entwickelt und zielt darauf ab, Risiken wie Fehlinformationen, Vertrauensverlust und Haftungsprobleme in der patientennahen KI-Nutzung zu minimieren, ohne bestehende klinische oder regulatorische Standards zu ersetzen.
 
 Der Artikel „AI in the doctor-patient encounter“ von Sandeep Reddy, Sandosh Padmanabhan und Shauna Overgaard erschien am 18. November 2025 im BMJ (Band 391, doi:10.1136/bmj.r2344). Er stellt eine neue BMJ-Serie zu generativer KI vor, die das Konzept der „triadic care“ einführt: Kliniker, Patient und KI gestalten gemeinsam den klinischen Kontakt. Der Text betont, dass eine wirksame Umsetzung Vorbereitung von Patienten und Ärzten erfordert, künftige Beiträge thematisieren die Stärkung der Patientenautonomie sowie notwendige Kompetenzen der Ärzte. Trotz potenzieller Vorteile hängt der Erfolg entscheidend von starken Governance-Rahmenbedingungen und institutioneller Bereitschaft ab, um ethische Nutzung, Verantwortlichkeiten und Patientensicherheit zu gewährleisten.
-
+
