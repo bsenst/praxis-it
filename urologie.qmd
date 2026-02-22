@@ -11,4 +11,5 @@ Die Studie „LLM-Mediated Data Extraction from Patient Records after Radical Pr
 ## Weiteres
 
 Der Artikel „App-based therapy for female patients with urinary incontinence in Germany (DINKS): a single-blind, randomised, controlled trial“ wurde am 16. Dezember 2025 in The Lancet Digital Health online veröffentlicht. In dieser randomisierten kontrollierten Studie mit 194 Frauen mit Stress-, Drang- oder Mischinkontinenz zeigte die Ergänzung der Standardtherapie durch die App Kranus Mictera nach 12 Wochen eine signifikante Reduktion der täglichen Inkontinenzepisoden um durchschnittlich 61 % in der Interventionsgruppe im Vergleich zu nur 2 % in der Kontrollgruppe (p < 0,0001). Es traten keine relevanten therapiebedingten Nebenwirkungen auf. Die Ergebnisse unterstreichen das Potenzial app-basierter multimodaler Therapien zur Verbesserung der konservativen Behandlung von Harninkontinenz. Die Studie wurde von Kranus Health finanziert.
-
+
+* [uro-nordrhein.de/uro-bot](https://www.uro-nordrhein.de/uro-bot)
