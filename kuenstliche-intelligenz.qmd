@@ -46,6 +46,8 @@ Die Studie „AI, Health, and Health Care Today and Tomorrow: The JAMA Summit Re
 
 : Beispielanwendungen International
 
+* [developers.google.com/health-ai-developer-foundations](https://developers.google.com/health-ai-developer-foundations)
+
 ## Lernmaterialien
 
 ### Kostenfreie Angebote
@@ -345,3 +347,4 @@ APLUS: A Python library for usefulness simulations of machine learning models in
 ## Demonstrationen
 
 * [projector.tensorflow.org](https://projector.tensorflow.org/)
+
