@@ -7,3 +7,5 @@
 * [github.com/a-ghorbani/pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai)
 * [github.com/google-ai-edge/gallery](https://github.com/google-ai-edge/gallery)
 * [github.com/shubham0204/SmolChat-Android](https://github.com/shubham0204/SmolChat-Android)
+
+OpenMed ist ein open-source Toolkit und eine Sammlung von State-of-the-Art-Modellen für Healthcare AI, insbesondere für biomedizinische Named Entity Recognition (NER), klinische Textanalyse, PII-De-Identification und HIPAA-/GDPR-konforme Workflows. Es wird von Maziyar Panahi entwickelt und bietet über 500 Modelle auf Hugging Face, eine Python-Bibliothek (installierbar via uv pip install openmed), CLI- und TUI-Schnittstellen sowie schnelle Deployment-Optionen auf AWS SageMaker. Das Projekt ist unter Apache-2.0 lizenziert, legt Wert auf lokale Verarbeitung sensibler Daten, Transparenz und Vermeidung von Vendor Lock-in.
