@@ -95,3 +95,5 @@ Der Bericht „Framework for Selecting Digital Health Maturity Assessments“ de
 | VCMM | Virtual Care Maturity Model |
 | VDHMM | Victorian Digital Health Maturity Model |
 | Weik | Reifegradmodell für hausärztliche Versorgung nach Weik |
+
+* [aiomics.de/p/ki-assessment](https://www.aiomics.de/p/ki-assessment)
