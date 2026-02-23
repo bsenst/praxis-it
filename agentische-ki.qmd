@@ -2,3 +2,5 @@
 
 * [openclaw.ai](https://openclaw.ai/)
 * [moltbook.com](https://www.moltbook.com/)
+
+„A Field Guide to Deploying AI Agents in Clinical Practice“ beschreibt ein praxisorientiertes Handbuch für die Implementierung generativer KI‑Agenten auf Basis elektronischer Gesundheitsdaten in der klinischen Versorgung. Ausgehend von der Fallstudie des irAE-Agenten zur Erkennung immunvermittelter Nebenwirkungen in der Onkologie analysieren die Autor:innen die Umsetzungserfahrungen in einem großen Klinikverbund. Sie identifizieren fünf zentrale „Heavy Lifts“ – Datenintegration, Modellvalidierung, ökonomische Wertschöpfung, Drift-Management und Governance –, die den Großteil des Projektaufwands ausmachen und deutlich über klassische Modell- und Prompt-Optimierung hinausgehen. Der Beitrag zielt darauf, diese soziotechnischen Herausforderungen systematisch aufzubereiten und in Form übertragbarer organisatorischer und projektspezifischer Handlungsempfehlungen für Gesundheitsorganisationen bereitzustellen.
