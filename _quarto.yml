@@ -115,6 +115,7 @@ book:
       - versorgungsprozesse.qmd
       - gesetzgebung.qmd
       - forschung.qmd
+      - oekonomie.qmd
     - diskurs.qmd
     - part: patientinnen.qmd
       chapters:
