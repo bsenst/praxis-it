@@ -1,0 +1,4 @@
+# Gesundheitsökonomie 
+
+Der Viewpoint-Artikel „Measuring the Return on Investment for Clinician-Facing Artificial Intelligence Technologies“ von Lisa S. Rotenstein, Robert M. Wachter und David W. Bates wurde am 23. Februar 2026 online in JAMA Internal Medicine veröffentlicht. Er befasst sich mit der zunehmenden Verbreitung klinikergerichteter KI-Technologien im Gesundheitswesen, wie KI-gestützten Schreibassistenten, automatisierten Antwortentwürfen auf Patientennachrichten, EMR-Zusammenfassungen, Radiologie-Auswerte-Tools und entscheidungsunterstützenden Systemen. Ziel dieser Technologien ist die Reduktion administrativer Belastungen, die Verbesserung von Arbeitsabläufen und die Unterstützung klinischer Entscheidungen. Der Beitrag diskutiert verschiedene Ansätze, um den Return on Investment (ROI) solcher KI-Werkzeuge objektiv zu messen und zu bewerten, da deren Adoption in Gesundheitseinrichtungen zunimmt.
+
