@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./chatbot.html" rel="next">
-<link href="./lokale-ki.html" rel="prev">
+<link href="./monitoring.html" rel="prev">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -46,9 +46,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8d8403fb905aa7205e9eac3fdf959d30.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-f7c30dea7d667096cf49c894ce2051cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8d8403fb905aa7205e9eac3fdf959d30.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -720,6 +720,11 @@ cookieconsent.run({
   <a href="./forschung.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Forschung</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./oekonomie.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Gesundheitsökonomie</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -776,6 +781,16 @@ cookieconsent.run({
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lokale-ki.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Lokale KI</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./entscheidungsunterstuetzung.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Entscheidungsunterstützung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./monitoring.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Monitoring</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -882,6 +897,9 @@ cookieconsent.run({
 <p>Die Studie „Reliability of LLMs as medical assistants for the general public: a randomized preregistered study“, veröffentlicht am 9. Februar 2026 in Nature Medicine, untersucht die Zuverlässigkeit großer Sprachmodelle (LLMs) wie GPT-4o, Llama 3 und Command R+ als medizinische Berater für Laien. In einem randomisierten kontrollierten Versuch mit 1.298 Teilnehmern aus dem Vereinigten Königreich bearbeiteten Probanden zehn realistische medizinische Szenarien, um mögliche Erkrankungen zu erkennen und eine angemessene Handlungsempfehlung (Disposition) zu wählen. Während die Modelle allein in 94,9 % der Fälle relevante Erkrankungen korrekt identifizierten und in 56,3 % die richtige Disposition empfahlen, erreichten Teilnehmer mit LLM-Unterstützung deutlich schlechtere Werte (unter 34,5 % bei Erkrankungen und unter 44,2 % bei Disposition), die nicht besser als in der Kontrollgruppe ohne KI waren. Die Autoren führen dies auf Interaktionsprobleme zwischen Nutzern und Modellen zurück und betonen, dass gängige Benchmarks sowie Simulationen die tatsächlichen Schwächen in realen Mensch-KI-Interaktionen nicht vorhersagen. Sie empfehlen daher systematische Tests mit echten Nutzern vor einem breiten Einsatz von LLMs in der öffentlichen Gesundheitsberatung.</p>
 <p>Die Studie „Mapping the susceptibility of large language models to medical misinformation across clinical notes and social media: a cross-sectional benchmarking analysis“ wurde im Januar 2026 in der Zeitschrift The Lancet Digital Health (Volume 8, Issue 1, Artikel 100949) veröffentlicht. Sie untersucht in einer umfangreichen Querschnittsanalyse die Anfälligkeit von 20 großen Sprachmodellen (LLMs) für medizinische Fehlinformationen anhand von über 3,4 Millionen Prompts. Diese stammten aus drei Quellen: realen Krankenhaus-Entlassungsberichten mit eingefügten falschen Empfehlungen, echten Social-Media-Beiträgen (Reddit) mit medizinischen Mythen sowie validierten simulierten klinischen Szenarien. Zusätzlich wurde getestet, wie die Umformulierung der Inhalte als logische Fehlschlüsse (z. B. Appeal to Popularity oder Slippery Slope) die Akzeptanzrate beeinflusst. Die Ergebnisse zeigen eine durchschnittliche Anfälligkeit von etwa 32 % bei neutral formulierten falschen Aussagen, mit deutlich höheren Werten (46 %) bei klinisch formulierten Texten und niedrigeren bei informellen Social-Media-Inhalten; die meisten Fehlschluss-Umformulierungen verringerten die Anfälligkeit signifikant, während einige (wie Appeal to Authority) sie leicht erhöhten. Die Autoren schließen, dass die Sicherheit von LLMs im medizinischen Bereich stärker von kontextbezogenen Schutzmechanismen und Faktenverankerung abhängt als von Modellgröße allein.</p>
 <p>Die Studie mit dem Titel „Mapping the susceptibility of large language models to medical misinformation across clinical notes and social media: a cross-sectional benchmarking analysis“ erschien im Januar 2026 in The Lancet Digital Health. In dieser großangelegten Querschnittsanalyse untersuchten die Autoren die Anfälligkeit von 20 Large Language Models (LLMs) für medizinische Fehlinformationen anhand von über 3,4 Millionen Prompts. Diese stammten aus drei Quellen: realen Krankenhaus-Entlassungsberichten (mit eingefügter falscher Empfehlung), Social-Media-Beiträgen (z. B. Reddit) und validierten simulierten klinischen Vignetten. Die Modelle zeigten insgesamt in 31,7 % der neutralen Basis-Prompts Anfälligkeit für die fabrizierten Inhalte, wobei die höchste Rate (46,1 %) bei modifizierten klinischen Notizen auftrat und die niedrigste (8,9 %) bei Social-Media-Inhalten. Die Umformulierung der falschen Aussagen als logische Fehlschlüsse (z. B. Appeal to Popularity) reduzierte die Akzeptanzrate in den meisten Fällen signifikant, während Appeal to Authority und Slippery Slope sie teilweise erhöhten. GPT-Modelle erwiesen sich als am wenigsten anfällig und am besten in der Erkennung von Fehlschlüssen, während die Ergebnisse die Notwendigkeit besserer faktengestützter Schutzmechanismen in medizinischen Anwendungen unterstreichen.</p>
+<p>Die Studie „Reliability of LLMs as medical assistants for the general public: a randomized preregistered study“ (veröffentlicht am 9. Februar 2026 in Nature Medicine) untersucht, ob große Sprachmodelle (LLMs) wie GPT-4o, Llama 3 und Command R+ die Allgemeinbevölkerung zuverlässig bei medizinischen Entscheidungen unterstützen können. In einer randomisierten kontrollierten Studie mit 1.298 Teilnehmern aus dem Vereinigten Königreich bearbeiteten Probanden zehn realistische medizinische Szenarien, entweder mit Unterstützung eines LLM oder mit selbst gewählten Hilfsmitteln (meist Internetsuche, Kontrollgruppe). Allein eingesetzt erreichten die Modelle eine hohe Genauigkeit (durchschnittlich 94,9 % bei der Identifikation relevanter Erkrankungen und 56,3 % bei der richtigen Handlungsempfehlung). Bei der Nutzung durch Laien sanken diese Werte jedoch deutlich (unter 34,5 % für Erkrankungen und unter 44,2 % für Dispositionen) und lagen nicht über denen der Kontrollgruppe. Die Autoren führen dies auf Schwächen in der Mensch-KI-Interaktion zurück, wie unvollständige Angaben der Nutzer, Fehlinterpretationen durch die Modelle sowie mangelnde Übernahme korrekter Vorschläge. Standard-Benchmarks und Simulationen prognostizieren diese Probleme nicht zuverlässig; die Studie empfiehlt daher systematische Tests mit realen Nutzern vor einem breiten Einsatz von LLMs als medizinische Berater für die Öffentlichkeit.</p>
+<p>„Holistic evaluation of large language models for medical tasks with MedHELM“ ist ein in Nature Medicine am 20. Januar 2026 veröffentlichter Artikel von Suhana Bedi, Hejie Cui und weiteren Autoren, darunter Nigam H. Shah. Die Arbeit stellt das MedHELM-Framework vor, eine erweiterbare Evaluationsmethode für Large Language Models (LLMs) in medizinischen Anwendungen. Es umfasst eine klinisch validierte Taxonomie mit fünf Hauptkategorien (Clinical Decision Support, Clinical Note Generation, Patient Communication, Medical Research und Administration), 22 Unterkategorien und 121 konkreten Aufgaben, die reale klinische Praxis abbilden. Ergänzt wird dies durch 37 Benchmarks und einen systematischen Vergleich neun führender LLMs mittels einer automatisierten LLM-Jury-Bewertung. Die Ergebnisse zeigen, dass fortgeschrittene Reasoning-Modelle wie DeepSeek R1 und o3-mini die höchsten Win-Rates erreichen, während Modelle wie Claude 3.5 Sonnet vergleichbare Leistungen bei geringerem Rechenaufwand erbringen. MedHELM ermöglicht damit eine evidenzbasierte Auswahl von KI-Systemen für den Gesundheitsbereich und ist als Open-Source-Code verfügbar.</p>
+<p>Die Studie „Performance of Large Language Models Under Input Variability in Health Care Applications: Dataset Development and Experimental Evaluation“ von Saubhagya Joshi und Kollegen wurde am 20. Februar 2026 in JMIR AI (Band 5, e83640) veröffentlicht. Sie untersucht die Robustheit von drei Large Language Models gegenüber variierenden Eingaben im Gesundheitsbereich, indem sie einen neu entwickelten Datensatz mit drei Arten menschlicher Störungen (Redaktionen, Homophone und typografische Fehler) in unterschiedlichen Intensitätsstufen nutzt und diese auf drei gesundheitsbezogene Aufgaben anwendet. Entgegen den Erwartungen zeigten die Modelle eine bemerkenswerte Widerstandsfähigkeit: In über der Hälfte der Fälle (55,92 %) blieb die Leistung stabil oder verbesserte sich sogar, insbesondere bei geringen Störungsgraden, während Redaktionen (z. B. durch Datenschutz oder kognitive Einschränkungen) den stärksten negativen Einfluss hatten. Die Ergebnisse unterstreichen die Notwendigkeit, LLM-basierte Anwendungen im Gesundheitswesen gezielt auf reale Eingabevariabilität auszulegen, und stellen den begleitenden Datensatz als Ressource für weitere Robustheitsforschung zur Verfügung.</p>
 
 
 </section>
@@ -1346,8 +1364,8 @@ cookieconsent.run({
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./lokale-ki.html" class="pagination-link" aria-label="Lokale KI">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Lokale KI</span></span>
+      <a href="./monitoring.html" class="pagination-link" aria-label="Monitoring">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Monitoring</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
