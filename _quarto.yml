@@ -115,6 +115,7 @@ book:
       - versorgungsprozesse.qmd
       - gesetzgebung.qmd
       - forschung.qmd
+      - oekonomie.qmd
     - diskurs.qmd
     - part: patientinnen.qmd
       chapters:
@@ -126,6 +127,8 @@ book:
       chapters:
       - daten-und-infrastruktur.qmd
       - lokale-ki.qmd
+      - entscheidungsunterstuetzung.qmd
+      - monitoring.qmd
       - grosse-sprachmodelle.qmd
       - chatbot.qmd
       - agentische-ki.qmd

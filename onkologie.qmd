@@ -62,4 +62,11 @@ Der Review-Artikel „Artificial intelligence agents in cancer research and onco
 
 CancerNavigator ist ein Unterstützungsdienst für Krebspatienten, der über Arbeitgeber- und Gewerkschaftskrankenversicherungen angeboten wird. Der Dienst zielt darauf ab, Betroffene kurz nach der Diagnose zu begleiten und ihnen den Zugang zu besonders qualifizierten Experten und geeigneten Behandlungszentren zu ermöglichen. Oncology-zertifizierte Krankenschwestern bieten hierfür persönliche 1:1-Betreuung ohne App oder Suchtool, ergänzt durch spezifische Recherche und Aufklärung zum jeweiligen Krebsart und -stadium sowie zu den besten in-network verfügbaren Versorgungseinrichtungen. Dadurch soll das Risiko schlechterer Behandlungsergebnisse reduziert werden, das bei etwa 40 % der Patienten durch unzureichende Expertenversorgung entsteht. CancerNavigator ist derzeit bei über 50 Gewerkschafts- und Arbeitgeberplänen in den USA im Einsatz.
 
+
 Der Podcast mit dem Titel **„Building AI Inside a Cancer Center and the Data Challenges No One Talks About“** thematisiert die praktische Implementierung künstlicher Intelligenz am Memorial Sloan Kettering Cancer Center unter der Leitung von Dr. Annie Lee. Im Zentrum steht die Entwicklung des Sprachmodells „Woolly“, das speziell auf klinischen Notizen trainiert wurde, um den Verlauf von Krebserkrankungen mit hoher Genauigkeit zu erfassen. Dr. Lee erörtert dabei die signifikanten Herausforderungen durch Datenredundanzen in elektronischen Patientenakten sowie die datenschutzrechtlichen Hürden bei der institutionsübergreifenden Zusammenarbeit. Ein wesentlicher Schwerpunkt ihrer Arbeit liegt auf der Nutzung von KI-Agenten zur Automatisierung administrativer Aufgaben, um die klinischen Arbeitsabläufe effizienter zu gestalten und das medizinische Personal zu entlasten. Abschließend wird die strategische Entscheidung für RAG-Systeme (Retrieval-Augmented Generation) gegenüber dem ressourcenintensiven Training eigener Modelle sowie die regulatorische Einordnung von KI-Anwendungen im Gesundheitswesen diskutiert.
+
+```{=html}
+<div style="display: flex; justify-content: center;">
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7417993456624537600?collapsed=1" height="593" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</div>
+```

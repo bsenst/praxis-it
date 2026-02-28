@@ -101,3 +101,9 @@ Der Artikel „Health promotion and the digital determinants of health“ von Lo
 Die Studie „Digitale Teilhabe 2025“ (Bitkom-Studie 2025) untersucht auf Basis einer repräsentativen Befragung von 1.003 Personen ab 16 Jahren in Deutschland die digitale Teilhabe und die wahrgenommene digitale Spaltung der Gesellschaft. Sie zeigt deutliche Unterschiede vor allem zwischen Altersgruppen: Während nahezu alle unter 65 Jahren das Internet nutzen, sinkt die Nutzungsquote bei den 65- bis 74-Jährigen auf 88 % und bei den über 75-Jährigen auf 54 %. Die Digitalisierung wird von 88 % der Befragten überwiegend als Chance gesehen, dennoch empfinden 67 % eine digitale Spaltung der Gesellschaft. Besonders ältere Menschen berichten häufiger von Überforderung, technischen Hürden, Datenschutzbedenken und geringerer Offenheit gegenüber neuen Technologien. Gleichzeitig erleichtern digitale Anwendungen für 79 % den Alltag, und 72 % wünschen sich mehr digitale Angebote. Die Studie beleuchtet zudem niedrige Selbsteinschätzungen der Medienkompetenz (insbesondere bei Älteren), Unsicherheiten beim Erkennen von Falschinformationen sowie ambivalente Haltungen zu Künstlicher Intelligenz und sozialen Medien im Kontext demokratischer Prozesse.
 
 Eingeloggt! Hamburg ist eine jährliche Aktionswoche und richtet sich an Menschen ab 50 Jahren. Ziel ist es, Interessierten in kostenlosen Workshops, Vorträgen und Mitmachangeboten die Möglichkeiten der Digitalisierung näherzubringen, etwa den Umgang mit Smartphone und Internet, Künstliche Intelligenz, virtuelle Welten oder Programmieren. Die Veranstaltungen werden von Hamburger Initiativen, Vereinen, Computer-Clubs und Stadtteiltreffs organisiert.
+
+```{=html}
+<div style="display: flex; justify-content: center;">
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7424738378329370624?collapsed=1" height="668" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</div>
+```

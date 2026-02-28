@@ -1,2 +1,5 @@
 # Zeitdruck 
 
+Die Studie „Primary Care Physician Time Spent in Patient Care: An Observational Study Using Electronic Health Record Logs“ analysiert den tatsächlichen Zeitaufwand von Hausärzten bei der Betreuung ihrer Patientenlisten. Basierend auf elektronischen Patientenakten-Daten aus 33 Kliniken des Mass General Brigham-Systems und 406 teilnehmenden Ärzten ergibt sich für vollzeitbeschäftigte Hausärzte (1,0 cFTE) ein medianer wöchentlicher Arbeitsaufwand von 61,8 Stunden (ca. 2844 Stunden jährlich bei 46 Arbeitswochen), was etwa 1,7 Stunden pro Patient und Jahr entspricht. Der Aufwand variiert je nach Teilzeitstatus, Patientenkomplexität, Altersschnitt, Medicaid-Anteil und Volumen medizinischer Anfragen; Teilzeitkräfte investieren pro Patient mehr Zeit. Die Ergebnisse unterstreichen die hohe Belastung in der Primärversorgung und liefern Grundlagen für eine nachhaltigere Gestaltung von Arbeitsmodellen und Panelgrößen.
+
+

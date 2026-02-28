@@ -6,6 +6,8 @@ Pollenius ist eine Anwendung für Mobiltelefone, entwickelt von der Charité –
 
 Die [Pollen-App](https://www.pollenstiftung.de/pollenvorhersage/pollenapps.html) der Pollenstiftung ist ein kostenloser mobiler Dienst für Allergiker in Deutschland, Österreich, Frankreich, Schweiz, Schweden, Spanien, Großbritannien und Südtirol, verfügbar für iOS und Android. Sie liefert Echtzeit-Vorhersagen zur Pollenbelastung basierend auf der Postleitzahl des Nutzers und erstellt nach Eingabe individueller Allergiesymptome eine personalisierte Belastungsvorhersage. Mit Funktionen wie einem Allergie-Selbsttest, einem persönlichen Pollentagebuch zur Dokumentation und Weiterleitung an Ärzte im PDF-Format sowie einem Erinnerungsservice für Therapieplanung unterstützt die App Allergiker, ihre Beschwerden gezielt zu managen und die Pollensaison besser zu bewältigen.
 
+* [mask-air.com](https://www.mask-air.com/)
+
 ## Pollenfluginformationdienst
 
 Der [Pollenflug-Gefahrenindex](https://www.dwd.de/DE/leistungen/gefahrenindizespollen/gefahrenindexpollen.html) des Deutschen Wetterdienstes (DWD) ist ein Online-Echtzeit-Informationsdienst, der tägliche Vorhersagen zur Pollenbelastung für die acht allergologisch wichtigsten Pollenarten in Deutschland (Hasel, Erle, Esche, Birke, Süßgräser, Roggen, Beifuß und Ambrosia) bereitstellt. Die Vorhersagen geben die Pollenkonzentration (Pollen pro m³ Luft) für den aktuellen und die zwei folgenden Tage an, was Allergikern hilft, ihre Aktivitäten und Medikamenteneinnahme gezielt anzupassen.
