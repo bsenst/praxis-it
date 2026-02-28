@@ -126,6 +126,7 @@ book:
     - part: kuenstliche-intelligenz.qmd
       chapters:
       - daten-und-infrastruktur.qmd
+      - maschinelles-lernen.qmd
       - lokale-ki.qmd
       - entscheidungsunterstuetzung.qmd
       - monitoring.qmd
