@@ -54,6 +54,11 @@ Die Buchhaltungssoftwareprodukte teilen mehrere gemeinsame Merkmale, die sich au
 
 Der [EBM- und GOÄ-Spicker](https://www.hausaerztlichepraxis.digital/spicker) listet Leistungsziffern kompakt auf, um die Abrechnung zu vereinfachen. Die Spicker ist eine manuelle, kostenfreie Orientierungshilfe. Im Gegensatz zu den statischen EBM- und GOÄ-Spickern bieten Abrechnungsoptimierungssoftwarelösungen automatisierte Analysen, Echtzeitprüfungen und Optimierungsvorschläge, um Abrechnungsfehler zu vermeiden. Software spart Zeit durch Integration in Praxisverwaltungssysteme, ist jedoch kostenpflichtig und erfordert technische Einrichtung, während Spicker eine kostengünstige, aber arbeitsintensivere manuelle Lösung darstellen.
 
+* [docspell.org](https://docspell.org/)
+* [docs.paperless-ngx.com](https://docs.paperless-ngx.com/)
+* [docs.papermerge.io](https://docs.papermerge.io/)
+* [docs.mayan-edms.com](https://docs.mayan-edms.com/)
+
 ## Bezahlsysteme
 
 | Name         | URL                                                                 |

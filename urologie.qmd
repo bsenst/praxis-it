@@ -1,5 +1,7 @@
 # Urologie
 
+* [Acute Cystitis Symptom Score (ACSS)](https://acss.world/)
+
 ## Digitale Wissensplattform
 
 [Urotube](https://www.uro-tube.de/) ist die Plattform für urologische Fortbildung, initiiert von der DGU-Akademie. Sie bietet Urologinnen und Urologen CME-zertifizierte Inhalte wie Live-Webinare, On-Demand-Webinare, Podcasts und die urotube.tv-Videoplattform. Mit Themen wie Prostatakarzinom, Nierenzellkarzinom, Harninkontinenz und Urolithiasis. Zusätzlich bietet die DGU-Mediathek peer-reviewed Videos und das Kongressarchiv kostenfreie Vorträge vergangener DGU-Kongresse.
@@ -13,3 +15,4 @@ Die Studie „LLM-Mediated Data Extraction from Patient Records after Radical Pr
 Der Artikel „App-based therapy for female patients with urinary incontinence in Germany (DINKS): a single-blind, randomised, controlled trial“ wurde am 16. Dezember 2025 in The Lancet Digital Health online veröffentlicht. In dieser randomisierten kontrollierten Studie mit 194 Frauen mit Stress-, Drang- oder Mischinkontinenz zeigte die Ergänzung der Standardtherapie durch die App Kranus Mictera nach 12 Wochen eine signifikante Reduktion der täglichen Inkontinenzepisoden um durchschnittlich 61 % in der Interventionsgruppe im Vergleich zu nur 2 % in der Kontrollgruppe (p < 0,0001). Es traten keine relevanten therapiebedingten Nebenwirkungen auf. Die Ergebnisse unterstreichen das Potenzial app-basierter multimodaler Therapien zur Verbesserung der konservativen Behandlung von Harninkontinenz. Die Studie wurde von Kranus Health finanziert.
 
 * [uro-nordrhein.de/uro-bot](https://www.uro-nordrhein.de/uro-bot)
+
