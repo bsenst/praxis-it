@@ -129,6 +129,7 @@ book:
       - maschinelles-lernen.qmd
       - lokale-ki.qmd
       - entscheidungsunterstuetzung.qmd
+      - krankheitsverstaendnis.qmd
       - monitoring.qmd
       - grosse-sprachmodelle.qmd
       - chatbot.qmd
