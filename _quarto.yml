@@ -126,8 +126,10 @@ book:
     - part: kuenstliche-intelligenz.qmd
       chapters:
       - daten-und-infrastruktur.qmd
+      - maschinelles-lernen.qmd
       - lokale-ki.qmd
       - entscheidungsunterstuetzung.qmd
+      - krankheitsverstaendnis.qmd
       - monitoring.qmd
       - grosse-sprachmodelle.qmd
       - chatbot.qmd
