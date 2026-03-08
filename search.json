@@ -4062,7 +4062,7 @@
     "href": "diskurs.html#anstehende-veranstaltungen",
     "title": "Diskurs",
     "section": "Anstehende Veranstaltungen",
-    "text": "Anstehende Veranstaltungen\nStand zum Zeitpunkt der letzten Aktualisierung (08.03.2026, 21:07 Uhr):\n\n\n\n\n\n\nHinweisgematik.de/veranstaltungen\n\n\n\n\nBVÖGD – Kongress 2026\nDMEA 2026\nre:publica - Klare Regeln, keine Grenzen: So wirkt die elektronische Patientenakte\nYES!CON 2026\nTI-Summit 2026",
+    "text": "Anstehende Veranstaltungen\nStand zum Zeitpunkt der letzten Aktualisierung (08.03.2026, 21:34 Uhr):\n\n\n\n\n\n\nHinweisgematik.de/veranstaltungen\n\n\n\n\nBVÖGD – Kongress 2026\nDMEA 2026\nre:publica - Klare Regeln, keine Grenzen: So wirkt die elektronische Patientenakte\nYES!CON 2026\nTI-Summit 2026",
     "crumbs": [
       "<span class='chapter-number'>64</span>  <span class='chapter-title'>Diskurs</span>"
     ]
@@ -4687,7 +4687,7 @@
     "href": "lokale-ki.html",
     "title": "Lokale KI",
     "section": "",
-    "text": "github.com/b4rtaz/distributed-llama\ngithub.com/rafska/awesome-local-llm\n[github.com/exo-explore/exo](https://github.com/exo-explore/exo\ngithub.com/a-ghorbani/pocketpal-ai\ngithub.com/google-ai-edge/gallery\ngithub.com/shubham0204/SmolChat-Android\n\nOpenMed ist ein open-source Toolkit und eine Sammlung von State-of-the-Art-Modellen für Healthcare AI, insbesondere für biomedizinische Named Entity Recognition (NER), klinische Textanalyse, PII-De-Identification und HIPAA-/GDPR-konforme Workflows. Es wird von Maziyar Panahi entwickelt und bietet über 500 Modelle auf Hugging Face, eine Python-Bibliothek (installierbar via uv pip install openmed), CLI- und TUI-Schnittstellen sowie schnelle Deployment-Optionen auf AWS SageMaker. Das Projekt ist unter Apache-2.0 lizenziert, legt Wert auf lokale Verarbeitung sensibler Daten, Transparenz und Vermeidung von Vendor Lock-in.\n\n\n\n\n\n\n\n\n\nTippHinweis\n\n\n\nDer Text erhebt keinen Anspruch auf Vollständigkeit oder Korrektheit und stellt keine Rechtsberatung dar. Anmerkungen können in der rechten Seitenleiste mit Hypothes.is sozialem Annotierungswerkzeug oder am unteren Ende einer Seite mit GitHub Giscus Diskussionen hinterlassen werden.",
+    "text": "github.com/b4rtaz/distributed-llama\ngithub.com/rafska/awesome-local-llm\ngithub.com/exo-explore/exo\ngithub.com/a-ghorbani/pocketpal-ai\ngithub.com/google-ai-edge/gallery\ngithub.com/shubham0204/SmolChat-Android\nmobile-artificial-intelligence.com\n\nOpenMed ist ein open-source Toolkit und eine Sammlung von State-of-the-Art-Modellen für Healthcare AI, insbesondere für biomedizinische Named Entity Recognition (NER), klinische Textanalyse, PII-De-Identification und HIPAA-/GDPR-konforme Workflows. Es wird von Maziyar Panahi entwickelt und bietet über 500 Modelle auf Hugging Face, eine Python-Bibliothek (installierbar via uv pip install openmed), CLI- und TUI-Schnittstellen sowie schnelle Deployment-Optionen auf AWS SageMaker. Das Projekt ist unter Apache-2.0 lizenziert, legt Wert auf lokale Verarbeitung sensibler Daten, Transparenz und Vermeidung von Vendor Lock-in.\n\n\n\n\n\n\n\n\n\nTippHinweis\n\n\n\nDer Text erhebt keinen Anspruch auf Vollständigkeit oder Korrektheit und stellt keine Rechtsberatung dar. Anmerkungen können in der rechten Seitenleiste mit Hypothes.is sozialem Annotierungswerkzeug oder am unteren Ende einer Seite mit GitHub Giscus Diskussionen hinterlassen werden.",
     "crumbs": [
       "Künstliche Intelligenz",
       "<span class='chapter-number'>69</span>  <span class='chapter-title'>Lokale KI</span>"
