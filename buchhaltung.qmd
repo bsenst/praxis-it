@@ -58,6 +58,7 @@ Der [EBM- und GOÄ-Spicker](https://www.hausaerztlichepraxis.digital/spicker) li
 * [docs.paperless-ngx.com](https://docs.paperless-ngx.com/)
 * [docs.papermerge.io](https://docs.papermerge.io/)
 * [docs.mayan-edms.com](https://docs.mayan-edms.com/)
+* [docmaite.de](https://docmaite.de/)
 
 ## Bezahlsysteme
 
