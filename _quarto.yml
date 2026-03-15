@@ -132,6 +132,7 @@ book:
       - krankheitsverstaendnis.qmd
       - monitoring.qmd
       - grosse-sprachmodelle.qmd
+      - llm-leistungsvergleich.qmd
       - chatbot.qmd
       - agentische-ki.qmd
     - ethik.qmd
