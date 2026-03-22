@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Radiologie – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -996,7 +1002,7 @@ cookieconsent.run({
 <p>Die Studie „ChatGPT-4–Driven Liver Ultrasound Radiomics Analysis: Diagnostic Value and Drawbacks in a Comparative Study“ untersucht die Fähigkeit von ChatGPT-4, Leberultraschallbilder mittels Radiomics-Analyse zu bewerten und zwischen Fibrose, Steatose und normalem Lebergewebe zu unterscheiden. Sie vergleicht die Leistung von ChatGPT-4 mit konventioneller Bildanalysesoftware (IDL) anhand von 70 Ultraschallbildern aus einem präklinischen Lebererkrankungsmodell. ChatGPT-4 extrahierte neun Texturmerkmale, die signifikante Unterschiede zwischen den Leberzuständen zeigten (P&lt;.05), erreichte eine Genauigkeit von 76 % und eine Sensitivität von 83 %. Im Vergleich zu IDL war die Sensitivität etwas niedriger (0,83 vs.&nbsp;0,89), jedoch reduzierte ChatGPT-4 die Analysezeit um 40 %. Die Ergebnisse deuten auf ein hohes Potenzial von ChatGPT-4 für die automatisierte Bildanalyse hin, wobei Verbesserungen in der Reproduzierbarkeit und diagnostischen Genauigkeit erforderlich sind. <span class="citation" data-cites="sultan2025chatgpt">(<a href="referenzen.html#ref-sultan2025chatgpt" role="doc-biblioref">Sultan u.&nbsp;a. 2025</a>)</span></p>
 <p>Die Studie “Redefining Radiology: A Review of Artificial Intelligence Integration in Medical Imaging” bietet eine Übersicht über die Integration von Künstlicher Intelligenz (KI) in die Radiologie und deren transformative Auswirkungen auf die Gesundheitsversorgung. Sie verfolgt die Entwicklung der Radiologie von der Entdeckung der Röntgenstrahlen bis zur Anwendung von maschinellem Lernen (ML) und Deep Learning in der modernen medizinischen Bildanalyse. Der Schwerpunkt liegt auf den Anwendungen von KI in der Radiologie, wie Bildsegmentierung, computergestützter Diagnose, prädiktiver Analytik und Workflow-Optimierung. Darüber hinaus beleuchtet die Studie die Auswirkungen von KI auf diagnostische Prozesse, personalisierte Medizin und klinische Arbeitsabläufe und befasst sich auch mit den Herausforderungen, die mit der Integration von KI in die Radiologie verbunden sind, darunter Datenqualität, das „Black-Box“-Problem, infrastrukturelle und technische Komplexität sowie ethische Implikationen. <span class="citation" data-cites="najjar2023redefining">(<a href="referenzen.html#ref-najjar2023redefining" role="doc-biblioref">Najjar 2023</a>)</span></p>
 <p>Die Studie „Efficiency and Quality of Generative AI–Assisted Radiograph Reporting“ untersucht den Einsatz eines generativen KI-Modells zur Unterstützung bei der Radiologie-Berichterstellung. Dabei zeigte sich, dass die Nutzung des KI-Systems die Dokumentationszeit um 15,5% verkürzte, ohne die klinische Genauigkeit oder Textqualität der Berichte zu beeinträchtigen. Zudem konnte das System wichtige Pneumothoraces mit hoher Sensitivität und Spezifität schnell erkennen, was zu einer schnelleren Behandlung beitragen kann. Die Ergebnisse deuten darauf hin, dass die Zusammenarbeit zwischen Radiologen und generativer KI die Effizienz verbessert und die Qualität der Patientenversorgung erhalten bleibt. <span class="citation" data-cites="10.1001/jamanetworkopen.2025.13921">(<a href="referenzen.html#ref-10.1001/jamanetworkopen.2025.13921" role="doc-biblioref">Huang u.&nbsp;a. 2025</a>)</span></p>
-<p>„Recognising errors in AI implementation in radiology: A narrative review“ ist eine Übersichtsarbeit, die sich mit typischen Fehlerquellen bei der Implementierung von Künstlicher Intelligenz in der Radiologie befasst. Die Autor:innen beschreiben, dass Probleme sowohl im Lebenszyklus der Modelle, in der technischen Infrastruktur als auch durch menschliche Faktoren entstehen können. Dazu gehören Aspekte wie mangelnde Datenqualität, Bias, unzureichendes Testen, Integrationsprobleme in PACS/RIS sowie fehlende Akzeptanz und Vertrauen seitens der Anwender. Ziel der Arbeit ist es, diese Fehlermechanismen zu identifizieren und Lösungsansätze vorzuschlagen, um künftige Implementierungen sicherer, effizienter und klinisch relevanter zu gestalten. <span class="citation" data-cites="stogiannos2025recognising">(<a href="referenzen.html#ref-stogiannos2025recognising" role="doc-biblioref">Stogiannos u.&nbsp;a. 2025</a>)</span></p>
+<p>„Recognising errors in AI implementation in radiology: A narrative review“ ist eine Übersichtsarbeit, die sich mit typischen Fehlerquellen bei der Implementierung von Künstlicher Intelligenz in der Radiologie befasst. Die Autor:innen beschreiben, dass Probleme sowohl im Lebenszyklus der Modelle, in der technischen Infrastruktur als auch durch menschliche Faktoren entstehen können. Dazu gehören Aspekte wie mangelnde Datenqualität, Bias, unzureichendes Testen, Integrationsprobleme in PACS/RIS sowie fehlende Akzeptanz und Vertrauen seitens der Anwender. Ziel der Arbeit ist es, diese Fehlermechanismen zu identifizieren und Lösungsansätze vorzuschlagen, um künftige Implementierungen sicherer, effizienter und klinisch relevanter zu gestalten. <span class="citation" data-cites="stogiannos2025recognising">(<a href="referenzen.html#ref-stogiannos2025recognising" role="doc-biblioref"><span class="nocase">Stogiannos u.&nbsp;a.</span> 2025</a>)</span></p>
 <p>Der Artikel mit dem Titel „Evaluation of Reliability, Repeatability, Robustness, and Confidence of GPT-3.5 and GPT-4 on a Radiology Board–style Examination“ untersucht die Leistungsfähigkeit der KI-Modelle GPT-3.5 und GPT-4 bei radiologischen Prüfungsfragen. Im Rahmen der Studie wurden die Zuverlässigkeit, Wiederholbarkeit, Robustheit und das Vertrauen der Modelle bei der Beantwortung komplexer radiologischer Multiple-Choice-Fragen analysiert. Dabei zeigte GPT-4 eine signifikant bessere Gesamtgenauigkeit und verbesserte Leistung insbesondere bei schwierigen Fragestellungen im Vergleich zu GPT-3.5. Die Ergebnisse verdeutlichen das Potenzial großer Sprachmodelle wie GPT-4 als unterstützende Werkzeuge in der Radiologie, wobei jedoch auch ihre Grenzen berücksichtigt werden müssen. Die Studie liefert wichtige Erkenntnisse zur Integration solcher KI-Modelle in die medizinische Diagnostik und Ausbildung. <span class="citation" data-cites="krishna2024evaluation">(<a href="referenzen.html#ref-krishna2024evaluation" role="doc-biblioref">Krishna u.&nbsp;a. 2024</a>)</span></p>
 <p>Die Studie „Prospektive multizentrische Validierung künstlicher Intelligenz zur Erkennung von Tuberkulose und Thoraxröntgenanomalien“ untersucht den Einsatz von KI-Algorithmen zur Analyse von Thoraxaufnahmen. In mehreren klinischen Einrichtungen wurde geprüft, wie zuverlässig die Systeme Tuberkulose-typische Veränderungen sowie andere Auffälligkeiten auf Röntgenbildern erkennen. Ziel war es, den diagnostischen Ablauf zu verbessern und den Einsatz molekularer Nachweisverfahren insbesondere in Ländern mit hoher Krankheitslast effizienter zu gestalten. Die Arbeit basiert auf einer prospektiven Datenerhebung und vergleicht die Leistung der KI mit etablierten diagnostischen Verfahren, ohne subjektive Wertung der Ergebnisse. <span class="citation" data-cites="doi:10.1056/AIoa2400018">(<a href="referenzen.html#ref-doi:10.1056/AIoa2400018" role="doc-biblioref">Kazemzadeh u.&nbsp;a. 2024</a>)</span></p>
 <ul>
@@ -1014,29 +1020,32 @@ cookieconsent.run({
 <p>Der Artikel „Structuring Radiology Reports: Challenging LLMs with Lightweight Models” untersucht die Strukturierung von radiologischen Befunden durch kompakte, spezialisierte Deep-Learning-Modelle im Vergleich zu großen Sprachmodellen wie LLaMA-3 oder GPT-4. Die Arbeit demonstriert anhand der frei verfügbaren MIMIC-CXR- und CheXpert-Plus-Datensätze, dass ein speziell trainiertes BERT2BERT-Modell mit rund 300 Millionen Parametern eine ähnliche Genauigkeit bei der strukturierten Berichtserstellung erreicht wie deutlich größere LLMs – jedoch bei erheblich geringerer Rechenlast, niedrigeren Kosten und deutlich reduziertem CO₂-Ausstoß. Für das Training wurde eine große Datenbasis erzeugt, indem GPT-4 zunächst als „schwacher Annotator“ eingesetzt wurde; ein ärztlich begutachteter Testdatensatz diente zur Qualitätsprüfung. Die Ergebnisse unterstreichen, dass kleine, domänenspezifische Modelle eine datenschutzkonforme, ressourcenschonende und skalierbare Alternative zu Cloud-basierten LLM-Lösungen insbesondere für regulierte Gesundheitseinrichtungen bieten können.</p>
 <p>Der Artikel „Closing the Loop: A Custom Artificial Intelligence Agent to Improve Detection of Radiologist Follow‑Up Recommendations“ beschreibt die Entwicklung und Implementierung eines KI‑basierten Agenten, der radiologische Befundempfehlungen automatisch erkennt und standardisiert. Das System nutzt ein vortrainiertes Large‑Language‑Model, um klinische Eindrücke zu analysieren, relevante Details für Nachuntersuchungen zu extrahieren und diese Informationen in den digitalen Arbeitsablauf für Patientenansprachen zu integrieren. In einer Evaluation mit 10 000 zufällig ausgewählten Befunden erreichte der Agent eine balancierte Genauigkeit von über 97 % und identifizierte 6,18‑mal mehr Fälle, die einer Nachverfolgung bedurfen, als das bisherige makrobasierte System. Zusätzlich zeigte er über 94 % Genauigkeit bei der Bestimmung von Zeitpunkt, Verfahren und zugrunde liegender Anomalie der empfohlenen Nachuntersuchungen, wodurch die Zuverlässigkeit der Patientenversorgung in einem hochvolumigen Gesundheitssystem verbessert wurde.</p>
 <p>„Merlin: a computed tomography vision–language foundation model and dataset“ ist ein in Nature am 4. März 2026 veröffentlichter Artikel. Er stellt das 3D-Vision-Language-Modell Merlin vor, das volumetrische abdominale CT-Scans, elektronische Patientenakten und Radiologieberichte integriert. Das Modell wurde auf einem großen klinischen Datensatz mit über 15.000 CT-Scans (mehr als 6 Millionen Bildern), Diagnosecodes und Berichten trainiert, ohne zusätzliche manuelle Annotationen. Merlin wurde auf 752 Aufgaben evaluiert, darunter Zero-Shot-Klassifikationen, Cross-Modal-Retrieval, Krankheitsvorhersagen, Berichtsgenerierung und 3D-Segmentierung. Es zeigte hohe Generalisierung in internen und externen Tests (über 49.000 Scans) und übertraf 2D-VLMs sowie andere CT-Modelle. Der Datensatz mit 25.494 CT-Bericht-Paaren, Modellgewichte und Code wurden öffentlich freigegeben, um die Interpretation abdominaler CTs zu unterstützen und Radiologen zu entlasten.</p>
+<p>Der Artikel mit dem Titel <strong>„Metrics for Artificial Intelligence in Medicine: A Reference Resource“</strong> erschien am 11. März 2026 in der Zeitschrift <em>Radiology: Artificial Intelligence</em>. Die Autoren Ricardo A. Gonzales, Marcelo Straus Takahashi, Tara Retson, Imon Banerjee, Seong Ho Park und Charles E. Kahn Jr.&nbsp;stellen darin ein umfassendes, maschineninterpretierbares Framework vor, das die Nomenklatur und Beschreibungen von 207 graphischen, matrixbasierten und skalaren Metriken zur Bewertung der Leistung von KI-Modellen in der Medizin formalisiert. Diese Metriken-Taxonomie ist Bestandteil der Radiology Ontology of AI Datasets, Models and Projects (ROADMAP) und bietet eine logisch strukturierte Darstellung, die Semantik erfasst, Schlussfolgerungen über Metrikklassen ermöglicht und automatisierte Vollständigkeitsprüfungen bei der Berichterstattung von KI-Modellen unterstützt. Jede Metrik wird mit Definition, Quellenangaben, Synonymen, Abkürzungen, Formeln und Grenzwerten versehen; logische Axiome verknüpfen sie mit 18 Leistungskriterien wie Klassifikation, Kalibrierung, Bildsegmentierung und Textanalyse. Das System gilt für Modelle auf strukturierten Daten, medizinischen Bildern, Audiosignalen und unstrukturiertem Text und fördert durch standardisierte Terminologie den Vergleich von Modellen, die Bias-Erkennung sowie die Auswahl geeigneter Evaluationsmethoden.</p>
+<p>Der Artikel mit dem Titel <strong>„Roadmap: An Ontology of Medical AI Models and Datasets“</strong> stellt die Radiology Ontology of AI Datasets, Models, and Projects (ROADMAP) vor. Diese Ontologie wurde von Forschern um Abhinav Suri, Marcelo Straus Takahashi, Tara Retson und Charles E. Kahn Jr.&nbsp;entwickelt und im März 2026 in der Zeitschrift <em>Radiology: Artificial Intelligence</em> veröffentlicht. ROADMAP bietet ein maschineninterpretierbares Rahmenwerk zur standardisierten Beschreibung von KI-Modellen und -Datensätzen in der Medizin, insbesondere der Radiologie. Sie definiert formale Attribute und zulässige Werte, baut auf Konzepten wie „Model Cards“ und „Datasheets for Datasets“ auf und erweitert diese um Unterstützung multimodaler Daten (medizinische Bilder, strukturierte Daten, unstrukturierter Text). Durch Verknüpfung mit etablierten Ontologien, Kodiersystemen und Common Data Elements verbessert ROADMAP die Auffindbarkeit, Interoperabilität und Wiederverwendbarkeit von KI-Ressourcen. Sie ermöglicht das passgenaue Zuordnen von Modellen zu Datensätzen sowie die Erkennung potenzieller Bias-Quellen und ist öffentlich unter <a href="https://bioportal.bioontology.org/ontologies/ROADMAP">bioportal.bioontology.org/ontologies/ROADMAP</a> verfügbar.</p>
+<p>Der Artikel <strong>„Full-scale indexing and semantic annotation of CT imaging: boosting FAIRness“</strong> (veröffentlicht am 9. Februar 2026 in <em>BMC Medical Informatics and Decision Making</em>) stellt eine automatisierte Methode zur semantischen Anreicherung klinischer CT-Bildserien vor. Autoren sind Hannes Ulrich, Robin Hendel und Björn Schreiweis. Ziel ist die Verbesserung der FAIR-Prinzipien (Findability, Accessibility, Interoperability, Reusability) für medizinische Bilddaten. Dazu wird das TotalSegmentator-Framework eingesetzt, um anatomische Strukturen zu segmentieren und diese mit SNOMED-CT-Codes zu annotieren. Die Metadaten werden in standardisierten HL7-FHIR-Ressourcen abgebildet. Im UKSH MeDIC am Universitätsklinikum Schleswig-Holstein wurden bis November 2025 über 1,7 Millionen CT-Serien verarbeitet, was mehr als 50 Millionen SNOMED-CT-Annotationen ergab. Der offene Prozess ermöglicht eine effiziente, skalierbare Indexierung und unterstützt die bessere Auffindbarkeit sowie den standardisierten Austausch von Bilddaten für Forschung und KI-Anwendungen in der Medizin.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-10.1001/jamanetworkopen.2025.13921" class="csl-entry" role="listitem">
-Huang, Jonathan, Matthew T. Wittbrodt, Caitlin N. Teague, Eric Karl, Galal Galal, Michael Thompson, Ajay Chapa, u.&nbsp;a. 2025. <span>„Efficiency and Quality of Generative AI–Assisted Radiograph Reporting“</span>. <em>JAMA Network Open</em> 8 (6): e2513921–21. <a href="https://doi.org/10.1001/jamanetworkopen.2025.13921">https://doi.org/10.1001/jamanetworkopen.2025.13921</a>.
+Huang, Jonathan, Matthew T. Wittbrodt, Caitlin N. Teague, u.&nbsp;a. 2025. <span>„Efficiency and Quality of Generative AI–Assisted Radiograph Reporting“</span>. <em>JAMA Network Open</em> 8 (6): e2513921–21. <a href="https://doi.org/10.1001/jamanetworkopen.2025.13921">https://doi.org/10.1001/jamanetworkopen.2025.13921</a>.
 </div>
 <div id="ref-doi:10.1056/AIoa2400018" class="csl-entry" role="listitem">
-Kazemzadeh, Sahar, Atilla P. Kiraly, Zaid Nabulsi, Nsala Sanjase, Minyoi Maimbolwa, Brian Shuma, Shahar Jamshy, u.&nbsp;a. 2024. <span>„Prospective Multi-Site Validation of AI to Detect Tuberculosis and Chest X-Ray Abnormalities“</span>. <em>NEJM AI</em> 1 (10): AIoa2400018. <a href="https://doi.org/10.1056/AIoa2400018">https://doi.org/10.1056/AIoa2400018</a>.
+Kazemzadeh, Sahar, Atilla P. Kiraly, Zaid Nabulsi, u.&nbsp;a. 2024. <span>„Prospective Multi-Site Validation of AI to Detect Tuberculosis and Chest X-Ray Abnormalities“</span>. <em>NEJM AI</em> 1 (10): AIoa2400018. <a href="https://doi.org/10.1056/AIoa2400018">https://doi.org/10.1056/AIoa2400018</a>.
 </div>
 <div id="ref-krishna2024evaluation" class="csl-entry" role="listitem">
 Krishna, Satheesh, Nishaant Bhambra, Robert Bleakney, und Rajesh Bhayana. 2024. <span>„Evaluation of reliability, repeatability, robustness, and confidence of GPT-3.5 and GPT-4 on a radiology board–style examination“</span>. <em>Radiology</em> 311 (2): e232715.
 </div>
 <div id="ref-luo2024rexplain" class="csl-entry" role="listitem">
-Luo, Luyang, Jenanan Vairavamurthy, Xiaoman Zhang, Abhinav Kumar, Ramon R Ter-Oganesyan, Stuart T Schroff, Dan Shilo, Rydhwana Hossain, Mike Moritz, und Pranav Rajpurkar. 2024. <span>„Rexplain: Translating radiology into patient-friendly video reports“</span>. <em>arXiv preprint arXiv:2410.00441</em>.
+Luo, Luyang, Jenanan Vairavamurthy, Xiaoman Zhang, u.&nbsp;a. 2024. <span>„Rexplain: Translating radiology into patient-friendly video reports“</span>. <em>arXiv preprint arXiv:2410.00441</em>.
 </div>
 <div id="ref-najjar2023redefining" class="csl-entry" role="listitem">
 Najjar, Reabal. 2023. <span>„Redefining radiology: a review of artificial intelligence integration in medical imaging“</span>. <em>Diagnostics</em> 13 (17): 2760.
 </div>
 <div id="ref-stogiannos2025recognising" class="csl-entry" role="listitem">
-Stogiannos, Nikolaos, Renato Cuocolo, Tugba Akinci D’Antonoli, Daniel Pinto Dos Santos, Hugh Harvey, Merel Huisman, Burak Kocak, u.&nbsp;a. 2025. <span>„Recognising errors in AI implementation in radiology: A narrative review“</span>. <em>European Journal of Radiology</em>, 112311.
+<span class="nocase">Stogiannos, Nikolaos, Renato Cuocolo, Tugba Akinci D’Antonoli, u.&nbsp;a.</span> 2025. <span>„Recognising errors in AI implementation in radiology: A narrative review“</span>. <em>European Journal of Radiology</em>, 112311.
 </div>
 <div id="ref-sultan2025chatgpt" class="csl-entry" role="listitem">
-Sultan, Laith R, Shyam Sunder B Venkatakrishna, Sudha A Anupindi, Savvas Andronikou, Michael R Acord, Hansel J Otero, Kassa Darge, Chandra M Sehgal, und John H Holmes. 2025. <span>„ChatGPT-4–Driven Liver Ultrasound Radiomics Analysis: Diagnostic Value and Drawbacks in a Comparative Study“</span>. <em>JMIR AI</em> 4: e68144.
+Sultan, Laith R, Shyam Sunder B Venkatakrishna, Sudha A Anupindi, u.&nbsp;a. 2025. <span>„ChatGPT-4–Driven Liver Ultrasound Radiomics Analysis: Diagnostic Value and Drawbacks in a Comparative Study“</span>. <em>JMIR AI</em> 4: e68144.
 </div>
 </div>
 </section>

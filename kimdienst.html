@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Telematikinfrastruktur – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -989,7 +995,7 @@ cookieconsent.run({
 <section id="kim-mail" class="level3">
 <h3 class="anchored" data-anchor-id="kim-mail">KIM Mail</h3>
 <p>KIM-Mail nutzt eine spezialisierte Implementierung, die auf dem <a href="https://gemspec.gematik.de/docs/gemSpec/gemSpec_CM_KOMLE/latest/">KOMLE-Standard (KOMmunikationsLEitungsstandard)</a> basiert. Dieser Standard ermöglicht die sichere Kommunikation über die Telematikinfrastruktur (TI) und verwendet dafür spezielle Protokolle und Verfahren, um die notwendige Sicherheit und Integrität der medizinischen Daten zu gewährleisten. Der KOMLE-Standard (KOMmunikationsLEitungsstandard) unterscheidet sich von herkömmlichen E-Mail-Protokollen wie SMTP, POP3 und IMAP. Sicherheit wird durch den Einsatz von Public Key Infrastrukturen (PKI) und TLS (Transport Layer Security) gewährleistet. KOMLE-Clientmodule (KOM-LE) sind darauf ausgelegt, nahtlos in die TI-Systeme zu integrieren und bieten spezifische Schnittstellen für die Kommunikation mit anderen TI-Diensten.</p>
-<p>Die Studie von Saatjohann, Ising und Schinzel analysiert die Sicherheit der E-Mail-Infrastruktur „Kommunikation im Medizinwesen“ (KIM), die im deutschen Gesundheitswesen verwendet wird. Obwohl KIM eine starke Ende-zu-Ende-Verschlüsselung mittels S/MIME bietet, entdeckten die Autoren gravierende Schwachstellen in der Verarbeitung durch Clientmodule. So konnten Angreifer beispielsweise Signaturen täuschen, indem sie HTML und CSS nutzten, um Warnhinweise zu verstecken. Zusätzlich speicherte ein KIM-Clientmodul sensible medizinische Daten unverschlüsselt in Logdateien, was gegen geltende Spezifikationen verstößt. Eine weitere kritische Schwachstelle betraf die Log4Shell-Lücke, die potenziell Remote-Code-Ausführung auf Praxisservern ermöglichte. Die Autoren kritisieren das unzureichende Zulassungs- und Updateverfahren der gematik und fordern stärkere Sicherheitsprüfungen sowie transparente und verpflichtende Update-Prozesse. <span class="citation" data-cites="incollection">(<a href="referenzen.html#ref-incollection" role="doc-biblioref">Saatjohann, Ising, und Schinzel 2024</a>)</span></p>
+<p>Die Studie von Saatjohann, Ising und Schinzel analysiert die Sicherheit der E-Mail-Infrastruktur „Kommunikation im Medizinwesen“ (KIM), die im deutschen Gesundheitswesen verwendet wird. Obwohl KIM eine starke Ende-zu-Ende-Verschlüsselung mittels S/MIME bietet, entdeckten die Autoren gravierende Schwachstellen in der Verarbeitung durch Clientmodule. So konnten Angreifer beispielsweise Signaturen täuschen, indem sie HTML und CSS nutzten, um Warnhinweise zu verstecken. Zusätzlich speicherte ein KIM-Clientmodul sensible medizinische Daten unverschlüsselt in Logdateien, was gegen geltende Spezifikationen verstößt. Eine weitere kritische Schwachstelle betraf die Log4Shell-Lücke, die potenziell Remote-Code-Ausführung auf Praxisservern ermöglichte. Die Autoren kritisieren das unzureichende Zulassungs- und Updateverfahren der gematik und fordern stärkere Sicherheitsprüfungen sowie transparente und verpflichtende Update-Prozesse. <span class="citation" data-cites="incollection">(<a href="referenzen.html#ref-incollection" role="doc-biblioref">Saatjohann u.&nbsp;a. 2024</a>)</span></p>
 <section id="beispiel-kim-adressenendungen" class="level4">
 <h4 class="anchored" data-anchor-id="beispiel-kim-adressenendungen">Beispiel-KIM-Adressenendungen</h4>
 <p><code>@i-motion.kim.telematik</code></p>
@@ -1017,7 +1023,7 @@ cookieconsent.run({
 </ul>
 <section id="snomed" class="level3">
 <h3 class="anchored" data-anchor-id="snomed">SNOMED</h3>
-<p>Die Studie „SNOMED CT entity linking challenge” präsentiert die Ergebnisse eines internationalen Wettbewerbs, bei dem Modelle zur Verknüpfung von Entitäten in klinischen Texten mit SNOMED CT Konzepten entwickelt wurden. Grundlage bildete ein großes, manuell annotiertes Datenset realer Entlassungsberichte aus dem MIMIC-IV-Note-Korpus. Die Auswertung der besten Modelle zeigte, dass insbesondere seltene Konzepte und uneinheitliche Annotationen große Herausforderungen für das Entity Linking darstellen. Die Autoren empfehlen, künftige Arbeiten verstärkt auf Methoden zur besseren Nutzung kontextueller Informationen und zur Verbesserung der Erkennung seltener Konzepte zu fokussieren. <span class="citation" data-cites="davidson2025snomed">(<a href="referenzen.html#ref-davidson2025snomed" role="doc-biblioref">Davidson u.&nbsp;a. 2025</a>)</span></p>
+<p>Die Studie „SNOMED CT entity linking challenge” präsentiert die Ergebnisse eines internationalen Wettbewerbs, bei dem Modelle zur Verknüpfung von Entitäten in klinischen Texten mit SNOMED CT Konzepten entwickelt wurden. Grundlage bildete ein großes, manuell annotiertes Datenset realer Entlassungsberichte aus dem MIMIC-IV-Note-Korpus. Die Auswertung der besten Modelle zeigte, dass insbesondere seltene Konzepte und uneinheitliche Annotationen große Herausforderungen für das Entity Linking darstellen. Die Autoren empfehlen, künftige Arbeiten verstärkt auf Methoden zur besseren Nutzung kontextueller Informationen und zur Verbesserung der Erkennung seltener Konzepte zu fokussieren. <span class="citation" data-cites="davidson2025snomed">(<a href="referenzen.html#ref-davidson2025snomed" role="doc-biblioref"><span class="nocase">Davidson u.&nbsp;a.</span> 2025</a>)</span></p>
 </section>
 </section>
 <section id="konnektoren" class="level2">
@@ -1038,7 +1044,7 @@ cookieconsent.run({
 <p>Es gibt Softwarelösungen, die Ärzten zusätzliche Funktionen zur Verordnungsverwaltung bieten wie bspw. schnelle Rezepterstellung, intelligente Suchfunktionen, Medikationsplanerstellung und AMTS-Prüfungen (siehe <a href="https://data4doc.de/">data4doc</a>). Einige Praxisverwaltungssysteme (PVS) haben ähnliche Zusatzfunktionen integriert, die eine nahtlose Zusammenarbeit und Datenübertragung ermöglichen. Die Software bietet außerdem aktuelle Medikamenteninformationen und ist über eine standardisierte Schnittstelle in bestehende PVS-Systeme integrierbar.</p>
 <p>Die Studie „The failed implementation of the electronic prescription in Germany – A case study“ von Paul Drews und Ingrid Schirmer analysiert die Einführung der elektronischen Verschreibung in Deutschland zwischen 2003 und 2010. Sie identifiziert 14 Gründe für die fehlende Durchsetzung der Initiative, die in fünf Kategorien eingeteilt werden, darunter ein zu starker Fokus auf technische Aspekte, mangelnde Berücksichtigung organisatorischer Prozesse, Zeitpläne für Entwicklungsprojekte, vorgenommene Priorisierung der elektronischen Verschreibung und nicht eindeutige Governance-Strukturen. Weitere Probleme waren die unzureichende Einbindung von Leistungserbringenden, verzögerte Kosten-Nutzen-Analysen und negative Auswirkungen auf die Arbeitszeit von Leistungserbringenden ohne spürbare Vorteile. Die Studie betont die Notwendigkeit einer besseren Abstimmung zwischen zentralen und dezentralen Akteuren sowie einer iterativen Projektplanung, um komplexe IT-Projekte umzusetzen. <span class="citation" data-cites="drews2015failed">(<a href="referenzen.html#ref-drews2015failed" role="doc-biblioref">Drews und Schirmer 2015</a>)</span></p>
 <p>Die Studie „Barriers and facilitators to implementing electronic prescription: a systematic review of user groups’ perceptions“ untersucht die Wahrnehmungen von Nutzergruppen hinsichtlich der Hindernisse und Förderfaktoren bei der Einführung elektronischer Rezepte (e-prescribing) in der Primärversorgung. Durch eine systematische Literaturrecherche wurden 34 Publikationen analysiert, die zahlreiche Elemente als Barrieren oder Förderfaktoren identifizierten. Zu den wichtigsten Faktoren zählen technische und gestalterische Aspekte, Interoperabilität, relevante Inhalte, positive Einstellung zur elektronischen Rezeptierung, Produktivität und verfügbare Ressourcen. Die Studie betont, dass technische und organisatorische Unterstützung entscheidend für eine erfolgreiche Implementierung ist und dass Faktoren je nach Implementierungsphase als Barriere oder Förderfaktor wahrgenommen werden können. Abschließend wird empfohlen, zukünftige Studien auf die Perspektiven anderer Nutzergruppen wie Apotheker und Patienten zu erweitern. <span class="citation" data-cites="gagnon2014barriers">(<a href="referenzen.html#ref-gagnon2014barriers" role="doc-biblioref">Gagnon u.&nbsp;a. 2014</a>)</span></p>
-<p>Die Studie „Comparison of Electronic Prescription Systems in the European Union: Benchmarking Development, Use, and Future Trends“ bietet einen umfassenden Vergleich der Entwicklung, Funktionalitäten und Nutzung von elektronischen Rezeptsystemen (EPS) in den EU-Mitgliedstaaten. Bis Ende 2022 hatten 24 EU-Länder EPS weit verbreitet eingeführt, während Deutschland und Frankreich Pilotprojekte starteten und Luxemburg noch kein System besaß. Die meisten EPS (25 von 27) nutzen ein ähnliches Design mit zentralem Server und Endnutzer-Software oder webbasierten Anwendungen, wobei 22 als nationale Systeme strukturiert sind. Trotz technischer Ähnlichkeiten unterscheiden sich Funktionalitäten, Authentifizierungsmethoden, Rezeptgültigkeit und Medikamentenabdeckung erheblich. Die Studie betont die Notwendigkeit standardisierter Methoden für EPS-Forschung, um Gesundheitspolitik und Digitalisierung zu unterstützen. <span class="citation" data-cites="bruthans2025comparison">(<a href="referenzen.html#ref-bruthans2025comparison" role="doc-biblioref">Bruthans u.&nbsp;a. 2025</a>)</span></p>
+<p>Die Studie „Comparison of Electronic Prescription Systems in the European Union: Benchmarking Development, Use, and Future Trends“ bietet einen umfassenden Vergleich der Entwicklung, Funktionalitäten und Nutzung von elektronischen Rezeptsystemen (EPS) in den EU-Mitgliedstaaten. Bis Ende 2022 hatten 24 EU-Länder EPS weit verbreitet eingeführt, während Deutschland und Frankreich Pilotprojekte starteten und Luxemburg noch kein System besaß. Die meisten EPS (25 von 27) nutzen ein ähnliches Design mit zentralem Server und Endnutzer-Software oder webbasierten Anwendungen, wobei 22 als nationale Systeme strukturiert sind. Trotz technischer Ähnlichkeiten unterscheiden sich Funktionalitäten, Authentifizierungsmethoden, Rezeptgültigkeit und Medikamentenabdeckung erheblich. Die Studie betont die Notwendigkeit standardisierter Methoden für EPS-Forschung, um Gesundheitspolitik und Digitalisierung zu unterstützen. <span class="citation" data-cites="bruthans2025comparison">(<a href="referenzen.html#ref-bruthans2025comparison" role="doc-biblioref"><span class="nocase">Bruthans u.&nbsp;a.</span> 2025</a>)</span></p>
 <p>Die Studie „The ePrescription Initiative and Information Infrastructure in Norway“ analysiert die Einführung elektronischer Rezepte in Norwegen. Nach anfänglichen Misserfolgen wurde ab 2011 eine erfolgreiche Lösung etabliert, die durch eine flexible Integration in bestehende Systeme, einen evolutionären Entwicklungsansatz und angepasste Governance-Strukturen geprägt ist. Die Untersuchung hebt die Bedeutung der Bewältigung der installierten Basis hervor, die durch die Entwicklung eines eigenständigen Verordnungsmoduls (GPM) erleichtert wurde. Diese Anpassungen ermöglichten eine breite Akzeptanz in der Primärversorgung, Krankenhäusern und bei der Unterstützung von Mehrdosenabgaben, trotz anfänglicher Herausforderungen durch komplexe Koordination und veraltete Infrastruktur. <span class="citation" data-cites="hanseth2017eprescription">(<a href="referenzen.html#ref-hanseth2017eprescription" role="doc-biblioref">Hanseth und Bygstad 2017</a>)</span></p>
 <p>Die Studie „From Paper to E-Prescribing of Multidose Drug Dispensing: A Qualitative Study of Workflow in a Community Care Setting“ untersucht die Einführung von elektronischen Verordnungen für die Mehrdosis-Medikamentenausgabe (MDD) in der kommunalen Gesundheitsversorgung in Norwegen. Durch qualitative Interviews mit 34 Krankenschwestern und Apothekern zeigt die Untersuchung, dass E-Verordnungen eine bessere Systemintegration und potenziell höhere Patientensicherheit ermöglichen, jedoch auch den Arbeitsaufwand durch häufigere Klärungen und Korrekturen erhöhen. Die Studie hebt hervor, dass ein besseres Verständnis der Rollen und Bedürfnisse der beteiligten Fachkräfte den Arbeitsfluss verbessern könnte. <span class="citation" data-cites="josendal2021paper">(<a href="referenzen.html#ref-josendal2021paper" role="doc-biblioref">Josendal und Bergmo 2021</a>)</span></p>
 <p>Die Studie „Going digital in Germany: An exploration of physicians’ attitudes towards the introduction of electronic prescriptions – A mixed methods approach“ untersucht die geringe Verbreitung elektronischer Rezepte (ePs) in Deutschland. Sie kombiniert qualitative Interviews und eine Online-Umfrage unter 1136 Ärzten, um die Akzeptanz und technischen Barrieren zu analysieren. Die Ergebnisse zeigen, dass die niedrige Penetration nicht primär durch technische Hindernisse, sondern durch geringe Technologieakzeptanz der Ärzte bedingt ist, die mit geringem wahrgenommenen Nutzen, hohem Aufwand und geringer Patientennachfrage zusammenhängt. Maßnahmen wie verbesserte technische Stabilität, Systemfunktionalität und Informationsvermittlung könnten die Einführung von ePs fördern. <span class="citation" data-cites="graf2023going">(<a href="referenzen.html#ref-graf2023going" role="doc-biblioref">Graf u.&nbsp;a. 2023</a>)</span></p>
@@ -1057,15 +1063,15 @@ cookieconsent.run({
 </ul>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-bruthans2025comparison" class="csl-entry" role="listitem">
-Bruthans, Jan, Georg Duftschmid, Tora Hammar, Przemyslaw Kardas, Lóránt Bertalan, Martin J Hug, Cille Büllow, u.&nbsp;a. 2025. <span>„Comparison of Electronic Prescription Systems in the European Union: Benchmarking Development, Use, and Future Trends“</span>. <em>IEEE journal of biomedical and health informatics</em>.
+<span class="nocase">Bruthans, Jan, Georg Duftschmid, Tora Hammar, u.&nbsp;a.</span> 2025. <span>„Comparison of Electronic Prescription Systems in the European Union: Benchmarking Development, Use, and Future Trends“</span>. <em>IEEE journal of biomedical and health informatics</em>.
 </div>
 <div id="ref-davidson2025snomed" class="csl-entry" role="listitem">
-Davidson, Rory, Will Hardman, Guy Amit, Yonatan Bilu, Vincenzo Della Mea, Aleksandr Galaida, Irena Girshovitz, u.&nbsp;a. 2025. <span>„SNOMED CT entity linking challenge“</span>. <em>Journal of the American Medical Informatics Association</em>, ocaf104.
+<span class="nocase">Davidson, Rory, Will Hardman, Guy Amit, u.&nbsp;a.</span> 2025. <span>„SNOMED CT entity linking challenge“</span>. <em>Journal of the American Medical Informatics Association</em>, ocaf104.
 </div>
 <div id="ref-drews2015failed" class="csl-entry" role="listitem">
-Drews, Paul, und Ingrid Schirmer. 2015. <span>„The failed implementation of the electronic prescription in Germany-A case study“</span>.
+Drews, Paul, und Ingrid Schirmer. 2015. <em>The failed implementation of the electronic prescription in Germany-A case study</em>.
 </div>
 <div id="ref-esskaros2024optimizing" class="csl-entry" role="listitem">
 Esskaros, Marian, und Hamza Maatouk. 2024. <span>„Optimizing the Transition from Written Prescriptions into E-Prescriptions in Germany“</span>. <em>Studies in health technology and informatics</em> 316: 110–14.
@@ -1089,19 +1095,19 @@ Josendal, Anette Vik, und Trine Strand Bergmo. 2021. <span>„From paper to E-pr
 Kaushal, Rainu, Lisa M Kern, Yolanda Barrón, Jill Quaresimo, und Erika L Abramson. 2010. <span>„Electronic prescribing improves medication safety in community-based office practices“</span>. <em>Journal of general internal medicine</em> 25: 530–36.
 </div>
 <div id="ref-li2025physician" class="csl-entry" role="listitem">
-Li, Edmond, Olivia Lounsbury, Mujtaba Hasnain, Hutan Ashrafian, Ara Darzi, Ana Luisa Neves, und Jonathan Clarke. 2025. <span>„Physician experiences of electronic health record interoperability and its practical impact on care delivery in the English NHS: a cross-sectional survey study“</span>. <em>BMJ open</em> 15 (6): e096669.
+Li, Edmond, Olivia Lounsbury, Mujtaba Hasnain, u.&nbsp;a. 2025. <span>„Physician experiences of electronic health record interoperability and its practical impact on care delivery in the English NHS: a cross-sectional survey study“</span>. <em>BMJ open</em> 15 (6): e096669.
 </div>
 <div id="ref-li2025identifying" class="csl-entry" role="listitem">
-Li, Jane, Emma Maddock, Michael Hosking, Kate Ebrill, Jeremy Sullivan, Kylynn Loi, Danielle Tavares-Rixon, Rajiv Jayasena, Grahame Grieve, und Alana Delaforce. 2025. <span>„Identifying and Optimizing Factors Influencing the Implementation of a Fast Healthcare Interoperability Resources Accelerator: Qualitative Study Using the Consolidated Framework for Implementation Research–Expert Recommendations for Implementing Change Approach“</span>. <em>JMIR Medical Informatics</em> 13: e66421.
+Li, Jane, Emma Maddock, Michael Hosking, u.&nbsp;a. 2025. <span>„Identifying and Optimizing Factors Influencing the Implementation of a Fast Healthcare Interoperability Resources Accelerator: Qualitative Study Using the Consolidated Framework for Implementation Research–Expert Recommendations for Implementing Change Approach“</span>. <em>JMIR Medical Informatics</em> 13: e66421.
 </div>
 <div id="ref-nordmann2024challenges" class="csl-entry" role="listitem">
 Nordmann, Kim, Stefanie Sauter, Marie-Christin Redlich, Patricia Möbius-Lerch, Michael Schaller, und Florian Fischer. 2024. <span>„Challenges and conditions for successfully implementing and adopting the telematics infrastructure in German outpatient healthcare: A qualitative study applying the NASSS framework“</span>. <em>Digital Health</em> 10: 20552076241259855.
 </div>
 <div id="ref-pohjonen2022norway" class="csl-entry" role="listitem">
-Pohjonen, Hanna. 2022. <span>„Norway, Sweden, and Finland as forerunners in open ecosystems and openEHR“</span>. In <em>Roadmap to Successful Digital Health Ecosystems</em>, 457–71. Elsevier.
+Pohjonen, Hanna. 2022. <span>„Norway, Sweden, and Finland as forerunners in open ecosystems and openEHR“</span>. In <em>Roadmap to Successful Digital Health Ecosystems</em>. Elsevier.
 </div>
 <div id="ref-incollection" class="csl-entry" role="listitem">
-Saatjohann, Christoph, Fabian Ising, und Sebastian Schinzel. 2024. <span>„KIM: Kaos In der Medizin“</span>. In <em>Sicherheit 2024</em>, 93–104. Bonn: Gesellschaft für Informatik e.V. <a href="https://doi.org/10.18420/sicherheit2024_006">https://doi.org/10.18420/sicherheit2024_006</a>.
+Saatjohann, Christoph, Fabian Ising, und Sebastian Schinzel. 2024. <span>„KIM: Kaos In der Medizin“</span>. In <em>Sicherheit 2024</em>. Gesellschaft für Informatik e.V. <a href="https://doi.org/10.18420/sicherheit2024_006">https://doi.org/10.18420/sicherheit2024_006</a>.
 </div>
 </div>
 </section>

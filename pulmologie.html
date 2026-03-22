@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Pulmologie – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -1086,7 +1092,7 @@ cookieconsent.run({
 <section id="künstliche-intelligenz" class="level3">
 <h3 class="anchored" data-anchor-id="künstliche-intelligenz">Künstliche Intelligenz</h3>
 <p>Die Studie „Towards Using Cough for Respiratory Disease Diagnosis by Leveraging Artificial Intelligence: A Survey“ von Aneeqa Ijaz und Kollegen bietet einen umfassenden Überblick über den Einsatz von Husten als diagnostisches Werkzeug für Atemwegserkrankungen mithilfe künstlicher Intelligenz (KI). Sie untersucht, wie Machine Learning (ML) und Deep Learning (DL) Hustenakustik analysieren können, um Krankheiten wie Asthma, COPD, Pneumonie oder COVID-19 mit hoher Genauigkeit zu erkennen und vorläufig zu diagnostizieren. Die Autoren beleuchten den Mechanismus der Hustenentstehung, latente Hustenmerkmale und deren Nutzung in KI-Modellen sowie die Entwicklung spezialisierter Anwendungen zur Hustenüberwachung. Basierend auf einer umfangreichen Literaturanalyse zeigen sie, dass KI-basierte Algorithmen eine entscheidende Rolle bei der Früherkennung von Atemwegserkrankungen spielen können, indem sie charakteristische Merkmale aus Hustengeräuschen extrahieren. Zudem werden Herausforderungen wie Datenverfügbarkeit, Modellinterpretierbarkeit und Datenschutz sowie zukünftige Forschungsrichtungen für robuste, ubiquitäre Lösungen diskutiert. <span class="citation" data-cites="ijaz2022towards">(<a href="referenzen.html#ref-ijaz2022towards" role="doc-biblioref">Ijaz u.&nbsp;a. 2022</a>)</span></p>
-<p>Die Studie „Artificial Intelligence Techniques to Predict the Airway Disorders Illness: A Systematic Review“ von Apeksha Koul und Kollegen bietet eine systematische Übersicht über den Einsatz von maschinellem Lernen (ML) und tiefem Lernen (DL) zur Vorhersage von Atemwegserkrankungen wie Asthma, Lungenkrebs, COVID-19 und anderen. Sie analysiert 155 Artikel aus den Jahren 2010 bis 2022 und fasst den aktuellen Stand KI-basierter Systeme zur Erkennung dieser Erkrankungen zusammen. Die Autoren beleuchten Trends, vergleichen Techniken wie CNN, SVM und Random Forest anhand von Metriken wie Genauigkeit und F1-Score und diskutieren Herausforderungen wie Datenmangel, Modellfehler und Klassenungleichgewicht. Abschließend werden zukünftige Forschungswege vorgeschlagen, um die Effizienz und Anwendbarkeit KI-gestützter Diagnosen zu verbessern. <span class="citation" data-cites="koul2023artificial">(<a href="referenzen.html#ref-koul2023artificial" role="doc-biblioref">Koul, Bawa, und Kumar 2023</a>)</span></p>
+<p>Die Studie „Artificial Intelligence Techniques to Predict the Airway Disorders Illness: A Systematic Review“ von Apeksha Koul und Kollegen bietet eine systematische Übersicht über den Einsatz von maschinellem Lernen (ML) und tiefem Lernen (DL) zur Vorhersage von Atemwegserkrankungen wie Asthma, Lungenkrebs, COVID-19 und anderen. Sie analysiert 155 Artikel aus den Jahren 2010 bis 2022 und fasst den aktuellen Stand KI-basierter Systeme zur Erkennung dieser Erkrankungen zusammen. Die Autoren beleuchten Trends, vergleichen Techniken wie CNN, SVM und Random Forest anhand von Metriken wie Genauigkeit und F1-Score und diskutieren Herausforderungen wie Datenmangel, Modellfehler und Klassenungleichgewicht. Abschließend werden zukünftige Forschungswege vorgeschlagen, um die Effizienz und Anwendbarkeit KI-gestützter Diagnosen zu verbessern. <span class="citation" data-cites="koul2023artificial">(<a href="referenzen.html#ref-koul2023artificial" role="doc-biblioref">Koul u.&nbsp;a. 2023</a>)</span></p>
 </section>
 <section id="personalisierte-medizin" class="level3">
 <h3 class="anchored" data-anchor-id="personalisierte-medizin">Personalisierte Medizin</h3>
@@ -1111,27 +1117,27 @@ cookieconsent.run({
 <p>„Einsatz von COPD-Gesundheits-Apps in der Lausitz – Bedarf und Rahmenbedingungen für eine Nutzung“ ist eine qualitative Studie, die im Oktober 2025 in der Zeitschrift Prävention und Gesundheitsförderung open access veröffentlicht wurde. In der Untersuchung wurden im Sommer 2024 zwölf COPD-Patienten aus Cottbus, Senftenberg und Welzow mittels einer Fokusgruppe sowie dreier Doppelinterviews befragt. Die Teilnehmenden hatten bislang keine COPD-spezifischen Gesundheits-Apps genutzt und äußerten keinen expliziten Bedarf an solchen Anwendungen. Gleichzeitig wurde der Wunsch nach besserer ärztlicher Versorgung aufgrund des Ärztemangels deutlich. Als zentrale Voraussetzungen für eine mögliche Nutzung nannten die Befragten vor allem die Einbindung von Ärztinnen und Ärzten, die Möglichkeit direkter Kommunikation mit diesen sowie einen jederzeit erreichbaren, kompetenten Ansprechpartner für Fragen und Notfälle. Die Studie kommt zu dem Schluss, dass eine COPD-App potenziell Bedarfe decken könnte, jedoch unklar bleibt, welche Anreize und Lösungen für die Beteiligung insbesondere von Pneumologen erforderlich wären.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-info:doi/10.2196/54386" class="csl-entry" role="listitem">
 Berg, Liselot N van den, Cynthia Hallensleben, Lisa AE Vlug, Niels H Chavannes, und Anke Versluis. 2024. <span>„The Asthma App as a New Way to Promote Responsible Short-Acting Beta2-Agonist Use in People With Asthma: Results of a Mixed Methods Pilot Study“</span>. <em>JMIR Hum Factors</em> 11 (April): e54386. <a href="https://doi.org/10.2196/54386">https://doi.org/10.2196/54386</a>.
 </div>
 <div id="ref-hawthorne2022proof" class="csl-entry" role="listitem">
-Hawthorne, Grace, Matthew Richardson, Neil J Greening, Dale Esliger, Samuel Briggs-Price, Emma J Chaplin, Lisa Clinch, Michael C Steiner, Sally J Singh, und Mark W Orme. 2022. <span>„A proof of concept for continuous, non-invasive, free-living vital signs monitoring to predict readmission following an acute exacerbation of COPD: a prospective cohort study“</span>. <em>Respiratory Research</em> 23 (1): 102.
+Hawthorne, Grace, Matthew Richardson, Neil J Greening, u.&nbsp;a. 2022. <span>„A proof of concept for continuous, non-invasive, free-living vital signs monitoring to predict readmission following an acute exacerbation of COPD: a prospective cohort study“</span>. <em>Respiratory Research</em> 23 (1): 102.
 </div>
 <div id="ref-ijaz2022towards" class="csl-entry" role="listitem">
-Ijaz, Aneeqa, Muhammad Nabeel, Usama Masood, Tahir Mahmood, Mydah Sajid Hashmi, Iryna Posokhova, Ali Rizwan, und Ali Imran. 2022. <span>„Towards using cough for respiratory disease diagnosis by leveraging Artificial Intelligence: A survey“</span>. <em>Informatics in Medicine Unlocked</em> 29: 100832.
+Ijaz, Aneeqa, Muhammad Nabeel, Usama Masood, u.&nbsp;a. 2022. <span>„Towards using cough for respiratory disease diagnosis by leveraging Artificial Intelligence: A survey“</span>. <em>Informatics in Medicine Unlocked</em> 29: 100832.
 </div>
 <div id="ref-ionescu2018lung" class="csl-entry" role="listitem">
 Ionescu, Clara. 2018. <em>Lung function testing in the 21st century: methodologies and tools bridging engineering to clinical practice</em>. Academic Press.
 </div>
 <div id="ref-Khasentino2025" class="csl-entry" role="listitem">
-Khasentino, Justin, Anastasiya Belyaeva, Xin Liu, Zhun Yang, Nicholas A. Furlotte, Chace Lee, Erik Schenck, u.&nbsp;a. 2025. <span>„A personal health large language model for sleep and fitness coaching“</span>. <em>Nature Medicine</em>, August. <a href="https://doi.org/10.1038/s41591-025-03888-0">https://doi.org/10.1038/s41591-025-03888-0</a>.
+Khasentino, Justin, Anastasiya Belyaeva, Xin Liu, u.&nbsp;a. 2025. <span>„A personal health large language model for sleep and fitness coaching“</span>. <em>Nature Medicine</em>, Online-Vorab-Publikation, August 14. <a href="https://doi.org/10.1038/s41591-025-03888-0">https://doi.org/10.1038/s41591-025-03888-0</a>.
 </div>
 <div id="ref-koul2023artificial" class="csl-entry" role="listitem">
 Koul, Apeksha, Rajesh K Bawa, und Yogesh Kumar. 2023. <span>„Artificial intelligence techniques to predict the airway disorders illness: a systematic review“</span>. <em>Archives of Computational Methods in Engineering</em> 30 (2): 831–64.
 </div>
 <div id="ref-othman2024artificial" class="csl-entry" role="listitem">
-Othman, Ghada Ben, Amani R Ynineb, Erhan Yumuk, Hamed Farbakhsh, Cristina Muresan, Isabela Roxana Birs, Alexandra De Raeve, Cosmin Copot, Clara M Ionescu, und Dana Copot. 2024. <span>„Artificial Intelligence-Driven Prognosis of Respiratory Mechanics: Forecasting Tissue Hysteresivity Using Long Short-Term Memory and Continuous Sensor Data“</span>. <em>Sensors</em> 24 (17): 5544.
+Othman, Ghada Ben, Amani R Ynineb, Erhan Yumuk, u.&nbsp;a. 2024. <span>„Artificial Intelligence-Driven Prognosis of Respiratory Mechanics: Forecasting Tissue Hysteresivity Using Long Short-Term Memory and Continuous Sensor Data“</span>. <em>Sensors</em> 24 (17): 5544.
 </div>
 <div id="ref-Panzarella2025-cz" class="csl-entry" role="listitem">
 Panzarella, Luca. 2025. <span>„A software-based lung function assessment tool: an interview with <span>VoiceMed</span>“</span>. <em>Expert Rev. Med. Devices</em> 22 (7): 651–52.

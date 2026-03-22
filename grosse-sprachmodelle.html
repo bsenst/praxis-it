@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Große Sprachmodelle – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -30,25 +33,24 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./chatbot.html" rel="next">
+<link href="./llm-leistungsvergleich.html" rel="next">
 <link href="./monitoring.html" rel="prev">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -90,10 +92,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -810,6 +812,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -912,6 +919,9 @@ cookieconsent.run({
 <p>Die Studie „Performance of Large Language Models Under Input Variability in Health Care Applications: Dataset Development and Experimental Evaluation“ von Saubhagya Joshi und Kollegen wurde am 20. Februar 2026 in JMIR AI (Band 5, e83640) veröffentlicht. Sie untersucht die Robustheit von drei Large Language Models gegenüber variierenden Eingaben im Gesundheitsbereich, indem sie einen neu entwickelten Datensatz mit drei Arten menschlicher Störungen (Redaktionen, Homophone und typografische Fehler) in unterschiedlichen Intensitätsstufen nutzt und diese auf drei gesundheitsbezogene Aufgaben anwendet. Entgegen den Erwartungen zeigten die Modelle eine bemerkenswerte Widerstandsfähigkeit: In über der Hälfte der Fälle (55,92 %) blieb die Leistung stabil oder verbesserte sich sogar, insbesondere bei geringen Störungsgraden, während Redaktionen (z. B. durch Datenschutz oder kognitive Einschränkungen) den stärksten negativen Einfluss hatten. Die Ergebnisse unterstreichen die Notwendigkeit, LLM-basierte Anwendungen im Gesundheitswesen gezielt auf reale Eingabevariabilität auszulegen, und stellen den begleitenden Datensatz als Ressource für weitere Robustheitsforschung zur Verfügung.</p>
 <p>„UKL-GPT – Interne KI-Plattform“ (kma-online) Das Universitätsklinikum Leipzig hat UKL-GPT als eigene, datenschutzkonforme KI-Lösung gestartet, die im hauseigenen Rechenzentrum betrieben wird. Die Plattform durchsucht knapp 8700 Dokumente aus dem Dokumentenmanagementsystem roXtra, unterstützt bei der Textgenerierung und dient als zentrale digitale Assistenz für alle Berufsgruppen. Entwickelt in Kooperation mit der Firma 4K Analytics, basiert sie auf einem Datathon aus dem Jahr 2024 und wurde nach einer Pilotphase klinikweit freigegeben. Langfristig soll UKL-GPT weitere interne Quellen integrieren und zur zentralen Schnittstelle für Verwaltung und medizinische Prozesse werden.</p>
 <p>Die Preprint-Studie „Evaluating the AI Potential as a Safety Net for Diagnosis: A Novel Benchmark of Large Language Models in Correcting Diagnostic Errors“ von Ahmed Hassoon und Kollegen wurde am 24. Februar 2026 auf medRxiv veröffentlicht. Sie untersucht, inwieweit aktuelle Large Language Models (LLMs) als diagnostisches Sicherheitsnetz dienen können, indem sie fehlerhafte Arztdiagnosen erkennen und korrigieren. Dazu wurden 16 führende Modelle (darunter Gemini 2.5 Pro, Claude 3.5/4 Sonnet und GPT-o1) anhand von 200 standardisierten klinischen Vignetten zu 20 häufig fehldiagnostizierten, hochrisikorelevanten Erkrankungen getestet, wobei den Modellen jeweils eine falsche Diagnose vorgelegt wurde. Die besten Modelle korrigierten etwa die Hälfte der Fehler (Gemini 2.5 Pro: 55 %, Claude Sonnet 3.5: 48,5 %), während schwächere Modelle wie DeepSeek V3 nur 20 % erreichten. Viele Modelle zeigten Bestätigungsfehler (Confirmation Bias) und wiesen krankheitsspezifische Schwächen auf (z. B. bei Syphilis, Spinalem Epiduralabszess und Myokardinfarkt). Zudem erwies sich die Leistung als teilweise instabil gegenüber nicht-klinischen Kontextfaktoren wie Demografie oder Institutionsmerkmalen. Die Autoren schließen, dass LLMs derzeit nur begrenzt sicher einsetzbar sind und für eine klinische Nutzung skeptische, multi-agent-basierte Ansätze erforderlich wären.</p>
+<p>Die Analyse „LLM-assisted systematic review of large language models in clinical medicine“ von Sully F. Chen und Kollegen, veröffentlicht am 3. März 2026 in Nature Medicine, untersucht die wissenschaftliche Evidenz zu Large Language Models (LLMs) in der klinischen Medizin. Zwischen Januar 2022 und September 2025 wurden 4.609 peer-reviewte Studien identifiziert, was etwa 3,2 Publikationen pro Tag entspricht. Nur 1.048 Studien nutzten echte Patientendaten, davon lediglich 19 prospektive randomisierte kontrollierte Studien; die Mehrheit basierte auf simulierten Szenarien (1.857) oder prüfungsartigen Aufgaben (1.704). ChatGPT und andere OpenAI-Modelle dominierten mit 65,7 % der evaluierten Modelle. In 1.046 direkten Vergleichen übertrafen LLMs Menschen in 33 % der Fälle, abhängig von Realitätsnähe und Aufgabenart. Die Autoren betonen den Mangel an rigoroser, patientenzentrierter Evidenz und fordern größere prospektive Studien vor einer klinischen Einführung.</p>
+<p>„Clinician input steers frontier AI models toward both accurate and harmful decisions“ untersucht, wie ärztliche Beiträge das Verhalten großer Sprachmodelle in klinischen Entscheidungssituationen verändern. Die Autorinnen und Autoren kombinieren NEJM-Fallberichte mit realen Interaktionen und zeigen, dass fachkundige klinische Kontextinformation die diagnostische Treffergenauigkeit und Übereinstimmung mit Expert:innen deutlich erhöht, während irreführende oder unvollständige ärztliche Argumente Modelle systematisch zu falschen Diagnosen und potenziell schädlichen Handlungsempfehlungen verleiten können.</p>
+<p>„Introducing the Perplexity Health Advisory Board“ ist ein Blogbeitrag von Perplexity, der am 19. März 2026 veröffentlicht wurde. Der Text kündigt die Einrichtung des Perplexity Health Advisory Board an, einer kleinen Gruppe aus praktizierenden Ärzt:innen, Forscher:innen und Gesundheitstechnologie-Expert:innen. Dieses Gremium soll sicherstellen, dass zukünftige Produktentscheidungen, Inhaltsqualität, Patientensicherheit und klinische Prozesse evidenzbasierter Medizin entsprechen. Gleichzeitig werden die ersten vier Mitglieder vorgestellt: Dr.&nbsp;Eric Topol, Dr.&nbsp;Devin Mann, Dr.&nbsp;Wendy Chung und Tim Dybvig. Ergänzend werden neue Konnektoren für persönliche Gesundheitsdaten in Perplexity Health erwähnt, die als Basis für weitere Innovationen dienen sollen.</p>
 
 
 </section>
@@ -1381,8 +1391,8 @@ cookieconsent.run({
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./chatbot.html" class="pagination-link" aria-label="Chatbot">
-        <span class="nav-page-text"><span class="chapter-title">Chatbot</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./llm-leistungsvergleich.html" class="pagination-link" aria-label="Leistungsvergleich Sprachmodelle">
+        <span class="nav-page-text"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

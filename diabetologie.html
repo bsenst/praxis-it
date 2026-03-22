@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Diabetologie – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -923,11 +929,11 @@ cookieconsent.run({
 
 <section id="studienlage" class="level2">
 <h2 class="anchored" data-anchor-id="studienlage">Studienlage</h2>
-<p>Die Übersichtsarbeit von Eberle et al.&nbsp;„Diabetology 4.0: Scoping Review of Novel Insights and Possibilities Offered by Digitalization“ stellt Entwicklungen der Digitalisierung im Bereich der Diabetologie dar. Es gibt verschiedene Technologien wie Glukose-Monitoring-Systeme, smarte Insulinpens, Insulinpumpen, geschlossene Regelkreissysteme, mobile Gesundheits-Apps, Telemedizin und elektronische Gesundheitsakten. Die Autorinnen identifizieren Herausforderungen wie Datenschutz, Interoperabilität und Standardisierung. <span class="citation" data-cites="Eberle2021">(<a href="referenzen.html#ref-Eberle2021" role="doc-biblioref">Eberle, Stichling, und Löhnert 2021</a>)</span></p>
+<p>Die Übersichtsarbeit von Eberle et al.&nbsp;„Diabetology 4.0: Scoping Review of Novel Insights and Possibilities Offered by Digitalization“ stellt Entwicklungen der Digitalisierung im Bereich der Diabetologie dar. Es gibt verschiedene Technologien wie Glukose-Monitoring-Systeme, smarte Insulinpens, Insulinpumpen, geschlossene Regelkreissysteme, mobile Gesundheits-Apps, Telemedizin und elektronische Gesundheitsakten. Die Autorinnen identifizieren Herausforderungen wie Datenschutz, Interoperabilität und Standardisierung. <span class="citation" data-cites="Eberle2021">(<a href="referenzen.html#ref-Eberle2021" role="doc-biblioref">Eberle u.&nbsp;a. 2021</a>)</span></p>
 <p>Die Studie mit dem Titel „Evaluating Digital Health Solutions in Diabetes and the Role of Patient-Reported Outcomes: Targeted Literature Review“ untersucht die Rolle von patientenberichteten Ergebnissen (PROMs) bei der Bewertung digitaler Gesundheitslösungen (DHS) für Diabetes. Sie identifiziert 62 PROMs, davon 46 spezifisch für Diabetes und 16 generische, und zeigt, dass einige wichtige Bereiche wie Krankheitswissen, eHealth-Kompetenz und familiäres Leben in den aktuellen PROMs unterrepräsentiert sind. Außerdem betont die Studie die Notwendigkeit einer harmonisierten Bewertungsgrundlage für digitale Gesundheitslösungen, um deren Nutzen umfassend zu erfassen und damit die Patientenversorgung zu verbessern. Herausforderungen wie Fragebogenmüdigkeit und Datenschutz werden ebenfalls angesprochen. <span class="citation" data-cites="info:doi/10.2196/52909">(<a href="referenzen.html#ref-info:doi/10.2196/52909" role="doc-biblioref">Cerletti u.&nbsp;a. 2025</a>)</span></p>
 <section id="digital-unterstützte-gewichtsreduktion" class="level3">
 <h3 class="anchored" data-anchor-id="digital-unterstützte-gewichtsreduktion">Digital-unterstützte Gewichtsreduktion</h3>
-<p>Die Studie von Lehmann et al.&nbsp;untersucht App-Engagement als Prädiktor für Gewichtsverlust in gemischten Interventionsprogrammen für Menschen mit Übergewicht oder Adipositas. Sie analysieren Daten aus realen, groß angelegten, gemischten Versorgungsinterventionen und bestätigen, dass Patienten, die häufiger mit der App interagieren (z.B. durch höhere Protokollierungsaktivität), nach drei und sechs Monaten signifikant mehr Gewicht verlieren als solche mit geringerer App-Nutzung. Die Ergebnisse zeigen, dass frühes App-Engagement ein zuverlässiger Indikator für den Erfolg der Gewichtsreduktion ist, was die Möglichkeit bietet, klinische Maßnahmen frühzeitig anzupassen oder zu überwachen. <span class="citation" data-cites="info:doi/10.2196/45469">(<a href="referenzen.html#ref-info:doi/10.2196/45469" role="doc-biblioref">Lehmann, Jones, und Schirmann 2024</a>)</span> Die Autoren haben Verbindungen zu einem Unternehmen, die in der Gesundheits- und Technologiebranche tätig ist und könnten daher von den Ergebnissen der Studie profitieren, was ein potenzieller Interessenkonflikt ist. Diese Verbindung wurde in der Studie offengelegt.</p>
+<p>Die Studie von Lehmann et al.&nbsp;untersucht App-Engagement als Prädiktor für Gewichtsverlust in gemischten Interventionsprogrammen für Menschen mit Übergewicht oder Adipositas. Sie analysieren Daten aus realen, groß angelegten, gemischten Versorgungsinterventionen und bestätigen, dass Patienten, die häufiger mit der App interagieren (z.B. durch höhere Protokollierungsaktivität), nach drei und sechs Monaten signifikant mehr Gewicht verlieren als solche mit geringerer App-Nutzung. Die Ergebnisse zeigen, dass frühes App-Engagement ein zuverlässiger Indikator für den Erfolg der Gewichtsreduktion ist, was die Möglichkeit bietet, klinische Maßnahmen frühzeitig anzupassen oder zu überwachen. <span class="citation" data-cites="info:doi/10.2196/45469">(<a href="referenzen.html#ref-info:doi/10.2196/45469" role="doc-biblioref">Lehmann u.&nbsp;a. 2024</a>)</span> Die Autoren haben Verbindungen zu einem Unternehmen, die in der Gesundheits- und Technologiebranche tätig ist und könnten daher von den Ergebnissen der Studie profitieren, was ein potenzieller Interessenkonflikt ist. Diese Verbindung wurde in der Studie offengelegt.</p>
 </section>
 <section id="automatisierte-insulintitration" class="level3">
 <h3 class="anchored" data-anchor-id="automatisierte-insulintitration">Automatisierte Insulintitration</h3>
@@ -939,11 +945,11 @@ cookieconsent.run({
 </section>
 <section id="telemedizin" class="level3">
 <h3 class="anchored" data-anchor-id="telemedizin">Telemedizin</h3>
-<p>Das Positionspapier „Telemedizin in der Behandlung von Menschen mit Diabetes mellitus“ beschreibt Telemedizin als effektive Lösung zur Fernbetreuung von Patient:innen mit Diabetes, die Warte- und Anfahrtszeiten reduziert. Es betont, dass nicht alle Patient:innen dafür geeignet sind und bestimmte Voraussetzungen, wie technische Kompetenz und geeignete Hardware, erfüllt sein müssen. Besonders profitieren können Personen mit Typ-1-Diabetes, Typ-2-Diabetes mit Sensorunterstützung, Gestationsdiabetes oder solche, die AID-Systeme und Insulinpumpen nutzen. Studien zeigen eine HbA1c-Reduktion und verbesserte Zielbereichszeiten, doch die Therapieadhärenz kann nachlassen. Telemedizin erweitert das Behandlungsspektrum, erfordert jedoch regelmäßige persönliche Kontakte und sorgfältige Datensicherheit. <span class="citation" data-cites="resl2025positionspapier">(<a href="referenzen.html#ref-resl2025positionspapier" role="doc-biblioref">Resl u.&nbsp;a. 2025</a>)</span></p>
+<p>Das Positionspapier „Telemedizin in der Behandlung von Menschen mit Diabetes mellitus“ beschreibt Telemedizin als effektive Lösung zur Fernbetreuung von Patient:innen mit Diabetes, die Warte- und Anfahrtszeiten reduziert. Es betont, dass nicht alle Patient:innen dafür geeignet sind und bestimmte Voraussetzungen, wie technische Kompetenz und geeignete Hardware, erfüllt sein müssen. Besonders profitieren können Personen mit Typ-1-Diabetes, Typ-2-Diabetes mit Sensorunterstützung, Gestationsdiabetes oder solche, die AID-Systeme und Insulinpumpen nutzen. Studien zeigen eine HbA1c-Reduktion und verbesserte Zielbereichszeiten, doch die Therapieadhärenz kann nachlassen. Telemedizin erweitert das Behandlungsspektrum, erfordert jedoch regelmäßige persönliche Kontakte und sorgfältige Datensicherheit. <span class="citation" data-cites="resl2025positionspapier">(<a href="referenzen.html#ref-resl2025positionspapier" role="doc-biblioref"><span class="nocase">Resl u.&nbsp;a.</span> 2025</a>)</span></p>
 </section>
 <section id="künstliche-intelligenz" class="level3">
 <h3 class="anchored" data-anchor-id="künstliche-intelligenz">Künstliche Intelligenz</h3>
-<p>Die Studie von Kim et al.&nbsp;(2025), veröffentlicht in npj Digital Medicine, untersucht die Rolle von Künstlicher Intelligenz (KI) bei der Unterstützung patientenzentrierter Versorgung in der Diabetesbehandlung. Durch die Analyse von 528.199 Patientennachrichten von 11.123 Diabetikern mittels natürlicher Sprachverarbeitung und KI wurden zentrale Anliegen der Patienten identifiziert, wie Ernährungsfragen, Interpretation von Laborergebnissen und administrative Herausforderungen. Die Forscher entwickelten KI-Tools, um diese Bedürfnisse zu adressieren, darunter automatisierte Patientenschulungen und optimierte administrative Unterstützung, die von fünf Endokrinologen hinsichtlich ihrer Nützlichkeit und Risiken bewertet wurden. Besonders nützlich erschienen evidenzbasierte Antworten auf häufige Fragen und automatisierte Genehmigungsvorlagen, während Tools mit direkter Integration von Patientendaten als riskanter eingestuft wurden. Die Ergebnisse zeigen das Potenzial von KI, die Diabetesversorgung zu individualisieren und die Effizienz der Patientenbetreuung zu steigern. <span class="citation" data-cites="kim2025artificial">(<a href="referenzen.html#ref-kim2025artificial" role="doc-biblioref">Kim u.&nbsp;a. 2025</a>)</span></p>
+<p>Die Studie von Kim et al.&nbsp;(2025), veröffentlicht in npj Digital Medicine, untersucht die Rolle von Künstlicher Intelligenz (KI) bei der Unterstützung patientenzentrierter Versorgung in der Diabetesbehandlung. Durch die Analyse von 528.199 Patientennachrichten von 11.123 Diabetikern mittels natürlicher Sprachverarbeitung und KI wurden zentrale Anliegen der Patienten identifiziert, wie Ernährungsfragen, Interpretation von Laborergebnissen und administrative Herausforderungen. Die Forscher entwickelten KI-Tools, um diese Bedürfnisse zu adressieren, darunter automatisierte Patientenschulungen und optimierte administrative Unterstützung, die von fünf Endokrinologen hinsichtlich ihrer Nützlichkeit und Risiken bewertet wurden. Besonders nützlich erschienen evidenzbasierte Antworten auf häufige Fragen und automatisierte Genehmigungsvorlagen, während Tools mit direkter Integration von Patientendaten als riskanter eingestuft wurden. Die Ergebnisse zeigen das Potenzial von KI, die Diabetesversorgung zu individualisieren und die Effizienz der Patientenbetreuung zu steigern. <span class="citation" data-cites="kim2025artificial">(<a href="referenzen.html#ref-kim2025artificial" role="doc-biblioref"><span class="nocase">Kim u.&nbsp;a.</span> 2025</a>)</span></p>
 <p>Künstliche Intelligenz (KI) wird in der Diabetologie in mehreren Bereichen eingesetzt. Automatische Netzhautscreenings, wie das KI-System IDx-DR, ermöglichen die frühzeitige Erkennung diabetischer Retinopathie anhand von Fundusbildern. Zudem unterstützt KI die klinische Diagnostik, etwa durch Systeme wie “DreaMed Advisor Pro”, das Insulindosierungen auf Basis kontinuierlicher Glukosemonitoring-Daten (CGM) optimiert. Für Patienten gibt es KI-gestützte Selbstmanagement-Tools wie das “Guardian Connect System” von Medtronic, das frühzeitig vor Hypoglykämien warnt und so zur besseren Blutzuckerkontrolle beiträgt. Darüber hinaus wird KI zur Risikostratifizierung und Vorhersage von Diabetes eingesetzt, indem Machine-Learning-Modelle individuelle Krankheitsrisiken berechnen. <span class="citation" data-cites="Nomura2021">(<a href="referenzen.html#ref-Nomura2021" role="doc-biblioref">Nomura u.&nbsp;a. 2021</a>)</span></p>
 </section>
 <section id="datenschutz" class="level3">
@@ -1055,15 +1061,15 @@ cookieconsent.run({
 </ul>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-info:doi/10.2196/52909" class="csl-entry" role="listitem">
-Cerletti, Paco, Michael Joubert, Nick Oliver, Saira Ghafur, Pasquale Varriale, Ophélie Wilczynski, und Marlene Gyldmark. 2025. <span>„Evaluating Digital Health Solutions in Diabetes and the Role of Patient-Reported Outcomes: Targeted Literature Review“</span>. <em>JMIR Diabetes</em> 10 (Juni): e52909. <a href="https://doi.org/10.2196/52909">https://doi.org/10.2196/52909</a>.
+Cerletti, Paco, Michael Joubert, Nick Oliver, u.&nbsp;a. 2025. <span>„Evaluating Digital Health Solutions in Diabetes and the Role of Patient-Reported Outcomes: Targeted Literature Review“</span>. <em>JMIR Diabetes</em> 10 (Juni): e52909. <a href="https://doi.org/10.2196/52909">https://doi.org/10.2196/52909</a>.
 </div>
 <div id="ref-Eberle2021" class="csl-entry" role="listitem">
 Eberle, Claudia, Stefanie Stichling, und Maxine Löhnert. 2021. <span>„Diabetology 4.0: Scoping Review of Novel Insights and Possibilities Offered by Digitalization“</span>. <em>Journal of Medical Internet Research</em> 23 (3): e23475. <a href="https://doi.org/10.2196/23475">https://doi.org/10.2196/23475</a>.
 </div>
 <div id="ref-kim2025artificial" class="csl-entry" role="listitem">
-Kim, Jiyeong, Michael L Chen, Shawheen J Rezaei, Tina Hernandez-Boussard, Jonathan H Chen, Fatima Rodriguez, Summer S Han, u.&nbsp;a. 2025. <span>„Artificial intelligence tools in supporting healthcare professionals for tailored patient care“</span>. <em>npj Digital Medicine</em> 8 (1): 210.
+<span class="nocase">Kim, Jiyeong, Michael L Chen, Shawheen J Rezaei, u.&nbsp;a.</span> 2025. <span>„Artificial intelligence tools in supporting healthcare professionals for tailored patient care“</span>. <em>npj Digital Medicine</em> 8 (1): 210.
 </div>
 <div id="ref-info:doi/10.2196/45469" class="csl-entry" role="listitem">
 Lehmann, Marco, Lucy Jones, und Felix Schirmann. 2024. <span>„App Engagement as a Predictor of Weight Loss in Blended-Care Interventions: Retrospective Observational Study Using Large-Scale Real-World Data“</span>. <em>J Med Internet Res</em> 26 (Juni): e45469. <a href="https://doi.org/10.2196/45469">https://doi.org/10.2196/45469</a>.
@@ -1072,13 +1078,13 @@ Lehmann, Marco, Lucy Jones, und Felix Schirmann. 2024. <span>„App Engagement a
 Nomura, Akihiro, Masahiro Noguchi, Mitsuhiro Kometani, Kenji Furukawa, und Takashi Yoneda. 2021. <span>„Artificial Intelligence in Current Diabetes Management and Prediction“</span>. <em>Current Diabetes Reports</em> 21 (61). <a href="https://doi.org/10.1007/s11892-021-01423-2">https://doi.org/10.1007/s11892-021-01423-2</a>.
 </div>
 <div id="ref-resl2025positionspapier" class="csl-entry" role="listitem">
-Resl, Michael, Gerd Köhler, Gerlies Treiber, Birgit Mallinger-Taferner, Ingrid Schütz Fuhrmann, Lars Stechemesser, Birgit Rami-Merhar, u.&nbsp;a. 2025. <span>„Positionspapier–Telemedizin in der Behandlung von Menschen mit Diabetes mellitus“</span>. <em>Journal f<span>ü</span>r Endokrinologie, Diabetologie und Stoffwechsel</em>, 1–3.
+<span class="nocase">Resl, Michael, Gerd Köhler, Gerlies Treiber, u.&nbsp;a.</span> 2025. <span>„Positionspapier–Telemedizin in der Behandlung von Menschen mit Diabetes mellitus“</span>. <em>Journal f<span class="nocase">ü</span>r Endokrinologie, Diabetologie und Stoffwechsel</em>, 1–3.
 </div>
 <div id="ref-SaraniRad2025" class="csl-entry" role="listitem">
 Sarani Rad, Fatemeh, und Juan Li. 2025. <span>„Privacy-Preserving Glycemic Management in Type 1 Diabetes: Development and Validation of a Multiobjective Federated Reinforcement Learning Framework“</span>. <em>JMIR Diabetes</em> 10: e72874. <a href="https://doi.org/10.2196/72874">https://doi.org/10.2196/72874</a>.
 </div>
 <div id="ref-info:doi/10.2196/68914" class="csl-entry" role="listitem">
-Thiagarajan, Nishanth, Hong Chang Tan, Suresh Rama Chandran, Phong Ching Lee, Yun Ann Chin, Wanling Zeng, Emily Tse Lin Ho, David Carmody, Su-Yen Goh, und Yong Mong Bee. 2025. <span>„Web-Based, Algorithm-Guided Insulin Titration in Insulin-Treated Type 2 Diabetes: Pre-Post Intervention Study“</span>. <em>JMIR Form Res</em> 9 (Februar): e68914. <a href="https://doi.org/10.2196/68914">https://doi.org/10.2196/68914</a>.
+Thiagarajan, Nishanth, Hong Chang Tan, Suresh Rama Chandran, u.&nbsp;a. 2025. <span>„Web-Based, Algorithm-Guided Insulin Titration in Insulin-Treated Type 2 Diabetes: Pre-Post Intervention Study“</span>. <em>JMIR Form Res</em> 9 (Februar): e68914. <a href="https://doi.org/10.2196/68914">https://doi.org/10.2196/68914</a>.
 </div>
 </div>
 </section>

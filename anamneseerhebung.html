@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Anamnese &amp; Dokumentation – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -1128,15 +1134,15 @@ cookieconsent.run({
 <p>Gordon D. Schiff beschreibt in „AI-Driven Clinical Documentation — Driving Out the Chitchat?“ die persönliche Erfahrung mit dem Einsatz von Künstlicher Intelligenz (KI) in der klinischen Dokumentation. Er beleuchtet, wie KI-basierte Tools wie Spracherkennung und automatische Notizgenerierung die Effizienz in der medizinischen Dokumentation steigern können, indem sie redundante oder irrelevante Informationen („Chitchat“) reduzieren. Gleichzeitig warnt Schiff vor potenziellen Risiken, wie dem Verlust wichtiger klinischer Nuancen oder der Überautomatisierung, die die Arzt-Patient-Interaktion beeinträchtigen könnte. Der Artikel fordert einen ausgewogenen Ansatz, um die Vorteile von KI zu nutzen, ohne die Qualität der Patientenversorgung zu gefährden. <span class="citation" data-cites="schiff2025ai">(<a href="referenzen.html#ref-schiff2025ai" role="doc-biblioref">Schiff 2025</a>)</span></p>
 <p>Die Studie „Evaluation of Artificial Intelligence (AI) Scribes in Medical Practice: Cross-Regional Analysis“ untersucht die Implementierung von KI-Schreibassistenten in der medizinischen Praxis in Australien und England. Ziel war es, Adoptionsraten, wahrgenommene Vorteile und Risiken zu bewerten sowie Empfehlungen für eine sichere Nutzung zu entwickeln. Eine Umfrage unter 50 Ärzten zeigte, dass 28 % KI-Assistenten nutzen, 48 % deren Einführung erwägen und 90 % Zeitersparnis als Hauptvorteil anerkennen. Datenschutz (78 %) und klinische Genauigkeit (70 %) wurden als Hauptrisiken wahrgenommen, während nur 42 % die Position ihrer Berufshaftpflichtversicherung kannten. Die Studie betont die Notwendigkeit klarer Implementierungsstrategien, technischer Integration und verbesserter Richtlinien durch Berufsverbände, insbesondere in Australien, wo Leitlinien weniger klar sind als im britischen NHS. <span class="citation" data-cites="soni2025evaluation">(<a href="referenzen.html#ref-soni2025evaluation" role="doc-biblioref">Soni und Treasaden 2025</a>)</span></p>
 <p>Die Studie „Impact of using an AI scribe on clinical documentation and clinician-patient interactions in allied health private practice: perspectives of clinicians and patients“ untersucht die Auswirkungen eines KI-gestützten Schreibers auf die klinische Dokumentation und die Interaktionen zwischen Gesundheitsfachkräften und Patienten in australischen privaten Praxen. Sie zeigt, dass der Einsatz eines KI-Schreibers die Zeit für Dokumentationen und den Verwaltungsaufwand signifikant reduziert, die Produktivität um durchschnittlich 5,8 % steigert und die therapeutische Allianz positiv beeinflusst. Patienten vertrauen ihren Behandlern und der Nutzung des KI-Schreibers, äußern jedoch teilweise Bedenken hinsichtlich Datenspeicherung und -sicherheit. Die Ergebnisse deuten darauf hin, dass KI-Schreiber die Arbeitsweise von Gesundheitsfachkräften verbessern und die Patientenversorgung fördern können. <span class="citation" data-cites="evans2025impact">(<a href="referenzen.html#ref-evans2025impact" role="doc-biblioref">Evans u.&nbsp;a. 2025</a>)</span></p>
-<p>Die Studie „The Impact of AI Scribes on Streamlining Clinical Documentation: A Systematic Review“ untersucht die Wirksamkeit von KI-Schreibsystemen bei der Optimierung klinischer Dokumentation. Sie analysiert deren Einfluss auf das Wohlbefinden von Klinikern, die Effizienz des Gesundheitssystems und die Patientenbeteiligung. Die systematische Überprüfung umfasst acht Studien, die positive Effekte auf das Engagement der Gesundheitsdienstleister und eine Verringerung der Dokumentationslast zeigen, wobei die Ergebnisse jedoch aufgrund kleiner Stichproben und spezifischer Kontexte begrenzt verallgemeinerbar sind. KI-Schreiber verbessern die Dokumentationseffizienz, weisen jedoch Schwankungen in Genauigkeit und Konsistenz auf. Die Studie betont die Notwendigkeit umfassender, realweltlicher Evaluierungen, um die Wirksamkeit und ethische Implementierung von KI-Schreibsystemen sicherzustellen. <span class="citation" data-cites="sasseville2025impact">(<a href="referenzen.html#ref-sasseville2025impact" role="doc-biblioref">Sasseville u.&nbsp;a. 2025</a>)</span></p>
+<p>Die Studie „The Impact of AI Scribes on Streamlining Clinical Documentation: A Systematic Review“ untersucht die Wirksamkeit von KI-Schreibsystemen bei der Optimierung klinischer Dokumentation. Sie analysiert deren Einfluss auf das Wohlbefinden von Klinikern, die Effizienz des Gesundheitssystems und die Patientenbeteiligung. Die systematische Überprüfung umfasst acht Studien, die positive Effekte auf das Engagement der Gesundheitsdienstleister und eine Verringerung der Dokumentationslast zeigen, wobei die Ergebnisse jedoch aufgrund kleiner Stichproben und spezifischer Kontexte begrenzt verallgemeinerbar sind. KI-Schreiber verbessern die Dokumentationseffizienz, weisen jedoch Schwankungen in Genauigkeit und Konsistenz auf. Die Studie betont die Notwendigkeit umfassender, realweltlicher Evaluierungen, um die Wirksamkeit und ethische Implementierung von KI-Schreibsystemen sicherzustellen. <span class="citation" data-cites="sasseville2025impact">(<a href="referenzen.html#ref-sasseville2025impact" role="doc-biblioref"><span class="nocase">Sasseville u.&nbsp;a.</span> 2025</a>)</span></p>
 <p>Die Studie mit dem Titel „Clinician Experiences With Ambient Scribe Technology to Assist With Documentation Burden and Efficiency“ untersuchte im Rahmen eines einarmigen Vorher-Nachher-Qualitätsverbesserungsprojekts den Einsatz KI-gestützter Ambient Scribing-Technologie zur Unterstützung der klinischen Dokumentation in einer ambulanten Umgebung. Im Zeitraum von April bis Juni 2024 erhielten 46 medizinische Fachkräfte aus 17 Fachrichtungen eines akademischen Gesundheitssystems in Philadelphia Zugang zu einem EHR-integrierten Ambient-Scribe-Tool. Die Ergebnisse zeigten unter anderem eine signifikante Reduktion der Dokumentationszeit pro Patientenkontakt (−20,4 %), ein höherer Anteil am selben Tag abgeschlossener Termine (+9,3 %) sowie eine Verringerung der dokumentationsbezogenen Arbeit außerhalb der Arbeitszeiten (−30,0 %). Die qualitative Analyse und Nutzerbefragungen spiegelten eine insgesamt verbesserte empfundene Effizienz und geringere mentale Belastung wider, jedoch mit gemischten Rückmeldungen bezüglich der Qualität und Korrektheit der automatisch generierten Notizen. <span class="citation" data-cites="duggan2025clinician">(<a href="referenzen.html#ref-duggan2025clinician" role="doc-biblioref">Duggan u.&nbsp;a. 2025</a>)</span></p>
-<p>Die Studie „AI Scribes in Health Care: Balancing Transformative Potential With Responsible Integration“ untersucht den aktuellen Stand und die Herausforderungen des Einsatzes von KI-basierten Schreibassistenten im Gesundheitswesen. Ambient AI Scribes automatisieren die Erstellung von medizinischen Dokumenten, indem sie Patient-Arzt-Gespräche aufzeichnen und daraus Notizen generieren. Die Studie zeigt, dass diese Technologien das Potenzial haben, die Arbeitsbelastung von Ärztinnen und Ärzten zu verringern, die Qualität der Dokumentation zu verbessern und die Patient-Arzt-Interaktion positiv zu beeinflussen. Gleichzeitig werden jedoch auch Risiken wie Fehleranfälligkeit, ethische und rechtliche Fragestellungen sowie die Gefahr einer zu großen Abhängigkeit von KI identifiziert. Es besteht weiterer Forschungsbedarf, um eine sichere, verantwortungsvolle und patientenzentrierte Integration dieser Technologien zu gewährleisten. <span class="citation" data-cites="info:doi/10.2196/80898">(<a href="referenzen.html#ref-info:doi/10.2196/80898" role="doc-biblioref">Leung, Coristine, und Benis 2025</a>)</span></p>
+<p>Die Studie „AI Scribes in Health Care: Balancing Transformative Potential With Responsible Integration“ untersucht den aktuellen Stand und die Herausforderungen des Einsatzes von KI-basierten Schreibassistenten im Gesundheitswesen. Ambient AI Scribes automatisieren die Erstellung von medizinischen Dokumenten, indem sie Patient-Arzt-Gespräche aufzeichnen und daraus Notizen generieren. Die Studie zeigt, dass diese Technologien das Potenzial haben, die Arbeitsbelastung von Ärztinnen und Ärzten zu verringern, die Qualität der Dokumentation zu verbessern und die Patient-Arzt-Interaktion positiv zu beeinflussen. Gleichzeitig werden jedoch auch Risiken wie Fehleranfälligkeit, ethische und rechtliche Fragestellungen sowie die Gefahr einer zu großen Abhängigkeit von KI identifiziert. Es besteht weiterer Forschungsbedarf, um eine sichere, verantwortungsvolle und patientenzentrierte Integration dieser Technologien zu gewährleisten. <span class="citation" data-cites="info:doi/10.2196/80898">(<a href="referenzen.html#ref-info:doi/10.2196/80898" role="doc-biblioref">Leung u.&nbsp;a. 2025</a>)</span></p>
 <p>Die Studie mit dem Titel “Ambient Artificial Intelligence Scribes: Learnings after 1 Year and over 2.5 Million Uses”, veröffentlicht im März 2025 in NEJM Catalyst, untersucht die Auswirkungen der Einführung von KI-basierten Ambient-Schreibassistenten innerhalb der Permanente Medical Group über einen Zeitraum von einem Jahr. Die Analyse basiert auf mehr als 2,5 Millionen Arzt-Patienten-Kontakten, bei denen die Technologie genutzt wurde. Die Autoren kommen zu dem Ergebnis, dass der Einsatz dieser KI-Skripte zu einer signifikanten Reduktion der Dokumentationszeit geführt hat – insbesondere bei den vielnutzenden Ärzten, die den Großteil der Anwendungen ausmachten. Es zeigten sich Verbesserungen bei Arbeitszufriedenheit sowie bei der Arzt-Patienten-Interaktion, ohne dass Patienten die Nutzung als störend wahrnahmen. Der Nutzungsgrad war unabhängig von Alter und Berufserfahrung der Ärztinnen und Ärzte, variierte jedoch nach Fachrichtung. Der Wechsel des Technologieanbieters im Studienzeitraum hatte keinen negativen Effekt auf die Akzeptanz oder Nutzungshäufigkeit. Die Autoren betonen den Nutzen der Technologie bei gleichzeitigem Hinweis auf noch bestehende Herausforderungen, insbesondere hinsichtlich der Integration in bestehende Arbeitsabläufe sowie der bedarfsgerechten Anpassung für spezielle Fachrichtungen und Nutzungsgruppen. <span class="citation" data-cites="doi:10.1056/CAT.25.0040">(<a href="referenzen.html#ref-doi:10.1056/CAT.25.0040" role="doc-biblioref">Tierney u.&nbsp;a. 2025</a>)</span></p>
 <p>Der Artikel „The Student Physician–Patient–AI Relationship“ beschreibt die Erfahrungen von Medizinstudierenden im ersten Ausbildungsjahr, die an einem Pilotprogramm mit einem KI-gestützten Ambient-Scribe-System während standardisierter Patientengespräche teilnahmen. Die Autorinnen und Autoren berichten, dass sie von der Vollständigkeit und Präzision der KI-generierten Dokumentationen beeindruckt waren, was anfänglich Gefühle von Unterlegenheit, aber auch einen motivierenden Wettbewerb auslöste. Durch wiederholte simulierte Patientenkontakte entwickelten sie ihre eigenen kommunikativen und diagnostischen Fähigkeiten weiter, konnten jedoch das Leistungsniveau der KI im Dokumentieren nicht vollständig erreichen. Erst in realen Patientensituationen traten die spezifischen menschlichen Stärken deutlicher hervor, was zu der Erkenntnis führte, dass eine enge Zusammenarbeit mit KI-Systemen die ärztliche Kompetenz gezielt ergänzen kann. <span class="citation" data-cites="doi:10.1056/AIp2500260">(<a href="referenzen.html#ref-doi:10.1056/AIp2500260" role="doc-biblioref">Lee u.&nbsp;a. 2025</a>)</span></p>
 </section>
 <section id="regulation" class="level3">
 <h3 class="anchored" data-anchor-id="regulation">Regulation</h3>
-<p>Die Studie „Regulation of AI scribes in clinical practice“ untersucht die wachsende Verwendung von KI-Schreibtechnologien in der Medizin, die klinische Konsultationen in Echtzeit transkribieren und Notizen für elektronische Patientenakten erstellen. Diese Technologien versprechen, die Effizienz zu steigern, indem sie die Zeit für Dokumentation reduzieren, doch es gibt Unsicherheiten bezüglich der Verantwortlichkeiten und der Regulierung. Die Studie hebt hervor, dass KI-Schreiber in Großbritannien, der EU und den USA als „Software als Medizinprodukt“ klassifiziert sind und strenge regulatorische Standards erfüllen müssen. Sie betont die Notwendigkeit klarer Richtlinien für die Überwachung durch Kliniker und die rechtlichen Beziehungen zwischen Klinikern, Organisationen und Anbietern, um Patientensicherheit und Datenschutz zu gewährleisten. Abschließend fordert die Studie NHS-weite Leitlinien, um die Implementierung zu vereinheitlichen und Risiken zu minimieren. <span class="citation" data-cites="shemtob2025regulation">(<a href="referenzen.html#ref-shemtob2025regulation" role="doc-biblioref">Shemtob, Majeed, und Beaney 2025</a>)</span></p>
+<p>Die Studie „Regulation of AI scribes in clinical practice“ untersucht die wachsende Verwendung von KI-Schreibtechnologien in der Medizin, die klinische Konsultationen in Echtzeit transkribieren und Notizen für elektronische Patientenakten erstellen. Diese Technologien versprechen, die Effizienz zu steigern, indem sie die Zeit für Dokumentation reduzieren, doch es gibt Unsicherheiten bezüglich der Verantwortlichkeiten und der Regulierung. Die Studie hebt hervor, dass KI-Schreiber in Großbritannien, der EU und den USA als „Software als Medizinprodukt“ klassifiziert sind und strenge regulatorische Standards erfüllen müssen. Sie betont die Notwendigkeit klarer Richtlinien für die Überwachung durch Kliniker und die rechtlichen Beziehungen zwischen Klinikern, Organisationen und Anbietern, um Patientensicherheit und Datenschutz zu gewährleisten. Abschließend fordert die Studie NHS-weite Leitlinien, um die Implementierung zu vereinheitlichen und Risiken zu minimieren. <span class="citation" data-cites="shemtob2025regulation">(<a href="referenzen.html#ref-shemtob2025regulation" role="doc-biblioref">Shemtob u.&nbsp;a. 2025</a>)</span></p>
 </section>
 <section id="einwilligung" class="level3">
 <h3 class="anchored" data-anchor-id="einwilligung">Einwilligung</h3>
@@ -1150,7 +1156,7 @@ cookieconsent.run({
 <p>„Large language models as medical code selectors: a benchmark using the International Classification of Primary Care“ untersucht die Leistungsfähigkeit von großen Sprachmodellen bei der automatischen Zuordnung von ICPC‑2‑Codes zu klinischen Ausdrücken auf Basis der Ergebnisse einer semantischen Suche. Die Autor*innen evaluieren 33 Modelle anhand eines Datensatzes mit 437 brasilianisch‑portugiesischen klinischen Ausdrücken und zeigen, dass viele der getesteten Modelle F1‑Scores über 0,8 erreichen und damit das Potenzial für eine (teil-)automatisierte Kodierung in der Primärversorgung besitzen.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-info:doi/10.2196/70903" class="csl-entry" role="listitem">
 Amiot, Félix, und Benoit Potier. 2025. <span>„Artificial Intelligence (AI) and Emergency Medicine: Balancing Opportunities and Challenges“</span>. <em>JMIR Med Inform</em> 13 (August): e70903. <a href="https://doi.org/10.2196/70903">https://doi.org/10.2196/70903</a>.
 </div>
@@ -1158,16 +1164,16 @@ Amiot, Félix, und Benoit Potier. 2025. <span>„Artificial Intelligence (AI) an
 Barkas, Ilias E.; Kotsiou, Georgios I.; Dimeas. 2025. <span>„Bug Wars: Artificial Intelligence Strikes Back in Sepsis Management“</span>. <em>Diagnostics</em> 15 (15): 1890. <a href="https://doi.org/10.3390/diagnostics15151890">https://doi.org/10.3390/diagnostics15151890</a>.
 </div>
 <div id="ref-duggan2025clinician" class="csl-entry" role="listitem">
-Duggan, Matthew J, Julietta Gervase, Anna Schoenbaum, William Hanson, John T Howell, Michael Sheinberg, und Kevin B Johnson. 2025. <span>„Clinician experiences with ambient scribe technology to assist with documentation burden and efficiency“</span>. <em>JAMA Network Open</em> 8 (2): e2460637–37.
+Duggan, Matthew J, Julietta Gervase, Anna Schoenbaum, u.&nbsp;a. 2025. <span>„Clinician experiences with ambient scribe technology to assist with documentation burden and efficiency“</span>. <em>JAMA Network Open</em> 8 (2): e2460637–37.
 </div>
 <div id="ref-evans2025impact" class="csl-entry" role="listitem">
-Evans, Kerrie, Amy Papinniemi, Bernd Ploderer, Vaughan Nicholson, Tom Hindhaugh, Viana Vuvan, Nicholas Cowley, Amina Tariq, und Hayley Thomson. 2025. <span>„Impact of using an AI scribe on clinical documentation and clinician-patient interactions in allied health private practice: perspectives of clinicians and patients“</span>. <em>Musculoskeletal Science and Practice</em>, 103333.
+Evans, Kerrie, Amy Papinniemi, Bernd Ploderer, u.&nbsp;a. 2025. <span>„Impact of using an AI scribe on clinical documentation and clinician-patient interactions in allied health private practice: perspectives of clinicians and patients“</span>. <em>Musculoskeletal Science and Practice</em>, 103333.
 </div>
 <div id="ref-doi:10.1056/CAT.23.0283" class="csl-entry" role="listitem">
 Feldman, Jonah, Katherine A. Hochman, Benedict Vincent Guzman, Adam Goodman, Joseph Weisstuch, und Paul Testa. 2024. <span>„Scaling Note Quality Assessment Across an Academic Medical Center with AI and GPT-4“</span>. <em>NEJM Catalyst</em> 5 (5): CAT.23.0283. <a href="https://doi.org/10.1056/CAT.23.0283">https://doi.org/10.1056/CAT.23.0283</a>.
 </div>
 <div id="ref-10.1001/jamanetworkopen.2025.22400" class="csl-entry" role="listitem">
-Lawrence, Katharine, Vasudev S. Kuram, Defne L. Levine, Sarah Sharif, Conner Polet, Kiran Malhotra, und Kellie Owens. 2025. <span>„Informed Consent for Ambient Documentation Using Generative AI in Ambulatory Care“</span>. <em>JAMA Network Open</em> 8 (7): e2522400–2522400. <a href="https://doi.org/10.1001/jamanetworkopen.2025.22400">https://doi.org/10.1001/jamanetworkopen.2025.22400</a>.
+Lawrence, Katharine, Vasudev S. Kuram, Defne L. Levine, u.&nbsp;a. 2025. <span>„Informed Consent for Ambient Documentation Using Generative AI in Ambulatory Care“</span>. <em>JAMA Network Open</em> 8 (7): e2522400–2522400. <a href="https://doi.org/10.1001/jamanetworkopen.2025.22400">https://doi.org/10.1001/jamanetworkopen.2025.22400</a>.
 </div>
 <div id="ref-doi:10.1056/AIp2500260" class="csl-entry" role="listitem">
 Lee, Albert H., Collin D. Link, David Hersh, und Nancy R. Angoff. 2025. <span>„The Student Physician–Patient–AI Relationship“</span>. <em>NEJM AI</em> 2 (8): AIp2500260. <a href="https://doi.org/10.1056/AIp2500260">https://doi.org/10.1056/AIp2500260</a>.
@@ -1176,25 +1182,25 @@ Lee, Albert H., Collin D. Link, David Hersh, und Nancy R. Angoff. 2025. <span>�
 Leung, Tiffany I, Andrew J Coristine, und Arriel Benis. 2025. <span>„AI Scribes in Health Care: Balancing Transformative Potential With Responsible Integration“</span>. <em>JMIR Med Inform</em> 13 (August): e80898. <a href="https://doi.org/10.2196/80898">https://doi.org/10.2196/80898</a>.
 </div>
 <div id="ref-nover2025comparing" class="csl-entry" role="listitem">
-Nover, Jonathan, Matthew Bai, Prem Tismina, Ganesh Raut, Dhavalkumar Patel, Girish N Nadkarni, Benjamin S Abella, Eyal Klang, und Robert Freeman. 2025. <span>„Comparing Machine Learning and Nurse Predictions for Hospital Admissions in a Multisite Emergency Care System“</span>. <em>Mayo Clinic Proceedings: Digital Health</em>, 100249.
+Nover, Jonathan, Matthew Bai, Prem Tismina, u.&nbsp;a. 2025. <span>„Comparing Machine Learning and Nurse Predictions for Hospital Admissions in a Multisite Emergency Care System“</span>. <em>Mayo Clinic Proceedings: Digital Health</em>, 100249.
 </div>
 <div id="ref-sanchez2025health" class="csl-entry" role="listitem">
 Sanchez, Carolina Garcia, Anna Kharko, Maria Hägglund, Sara Riggare, und Charlotte Blease. 2025. <span>„Health Care Professionals’ Experiences and Opinions About Generative AI and Ambient Scribes in Clinical Documentation: Protocol for a Scoping Review“</span>. <em>JMIR Research Protocols</em> 14 (1): e73602.
 </div>
 <div id="ref-sasseville2025impact" class="csl-entry" role="listitem">
-Sasseville, Maxime, Farzaneh Yousefi, Steven Ouellet, Florian Naye, Théo Stefan, Valérie Carnovale, Frédéric Bergeron, u.&nbsp;a. 2025. <span>„The Impact of AI Scribes on Streamlining Clinical Documentation: A Systematic Review“</span>. In <em>Healthcare</em>, 13:1447. 12.
+<span class="nocase">Sasseville, Maxime, Farzaneh Yousefi, Steven Ouellet, u.&nbsp;a.</span> 2025. <span>„The Impact of AI Scribes on Streamlining Clinical Documentation: A Systematic Review“</span>. <em>Healthcare</em> 13: 1447.
 </div>
 <div id="ref-schiff2025ai" class="csl-entry" role="listitem">
 Schiff, Gordon D. 2025. <span>„AI-Driven Clinical Documentation—Driving Out the Chitchat?“</span> <em>New England Journal of Medicine</em>.
 </div>
 <div id="ref-shemtob2025regulation" class="csl-entry" role="listitem">
-Shemtob, Lara, Azeem Majeed, und Thomas Beaney. 2025. <span>„Regulation of AI scribes in clinical practice“</span>. <em>BMJ</em>. British Medical Journal Publishing Group.
+Shemtob, Lara, Azeem Majeed, und Thomas Beaney. 2025. <span>„Regulation of AI scribes in clinical practice“</span>. In <em>BMJ</em>, Bd. 389. British Medical Journal Publishing Group.
 </div>
 <div id="ref-soni2025evaluation" class="csl-entry" role="listitem">
 Soni, Anju, und Ian Treasaden. 2025. <span>„Evaluation of Artificial Intelligence (AI) Scribes in Medical Practice: Cross-Regional Analysis“</span>. <em>BJPsych Open</em> 11 (Suppl 1): S16.
 </div>
 <div id="ref-doi:10.1056/CAT.25.0040" class="csl-entry" role="listitem">
-Tierney, Aaron A., Gregg Gayre, Brian Hoberman, Britt Mattern, Manuel Ballesca, Sarah B. Wilson Hannay, Kate Castilla, u.&nbsp;a. 2025. <span>„Ambient Artificial Intelligence Scribes: Learnings after 1 Year and over 2.5 Million Uses“</span>. <em>NEJM Catalyst</em> 6 (5): CAT.25.0040. <a href="https://doi.org/10.1056/CAT.25.0040">https://doi.org/10.1056/CAT.25.0040</a>.
+Tierney, Aaron A., Gregg Gayre, Brian Hoberman, u.&nbsp;a. 2025. <span>„Ambient Artificial Intelligence Scribes: Learnings after 1 Year and over 2.5 Million Uses“</span>. <em>NEJM Catalyst</em> 6 (5): CAT.25.0040. <a href="https://doi.org/10.1056/CAT.25.0040">https://doi.org/10.1056/CAT.25.0040</a>.
 </div>
 </div>
 </section>

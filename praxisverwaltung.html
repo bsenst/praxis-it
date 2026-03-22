@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Praxisverwaltungssoftware – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -938,7 +944,7 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="nutzen-digitaler-patientenakten">Nutzen Digitaler Patientenakten</h2>
 <p>In einer Studie wurden die Auswirkungen der Einführung eines ambulanten elektronischen Gesundheitsakten-Systems (EHR) auf die Produktivität von Ärzten in einer großen akademischen multi-spezialisierten Arztgruppe untersucht. Dabei wurden Daten von 203 Ärzten analysiert, wobei diejenigen, die das EHR übernommen hatten, eine signifikante Steigerung der monatlichen Patientenzahlen (+9 Besuche) und der abrechenbaren Arbeitseinheiten (wRVUs) (+12) zeigten, während die Nicht-Adopter keine signifikanten Veränderungen in diesen Bereichen aufwiesen. Beide Gruppen verzeichneten jedoch eine Erhöhung der monatlichen Abrechnungen (22 % bzw. 16 %). Die Produktivitätssteigerung der EHR-Nutzer trat insbesondere nach einer Eingewöhnungsphase von mindestens sechs Monaten auf. Die Ergebnisse legen nahe, dass die anfänglichen Bedenken hinsichtlich Produktivitätsverlusten durch EHR-Einführung möglicherweise unbegründet sind und dass die Unterschiede zwischen Adoptern und Nicht-Adoptern weiter untersucht werden sollten, um künftige Implementierungsstrategien zu optimieren. <span class="citation" data-cites="CHERIFF2010492">(<a href="referenzen.html#ref-CHERIFF2010492" role="doc-biblioref">Cheriff u.&nbsp;a. 2010</a>)</span></p>
 <p>Anhand von Daten aus dem Jahr 2018 wurden rund 100 Millionen Patientenkontakte mit 155.000 Ärzten analysiert, die das Cerner Millennium EHR nutzen, um zu beurteilen, wie viel Zeit ambulante Fachärzte und Hausärzte in den USA für elektronische Gesundheitsakten (EHR) aufwenden. Im Durchschnitt verbrachten Ärzte 16 Minuten und 14 Sekunden pro Patientenkontakt mit EHR-Funktionen, wobei Aktenprüfung (33 %), Dokumentation (24 %) und Anordnungen (17 %) den größten Anteil ausmachten. Die Zeitnutzung variierte stark innerhalb der Fachgebiete, während die prozentuale Verteilung der Aufgaben relativ konstant blieb. Die Ergebnisse verdeutlichen den erheblichen Zeitaufwand für EHR-Nutzung und weisen auf Optimierungspotenziale hin. <span class="citation" data-cites="overhage2020physician">(<a href="referenzen.html#ref-overhage2020physician" role="doc-biblioref">Overhage und McCallie Jr 2020</a>)</span></p>
-<p>Der Artikel „Electronic Medical Records in Solo/Small Groups: A Qualitative Study of Physician User Types“ untersucht, wie niedergelassene Ärzte in kleinen Praxen elektronische Patientenakten (EMRs) nutzen. Die Studie identifiziert fünf Typen von EMR-Nutzern – Viewer, Basic User, Striver, Arriver und System Changer – die sich durch den Grad der Nutzung, den Aufwand für ergänzende Prozessänderungen und den daraus resultierenden Nutzen unterscheiden. Während einige Ärzte nur wenig Zeit investieren und wenige Vorteile erzielen, investieren andere viel Zeit und erzielen deutliche finanzielle und qualitative Verbesserungen. Die Autoren betonen, dass umfassende Unterstützungsangebote und finanzielle Anreize entscheidend sind, um Ärzte dabei zu unterstützen, den größtmöglichen Nutzen aus EMRs zu ziehen. <span class="citation" data-cites="Miller_Robert_H2004-dc">(<a href="referenzen.html#ref-Miller_Robert_H2004-dc" role="doc-biblioref">Miller Robert H., Ida, und Jeff 2004</a>)</span></p>
+<p>Der Artikel „Electronic Medical Records in Solo/Small Groups: A Qualitative Study of Physician User Types“ untersucht, wie niedergelassene Ärzte in kleinen Praxen elektronische Patientenakten (EMRs) nutzen. Die Studie identifiziert fünf Typen von EMR-Nutzern – Viewer, Basic User, Striver, Arriver und System Changer – die sich durch den Grad der Nutzung, den Aufwand für ergänzende Prozessänderungen und den daraus resultierenden Nutzen unterscheiden. Während einige Ärzte nur wenig Zeit investieren und wenige Vorteile erzielen, investieren andere viel Zeit und erzielen deutliche finanzielle und qualitative Verbesserungen. Die Autoren betonen, dass umfassende Unterstützungsangebote und finanzielle Anreize entscheidend sind, um Ärzte dabei zu unterstützen, den größtmöglichen Nutzen aus EMRs zu ziehen. <span class="citation" data-cites="Miller_Robert_H2004-dc">(<a href="referenzen.html#ref-Miller_Robert_H2004-dc" role="doc-biblioref">Miller Robert H. u.&nbsp;a. 2004</a>)</span></p>
 </section>
 <section id="system-usability-scale-sus-und-net-promoter-score-nps" class="level2">
 <h2 class="anchored" data-anchor-id="system-usability-scale-sus-und-net-promoter-score-nps">System Usability Scale (SUS) und Net Promoter Score (NPS)</h2>
@@ -947,7 +953,7 @@ cookieconsent.run({
 </section>
 <section id="ti-score" class="level2">
 <h2 class="anchored" data-anchor-id="ti-score">TI-Score</h2>
-<p>Der TI-Score berücksichtigt Kriterien wie die Nutzbarkeit, die Effizienz und die Zufriedenheit der Anwender und klassifiziert die Software entsprechend. Mit diesem Score soll Transparenz geschaffen und die Qualität der TI-Anwendungen, wie z.B. das E-Rezept oder die elektronische Patientenakte (ePA), für alle Beteiligten im Gesundheitswesen sichtbar gemacht werden. <span class="citation" data-cites="TI-Score2025">(<a href="referenzen.html#ref-TI-Score2025" role="doc-biblioref">gematik GmbH 2025</a>)</span></p>
+<p>Der TI-Score berücksichtigt Kriterien wie die Nutzbarkeit, die Effizienz und die Zufriedenheit der Anwender und klassifiziert die Software entsprechend. Mit diesem Score soll Transparenz geschaffen und die Qualität der TI-Anwendungen, wie z.B. das E-Rezept oder die elektronische Patientenakte (ePA), für alle Beteiligten im Gesundheitswesen sichtbar gemacht werden. <span class="citation" data-cites="TI-Score2025">(<a href="referenzen.html#ref-TI-Score2025" role="doc-biblioref"><span class="nocase">gematik GmbH</span> 2025</a>)</span></p>
 </section>
 <section id="übersichtstabelle" class="level2">
 <h2 class="anchored" data-anchor-id="übersichtstabelle">Übersichtstabelle</h2>
@@ -2167,7 +2173,7 @@ cookieconsent.run({
 </tr>
 </tbody>
 </table>
-<p>Quellen: System Usability Scale (SUS Mittelwert) und Net Promoter Score (NPS Mittelwert) und Wechselbereitschaft <span class="citation" data-cites="mullerpraxisverwaltungssysteme">(<a href="referenzen.html#ref-mullerpraxisverwaltungssysteme" role="doc-biblioref">Müller, Nieporte, und Stillfried 2024</a>)</span>, TI-Score <span class="citation" data-cites="TI-Score2025">(<a href="referenzen.html#ref-TI-Score2025" role="doc-biblioref">gematik GmbH 2025</a>)</span>, <span class="citation" data-cites="kbv2025">(<a href="referenzen.html#ref-kbv2025" role="doc-biblioref">Kassenärztliche Bundesvereinigung 2025</a>)</span></p>
+<p>Quellen: System Usability Scale (SUS Mittelwert) und Net Promoter Score (NPS Mittelwert) und Wechselbereitschaft <span class="citation" data-cites="mullerpraxisverwaltungssysteme">(<a href="referenzen.html#ref-mullerpraxisverwaltungssysteme" role="doc-biblioref">Müller u.&nbsp;a. 2024</a>)</span>, TI-Score <span class="citation" data-cites="TI-Score2025">(<a href="referenzen.html#ref-TI-Score2025" role="doc-biblioref"><span class="nocase">gematik GmbH</span> 2025</a>)</span>, <span class="citation" data-cites="kbv2025">(<a href="referenzen.html#ref-kbv2025" role="doc-biblioref">Kassenärztliche Bundesvereinigung 2025</a>)</span></p>
 </section>
 <section id="patientenportal" class="level2">
 <h2 class="anchored" data-anchor-id="patientenportal">Patientenportal</h2>
@@ -2187,11 +2193,11 @@ cookieconsent.run({
 <section id="elektronische-patientenakte" class="level2">
 <h2 class="anchored" data-anchor-id="elektronische-patientenakte">Elektronische Patientenakte</h2>
 <p>Die ePA-Materialien des HÄV auf http://www.haev.de/epa bieten Hausarztpraxen umfassende Informationen, FAQs und Aushänge. Die KBV unterstützt Praxen mit einem Starterpaket, bestehend aus einem Serviceheft, Infoblatt, Schaubild und Materialien wie Postern und Patienteninformationen fürs Wartezimmer. Praxen sollen die Technik testen und Feedback geben, um die ePA bis Oktober zu optimieren. Eine Online-Fortbildung mit sechs CME-Punkten erklärt medizinische, rechtliche und technische Aspekte. <a href="https://www.kbv.de/html/1150_74639.php">kbv.de/html/1150_74639.php</a> <a href="https://www.kbv.de/html/epa.php#content72544">kbv.de/html/epa.ph</a> Die gematik bietet ein kostenloses Infopaket zur elektronischen Patientenakte (ePA) für Praxen, Apotheken, Kliniken und Pflegeeinrichtungen an, das Plakate, Flyer, Einlegeblätter und Spickzettel enthält, um Patient:innen über die Nutzung und Vorteile der ePA aufzuklären. <a href="https://shop.gematik.de/">shop.gematik.de</a></p>
-<p>Die Studie „Measuring Electronic Health Record Use in Primary Care: A Scoping Review“ von Michael Z. Huang, Candace J. Gibson und Amanda L. Terry untersucht die aktuelle Literatur zur Messung der Nutzung elektronischer Patientenakten (EPA) in der Primärversorgung, mit einem Fokus auf den kanadischen Kontext. Durch eine systematische Literaturrecherche und Analyse von 37 Artikeln wurden verschiedene Ansätze zur Erfassung der EPA-Nutzung identifiziert, darunter die Messung individueller Funktionen und die Entwicklung umfassender Modelle zur Bewertung des Gesamtgrads der Nutzung. Die Studie hebt hervor, dass es an standardisierten Rahmenwerken mangelt, und betont die Notwendigkeit, einheitliche, mehrdimensionale Messmethoden zu entwickeln, um die Nutzung von EPA effektiv zu bewerten und deren Vorteile für die Patientenversorgung besser zu nutzen. <span class="citation" data-cites="huang2018measuring">(<a href="referenzen.html#ref-huang2018measuring" role="doc-biblioref">Huang, Gibson, und Terry 2018</a>)</span></p>
+<p>Die Studie „Measuring Electronic Health Record Use in Primary Care: A Scoping Review“ von Michael Z. Huang, Candace J. Gibson und Amanda L. Terry untersucht die aktuelle Literatur zur Messung der Nutzung elektronischer Patientenakten (EPA) in der Primärversorgung, mit einem Fokus auf den kanadischen Kontext. Durch eine systematische Literaturrecherche und Analyse von 37 Artikeln wurden verschiedene Ansätze zur Erfassung der EPA-Nutzung identifiziert, darunter die Messung individueller Funktionen und die Entwicklung umfassender Modelle zur Bewertung des Gesamtgrads der Nutzung. Die Studie hebt hervor, dass es an standardisierten Rahmenwerken mangelt, und betont die Notwendigkeit, einheitliche, mehrdimensionale Messmethoden zu entwickeln, um die Nutzung von EPA effektiv zu bewerten und deren Vorteile für die Patientenversorgung besser zu nutzen. <span class="citation" data-cites="huang2018measuring">(<a href="referenzen.html#ref-huang2018measuring" role="doc-biblioref">Huang u.&nbsp;a. 2018</a>)</span></p>
 <p>Laut einer im Auftrag von Pharma Deutschland e. V. durchgeführten Umfrage erfüllt die ePA die Versprechen der Digitalisierung des Gesundheitssystems bisher nicht (Meinungsforschungsinstitut Civey). Ein Jahr nach dem Start der elektronischen Patientenakte (ePA) kennen rund 80 Prozent der gesetzlich Versicherten in Deutschland das Angebot, nutzen es jedoch nur zu knapp 20 Prozent aktiv. Besonders junge Erwachsene (18–29 Jahre) mit 28,7 Prozent, Ostdeutsche mit 24,0 Prozent sowie Männer mit 22,1 Prozent weisen überdurchschnittliche Nutzungsquoten auf. Pharma Deutschland sieht darin ein verpasstes Potenzial für verbesserte Diagnosen, sicherere Therapien und Fortschritte in der datenbasierten Medizin.</p>
 <section id="implementierungshürden-elektronische-akte" class="level3">
 <h3 class="anchored" data-anchor-id="implementierungshürden-elektronische-akte">Implementierungshürden elektronische Akte</h3>
-<p>Der Artikel „Adopting electronic medical records: Are they just electronic paper records?“ von Morgan Price und Kollegen untersucht die Herausforderungen bei der Einführung elektronischer Patientenakten in der Primärversorgung in Manitoba, Kanada. In einer Mixed-Methods-Studie mit 57 Interviews und Diskussionsgruppen in fünf Praxen wurden Adoptionsniveaus (2,3 bis 3,0 von 5) bewertet und qualitative Analysen durchgeführt. Viele Nutzer verwendeten die elektronischen Systeme lediglich als „elektronische Papierakten“, ohne erweiterte Funktionen wie Entscheidungsunterstützung, Patientenzugang zu Daten oder Praxisberichte zu nutzen. Hauptprobleme waren eine technologische Implementierungsgrenzen, mangelnde Kenntnis der Funktionen und schlechte Datenqualität der Akten, die zukünftige Nutzung einschränken könnten. Die Autoren betonen die Notwendigkeit von Schulungen und Qualitätsverbesserungen, um die Optimierung der elektronischen Patientenakten zu fördern. <span class="citation" data-cites="price2013adopting">(<a href="referenzen.html#ref-price2013adopting" role="doc-biblioref">Price, Singer, und Kim 2013</a>)</span></p>
+<p>Der Artikel „Adopting electronic medical records: Are they just electronic paper records?“ von Morgan Price und Kollegen untersucht die Herausforderungen bei der Einführung elektronischer Patientenakten in der Primärversorgung in Manitoba, Kanada. In einer Mixed-Methods-Studie mit 57 Interviews und Diskussionsgruppen in fünf Praxen wurden Adoptionsniveaus (2,3 bis 3,0 von 5) bewertet und qualitative Analysen durchgeführt. Viele Nutzer verwendeten die elektronischen Systeme lediglich als „elektronische Papierakten“, ohne erweiterte Funktionen wie Entscheidungsunterstützung, Patientenzugang zu Daten oder Praxisberichte zu nutzen. Hauptprobleme waren eine technologische Implementierungsgrenzen, mangelnde Kenntnis der Funktionen und schlechte Datenqualität der Akten, die zukünftige Nutzung einschränken könnten. Die Autoren betonen die Notwendigkeit von Schulungen und Qualitätsverbesserungen, um die Optimierung der elektronischen Patientenakten zu fördern. <span class="citation" data-cites="price2013adopting">(<a href="referenzen.html#ref-price2013adopting" role="doc-biblioref">Price u.&nbsp;a. 2013</a>)</span></p>
 <p>Im Artikel „Challenges to EHR Implementation in Electronic- Versus Paper-based Office Practices“ von Stephanie O. Zandieh und Kollegen werden spezifische Hürden bei der Einführung elektronischer Patientenakten (EPA) in papierbasierten und bereits digitalisierten ambulanten Praxen identifiziert. Für papierbasierte Praxen wurden folgende Hürden hervorgehoben: unzureichende Hardware wie Arbeitsstationen und Drucker, die Notwendigkeit eines IT-Experten vor Ort, mangelnde Vertrautheit mit IT sowie Schwierigkeiten bei der Anpassung der Arbeitsabläufe an ein papierloses System. Diese Praxen erwarteten zudem Produktivitätseinbuße während der Umstellung. Im Gegensatz dazu sahen bereits digitalisierte Praxen andere Hindernisse: Widerstand gegen den Wechsel von einem vertrauten System, unzureichende technische Schulungen und fortlaufender Support. Beide Praxistypen kämpften mit Produktivitätsverlusten und Anpassungsschwierigkeiten, jedoch unterschieden sich die Schwerpunkte der Herausforderungen je nach Ausgangslage. <span class="citation" data-cites="zandieh2008challenges">(<a href="referenzen.html#ref-zandieh2008challenges" role="doc-biblioref">Zandieh u.&nbsp;a. 2008</a>)</span></p>
 <p>Der Artikel „New governance of the digital health agency: a way out of the joint decision trap to implement electronic health records in Germany?“ von Tugce Schmitt analysiert die Herausforderungen bei der Einführung der elektronischen Patientenakte (ePA) in Deutschland. Die Haupterkenntnisse zeigen, dass die Fragmentierung des deutschen Gesundheitssystems, geprägt durch Korporatismus und Selbstverwaltung, die Integration von Gesundheitsdaten behindert. Trotz politischer Bemühungen bleibt die ePA-Nutzung mit nur 1 % der gesetzlich Versicherten gering, was auf Widerstände der Ärzteschaft und komplexe Entscheidungsstrukturen zurückzuführen ist. Die Studie hebt hervor, dass die Governance von gematik, der nationalen Digitalagentur, von einer korporatistischen zu einer stärker staatlich gelenkten Struktur geändert wurde, um Fortschritte zu erzielen. Dennoch wird betont, dass eine erfolgreiche ePA-Implementierung eine Abkehr von der sektoralen Trennung hin zu einem patientenzentrierten, wertorientierten Gesundheitssystem erfordert, unterstützt durch selektive Verträge und stärkere Einbindung von Endnutzern. <span class="citation" data-cites="schmitt2024new schmitt2023implementing">(<a href="referenzen.html#ref-schmitt2024new" role="doc-biblioref">Schmitt 2024</a>, <a href="referenzen.html#ref-schmitt2023implementing" role="doc-biblioref">2023</a>)</span></p>
 </section>
@@ -2229,7 +2235,7 @@ cookieconsent.run({
 </section>
 <section id="integration-von-sprachmodellen-in-elektronischen-patientenakten" class="level2">
 <h2 class="anchored" data-anchor-id="integration-von-sprachmodellen-in-elektronischen-patientenakten">Integration von Sprachmodellen in elektronischen Patientenakten</h2>
-<p>Der Artikel „Implementation of Large Language Models in Electronic Health Records“ beschreibt die Integration von großen Sprachmodellen (LLMs) in das elektronische Krankenaktensystem eines Universitätskrankenhauses. Ziel war es, den dokumentationsbedingten Mehraufwand für Ärztinnen und Ärzte zu reduzieren, indem ein sicherer, datenschutzkonformer Chatbot direkt im EHR-System eingesetzt wurde. In einer einmonatigen Pilotstudie mit 28 Ärzten aus neun Fachrichtungen wurde eine tägliche Nutzung von 64% erreicht, wobei vor allem Funktionen zur Zusammenfassung von Patientendaten und zur gezielten Informationssuche genutzt wurden. Die Studie zeigt die technische Machbarkeit und Akzeptanz eines LLM-gestützten Assistenzsystems im klinischen Alltag, hebt jedoch auch die Bedeutung von Sicherheit, Datenschutz und Nutzerfeedback hervor. <span class="citation" data-cites="Griot2025-rq">(<a href="referenzen.html#ref-Griot2025-rq" role="doc-biblioref">Griot, Vanderdonckt, und Yuksel 2025</a>)</span></p>
+<p>Der Artikel „Implementation of Large Language Models in Electronic Health Records“ beschreibt die Integration von großen Sprachmodellen (LLMs) in das elektronische Krankenaktensystem eines Universitätskrankenhauses. Ziel war es, den dokumentationsbedingten Mehraufwand für Ärztinnen und Ärzte zu reduzieren, indem ein sicherer, datenschutzkonformer Chatbot direkt im EHR-System eingesetzt wurde. In einer einmonatigen Pilotstudie mit 28 Ärzten aus neun Fachrichtungen wurde eine tägliche Nutzung von 64% erreicht, wobei vor allem Funktionen zur Zusammenfassung von Patientendaten und zur gezielten Informationssuche genutzt wurden. Die Studie zeigt die technische Machbarkeit und Akzeptanz eines LLM-gestützten Assistenzsystems im klinischen Alltag, hebt jedoch auch die Bedeutung von Sicherheit, Datenschutz und Nutzerfeedback hervor. <span class="citation" data-cites="Griot2025-rq">(<a href="referenzen.html#ref-Griot2025-rq" role="doc-biblioref">Griot u.&nbsp;a. 2025</a>)</span></p>
 <p>Die Studie „User-Centered Delivery of AI-Powered Health Care Technologies in Clinical Settings: Mixed Methods Case Study“ von Schreier et al.&nbsp;(2025) untersucht die Implementierung eines KI-gestützten Such- und Zusammenfassungstools (Expanse Navigator) in einem elektronischen Patientenakten-System (EHR) in einem US-amerikanischen Krankenhaus mit 40 Betten. Unter Verwendung einer mixed-methods-Ansatz, der Beobachtungen, Umfragen, Produkttests und Interviews über fünf Monate umfasst, bewertet die Studie die Benutzererfahrung von 128 Mitarbeitern aus verschiedenen Berufsgruppen wie Ärzten, Pflegekräften und IT-Spezialisten. Die Ergebnisse zeigen signifikante Verbesserungen in Zufriedenheit (86 %), Nützlichkeit (75 %) und wahrgenommener Zeitersparnis (91 %), mit einer hohen Adoptionsrate von 93 % innerhalb von drei Monaten und über 4000 Suchanfragen. Die Studie unterstreicht die Machbarkeit eines benutzerzentrierten Evaluationsrahmens, der Vertrauen und Zusammenarbeit zwischen Klinikern und Entwicklern fördert, und betont die Notwendigkeit weiterer Forschungen zur Generalisierbarkeit in anderen Settings. Insgesamt demonstriert sie, wie menschzentrierte Methoden die Integration von KI in klinische Workflows erleichtern und die Effizienz in der Patientenversorgung steigern können. <span class="citation" data-cites="Schreier2025">(<a href="referenzen.html#ref-Schreier2025" role="doc-biblioref">Schreier u.&nbsp;a. 2025</a>)</span></p>
 <p>Die Studie „MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents“ führt ein umfassendes Evaluations-Framework ein, um die Fähigkeiten von Large Language Models (LLMs) als Agenten in medizinischen Kontexten zu bewerten. Sie adressiert die Lücke an standardisierten Benchmarks für agentenbasierte KI in der Gesundheitsversorgung, indem sie 300 klinisch relevante Aufgaben aus 10 Kategorien – wie Patientenkommunikation, Testbestellung und Medikamentenverschreibung – basierend auf realen, deidentifizierten Patientendaten von 100 Personen mit über 700.000 Datenelementen bereitstellt. Das Framework umfasst eine interaktive, FHIR-konforme Umgebung, die mit modernen elektronischen Patientenakten (EHR) kompatibel ist und eine Codebasis für einfache Integration in reale Systeme bietet. Die Evaluierung von 12 state-of-the-art LLMs zeigt Erfolgsraten bis zu 69,67 % (Claude 3.5 Sonnet v2), unterstreicht jedoch erhebliche Verbesserungspotenziale, insbesondere in der Variabilität über Aufgabenkategorien hinweg. MedAgentBench ist öffentlich zugänglich unter <a href="https://github.com/stanfordmlgroup/MedAgentBench">github.com/stanfordmlgroup/MedAgentBench</a> und finanziert durch NIH sowie Singapurs National Science Scholarship, um die Integration von KI-Agenten in klinische Workflows voranzutreiben. <span class="citation" data-cites="Jiang2025">(<a href="referenzen.html#ref-Jiang2025" role="doc-biblioref">Jiang u.&nbsp;a. 2025</a>)</span></p>
 </section>
@@ -2253,9 +2259,10 @@ cookieconsent.run({
 <p>Der Artikel mit dem Titel „ePA4all—Exploring facilitators and barriers to the adoption of the electronic health record in Germany: A study protocol for a mixed-methods analysis“ ist ein im Februar 2026 in der Zeitschrift Digital Health (Sage Journals) erstveröffentlichtes Studienprotokoll. Es beschreibt das Design einer geplanten mixed-methods-Studie zur Untersuchung von Hemmnissen und Förderfaktoren bei der Einführung und Nutzung der elektronischen Patientenakte (ePA) in Deutschland nach dem Wechsel zum Opt-out-Verfahren ab 2025. Die Untersuchung zielt darauf ab, strukturelle, organisationale und individuelle Determinanten bei Patienten und Leistungserbringern zu analysieren, unter Verwendung des Consolidated Framework for Implementation Research (CFIR). Die Datenerhebung erfolgt modular durch Interviews und Befragungen von Nutzern und Nichtnutzern, Auswertung aggregierter Nutzungsdaten, Befragungen von Ärzten und Pflegekräften sowie Fokusgruppen zur Validierung. Ziel ist es, evidenzbasierte Empfehlungen zur Überwindung von Barrieren, Steigerung der Akzeptanz und Optimierung der digitalen Transformation im deutschen Gesundheitswesen zu erarbeiten.</p>
 <p>stelle in einem kurzen Absatz von Sätzen vor und erwähnen im ersten Satz den Titel und schreibe in deutscher Sprache sachlich nüchtern objektiven</p>
 <p>Das „Impulspapier ePA‑Stakeholderdialog – Ergebnisse des Stakeholderdialogs zur mittelfristigen Weiterentwicklung der elektronischen Patientenakte“ der gematik fasst die in einem interdisziplinären Dialogprozess mit über 30 Praktikerinnen und Experten aus verschiedenen Bereichen des Gesundheitswesens erarbeiteten Vorschläge zur nutzerorientierten Weiterentwicklung der elektronischen Patientenakte zusammen. Im Mittelpunkt stehen dabei konkrete Impulse zu Labor- und Testergebnissen, Diagnosen und Prozeduren, bildgebender Diagnostik sowie Widerspruchs- und Löschrechten, die den Nutzen der ePA für Patientinnen und Behandelnde steigern und eine bessere, sektorenübergreifende Versorgung unterstützen sollen.</p>
+<p>Scout ist ein KI-basiertes Such- und Synthese-Tool des Duke Institute for Health Innovation (DIHI), das speziell für die elektronische Patientenakte (EHR) des Duke Health Systems entwickelt wurde. Es durchsucht umfassend alle Bestandteile der Patientenakte – einschließlich Arztbriefe, Laborwerte, Medikationslisten, Bildgebungs- und Pathologieberichte – und liefert strukturierte Antworten in individuell gewünschtem Format. Scout ermöglicht es, Aufgaben wie die Erstellung von Patientenzusammenfassungen, das Ausfüllen von Notizenvorlagen, die Generierung von Behandlungsverläufen oder das Vervollständigen von Registerformularen in 1–3 Minuten zu erledigen, wodurch Anwender laut Studien etwa 40 % Zeit einsparen und die kognitive Belastung deutlich reduzieren, bei gleichbleibender Qualität im Vergleich zu Experten. Das Tool ist derzeit in einer Early-User-Phase verfügbar und wird kontinuierlich weiterentwickelt.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-CHERIFF2010492" class="csl-entry" role="listitem">
 Cheriff, Adam D., Akshay G. Kapur, Maggie Qiu, und Curtis L. Cole. 2010. <span>„Physician productivity and the ambulatory EHR in a large academic multi-specialty physician group“</span>. <em>International Journal of Medical Informatics</em> 79 (7): 492–500. https://doi.org/<a href="https://doi.org/10.1016/j.ijmedinf.2010.04.006">https://doi.org/10.1016/j.ijmedinf.2010.04.006</a>.
 </div>
@@ -2263,31 +2270,31 @@ Cheriff, Adam D., Akshay G. Kapur, Maggie Qiu, und Curtis L. Cole. 2010. <span>�
 Eriksson, Pär, Tora Hammar, Stefan Lagrosen, und Evalill Nilsson. 2022. <span>„Digital consultation in primary healthcare: the effects on access, efficiency and patient safety based on provider experience; a qualitative study“</span>. <em>Scandinavian journal of primary health care</em> 40 (4): 498–506.
 </div>
 <div id="ref-fleming2014impact" class="csl-entry" role="listitem">
-Fleming, Neil S, Edmund R Becker, Steven D Culler, Dunlei Cheng, Russell McCorkle, Briget da Graca, und David J Ballard. 2014. <span>„The impact of electronic health records on workflow and financial measures in primary care practices“</span>. <em>Health services research</em> 49 (1pt2): 405–20.
+Fleming, Neil S, Edmund R Becker, Steven D Culler, u.&nbsp;a. 2014. <span>„The impact of electronic health records on workflow and financial measures in primary care practices“</span>. <em>Health services research</em> 49 (1pt2): 405–20.
 </div>
 <div id="ref-TI-Score2025" class="csl-entry" role="listitem">
-gematik GmbH. 2025. <span>„TI-Score - Wie gut ist Ihre Software im Alltag?“</span> <a href="https://www.ti-score.de/" class="uri">https://www.ti-score.de/</a>.
+<span class="nocase">gematik GmbH</span>. 2025. <em>TI-Score - Wie gut ist Ihre Software im Alltag?</em> <a href="https://www.ti-score.de/" class="uri">Https://www.ti-score.de/</a>.
 </div>
 <div id="ref-grentzelius2023making" class="csl-entry" role="listitem">
-Grentzelius, Julia. 2023. <span>„Making Keyboard Shortcuts Accessible: Keyboard Shortcuts for Healthcare Professionals in an Electronic Healthcare System“</span>.
+Grentzelius, Julia. 2023. <em>Making Keyboard Shortcuts Accessible: Keyboard Shortcuts for Healthcare Professionals in an Electronic Healthcare System</em>.
 </div>
 <div id="ref-Griot2025-rq" class="csl-entry" role="listitem">
-Griot, Maxime, Jean Vanderdonckt, und Demet Yuksel. 2025. <span>„Implementation of Large Language Models in Electronic Health Records“</span>. <em>Research Square</em>.
+Griot, Maxime, Jean Vanderdonckt, und Demet Yuksel. 2025. <span>„Implementation of Large Language Models in Electronic Health Records“</span>. In <em>Research Square</em>. Juli.
 </div>
 <div id="ref-holroyd2011impact" class="csl-entry" role="listitem">
 Holroyd-Leduc, Jayna M, Diane Lorenzetti, Sharon E Straus, Lindsay Sykes, und Hude Quan. 2011. <span>„The impact of the electronic medical record on structure, process, and outcomes within primary care: a systematic review of the evidence“</span>. <em>Journal of the American Medical Informatics Association</em> 18 (6): 732–37.
 </div>
 <div id="ref-howard2013electronic" class="csl-entry" role="listitem">
-Howard, Jenna, Elizabeth C Clark, Asia Friedman, Jesse C Crosson, Maria Pellerano, Benjamin F Crabtree, Ben-Tzion Karsh, Carlos R Jaen, Douglas S Bell, und Deborah J Cohen. 2013. <span>„Electronic health record impact on work burden in small, unaffiliated, community-based primary care practices“</span>. <em>Journal of general internal medicine</em> 28: 107–13.
+Howard, Jenna, Elizabeth C Clark, Asia Friedman, u.&nbsp;a. 2013. <span>„Electronic health record impact on work burden in small, unaffiliated, community-based primary care practices“</span>. <em>Journal of general internal medicine</em> 28: 107–13.
 </div>
 <div id="ref-huang2018measuring" class="csl-entry" role="listitem">
 Huang, Michael Z, Candace J Gibson, und Amanda L Terry. 2018. <span>„Measuring electronic health record use in primary care: a scoping review“</span>. <em>Applied clinical informatics</em> 9 (01): 015–33.
 </div>
 <div id="ref-Jiang2025" class="csl-entry" role="listitem">
-Jiang, Yixing, Kameron C. Black, Gloria Geng, Danny Park, James Zou, Andrew Y. Ng, und Jonathan H. Chen. 2025. <span>„MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents“</span>. <em>NEJM AI</em> 2 (9). <a href="https://doi.org/10.1056/AIdbp2500144">https://doi.org/10.1056/AIdbp2500144</a>.
+Jiang, Yixing, Kameron C. Black, Gloria Geng, u.&nbsp;a. 2025. <span>„MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents“</span>. <em>NEJM AI</em> 2 (9). <a href="https://doi.org/10.1056/AIdbp2500144">https://doi.org/10.1056/AIdbp2500144</a>.
 </div>
 <div id="ref-kbv2025" class="csl-entry" role="listitem">
-Kassenärztliche Bundesvereinigung. 2025. <span>„Praxisverwaltungssysteme (PVS) - Installationsstatistiken von Softwaresystemen“</span>. <a href="https://www.kbv.de/html/6989.php" class="uri">https://www.kbv.de/html/6989.php</a>.
+Kassenärztliche Bundesvereinigung. 2025. <em>Praxisverwaltungssysteme (PVS) - Installationsstatistiken von Softwaresystemen</em>. <a href="https://www.kbv.de/html/6989.php" class="uri">Https://www.kbv.de/html/6989.php</a>.
 </div>
 <div id="ref-lane2005hidden" class="csl-entry" role="listitem">
 Lane, David M, H Albert Napier, S Camille Peres, und Aniko Sandor. 2005. <span>„Hidden costs of graphical user interfaces: Failure to make the transition from menus and icon toolbars to keyboard shortcuts“</span>. <em>International Journal of Human-Computer Interaction</em> 18 (2): 133–44.
@@ -2296,13 +2303,13 @@ Lane, David M, H Albert Napier, S Camille Peres, und Aniko Sandor. 2005. <span>�
 Lau, Francis, Morgan Price, Jeanette Boyd, Colin Partridge, Heidi Bell, und Rebecca Raworth. 2012. <span>„Impact of electronic medical record on physician practice in office settings: a systematic review“</span>. <em>BMC medical informatics and decision making</em> 12: 1–10.
 </div>
 <div id="ref-melnick2021association" class="csl-entry" role="listitem">
-Melnick, Edward R, Colin P West, Bidisha Nath, Pamela F Cipriano, Cheryl Peterson, Daniel V Satele, Tait Shanafelt, und Liselotte N Dyrbye. 2021. <span>„The association between perceived electronic health record usability and professional burnout among US nurses“</span>. <em>Journal of the American Medical Informatics Association</em> 28 (8): 1632–41.
+Melnick, Edward R, Colin P West, Bidisha Nath, u.&nbsp;a. 2021. <span>„The association between perceived electronic health record usability and professional burnout among US nurses“</span>. <em>Journal of the American Medical Informatics Association</em> 28 (8): 1632–41.
 </div>
 <div id="ref-Miller_Robert_H2004-dc" class="csl-entry" role="listitem">
 Miller Robert H., Sim Ida, und Newman Jeff. 2004. <span>„Electronic medical records in solo/small groups: A qualitative study of physician user types“</span>. In <em>Studies in Health Technology and Informatics</em>. Studies in health technology and informatics. IOS Press.
 </div>
 <div id="ref-mullerpraxisverwaltungssysteme" class="csl-entry" role="listitem">
-Müller, Doreen, Tobias Nieporte, und Dominik Graf von Stillfried. 2024. <span>„Praxisverwaltungssysteme: Deutschlandweite Ergebnisse zu Usability, Nutzerzufriedenheit und Wechselbereitschaft aus 10.245 Bewertungen“</span>.
+Müller, Doreen, Tobias Nieporte, und Dominik Graf von Stillfried. 2024. <em>Praxisverwaltungssysteme: Deutschlandweite Ergebnisse zu Usability, Nutzerzufriedenheit und Wechselbereitschaft aus 10.245 Bewertungen</em>.
 </div>
 <div id="ref-overhage2020physician" class="csl-entry" role="listitem">
 Overhage, J Marc, und David McCallie Jr. 2020. <span>„Physician time spent using the electronic health record during outpatient encounters: a descriptive study“</span>. <em>Annals of internal medicine</em> 172 (3): 169–74.
@@ -2311,7 +2318,7 @@ Overhage, J Marc, und David McCallie Jr. 2020. <span>„Physician time spent usi
 Price, Morgan, Alex Singer, und Julie Kim. 2013. <span>„Adopting electronic medical records: are they just electronic paper records?“</span> <em>Canadian Family Physician</em> 59 (7): e322–29.
 </div>
 <div id="ref-reed2019patients" class="csl-entry" role="listitem">
-Reed, Mary E, Jie Huang, Richard J Brand, Romain Neugebauer, Ilana Graetz, John Hsu, Dustin W Ballard, und Richard Grant. 2019. <span>„Patients with complex chronic conditions: Health care use and clinical events associated with access to a patient portal“</span>. <em>PloS one</em> 14 (6): e0217636.
+Reed, Mary E, Jie Huang, Richard J Brand, u.&nbsp;a. 2019. <span>„Patients with complex chronic conditions: Health care use and clinical events associated with access to a patient portal“</span>. <em>PloS one</em> 14 (6): e0217636.
 </div>
 <div id="ref-RODTS2025200147" class="csl-entry" role="listitem">
 Rodts, Megan, Dana B. Gal, Brittney K. Hills, Elisa Marcuccio, Colleen M. Pater, und Samuel Hanke. 2025. <span>„â€œOpen Notesâ€ in Pediatric Acute Care Cardiology: Caregiver and Provider Experiences in a Single Center“</span>. <em>The Journal of Pediatrics: Clinical Practice</em> 16: 200147. https://doi.org/<a href="https://doi.org/10.1016/j.jpedcp.2025.200147">https://doi.org/10.1016/j.jpedcp.2025.200147</a>.
@@ -2320,13 +2327,13 @@ Rodts, Megan, Dana B. Gal, Brittney K. Hills, Elisa Marcuccio, Colleen M. Pater,
 Saitwal, Himali, Xuan Feng, Muhammad Walji, Vimla Patel, und Jiajie Zhang. 2010. <span>„Assessing performance of an electronic health record (EHR) using cognitive task analysis“</span>. <em>International Journal of Medical Informatics</em> 79 (7): 501–6.
 </div>
 <div id="ref-10.1093/jamiaopen/ooaf021" class="csl-entry" role="listitem">
-Salmi, Liz, Dana M Lewis, Jennifer L Clarke, Zhiyong Dong, Rudy Fischmann, Emily I McIntosh, Chethan R Sarabu, und Catherine M DesRoches. 2025. <span>„A proof-of-concept study for patient use of open notes with large language models“</span>. <em>JAMIA Open</em> 8 (2): ooaf021. <a href="https://doi.org/10.1093/jamiaopen/ooaf021">https://doi.org/10.1093/jamiaopen/ooaf021</a>.
+Salmi, Liz, Dana M Lewis, Jennifer L Clarke, u.&nbsp;a. 2025. <span>„A proof-of-concept study for patient use of open notes with large language models“</span>. <em>JAMIA Open</em> 8 (2): ooaf021. <a href="https://doi.org/10.1093/jamiaopen/ooaf021">https://doi.org/10.1093/jamiaopen/ooaf021</a>.
 </div>
 <div id="ref-schmitt2023implementing" class="csl-entry" role="listitem">
 Schmitt, Tugce. 2023. <span>„Implementing electronic health records in Germany: lessons (yet to be) learned“</span>. <em>International Journal of Integrated Care</em> 23 (1).
 </div>
 <div id="ref-schmitt2024new" class="csl-entry" role="listitem">
-———. 2024. <span>„New governance of the digital health agency: a way out of the joint decision trap to implement electronic health records in Germany?“</span> <em>Health Economics, Policy and Law</em> 19 (2): 269–88.
+Schmitt, Tugce. 2024. <span>„New governance of the digital health agency: a way out of the joint decision trap to implement electronic health records in Germany?“</span> <em>Health Economics, Policy and Law</em> 19 (2): 269–88.
 </div>
 <div id="ref-Schreier2025" class="csl-entry" role="listitem">
 Schreier, M, R Brandt, H Brown, T Saensuksopa, C Silva, und LM Vardoulakis. 2025. <span>„User-Centered Delivery of AI-Powered Health Care Technologies in Clinical Settings: Mixed Methods Case Study“</span>. <em>JMIR Hum Factors</em> 12: e76241. <a href="https://doi.org/10.2196/76241">https://doi.org/10.2196/76241</a>.
@@ -2338,22 +2345,22 @@ Schuurman, Alex R, ME Baarsma, W Joost Wiersinga, und Joppe W Hovius. 2022. <spa
 Shenkin, Budd N. 2025. <span>„Open Notes in the Context of Humanistic Medicine“</span>. <em>The Journal of Pediatrics: Clinical Practice</em> 17: 200155. https://doi.org/<a href="https://doi.org/10.1016/j.jpedcp.2025.200155">https://doi.org/10.1016/j.jpedcp.2025.200155</a>.
 </div>
 <div id="ref-10.1001/jamanetworkopen.2023.3572" class="csl-entry" role="listitem">
-Steitz, Bryan D., Robert W. Turer, Chen-Tan Lin, Scott MacDonald, Liz Salmi, Adam Wright, Christoph U. Lehmann, u.&nbsp;a. 2023. <span>„Perspectives of Patients About Immediate Access to Test Results Through an Online Patient Portal“</span>. <em>JAMA Network Open</em> 6 (3): e233572–72. <a href="https://doi.org/10.1001/jamanetworkopen.2023.3572">https://doi.org/10.1001/jamanetworkopen.2023.3572</a>.
+Steitz, Bryan D., Robert W. Turer, Chen-Tan Lin, u.&nbsp;a. 2023. <span>„Perspectives of Patients About Immediate Access to Test Results Through an Online Patient Portal“</span>. <em>JAMA Network Open</em> 6 (3): e233572–72. <a href="https://doi.org/10.1001/jamanetworkopen.2023.3572">https://doi.org/10.1001/jamanetworkopen.2023.3572</a>.
 </div>
 <div id="ref-urban2025interplay" class="csl-entry" role="listitem">
 Urban, Isabella, und Ralf Plattfaut. 2025. <span>„The Interplay of Digital Responsibility and Digital Transformation: Empirical Insights from a Nationwide Digital Transformation“</span>. <em>Information Systems Frontiers</em>, 1–32.
 </div>
 <div id="ref-info:doi/10.2196/13876" class="csl-entry" role="listitem">
-Walker, Jan, Suzanne Leveille, Sigall Bell, Hannah Chimowitz, Zhiyong Dong, Joann G Elmore, Leonor Fernandez, u.&nbsp;a. 2019. <span>„OpenNotes After 7 Years: Patient Experiences With Ongoing Access to Their Clinicians’ Outpatient Visit Notes“</span>. <em>J Med Internet Res</em> 21 (5): e13876. <a href="https://doi.org/10.2196/13876">https://doi.org/10.2196/13876</a>.
+Walker, Jan, Suzanne Leveille, Sigall Bell, u.&nbsp;a. 2019. <span>„OpenNotes After 7 Years: Patient Experiences With Ongoing Access to Their Clinicians’ Outpatient Visit Notes“</span>. <em>J Med Internet Res</em> 21 (5): e13876. <a href="https://doi.org/10.2196/13876">https://doi.org/10.2196/13876</a>.
 </div>
 <div id="ref-wallkammai" class="csl-entry" role="listitem">
-Wallkamm, Magdalena, Jule Uhl, Cosima Hötger, und Tobias Esch. o.&nbsp;J. <span>„AI-supported Digital OpenNotes in Primary Care Setting“</span>.
+Wallkamm, Magdalena, Jule Uhl, Cosima Hötger, und Tobias Esch. o.&nbsp;J. <em>AI-supported Digital OpenNotes in Primary Care Setting</em>.
 </div>
 <div id="ref-winter2023health" class="csl-entry" role="listitem">
 Winter, Alfred, Elske Ammenwerth, Reinhold Haux, Michael Marschollek, Bianca Steiner, und Franziska Jahn. 2023. <em>Health information systems: Technological and management perspectives</em>. Springer Nature.
 </div>
 <div id="ref-Woods2013-eg" class="csl-entry" role="listitem">
-Woods, Susan S, Erin Schwartz, Anais Tuepker, Nancy A Press, Kim M Nazi, Carolyn L Turvey, und W Paul Nichol. 2013. <span>„Patient experiences with full electronic access to health records and clinical notes through the My <span>HealtheVet</span> Personal Health Record Pilot: qualitative study“</span>. <em>J. Med. Internet Res.</em> 15 (3): e65.
+Woods, Susan S, Erin Schwartz, Anais Tuepker, u.&nbsp;a. 2013. <span>„Patient experiences with full electronic access to health records and clinical notes through the My <span>HealtheVet</span> Personal Health Record Pilot: qualitative study“</span>. <em>J. Med. Internet Res.</em> 15 (3): e65.
 </div>
 <div id="ref-zandieh2008challenges" class="csl-entry" role="listitem">
 Zandieh, Stephanie O, Kahyun Yoon-Flannery, Gilad J Kuperman, Daniel J Langsam, Daniel Hyman, und Rainu Kaushal. 2008. <span>„Challenges to EHR implementation in electronic-versus paper-based office practices“</span>. <em>Journal of general internal medicine</em> 23: 755–61.

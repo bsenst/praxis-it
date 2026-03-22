@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Einleitung – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -915,7 +921,7 @@ cookieconsent.run({
 
 
 <p>In einer digitalisierten Welt sind effektive IT-Systeme entscheidend für die Effizienz und Qualität in der Gesundheitsversorgung. Die fortschreitende Entwicklung von Praxisverwaltungssoftware, digitalen Anamnese-Tools und Dienstplanungslösungen verändert den Arbeitsalltag in Praxen. Die Herausforderung besteht jedoch darin, diese technischen Möglichkeiten effizient und praxisnah einzusetzen.</p>
-<p>Es gibt Verzeichnisse, die ÄrztInnen und PatientInnen bei der Navigation und Auswahl von Gesundheits-Apps und digitalen Tools unterstützen. Jede dieser Plattformen bietet eine Art von Datenbank oder Vergleichstool, um die Qualität, Funktionen und Eignung von Gesundheits-Apps und Software für medizinische Zwecke zu bewerten. <span class="citation" data-cites="mindapps medxsmart kvappradar">(<a href="referenzen.html#ref-mindapps" role="doc-biblioref">MindApps 2025</a>; <a href="referenzen.html#ref-medxsmart" role="doc-biblioref">medxsmart 2025</a>; <a href="referenzen.html#ref-kvappradar" role="doc-biblioref">Zentralinstitut für die kassenärztliche Versorgung (Zi) 2025</a>)</span></p>
+<p>Es gibt Verzeichnisse, die ÄrztInnen und PatientInnen bei der Navigation und Auswahl von Gesundheits-Apps und digitalen Tools unterstützen. Jede dieser Plattformen bietet eine Art von Datenbank oder Vergleichstool, um die Qualität, Funktionen und Eignung von Gesundheits-Apps und Software für medizinische Zwecke zu bewerten. <span class="citation" data-cites="mindapps medxsmart kvappradar">(<a href="referenzen.html#ref-mindapps" role="doc-biblioref">MindApps 2025</a>; <a href="referenzen.html#ref-medxsmart" role="doc-biblioref"><span class="nocase">medxsmart</span> 2025</a>; <a href="referenzen.html#ref-kvappradar" role="doc-biblioref">Zentralinstitut für die kassenärztliche Versorgung (Zi) 2025</a>)</span></p>
 <p>Die Studie „Patient Adoption of Digital Use Cases in Family Medicine and a Nuanced Implementation Approach for Family Doctors: Quantitative Web-Based Survey Study“ untersucht die Akzeptanz digitaler Anwendungen in der Hausarztpraxis in Deutschland. Basierend auf einer Online-Umfrage mit 1880 Teilnehmern zeigt die Studie, dass nur 16,2 % der Befragten die Digitalisierung als wichtig für die Wahl einer Praxis ansehen, wobei digital versierte Personen dies stärker betonen. Die Ergebnisse verdeutlichen, dass die wahrgenommene Nützlichkeit (Performance Expectancy) der stärkste Prädiktor für die Nutzungsabsicht bei allen Anwendungsfällen ist, während weitere Akzeptanzfaktoren wie Datenschutz und Benutzerfreundlichkeit je nach Anwendungsfall variieren. Hausärzte sollten digitale Anwendungen gezielt auswählen und implementieren, wobei sie die Bedürfnisse und Erwartungen der Patienten sowie die spezifischen Anforderungen jedes Anwendungsfalls berücksichtigen. Die Studie betont die Notwendigkeit einer differenzierten Implementierungsstrategie, um die Akzeptanz und Nutzung digitaler Lösungen zu fördern. <span class="citation" data-cites="beerbaum2025patient">(<a href="referenzen.html#ref-beerbaum2025patient" role="doc-biblioref">Beerbaum u.&nbsp;a. 2025</a>)</span></p>
 <p>Der Artikel “Recommendations for Successful Development and Implementation of Digital Health Technology Tools” bietet eine umfassende Anleitung zur Entwicklung und Implementierung digitaler Gesundheitstechnologien. Er hebt zehn Schlüsselbereiche hervor, die von der tiefgreifenden Problemverständnis und der frühzeitigen Einbeziehung der Nutzer bis hin zur Notwendigkeit tragfähiger Geschäftsmodelle und interdisziplinärer Zusammenarbeit reichen. Darüber hinaus betont der Text die Wichtigkeit der Auswahl geeigneter Messtechnologien, der Gewährleistung von Datenintegration und Interoperabilität durch offene Standards sowie der proaktiven Berücksichtigung von Vorschriften und ethischen Aspekten. Letztlich plädiert er für den Einsatz fortschrittlicher Datenwissenschaft und eine kontinuierliche Evaluation, um nachhaltige, nutzerzentrierte und effektive digitale Gesundheitslösungen zu schaffen, die die Patientenergebnisse verbessern. <span class="citation" data-cites="Loo2025-ye">(<a href="referenzen.html#ref-Loo2025-ye" role="doc-biblioref">Loo u.&nbsp;a. 2025</a>)</span></p>
 <section id="schritt-für-schritt-zur-neuen-software" class="level2">
@@ -940,7 +946,7 @@ cookieconsent.run({
 </section>
 <section id="etappen-zur-digitalen-praxis" class="level2">
 <h2 class="anchored" data-anchor-id="etappen-zur-digitalen-praxis">Etappen zur digitalen Praxis</h2>
-<p>Die digitale Transformation in Arztpraxen kann in Etappen eingeteilt werden: Initialisierung, Implementierung, Integration und Optimierung sowie digitale Reife. Die Initialisierung schafft die technische Basis (z. B. Internet, Hardware) <span class="citation" data-cites="Neunaber_2023">(<a href="referenzen.html#ref-Neunaber_2023" role="doc-biblioref">Neunaber und Meister 2023</a>)</span>, gefolgt von der Implementierung zentraler Systeme wie elektronische Gesundheitsakten und Schnittstellen zu anderen Leistungserbringer (Apotheken oder Laboren) <span class="citation" data-cites="Teixeira_2023 banas2011">(<a href="referenzen.html#ref-Teixeira_2023" role="doc-biblioref">Teixeira u.&nbsp;a. 2023</a>; <a href="referenzen.html#ref-banas2011" role="doc-biblioref">Banas u.&nbsp;a. 2011</a>)</span>. In der Integration und Optimierung werden fortgeschrittene Tools wie E-Rezept oder Telemedizin eingeführt, während Prozesse umgestellt werden <span class="citation" data-cites="bhyat2021 lowery2020">(<a href="referenzen.html#ref-bhyat2021" role="doc-biblioref">Bhyat u.&nbsp;a. 2021</a>; <a href="referenzen.html#ref-lowery2020" role="doc-biblioref">Lowery 2020</a>)</span>. Die digitale Reife wird durch interoperable Systeme und automatisierte Workflows erreicht <span class="citation" data-cites="Neunaber_2023 gehring2018">(<a href="referenzen.html#ref-Neunaber_2023" role="doc-biblioref">Neunaber und Meister 2023</a>; <a href="referenzen.html#ref-gehring2018" role="doc-biblioref">Gehring, Rackebrandt, und Imhoff 2018</a>)</span>. Trotz Variabilität durch Praxisgröße, Spezialisierung und Ressourcen – kleinere Praxen digitalisieren sequenziell, größere oft parallel – zeigt sich ein Muster: Der Prozess beginnt mit Infrastruktur, gefolgt von Kernsystemen, erweiterten Anwendungen und schließlich vernetzter Automatisierung <span class="citation" data-cites="Neunaber_2023 Teixeira_2023 bhyat2021">(<a href="referenzen.html#ref-Neunaber_2023" role="doc-biblioref">Neunaber und Meister 2023</a>; <a href="referenzen.html#ref-Teixeira_2023" role="doc-biblioref">Teixeira u.&nbsp;a. 2023</a>; <a href="referenzen.html#ref-bhyat2021" role="doc-biblioref">Bhyat u.&nbsp;a. 2021</a>)</span>.</p>
+<p>Die digitale Transformation in Arztpraxen kann in Etappen eingeteilt werden: Initialisierung, Implementierung, Integration und Optimierung sowie digitale Reife. Die Initialisierung schafft die technische Basis (z. B. Internet, Hardware) <span class="citation" data-cites="Neunaber_2023">(<a href="referenzen.html#ref-Neunaber_2023" role="doc-biblioref">Neunaber und Meister 2023</a>)</span>, gefolgt von der Implementierung zentraler Systeme wie elektronische Gesundheitsakten und Schnittstellen zu anderen Leistungserbringer (Apotheken oder Laboren) <span class="citation" data-cites="Teixeira_2023 banas2011">(<a href="referenzen.html#ref-Teixeira_2023" role="doc-biblioref">Teixeira u.&nbsp;a. 2023</a>; <a href="referenzen.html#ref-banas2011" role="doc-biblioref">Banas u.&nbsp;a. 2011</a>)</span>. In der Integration und Optimierung werden fortgeschrittene Tools wie E-Rezept oder Telemedizin eingeführt, während Prozesse umgestellt werden <span class="citation" data-cites="bhyat2021 lowery2020">(<a href="referenzen.html#ref-bhyat2021" role="doc-biblioref">Bhyat u.&nbsp;a. 2021</a>; <a href="referenzen.html#ref-lowery2020" role="doc-biblioref">Lowery 2020</a>)</span>. Die digitale Reife wird durch interoperable Systeme und automatisierte Workflows erreicht <span class="citation" data-cites="Neunaber_2023 gehring2018">(<a href="referenzen.html#ref-Neunaber_2023" role="doc-biblioref">Neunaber und Meister 2023</a>; <a href="referenzen.html#ref-gehring2018" role="doc-biblioref">Gehring u.&nbsp;a. 2018</a>)</span>. Trotz Variabilität durch Praxisgröße, Spezialisierung und Ressourcen – kleinere Praxen digitalisieren sequenziell, größere oft parallel – zeigt sich ein Muster: Der Prozess beginnt mit Infrastruktur, gefolgt von Kernsystemen, erweiterten Anwendungen und schließlich vernetzter Automatisierung <span class="citation" data-cites="Neunaber_2023 Teixeira_2023 bhyat2021">(<a href="referenzen.html#ref-Neunaber_2023" role="doc-biblioref">Neunaber und Meister 2023</a>; <a href="referenzen.html#ref-Teixeira_2023" role="doc-biblioref">Teixeira u.&nbsp;a. 2023</a>; <a href="referenzen.html#ref-bhyat2021" role="doc-biblioref">Bhyat u.&nbsp;a. 2021</a>)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/etappen_digitaler_arztpraxis.png" class="img-fluid figure-img"></p>
@@ -957,7 +963,7 @@ cookieconsent.run({
 </ul>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-banas2011" class="csl-entry" role="listitem">
 Banas, C. A., A. R. Erskine, S. Sun, und S. M. Retchin. 2011. <span>„Phased Implementation of Electronic Health Records Through an Office of Clinical Transformation“</span>. <em>Journal of the American Medical Informatics Association</em> 18 (5): 721–25. <a href="https://doi.org/10.1136/amiajnl-2011-000165">https://doi.org/10.1136/amiajnl-2011-000165</a>.
 </div>
@@ -971,28 +977,28 @@ Bhyat, R., S. Hagens, K. Bryski, und J. F. Kohlmaier. 2021. <span>„Digital Hea
 Gehring, H., K. Rackebrandt, und M. Imhoff. 2018. <span>„E-Health and Reality - What Are We Facing in Patient Care?“</span> <em>Bundesgesundheitsblatt, Gesundheitsforschung, Gesundheitsschutz</em> 61 (3): 252–62. <a href="https://doi.org/10.1007/s00103-018-2690-6">https://doi.org/10.1007/s00103-018-2690-6</a>.
 </div>
 <div id="ref-Loo2025-ye" class="csl-entry" role="listitem">
-Loo, Rebecca Ting Jiin, Francesco Nasta, Mirco Macchi, Anaı̈s Baudot, Frada Burstein, Riley Bove, Maike Greve, u.&nbsp;a. 2025. <span>„Recommendations for successful development and implementation of Digital Health technology tools“</span>. <em>J. Med. Internet Res.</em> 27 (Juni): e56747.
+Loo, Rebecca Ting Jiin, Francesco Nasta, Mirco Macchi, u.&nbsp;a. 2025. <span>„Recommendations for successful development and implementation of Digital Health technology tools“</span>. <em>J. Med. Internet Res.</em> 27 (Juni): e56747.
 </div>
 <div id="ref-lowery2020" class="csl-entry" role="listitem">
 Lowery, C. 2020. <span>„What Is Digital Health and What Do I Need to Know About It?“</span> <em>Obstetrics and Gynecology Clinics of North America</em> 47 (2): 215–25. <a href="https://doi.org/10.1016/j.ogc.2020.02.011">https://doi.org/10.1016/j.ogc.2020.02.011</a>.
 </div>
 <div id="ref-medxsmart" class="csl-entry" role="listitem">
-medxsmart. 2025. <span>„medxsmart – Digitale Tools für Ihre Arztpraxis“</span>. <a href="https://medxsmart.de/">https://medxsmart.de/</a>.
+<span class="nocase">medxsmart</span>. 2025. <em>medxsmart – Digitale Tools für Ihre Arztpraxis</em>. <a href="https://medxsmart.de/">https://medxsmart.de/</a>.
 </div>
 <div id="ref-mindapps" class="csl-entry" role="listitem">
-MindApps. 2025. <span>„MindApps - Mobile Health Index and Navigation Database“</span>. <a href="https://mindapps.org/">https://mindapps.org/</a>.
+MindApps. 2025. <em>MindApps - Mobile Health Index and Navigation Database</em>. <a href="https://mindapps.org/">https://mindapps.org/</a>.
 </div>
 <div id="ref-info:doi/10.2196/31668" class="csl-entry" role="listitem">
-Nadav, Janna, Anu-Marja Kaihlanen, Sari Kujala, Elina Laukka, Pirjo Hilama, Juha Koivisto, Ilmo Keskimäki, und Tarja Heponiemi. 2021. <span>„How to Implement Digital Services in a Way That They Integrate Into Routine Work: Qualitative Interview Study Among Health and Social Care Professionals“</span>. <em>J Med Internet Res</em> 23 (12): e31668. <a href="https://doi.org/10.2196/31668">https://doi.org/10.2196/31668</a>.
+Nadav, Janna, Anu-Marja Kaihlanen, Sari Kujala, u.&nbsp;a. 2021. <span>„How to Implement Digital Services in a Way That They Integrate Into Routine Work: Qualitative Interview Study Among Health and Social Care Professionals“</span>. <em>J Med Internet Res</em> 23 (12): e31668. <a href="https://doi.org/10.2196/31668">https://doi.org/10.2196/31668</a>.
 </div>
 <div id="ref-Neunaber_2023" class="csl-entry" role="listitem">
-Neunaber, Timo, und Sven Meister. 2023. <span>„Digital Maturity and Its Measurement of General Practitioners: A Scoping Review“</span>. <em>International Journal of Environmental Research and Public Health</em>. <a href="https://doi.org/10.3390/ijerph20054377">https://doi.org/10.3390/ijerph20054377</a>.
+Neunaber, Timo, und Sven Meister. 2023. <span>„Digital Maturity and Its Measurement of General Practitioners: A Scoping Review“</span>. <em>International Journal of Environmental Research and Public Health</em>, Online-Vorab-Publikation. <a href="https://doi.org/10.3390/ijerph20054377">https://doi.org/10.3390/ijerph20054377</a>.
 </div>
 <div id="ref-Teixeira_2023" class="csl-entry" role="listitem">
-Teixeira, Fábia, Edmond Li, Liliana Laranjo, Claire Collins, Greg Irving, María José Fernández, Josip Car, u.&nbsp;a. 2023. <span>„Digital maturity and its determinants in General Practice: A cross-sectional study in 20 countries“</span>. <em>null</em>. <a href="https://doi.org/10.3389/fpubh.2022.962924">https://doi.org/10.3389/fpubh.2022.962924</a>.
+Teixeira, Fábia, Edmond Li, Liliana Laranjo, u.&nbsp;a. 2023. <span>„Digital maturity and its determinants in General Practice: A cross-sectional study in 20 countries“</span>. <em>null</em>, Online-Vorab-Publikation. <a href="https://doi.org/10.3389/fpubh.2022.962924">https://doi.org/10.3389/fpubh.2022.962924</a>.
 </div>
 <div id="ref-kvappradar" class="csl-entry" role="listitem">
-Zentralinstitut für die kassenärztliche Versorgung (Zi). 2025. <span>„KV-App-Radar - Gesundheits-Apps bewerten“</span>. <a href="https://www.kvappradar.de/">https://www.kvappradar.de/</a>.
+Zentralinstitut für die kassenärztliche Versorgung (Zi). 2025. <em>KV-App-Radar - Gesundheits-Apps bewerten</em>. <a href="https://www.kvappradar.de/">https://www.kvappradar.de/</a>.
 </div>
 </div>
 </section>

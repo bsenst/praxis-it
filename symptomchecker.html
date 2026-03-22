@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Symptomchecker – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -950,7 +956,7 @@ cookieconsent.run({
 <section id="symptomchecker" class="level3">
 <h3 class="anchored" data-anchor-id="symptomchecker">Symptomchecker</h3>
 <p>Die Studie “Diagnostic Accuracy of Web-Based COVID-19 Symptom Checkers: Comparison Study” von Nicolas Munsch, Alistair Martin und weiteren Autoren, veröffentlicht im Oktober 2020 im Journal of Medical Internet Research (DOI: 10.2196/21299), bewertet die diagnostische Genauigkeit von zehn webbasierten COVID-19-Symptomcheckern. Sie analysiert deren Leistung anhand von 50 COVID-19-Fällen und 410 Kontrollfällen ohne COVID-19, wobei Sensitivität, Spezifität, F1-Score und Matthews-Korrelationskoeffizient (MCC) ermittelt wurden. Die Ergebnisse zeigen große Unterschiede: Symptoma (F1=0.92, MCC=0.85) und Infermedica (F1=0.80, MCC=0.61) erzielten die besten Werte für „hohes Risiko“, während andere wie Ada (F1=0.24) und Your.MD (F1=0.24) schlechter abschnitten. Die Studie hebt hervor, dass nur zwei Checker ein gutes Gleichgewicht zwischen Sensitivität und Spezifität bieten, und betont die Bedeutung solcher Tools für Triage und Entlastung des Gesundheitswesens während der Pandemie, trotz variabler Zuverlässigkeit. <span class="citation" data-cites="munsch2020diagnostic">(<a href="referenzen.html#ref-munsch2020diagnostic" role="doc-biblioref">Munsch u.&nbsp;a. 2020</a>)</span></p>
-<p>Die Studie “Comparison of Two Symptom Checkers (Ada and Symptoma) in the Emergency Department: Randomized, Crossover, Head-to-Head, Double-Blinded Study” von Johannes Knitza und Kollegen, veröffentlicht 2024 im Journal of Medical Internet Research (DOI: 10.2196/56514), vergleicht die diagnostische Genauigkeit, Sicherheit, Benutzbarkeit und Akzeptanz der Symptomchecker Ada und Symptoma in der Notaufnahme des Universitätsklinikums Erlangen. In einer randomisierten, doppelt verblindeten Crossover-Studie mit 437 Patienten zwischen April und November 2021 zeigte Ada eine höhere diagnostische Genauigkeit (identische Diagnose bei 14 % vs.&nbsp;4 % für Symptoma als Top-Diagnose) und bessere Benutzbarkeit (88 % vs.&nbsp;78 % fanden sie einfach). Beide Checker übersahen jedoch bei 13–14 % der Fälle potenziell lebensbedrohliche Diagnosen, und Ada triagierte 34 % korrekt, aber 13 % zu niedrig. Die Akzeptanz war gering (NPS: Ada –34, Symptoma –47). Die Autoren warnen vor der unkritischen Nutzung solcher Tools in Notfällen und fordern strengere klinische Evaluationsstudien. <span class="citation" data-cites="knitza2024comparison">(<a href="referenzen.html#ref-knitza2024comparison" role="doc-biblioref">Knitza u.&nbsp;a. 2024</a>)</span></p>
+<p>Die Studie “Comparison of Two Symptom Checkers (Ada and Symptoma) in the Emergency Department: Randomized, Crossover, Head-to-Head, Double-Blinded Study” von Johannes Knitza und Kollegen, veröffentlicht 2024 im Journal of Medical Internet Research (DOI: 10.2196/56514), vergleicht die diagnostische Genauigkeit, Sicherheit, Benutzbarkeit und Akzeptanz der Symptomchecker Ada und Symptoma in der Notaufnahme des Universitätsklinikums Erlangen. In einer randomisierten, doppelt verblindeten Crossover-Studie mit 437 Patienten zwischen April und November 2021 zeigte Ada eine höhere diagnostische Genauigkeit (identische Diagnose bei 14 % vs.&nbsp;4 % für Symptoma als Top-Diagnose) und bessere Benutzbarkeit (88 % vs.&nbsp;78 % fanden sie einfach). Beide Checker übersahen jedoch bei 13–14 % der Fälle potenziell lebensbedrohliche Diagnosen, und Ada triagierte 34 % korrekt, aber 13 % zu niedrig. Die Akzeptanz war gering (NPS: Ada –34, Symptoma –47). Die Autoren warnen vor der unkritischen Nutzung solcher Tools in Notfällen und fordern strengere klinische Evaluationsstudien. <span class="citation" data-cites="knitza2024comparison">(<a href="referenzen.html#ref-knitza2024comparison" role="doc-biblioref"><span class="nocase">Knitza u.&nbsp;a.</span> 2024</a>)</span></p>
 <p>Die Studie “Vom Symptom zur Diagnose – Tauglichkeit von Symptom-Checkern: Update aus Sicht der HNO” von J. Nateqi und Kollegen, veröffentlicht am 16. April 2019 in HNO (Band 67, S. 334–342), untersucht die diagnostische Genauigkeit moderner Symptomchecker aus der Perspektive der Hals-Nasen-Ohren-Heilkunde. Sie aktualisiert eine Harvard-Studie von 2015, die eine Treffergenauigkeit von 29–71 % feststellte, indem sie fünf neue Checker (Symptoma, Ada, FindZebra, Mediktor, Babylon) einbezieht und die Ergebnisse normiert. Symptoma sticht mit 82,2 % (Top 1), 100 % (Top 3 und Top 10) heraus und übertrifft den bisherigen Standard deutlich. In einem HNO-spezifischen Test mit Fällen aus dem British Medical Journal erreicht Symptoma 64,3 % (Top 1), 92,9 % (Top 3) und 100 % (Top 10), weit vor Isabel (21,4 %; 40,5 %; 61,9 %) und FindZebra (26,2 %; 42,9 %; 54,8 %). Die Autoren schließen, dass Symptoma als einzige praxistaugliche Lösung gilt, empfehlen jedoch größere Studien, insbesondere zu seltenen Krankheiten. <span class="citation" data-cites="nateqi2019symptom">(<a href="referenzen.html#ref-nateqi2019symptom" role="doc-biblioref">Nateqi u.&nbsp;a. 2019</a>)</span></p>
 <p>Die Studie „Evaluation of symptom checkers for self diagnosis and triage: audit study“ von 2015 untersucht die Genauigkeit von 23 frei verfügbaren, englischsprachigen Online-Symptomcheckern anhand von 45 standardisierten Patientenvignetten, die nach Dringlichkeit der Triage (Notfall, nicht dringend, Selbstbehandlung) kategorisiert wurden. Die Ergebnisse zeigen, dass die Symptomchecker in 34 % der Fälle die richtige Diagnose an erster Stelle nannten, in 58 % die richtige Diagnose unter den ersten 20 Diagnosen aufführten und in 57 % der Fälle angemessene Triage-Ratschläge gaben, wobei die Leistung bei Notfällen (80 %) besser war als bei Selbstbehandlungsfällen (33 %). Die Studie weist auf Mängel in der diagnostischen und Triage-Genauigkeit hin und stellt fest, dass Symptomchecker oft risikoscheu sind und häufig medizinische Versorgung empfehlen, wenn Selbstbehandlung ausreichend wäre. <span class="citation" data-cites="Semigran2015">(<a href="referenzen.html#ref-Semigran2015" role="doc-biblioref">Semigran u.&nbsp;a. 2015</a>)</span></p>
 </section>
@@ -964,7 +970,7 @@ cookieconsent.run({
 <section id="sprachmodelle" class="level3">
 <h3 class="anchored" data-anchor-id="sprachmodelle">Sprachmodelle</h3>
 <p>Die Studie „From Tool to Teammate: A Randomized Controlled Trial of Clinician-AI Collaborative Workflows for Diagnosis“ untersucht die Integration eines speziell entwickelten GPT-Systems in klinische Diagnoseprozesse. An der Studie nahmen 70 Kliniker teil, die zwei kollaborative Ansätze – KI zuerst und KI danach – mit herkömmlichen Methoden verglichen. Beide KI-gestützten Arbeitsabläufe verbesserten die Diagnosegenauigkeit auf 85 % bzw. 82 % im Vergleich zu 75 % bei traditionellen Methoden, was signifikante Verbesserungen zeigt (p &lt; 0,0004 und p &lt; 0,00001). Die Studie betont das Potenzial kollaborativer KI-Systeme, die Expertise von Klinikern zu ergänzen und die diagnostische Entscheidungsfindung zu optimieren. <span class="citation" data-cites="Everett2025-us">(<a href="referenzen.html#ref-Everett2025-us" role="doc-biblioref">Everett u.&nbsp;a. 2025</a>)</span></p>
-<p>Die 2023 in JAMA veröffentlichte Studie “Accuracy of a generative artificial intelligence model in a complex diagnostic challenge” untersucht die diagnostische Genauigkeit des Generative Pre-trained Transformer 4 (GPT-4) anhand von 70 medizinischen Fällen aus den New England Journal of Medicine Clinicopathologic Conferences. GPT-4 identifizierte in 39 % der Fälle die korrekte Diagnose als Hauptdiagnose und in 64 % war die richtige Diagnose in der Differentialdiagnose enthalten. Die durchschnittliche Qualitätsbewertung der Differentialdiagnosen lag bei 4,2 von 5, was eine numerische Überlegenheit gegenüber früheren Diagnosegeneratoren zeigt. Trotz vielversprechender Ergebnisse weist die Studie auf Einschränkungen wie Subjektivität in der Bewertung und potenzielle diagnostische Schwächen hin, die weitere Forschung erfordern. <span class="citation" data-cites="kanjee2023accuracy">(<a href="referenzen.html#ref-kanjee2023accuracy" role="doc-biblioref">Kanjee, Crowe, und Rodman 2023</a>)</span></p>
+<p>Die 2023 in JAMA veröffentlichte Studie “Accuracy of a generative artificial intelligence model in a complex diagnostic challenge” untersucht die diagnostische Genauigkeit des Generative Pre-trained Transformer 4 (GPT-4) anhand von 70 medizinischen Fällen aus den New England Journal of Medicine Clinicopathologic Conferences. GPT-4 identifizierte in 39 % der Fälle die korrekte Diagnose als Hauptdiagnose und in 64 % war die richtige Diagnose in der Differentialdiagnose enthalten. Die durchschnittliche Qualitätsbewertung der Differentialdiagnosen lag bei 4,2 von 5, was eine numerische Überlegenheit gegenüber früheren Diagnosegeneratoren zeigt. Trotz vielversprechender Ergebnisse weist die Studie auf Einschränkungen wie Subjektivität in der Bewertung und potenzielle diagnostische Schwächen hin, die weitere Forschung erfordern. <span class="citation" data-cites="kanjee2023accuracy">(<a href="referenzen.html#ref-kanjee2023accuracy" role="doc-biblioref">Kanjee u.&nbsp;a. 2023</a>)</span></p>
 </section>
 </section>
 <section id="leistungsvergleich" class="level2">
@@ -981,18 +987,18 @@ cookieconsent.run({
 <p>Die Studie „ChatGPT Health performance in a structured test of triage recommendations“ wurde am 23. Februar 2026 in Nature Medicine veröffentlicht. Sie untersucht die Leistung von ChatGPT Health, einem im Januar 2026 von OpenAI gestarteten Verbraucher-Tool für Gesundheitsfragen, bei der Triage-Empfehlung in einem strukturierten Stresstest mit 60 klinisch erstellten Fallvignetten aus 21 Fachbereichen und insgesamt 960 Antworten unter 16 Bedingungen. Die Ergebnisse zeigen eine umgekehrt U-förmige Leistungskurve mit den schwerwiegendsten Fehlern an den Extremen: Bei nicht-dringenden Fällen lag die Fehlerquote bei 35 %, bei echten Notfällen bei 48 %. Unter den Goldstandard-Notfällen wurde in 52 % der Fälle untertriagiert, etwa bei diabetischer Ketoazidose oder drohendem Atemversagen, während klassische Notfälle wie Schlaganfall oder Anaphylaxie korrekt erkannt wurden. Weitere Probleme ergaben sich bei der Beeinflussung durch minimierende Symptomdarstellungen Dritter (Anchoring Bias) sowie bei unvorhersehbarer Aktivierung von Kriseninterventionen bei Suizidalität. Demografische Faktoren wie Rasse oder Geschlecht zeigten keine signifikanten Effekte. Die Autoren sehen Sicherheitsbedenken und fordern prospektive Validierungen vor breiterer Nutzung.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-el2022suitability" class="csl-entry" role="listitem">
-El-Osta, Austen, Iman Webber, Aos Alaa, Emmanouil Bagkeris, Saba Mian, Mansour Taghavi Azar Sharabiani, und Azeem Majeed. 2022. <span>„What is the suitability of clinical vignettes in benchmarking the performance of online symptom checkers? An audit study“</span>. <em>BMJ open</em> 12 (4): e053566.
+El-Osta, Austen, Iman Webber, Aos Alaa, u.&nbsp;a. 2022. <span>„What is the suitability of clinical vignettes in benchmarking the performance of online symptom checkers? An audit study“</span>. <em>BMJ open</em> 12 (4): e053566.
 </div>
 <div id="ref-Everett2025-us" class="csl-entry" role="listitem">
-Everett, Selin S, Bryan J Bunning, Priyank Jain, Ivan Lopez, Anup Agarwal, Manisha Desai, Robert Gallo, u.&nbsp;a. 2025. <span>„From tool to teammate: A randomized controlled trial of <span>clinician-AI</span> collaborative workflows for diagnosis“</span>. <em>medRxiv</em>.
+Everett, Selin S, Bryan J Bunning, Priyank Jain, u.&nbsp;a. 2025. <span>„From tool to teammate: A randomized controlled trial of <span>clinician-AI</span> collaborative workflows for diagnosis“</span>. In <em>medRxiv</em>. Juni.
 </div>
 <div id="ref-kanjee2023accuracy" class="csl-entry" role="listitem">
 Kanjee, Zahir, Byron Crowe, und Adam Rodman. 2023. <span>„Accuracy of a generative artificial intelligence model in a complex diagnostic challenge“</span>. <em>Jama</em> 330 (1): 78–80.
 </div>
 <div id="ref-knitza2024comparison" class="csl-entry" role="listitem">
-Knitza, Johannes, Ragip Hasanaj, Jonathan Beyer, Franziska Ganzer, Anna Slagman, Myrto Bolanaki, Hendrik Napierala, u.&nbsp;a. 2024. <span>„Comparison of Two Symptom Checkers (Ada and Symptoma) in the Emergency Department: Randomized, Crossover, Head-to-Head, Double-Blinded Study“</span>. <em>Journal of Medical Internet Research</em> 26: e56514.
+<span class="nocase">Knitza, Johannes, Ragip Hasanaj, Jonathan Beyer, u.&nbsp;a.</span> 2024. <span>„Comparison of Two Symptom Checkers (Ada and Symptoma) in the Emergency Department: Randomized, Crossover, Head-to-Head, Double-Blinded Study“</span>. <em>Journal of Medical Internet Research</em> 26: e56514.
 </div>
 <div id="ref-kopka2024repvig" class="csl-entry" role="listitem">
 Kopka, Marvin, Hendrik Napierala, Martin Privoznik, Desislava Sapunova, Sizhuo Zhang, und Markus A Feufel. 2024. <span>„The RepVig framework for designing use-case specific representative vignettes and evaluating triage accuracy of laypeople and symptom assessment applications“</span>. <em>Scientific Reports</em> 14 (1): 30614.
@@ -1004,16 +1010,16 @@ Kopka, Marvin, Sonja Mei Wang, Samira Kunz, Christine Schmid, und Markus A Feufe
 Mendel, Tamir, Nina Singh, Devin M Mann, Batia Wiesenfeld, und Oded Nov. 2025. <span>„Laypeople’s Use of and Attitudes Toward Large Language Models and Search Engines for Health Queries: Survey Study“</span>. <em>J Med Internet Res</em> 27 (Februar): e64290. <a href="https://doi.org/10.2196/64290">https://doi.org/10.2196/64290</a>.
 </div>
 <div id="ref-munsch2020diagnostic" class="csl-entry" role="listitem">
-Munsch, Nicolas, Alistair Martin, Stefanie Gruarin, Jama Nateqi, Isselmou Abdarahmane, Rafael Weingartner-Ortner, und Bernhard Knapp. 2020. <span>„Diagnostic accuracy of web-based COVID-19 symptom checkers: comparison study“</span>. <em>Journal of medical Internet research</em> 22 (10): e21299.
+Munsch, Nicolas, Alistair Martin, Stefanie Gruarin, u.&nbsp;a. 2020. <span>„Diagnostic accuracy of web-based COVID-19 symptom checkers: comparison study“</span>. <em>Journal of medical Internet research</em> 22 (10): e21299.
 </div>
 <div id="ref-nateqi2019symptom" class="csl-entry" role="listitem">
-Nateqi, J, S Lin, H Krobath, S Gruarin, T Lutz, T Dvorak, A Gruschina, und R Ortner. 2019. <span>„Vom symptom zur diagnose–Tauglichkeit von symptom-checkern: update aus Sicht der HNO“</span>. <em>HNO</em> 67: 334–42.
+Nateqi, J, S Lin, H Krobath, u.&nbsp;a. 2019. <span>„Vom symptom zur diagnose–Tauglichkeit von symptom-checkern: update aus Sicht der HNO“</span>. <em>HNO</em> 67: 334–42.
 </div>
 <div id="ref-Semigran2015" class="csl-entry" role="listitem">
 Semigran, Hannah L, Jeffrey A Linder, Courtney Gidengil, und Ateev Mehrotra. 2015. <span>„Evaluation of symptom checkers for self diagnosis and triage: audit study“</span>. <em>BMJ</em> 351. <a href="https://doi.org/10.1136/bmj.h3480">https://doi.org/10.1136/bmj.h3480</a>.
 </div>
 <div id="ref-zhu2025diagnosisarenabenchmarkingdiagnosticreasoning" class="csl-entry" role="listitem">
-Zhu, Yakun, Zhongzhen Huang, Linjie Mu, Yutong Huang, Wei Nie, Jiaji Liu, Shaoting Zhang, Pengfei Liu, und Xiaofan Zhang. 2025. <span>„DiagnosisArena: Benchmarking Diagnostic Reasoning for Large Language Models“</span>. <a href="https://arxiv.org/abs/2505.14107">https://arxiv.org/abs/2505.14107</a>.
+Zhu, Yakun, Zhongzhen Huang, Linjie Mu, u.&nbsp;a. 2025. <em>DiagnosisArena: Benchmarking Diagnostic Reasoning for Large Language Models</em>. <a href="https://arxiv.org/abs/2505.14107">https://arxiv.org/abs/2505.14107</a>.
 </div>
 <div id="ref-zobel2023correlating" class="csl-entry" role="listitem">
 Zobel, Marc, Bernhard Knapp, Jama Nateqi, und Alistair Martin. 2023. <span>„Correlating global trends in COVID-19 cases with online symptom checker self-assessments“</span>. <em>Plos one</em> 18 (2): e0281709.

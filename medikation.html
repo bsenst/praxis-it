@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Medikation – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -59,7 +62,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -91,19 +93,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -145,10 +146,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -865,6 +866,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -1043,8 +1049,8 @@ cookieconsent.run({
 <p><a href="https://www.embryotox.de/">embryotox.de</a> ist eine unabhängige Informationsplattform des Pharmakovigilanz- und Beratungszentrums für Embryonaltoxikologie an der Charité-Universitätsmedizin Berlin. Sie bietet evidenzbasierte Informationen zur Sicherheit von Arzneimitteln in Schwangerschaft und Stillzeit. Nutzer können Wirkstoffe oder Erkrankungen suchen, um Risiken, Empfehlungen und Alternativen zu erfahren, ergänzt durch ein Ampelsystem zur schnellen Einschätzung. Gefördert vom Bundesministerium für Gesundheit, arbeitet Embryotox ohne Einfluss der Pharmaindustrie und bietet zusätzlich kostenlose individuelle Beratung sowie eine App.</p>
 <p><a href="https://dosing.de/">dosing.de</a> wird vom Institut für Klinische Pharmakologie &amp; Pharmakoepidemiologie des Universitätsklinikums Heidelberg betrieben. Kernfunktion ist die Unterstützung bei der Dosisanpassung von Medikamenten, insbesondere bei Niereninsuffizienz.</p>
 <p>SIDER 4.1 ist eine Ressource, die Informationen über vermarktete Medikamente und deren dokumentierte Nebenwirkungen enthält, extrahiert aus öffentlichen Dokumenten und Beipackzetteln. Die Datenbank, zuletzt am 21. Oktober 2015 aktualisiert, umfasst 1430 Medikamente, 5868 Nebenwirkungen und 139756 Medikament-Nebenwirkung-Paare, wobei 39,9 % Frequenzangaben enthalten. Sie nutzt das MedDRA-Wörterbuch (Version 16.1) und bietet Zugriff auf bevorzugte und niedrigstufige Begriffe. SIDER ist unter einer Creative Commons-Lizenz (CC BY-NC-SA 4.0) verfügbar, wobei kommerzielle Nutzung eine Kontaktaufnahme mit biobyte solutions GmbH erfordert. Die Daten stammen von 2015 und dienen ausschließlich Bildungs- und Forschungszwecken, nicht als Ersatz für medizinische Beratung.</p>
-<p>Die Studie „A scoping review on generative AI and large language models in mitigating medication related harm“ untersucht den Einsatz generativer KI und großer Sprachmodelle (LLMs) zur Reduzierung medikamentenbedingter Schäden. Die Analyse von 30 Studien zeigt, dass diese Technologien in drei Hauptbereichen angewendet werden: Erkennung und Vorhersage von Arzneimittelwechselwirkungen, Unterstützung klinischer Entscheidungen und Pharmakovigilanz. Generative KI und LLMs zeigen vielversprechende Ergebnisse bei der frühzeitigen Identifikation von Nebenwirkungen, der Klassifikation von Arzneimittelereignissen und der Unterstützung bei der Medikamentenverwaltung. Allerdings fehlen prospektive Tests in realen klinischen Umgebungen, und es bestehen Herausforderungen wie unzureichende Sensitivität, veraltete Informationen und potenzielle Verzerrungen. <span class="citation" data-cites="ong2025scoping">(<a href="referenzen.html#ref-ong2025scoping" role="doc-biblioref">Ong u.&nbsp;a. 2025</a>)</span></p>
-<p>Der Artikel „Challenges in detecting and predicting adverse drug events via distributed analysis of electronic health record data from German university hospitals“ untersucht die Möglichkeiten und Herausforderungen bei der Erkennung und Vorhersage von unerwünschten Arzneimittelereignissen anhand verteilter Analysen von elektronischen Gesundheitsdaten aus deutschen Universitätskliniken. Dabei wurden zwei spezifische Nebenwirkungen, gastrointestinale Blutungen und medikamentenbedingte Hypoglykämien, analysiert. Die Studie zeigt, dass es grundsätzlich möglich ist, prädiktive Modelle zu entwickeln, wenn die Forschungsfragen an die vorhandene IT-Infrastruktur und Datenqualität angepasst werden. Ein wesentliches Hindernis war die teilweise fehlende Verfügbarkeit von Laborwerten. Insgesamt liefern die Ergebnisse plausible Schätzungen zur Häufigkeit der Ereignisse und deren Risikofaktoren. <span class="citation" data-cites="wermund2025challenges">(<a href="referenzen.html#ref-wermund2025challenges" role="doc-biblioref">Wermund u.&nbsp;a. 2025</a>)</span></p>
+<p>Die Studie „A scoping review on generative AI and large language models in mitigating medication related harm“ untersucht den Einsatz generativer KI und großer Sprachmodelle (LLMs) zur Reduzierung medikamentenbedingter Schäden. Die Analyse von 30 Studien zeigt, dass diese Technologien in drei Hauptbereichen angewendet werden: Erkennung und Vorhersage von Arzneimittelwechselwirkungen, Unterstützung klinischer Entscheidungen und Pharmakovigilanz. Generative KI und LLMs zeigen vielversprechende Ergebnisse bei der frühzeitigen Identifikation von Nebenwirkungen, der Klassifikation von Arzneimittelereignissen und der Unterstützung bei der Medikamentenverwaltung. Allerdings fehlen prospektive Tests in realen klinischen Umgebungen, und es bestehen Herausforderungen wie unzureichende Sensitivität, veraltete Informationen und potenzielle Verzerrungen. <span class="citation" data-cites="ong2025scoping">(<a href="referenzen.html#ref-ong2025scoping" role="doc-biblioref"><span class="nocase">Ong u.&nbsp;a.</span> 2025</a>)</span></p>
+<p>Der Artikel „Challenges in detecting and predicting adverse drug events via distributed analysis of electronic health record data from German university hospitals“ untersucht die Möglichkeiten und Herausforderungen bei der Erkennung und Vorhersage von unerwünschten Arzneimittelereignissen anhand verteilter Analysen von elektronischen Gesundheitsdaten aus deutschen Universitätskliniken. Dabei wurden zwei spezifische Nebenwirkungen, gastrointestinale Blutungen und medikamentenbedingte Hypoglykämien, analysiert. Die Studie zeigt, dass es grundsätzlich möglich ist, prädiktive Modelle zu entwickeln, wenn die Forschungsfragen an die vorhandene IT-Infrastruktur und Datenqualität angepasst werden. Ein wesentliches Hindernis war die teilweise fehlende Verfügbarkeit von Laborwerten. Insgesamt liefern die Ergebnisse plausible Schätzungen zur Häufigkeit der Ereignisse und deren Risikofaktoren. <span class="citation" data-cites="wermund2025challenges">(<a href="referenzen.html#ref-wermund2025challenges" role="doc-biblioref"><span class="nocase">Wermund u.&nbsp;a.</span> 2025</a>)</span></p>
 <p>Die Studie mit dem Titel „A Bayesian neural network method for adverse drug reaction signal generation“ beschreibt die Entwicklung und Anwendung eines flexiblen, automatisierten Verfahrens zur Identifikation neuer Signale für unerwünschte Arzneimittelwirkungen (UAW) in einer großen Datenbank von WHO-Berichten. Dabei wird ein Bayessches neuronales Netzwerk (BCPNN) verwendet, das große und unvollständige Datensätze robust verarbeitet und durch Informations-Theorie relevante Kombinationen von Medikamenten und UAW zuverlässig erkennt. In der Praxis zeigte die Methode eine frühe Entdeckung bekannter UAWs und die Vermeidung von Fehlalarmen. So konnten aus rund zwei Millionen Berichten viele potenziell ernsthafte Signale extrahiert werden, was die Methode als wertvolle Unterstützung für Experten in der Pharmakovigilanz etabliert. <span class="citation" data-cites="Bate1998">(<a href="referenzen.html#ref-Bate1998" role="doc-biblioref">Bate u.&nbsp;a. 1998</a>)</span></p>
 </section>
 <section id="athina" class="level2">
@@ -1068,32 +1074,32 @@ cookieconsent.run({
 </section>
 <section id="xml-spezifikation" class="level2">
 <h2 class="anchored" data-anchor-id="xml-spezifikation">XML Spezifikation</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">MP</span><span class="ot"> v=</span><span class="st">"027"</span><span class="ot"> U=</span><span class="st">"F5FDC0E5E10E44EFBAC1D4A2B540A957"</span><span class="ot"> l=</span><span class="st">"de-DE"</span>&gt;</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">P</span><span class="ot"> g=</span><span class="st">"Michaela"</span><span class="ot"> f=</span><span class="st">"Musterhausen"</span><span class="ot"> b=</span><span class="st">"19361213"</span><span class="ot"> s=</span><span class="st">"W"</span><span class="ot"> t=</span><span class="st">"Dr."</span><span class="ot"> v=</span><span class="st">"von"</span><span class="ot"> z=</span><span class="st">"Freifrau"</span>/&gt;</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">MP</span> <span class="ot">v=</span><span class="st">"027"</span> <span class="ot">U=</span><span class="st">"F5FDC0E5E10E44EFBAC1D4A2B540A957"</span> <span class="ot">l=</span><span class="st">"de-DE"</span>&gt;</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">P</span> <span class="ot">g=</span><span class="st">"Michaela"</span> <span class="ot">f=</span><span class="st">"Musterhausen"</span> <span class="ot">b=</span><span class="st">"19361213"</span> <span class="ot">s=</span><span class="st">"W"</span> <span class="ot">t=</span><span class="st">"Dr."</span> <span class="ot">v=</span><span class="st">"von"</span> <span class="ot">z=</span><span class="st">"Freifrau"</span>/&gt;</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">A</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ot">lanr=</span><span class="st">"123456667"</span><span class="ot"> n=</span><span class="st">"Dr. Manfred Überall"</span><span class="ot"> s=</span><span class="st">"Hauptstraße 55"</span><span class="ot"> z=</span><span class="st">"01234"</span><span class="ot"> c=</span><span class="st">"Am Ort"</span><span class="ot"> p=</span><span class="st">"04562-</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">12345"</span><span class="ot"> e=</span><span class="st">"m.ue@praxis-ueberall.de"</span><span class="ot"> t=</span><span class="st">"2023-04-01T12:00:00"</span>/&gt;</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">O</span><span class="ot"> ai=</span><span class="st">"Penicillin"</span><span class="ot"> w=</span><span class="st">"85.0"</span>/&gt;</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ot">lanr=</span><span class="st">"123456667"</span> <span class="ot">n=</span><span class="st">"Dr. Manfred Überall"</span> <span class="ot">s=</span><span class="st">"Hauptstraße 55"</span> <span class="ot">z=</span><span class="st">"01234"</span> <span class="ot">c=</span><span class="st">"Am Ort"</span> <span class="ot">p=</span><span class="st">"04562-</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">12345"</span> <span class="ot">e=</span><span class="st">"m.ue@praxis-ueberall.de"</span> <span class="ot">t=</span><span class="st">"2023-04-01T12:00:00"</span>/&gt;</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">O</span> <span class="ot">ai=</span><span class="st">"Penicillin"</span> <span class="ot">w=</span><span class="st">"85.0"</span>/&gt;</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span>&gt;</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> f=</span><span class="st">"TAB"</span><span class="ot"> m=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"während der Mahlzeit"</span><span class="ot"> r=</span><span class="st">"Bluthochdruck"</span>&gt;</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">W</span><span class="ot"> w=</span><span class="st">"Ramipril"</span><span class="ot"> s=</span><span class="st">"5 mg"</span>/&gt;</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span> <span class="ot">f=</span><span class="st">"TAB"</span> <span class="ot">m=</span><span class="st">"1"</span> <span class="ot">du=</span><span class="st">"1"</span> <span class="ot">i=</span><span class="st">"während der Mahlzeit"</span> <span class="ot">r=</span><span class="st">"Bluthochdruck"</span>&gt;</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">W</span> <span class="ot">w=</span><span class="st">"Ramipril"</span> <span class="ot">s=</span><span class="st">"5 mg"</span>/&gt;</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">M</span>&gt;</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"6453174"</span><span class="ot"> m=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"während der Mahlzeit"</span><span class="ot"> r=</span><span class="st">"Bluthochdruck"</span>/&gt;</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"4129423"</span><span class="ot"> v=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"während der Mahlzeit"</span><span class="ot"> r=</span><span class="st">"art. Verschluss"</span>/&gt;</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"232207"</span><span class="ot"> v=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"nach der Mahlzeit"</span><span class="ot"> r=</span><span class="st">"erhöhte Blutfette"</span>/&gt;</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"544786"</span><span class="ot"> m=</span><span class="st">"20"</span><span class="ot"> v=</span><span class="st">"10"</span><span class="ot"> dud=</span><span class="st">"IE"</span><span class="ot"> i=</span><span class="st">"subkutan"</span><span class="ot"> r=</span><span class="st">"Diabetes"</span>/&gt;</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span> <span class="ot">p=</span><span class="st">"6453174"</span> <span class="ot">m=</span><span class="st">"1"</span> <span class="ot">du=</span><span class="st">"1"</span> <span class="ot">i=</span><span class="st">"während der Mahlzeit"</span> <span class="ot">r=</span><span class="st">"Bluthochdruck"</span>/&gt;</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span> <span class="ot">p=</span><span class="st">"4129423"</span> <span class="ot">v=</span><span class="st">"1"</span> <span class="ot">du=</span><span class="st">"1"</span> <span class="ot">i=</span><span class="st">"während der Mahlzeit"</span> <span class="ot">r=</span><span class="st">"art. Verschluss"</span>/&gt;</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span> <span class="ot">p=</span><span class="st">"232207"</span> <span class="ot">v=</span><span class="st">"1"</span> <span class="ot">du=</span><span class="st">"1"</span> <span class="ot">i=</span><span class="st">"nach der Mahlzeit"</span> <span class="ot">r=</span><span class="st">"erhöhte Blutfette"</span>/&gt;</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span> <span class="ot">p=</span><span class="st">"544786"</span> <span class="ot">m=</span><span class="st">"20"</span> <span class="ot">v=</span><span class="st">"10"</span> <span class="ot">dud=</span><span class="st">"IE"</span> <span class="ot">i=</span><span class="st">"subkutan"</span> <span class="ot">r=</span><span class="st">"Diabetes"</span>/&gt;</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">S</span>&gt;</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span><span class="ot"> t=</span><span class="st">"Bedarfsmedikation"</span>&gt;</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"11084508"</span><span class="ot"> t=</span><span class="st">"max. 3"</span><span class="ot"> du=</span><span class="st">"5"</span><span class="ot"> i=</span><span class="st">"akut"</span><span class="ot"> r=</span><span class="st">"Herzschmerzen"</span>/&gt;</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"2083906"</span><span class="ot"> h=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"bei Bedarf"</span><span class="ot"> r=</span><span class="st">"Schlaflosigkeit"</span>/&gt;</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"9285530"</span><span class="ot"> m=</span><span class="st">"1"</span><span class="ot"> d=</span><span class="st">"1"</span><span class="ot"> v=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> r=</span><span class="st">"Erkältung/ Nasennebenhöhlen"</span>/&gt;</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span> <span class="ot">t=</span><span class="st">"Bedarfsmedikation"</span>&gt;</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span> <span class="ot">p=</span><span class="st">"11084508"</span> <span class="ot">t=</span><span class="st">"max. 3"</span> <span class="ot">du=</span><span class="st">"5"</span> <span class="ot">i=</span><span class="st">"akut"</span> <span class="ot">r=</span><span class="st">"Herzschmerzen"</span>/&gt;</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span> <span class="ot">p=</span><span class="st">"2083906"</span> <span class="ot">h=</span><span class="st">"1"</span> <span class="ot">du=</span><span class="st">"1"</span> <span class="ot">i=</span><span class="st">"bei Bedarf"</span> <span class="ot">r=</span><span class="st">"Schlaflosigkeit"</span>/&gt;</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span> <span class="ot">p=</span><span class="st">"9285530"</span> <span class="ot">m=</span><span class="st">"1"</span> <span class="ot">d=</span><span class="st">"1"</span> <span class="ot">v=</span><span class="st">"1"</span> <span class="ot">du=</span><span class="st">"1"</span> <span class="ot">r=</span><span class="st">"Erkältung/ Nasennebenhöhlen"</span>/&gt;</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">S</span>&gt;</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span><span class="ot"> c=</span><span class="st">"424"</span>&gt;</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span><span class="ot"> p=</span><span class="st">"7273534"</span><span class="ot"> m=</span><span class="st">"1"</span><span class="ot"> d=</span><span class="st">"1"</span><span class="ot"> v=</span><span class="st">"1"</span><span class="ot"> du=</span><span class="st">"1"</span><span class="ot"> i=</span><span class="st">"alle 8 Stunden einnehmen"</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ot">r=</span><span class="st">"Nebenhöhlenentzündung"</span><span class="ot"> x=</span><span class="st">"Sofort mit Einnahme beginnen, für 10 Tage (bis 10.03.2023)"</span>/&gt;</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span> <span class="ot">c=</span><span class="st">"424"</span>&gt;</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">M</span> <span class="ot">p=</span><span class="st">"7273534"</span> <span class="ot">m=</span><span class="st">"1"</span> <span class="ot">d=</span><span class="st">"1"</span> <span class="ot">v=</span><span class="st">"1"</span> <span class="ot">du=</span><span class="st">"1"</span> <span class="ot">i=</span><span class="st">"alle 8 Stunden einnehmen"</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ot">r=</span><span class="st">"Nebenhöhlenentzündung"</span> <span class="ot">x=</span><span class="st">"Sofort mit Einnahme beginnen, für 10 Tage (bis 10.03.2023)"</span>/&gt;</span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">S</span>&gt;</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span><span class="ot"> c=</span><span class="st">"422"</span>&gt;</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">X</span><span class="ot"> t=</span><span class="st">"Bitte messen Sie Ihren Blutdruck täglich!"</span>/&gt;</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">S</span> <span class="ot">c=</span><span class="st">"422"</span>&gt;</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a> &lt;<span class="kw">X</span> <span class="ot">t=</span><span class="st">"Bitte messen Sie Ihren Blutdruck täglich!"</span>/&gt;</span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a> &lt;/<span class="kw">S</span>&gt;</span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">MP</span>&gt; </span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
@@ -1107,7 +1113,7 @@ cookieconsent.run({
 </section>
 <section id="medikamenteneinnahmeerinnerung" class="level2">
 <h2 class="anchored" data-anchor-id="medikamenteneinnahmeerinnerung">Medikamenteneinnahmeerinnerung</h2>
-<p>Die Studie “Patient-reported usability challenges when implementing integrated EHR medication reminders for kidney transplant patients in a home setting: A pilot study” untersucht die Machbarkeit eines integrierten EHR-Medikamentenerinnerungstools für Nierentransplantationspatienten in einer häuslichen Umgebung. In einer Pilotstudie mit 43 Teilnehmern an einem großen akademischen Krankenhaus in den Niederlanden wurde die Benutzbarkeit und Zufriedenheit mittels des validierten GEMS-Fragebogens bewertet. Die Ergebnisse zeigten eine gemischte Benutzbarkeit und Zufriedenheit (GEMS-Score: 65,0 %), mit Einschränkungen wie mangelnder Anpassungsmöglichkeit der Erinnerungen und Schwierigkeiten beim Abhaken von Medikamenten. Etwa ein Drittel der Teilnehmer fand das Tool nützlich und war bereit, es weiter zu nutzen. Verbesserungen, insbesondere bei der Individualisierung der Benachrichtigungen, sind für eine großflächige Implementierung erforderlich. <span class="citation" data-cites="oudbier2025patient">(<a href="referenzen.html#ref-oudbier2025patient" role="doc-biblioref">Oudbier u.&nbsp;a. 2025</a>)</span></p>
+<p>Die Studie “Patient-reported usability challenges when implementing integrated EHR medication reminders for kidney transplant patients in a home setting: A pilot study” untersucht die Machbarkeit eines integrierten EHR-Medikamentenerinnerungstools für Nierentransplantationspatienten in einer häuslichen Umgebung. In einer Pilotstudie mit 43 Teilnehmern an einem großen akademischen Krankenhaus in den Niederlanden wurde die Benutzbarkeit und Zufriedenheit mittels des validierten GEMS-Fragebogens bewertet. Die Ergebnisse zeigten eine gemischte Benutzbarkeit und Zufriedenheit (GEMS-Score: 65,0 %), mit Einschränkungen wie mangelnder Anpassungsmöglichkeit der Erinnerungen und Schwierigkeiten beim Abhaken von Medikamenten. Etwa ein Drittel der Teilnehmer fand das Tool nützlich und war bereit, es weiter zu nutzen. Verbesserungen, insbesondere bei der Individualisierung der Benachrichtigungen, sind für eine großflächige Implementierung erforderlich. <span class="citation" data-cites="oudbier2025patient">(<a href="referenzen.html#ref-oudbier2025patient" role="doc-biblioref"><span class="nocase">Oudbier u.&nbsp;a.</span> 2025</a>)</span></p>
 </section>
 <section id="digitalisierung-von-apotheken" class="level2">
 <h2 class="anchored" data-anchor-id="digitalisierung-von-apotheken">Digitalisierung von Apotheken</h2>
@@ -1125,21 +1131,21 @@ cookieconsent.run({
 <p>MedSafer – Working Towards Safer Prescribing ist ein elektronisches Entscheidungsunterstützungstool für Deprescribing in Kanada. Es unterstützt Patienten, Ärzte, Pflegefachkräfte und Apotheker bei der sicheren und erfolgreichen Reduktion oder dem Absetzen von Medikamenten bei älteren Erwachsenen. Das Tool identifiziert potenziell ungeeignete Medikamente, berücksichtigt individuelle Gesundheitsdaten und liefert evidenzbasierte Empfehlungen. Entwickelt im Rahmen klinischer Forschungsprogramme, vor allem am McGill University Health Centre, ist MedSafer in verschiedenen Settings einsetzbar, einschließlich Integration in elektronische Patientenakten in Langzeitpflegeeinrichtungen, und wird durch Studien als wirksam bei der Verringerung inadäquater Polypharmazie bestätigt.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-Bate1998" class="csl-entry" role="listitem">
-Bate, A., M. Lindquist, I. R. Edwards, H. Olsson, R. Orre, A. Lansner, und R. M. De Freitas. 1998. <span>„A Bayesian neural network method for adverse drug reaction signal generation“</span>. <em>European Journal of Clinical Pharmacology</em> 54 (4): 315–21. <a href="https://doi.org/10.1007/s002280050466">https://doi.org/10.1007/s002280050466</a>.
+Bate, A., M. Lindquist, I. R. Edwards, u.&nbsp;a. 1998. <span>„A Bayesian neural network method for adverse drug reaction signal generation“</span>. <em>European Journal of Clinical Pharmacology</em> 54 (4): 315–21. <a href="https://doi.org/10.1007/s002280050466">https://doi.org/10.1007/s002280050466</a>.
 </div>
 <div id="ref-ong2025scoping" class="csl-entry" role="listitem">
-Ong, Jasmine Chiat Ling, Michael Hao Chen, Ning Ng, Kabilan Elangovan, Nichole Yue Ting Tan, Liyuan Jin, Qihuang Xie, u.&nbsp;a. 2025. <span>„A scoping review on generative AI and large language models in mitigating medication related harm“</span>. <em>npj Digital Medicine</em> 8 (1): 182.
+<span class="nocase">Ong, Jasmine Chiat Ling, Michael Hao Chen, Ning Ng, u.&nbsp;a.</span> 2025. <span>„A scoping review on generative AI and large language models in mitigating medication related harm“</span>. <em>npj Digital Medicine</em> 8 (1): 182.
 </div>
 <div id="ref-oudbier2025patient" class="csl-entry" role="listitem">
-Oudbier, SJ, JW Aarts, MA Kuijvenhoven, SL Janssen, M Hilhorst, SA Nurmohamed, EMA Smets, PJI Teeuwisse, LW Dusseljee, u.&nbsp;a. 2025. <span>„Patient-reported usability challenges when implementing integrated EHR medication reminders for kidney transplant patients in a home setting: A pilot study“</span>. <em>International Journal of Medical Informatics</em>, 105949.
+<span class="nocase">Oudbier, SJ, JW Aarts, MA Kuijvenhoven, u.&nbsp;a.</span> 2025. <span>„Patient-reported usability challenges when implementing integrated EHR medication reminders for kidney transplant patients in a home setting: A pilot study“</span>. <em>International Journal of Medical Informatics</em>, 105949.
 </div>
 <div id="ref-perez2019mobile" class="csl-entry" role="listitem">
 Pérez-Jover, Virtudes, Marina Sala-González, Mercedes Guilabert, und José Joaquı́n Mira. 2019. <span>„Mobile apps for increasing treatment adherence: systematic review“</span>. <em>Journal of medical Internet research</em> 21 (6): e12505.
 </div>
 <div id="ref-wermund2025challenges" class="csl-entry" role="listitem">
-Wermund, Anna Maria, Torsten Thalheim, André Medek, Florian Schmidt, Thomas Peschel, Alexander Strübing, Daniel Neumann, u.&nbsp;a. 2025. <span>„Challenges in detecting and predicting adverse drug events via distributed analysis of electronic health record data from German university hospitals“</span>. <em>PLOS Digital Health</em> 4 (6): e0000892.
+<span class="nocase">Wermund, Anna Maria, Torsten Thalheim, André Medek, u.&nbsp;a.</span> 2025. <span>„Challenges in detecting and predicting adverse drug events via distributed analysis of electronic health record data from German university hospitals“</span>. <em>PLOS Digital Health</em> 4 (6): e0000892.
 </div>
 </div>
 </section>

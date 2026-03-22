@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Psychotherapie – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -1027,11 +1033,11 @@ cookieconsent.run({
 </section>
 <section id="ecological-momentary-assessment-ema" class="level3">
 <h3 class="anchored" data-anchor-id="ecological-momentary-assessment-ema">Ecological Momentary Assessment (EMA)</h3>
-<p>Die Studie „Analyzing Trends in Suicidal Thoughts Among Patients With Psychosis in India: Exploratory Secondary Analysis of Smartphone Ecological Momentary Assessment Data“ untersucht die Dauer und Dynamik suizidaler Gedanken bei Patienten mit Psychosen in Indien. Mithilfe der Smartphone-App „mindLAMP“ wurden tägliche ökologische Momentaufnahmen (EMA) von 50 ambulanten Patienten im Frühstadium der Schizophrenie an zwei tertiären Kliniken in Indien über etwa 11 Monate erfasst. Von 14 Teilnehmern mit suizidalen Gedanken zeigte sich eine hohe Variabilität in der Häufigkeit und Dauer dieser Episoden, mit durchschnittlich 5,9 Episoden à 2,5 Tagen. Die Studie fand, dass suizidale Gedanken auch nach klinischer Besserung der Psychosesymptome bestehen bleiben, was auf eine anhaltende Vulnerabilität hinweist. Die Ergebnisse betonen die Notwendigkeit präziserer EMA-Ansätze, wie hochfrequente „Burst“-Umfragen, um die zeitliche Dynamik suizidaler Gedanken besser zu verstehen und gezielte Präventionsmaßnahmen zu entwickeln. <span class="citation" data-cites="bondre2025analyzing">(<a href="referenzen.html#ref-bondre2025analyzing" role="doc-biblioref">Bondre u.&nbsp;a. 2025</a>)</span></p>
+<p>Die Studie „Analyzing Trends in Suicidal Thoughts Among Patients With Psychosis in India: Exploratory Secondary Analysis of Smartphone Ecological Momentary Assessment Data“ untersucht die Dauer und Dynamik suizidaler Gedanken bei Patienten mit Psychosen in Indien. Mithilfe der Smartphone-App „mindLAMP“ wurden tägliche ökologische Momentaufnahmen (EMA) von 50 ambulanten Patienten im Frühstadium der Schizophrenie an zwei tertiären Kliniken in Indien über etwa 11 Monate erfasst. Von 14 Teilnehmern mit suizidalen Gedanken zeigte sich eine hohe Variabilität in der Häufigkeit und Dauer dieser Episoden, mit durchschnittlich 5,9 Episoden à 2,5 Tagen. Die Studie fand, dass suizidale Gedanken auch nach klinischer Besserung der Psychosesymptome bestehen bleiben, was auf eine anhaltende Vulnerabilität hinweist. Die Ergebnisse betonen die Notwendigkeit präziserer EMA-Ansätze, wie hochfrequente „Burst“-Umfragen, um die zeitliche Dynamik suizidaler Gedanken besser zu verstehen und gezielte Präventionsmaßnahmen zu entwickeln. <span class="citation" data-cites="bondre2025analyzing">(<a href="referenzen.html#ref-bondre2025analyzing" role="doc-biblioref"><span class="nocase">Bondre u.&nbsp;a.</span> 2025</a>)</span></p>
 </section>
 <section id="standardisierung-regulierung" class="level3">
 <h3 class="anchored" data-anchor-id="standardisierung-regulierung">Standardisierung &amp; Regulierung</h3>
-<p>Die Studie „Towards a consensus around standards for smartphone apps and digital mental health“ fordert einheitliche Standards für die Bewertung von Apps für psychische Gesundheit. Sie betont die wachsende Bedeutung solcher Apps, da weltweit eine von vier Personen von psychischen Störungen betroffen ist, der Zugang zu Versorgung jedoch oft eingeschränkt ist. Die Autoren, führende Experten aus mHealth-Forschung, Industrie und Gesundheitswesen, schlagen Mindeststandards in vier Bereichen vor: Datensicherheit und Datenschutz, Wirksamkeit, Benutzererfahrung/Adhärenz und Datenintegration. Sie empfehlen transparente Datenschutzrichtlinien, klinische Studien zur Wirksamkeitsprüfung, nutzerzentriertes Design und Interoperabilität mit elektronischen Patientenakten. Abschließend fordern sie eine internationale Zusammenarbeit, um universelle Qualitätsstandards für solche Apps zu etablieren. <span class="citation" data-cites="torous2019towards">(<a href="referenzen.html#ref-torous2019towards" role="doc-biblioref">Torous u.&nbsp;a. 2019</a>)</span></p>
+<p>Die Studie „Towards a consensus around standards for smartphone apps and digital mental health“ fordert einheitliche Standards für die Bewertung von Apps für psychische Gesundheit. Sie betont die wachsende Bedeutung solcher Apps, da weltweit eine von vier Personen von psychischen Störungen betroffen ist, der Zugang zu Versorgung jedoch oft eingeschränkt ist. Die Autoren, führende Experten aus mHealth-Forschung, Industrie und Gesundheitswesen, schlagen Mindeststandards in vier Bereichen vor: Datensicherheit und Datenschutz, Wirksamkeit, Benutzererfahrung/Adhärenz und Datenintegration. Sie empfehlen transparente Datenschutzrichtlinien, klinische Studien zur Wirksamkeitsprüfung, nutzerzentriertes Design und Interoperabilität mit elektronischen Patientenakten. Abschließend fordern sie eine internationale Zusammenarbeit, um universelle Qualitätsstandards für solche Apps zu etablieren. <span class="citation" data-cites="torous2019towards">(<a href="referenzen.html#ref-torous2019towards" role="doc-biblioref"><span class="nocase">Torous u.&nbsp;a.</span> 2019</a>)</span></p>
 </section>
 <section id="essstörungen" class="level3">
 <h3 class="anchored" data-anchor-id="essstörungen">Essstörungen</h3>
@@ -1040,7 +1046,7 @@ cookieconsent.run({
 </section>
 <section id="partizipation" class="level3">
 <h3 class="anchored" data-anchor-id="partizipation">Partizipation</h3>
-<p>Die Studie „A Self-Harm Awareness Training Module for School Staff: Co-Design and User Testing Study“ befasst sich mit der Entwicklung und Erprobung eines E-Learning-Trainingsmoduls zur Sensibilisierung von Schulpersonal für das Thema Selbstverletzung bei Jugendlichen. Ziel war es, mithilfe eines partizipativen, schülerorientierten Ansatzes ein praxisnahes Schulungsangebot zu schaffen, das Lehrkräfte und weitere Mitarbeitende in Schulen dabei unterstützt, sicherer und kompetenter auf selbstverletzendes Verhalten von Schüler*innen zu reagieren. Die Ergebnisse zeigen, dass das Training von den Teilnehmenden als sehr nützlich, akzeptabel und alltagstauglich eingeschätzt wird und sowohl das Wissen als auch das Selbstvertrauen im Umgang mit betroffenen Jugendlichen stärkt. <span class="citation" data-cites="burn2025self">(<a href="referenzen.html#ref-burn2025self" role="doc-biblioref">Burn, Gains, und Anderson 2025</a>)</span></p>
+<p>Die Studie „A Self-Harm Awareness Training Module for School Staff: Co-Design and User Testing Study“ befasst sich mit der Entwicklung und Erprobung eines E-Learning-Trainingsmoduls zur Sensibilisierung von Schulpersonal für das Thema Selbstverletzung bei Jugendlichen. Ziel war es, mithilfe eines partizipativen, schülerorientierten Ansatzes ein praxisnahes Schulungsangebot zu schaffen, das Lehrkräfte und weitere Mitarbeitende in Schulen dabei unterstützt, sicherer und kompetenter auf selbstverletzendes Verhalten von Schüler*innen zu reagieren. Die Ergebnisse zeigen, dass das Training von den Teilnehmenden als sehr nützlich, akzeptabel und alltagstauglich eingeschätzt wird und sowohl das Wissen als auch das Selbstvertrauen im Umgang mit betroffenen Jugendlichen stärkt. <span class="citation" data-cites="burn2025self">(<a href="referenzen.html#ref-burn2025self" role="doc-biblioref">Burn u.&nbsp;a. 2025</a>)</span></p>
 </section>
 <section id="benchmarking-von-sprachmodellen" class="level3">
 <h3 class="anchored" data-anchor-id="benchmarking-von-sprachmodellen">Benchmarking von Sprachmodellen</h3>
@@ -1064,36 +1070,36 @@ cookieconsent.run({
 <p>MindBench.ai ist eine unabhängige Evaluationsplattform für KI-Systeme im Bereich psychischer Gesundheit. Sie wird als Forschungsinitiative des Beth Israel Deaconess Medical Center in Partnerschaft mit der National Alliance on Mental Illness (NAMI) betrieben. Die Plattform bewertet Large Language Models und ähnliche KI-Tools systematisch und öffentlich zugänglich hinsichtlich technischer Sicherheit, Datenschutz, Gesprächsverhalten sowie klinischem Wissen und Reasoning. Die Bewertungen erfolgen interdisziplinär unter Einbeziehung von Klinikern, Ingenieuren, Forschern und Betroffenen mit eigener Erfahrung psychischer Erkrankungen. Ziel ist es, Nutzern, Behandlern, Entwicklern und Entscheidungsträgern evidenzbasierte Informationen für fundierte Entscheidungen über den Einsatz solcher KI-Tools bereitzustellen.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-auyeung2025psychogenic" class="csl-entry" role="listitem">
 Au Yeung, Joshua, Jacopo Dalmasso, Luca Foschini, Richard JB Dobson, und Zeljko Kraljevic. 2025. <span>„The Psychogenic Machine: Simulating AI Psychosis, Delusion Reinforcement and Harm Enablement in Large Language Models“</span>. <em>arXiv preprint arXiv:2509.10970v2</em>.
 </div>
 <div id="ref-bondre2025analyzing" class="csl-entry" role="listitem">
-Bondre, Ameya P, Aashish Ranjan, Ritu Shrivastava, Deepak Tugnawat, Nirmal Kumar Chaturvedi, Anant Bhan, Snehil Gupta, u.&nbsp;a. 2025. <span>„Analyzing Trends in Suicidal Thoughts Among Patients With Psychosis in India: Exploratory Secondary Analysis of Smartphone Ecological Momentary Assessment Data“</span>. <em>JMIR Formative Research</em> 9 (1): e67745.
+<span class="nocase">Bondre, Ameya P, Aashish Ranjan, Ritu Shrivastava, u.&nbsp;a.</span> 2025. <span>„Analyzing Trends in Suicidal Thoughts Among Patients With Psychosis in India: Exploratory Secondary Analysis of Smartphone Ecological Momentary Assessment Data“</span>. <em>JMIR Formative Research</em> 9 (1): e67745.
 </div>
 <div id="ref-burn2025self" class="csl-entry" role="listitem">
 Burn, Anne-Marie, Hayley Gains, und Joanna K Anderson. 2025. <span>„A Self-Harm Awareness Training Module for School Staff: Co-Design and User Testing Study“</span>. <em>JMIR Formative Research</em> 9: e69309.
 </div>
 <div id="ref-heinz2025randomized" class="csl-entry" role="listitem">
-Heinz, Michael V, Daniel M Mackin, Brianna M Trudeau, Sukanya Bhattacharya, Yinzhou Wang, Haley A Banta, Abi D Jewett, Abigail J Salzhauer, Tess Z Griffin, und Nicholas C Jacobson. 2025. <span>„Randomized trial of a generative ai chatbot for mental health treatment“</span>. <em>NEJM AI</em> 2 (4): AIoa2400802.
+Heinz, Michael V, Daniel M Mackin, Brianna M Trudeau, u.&nbsp;a. 2025. <span>„Randomized trial of a generative ai chatbot for mental health treatment“</span>. <em>NEJM AI</em> 2 (4): AIoa2400802.
 </div>
 <div id="ref-krasteva2023you" class="csl-entry" role="listitem">
 Krasteva, Preslava. 2023. <span>„What are you doing about your mental health?: How are gamification elements perceived in self-care apps by users?“</span> Mathesis, University of Twente.
 </div>
 <div id="ref-likamwa2013moodscope" class="csl-entry" role="listitem">
-LiKamWa, Robert, Yunxin Liu, Nicholas D Lane, und Lin Zhong. 2013. <span>„Moodscope: Building a mood sensor from smartphone usage patterns“</span>. In <em>Proceeding of the 11th annual international conference on Mobile systems, applications, and services</em>, 389–402.
+LiKamWa, Robert, Yunxin Liu, Nicholas D Lane, und Lin Zhong. 2013. <span>„Moodscope: Building a mood sensor from smartphone usage patterns“</span>. <em>Proceeding of the 11th annual international conference on Mobile systems, applications, and services</em>, 389–402.
 </div>
 <div id="ref-linardon2025transdiagnostic" class="csl-entry" role="listitem">
 Linardon, Jake, Cleo Anderson, Mariel Messer, Claudia Liu, und John Torous. 2025. <span>„Transdiagnostic-focused apps for depression and anxiety: a meta-analysis“</span>. <em>npj Digital Medicine</em> 8 (1): 443.
 </div>
 <div id="ref-marshall2025understanding" class="csl-entry" role="listitem">
-Marshall, Paul, Neil Caton, Zoe Glossop, Steven Jones, Rachel Meacock, Paul Rayson, Heather Robinson, und Fiona Lobban. 2025. <span>„Understanding Safety in Online Mental Health Forums: Realist Evaluation“</span>. <em>JMIR Mental Health</em> 12: e75320.
+Marshall, Paul, Neil Caton, Zoe Glossop, u.&nbsp;a. 2025. <span>„Understanding Safety in Online Mental Health Forums: Realist Evaluation“</span>. <em>JMIR Mental Health</em> 12: e75320.
 </div>
 <div id="ref-sharp2025effectiveness" class="csl-entry" role="listitem">
 Sharp, Gemma, Bronwyn Dwyer, Alisha Randhawa, Isabella McGrath, und Hao Hu. 2025. <span>„The Effectiveness of a Chatbot Single-Session Intervention for People on Waitlists for Eating Disorder Treatment: Randomized Controlled Trial“</span>. <em>Journal of Medical Internet Research</em> 27: e70874.
 </div>
 <div id="ref-torous2019towards" class="csl-entry" role="listitem">
-Torous, John, Gerhard Andersson, Andrew Bertagnoli, Helen Christensen, Pim Cuijpers, Joseph Firth, Adam Haim, u.&nbsp;a. 2019. <span>„Towards a consensus around standards for smartphone apps and digital mental health“</span>. <em>World psychiatry</em> 18 (1): 97.
+<span class="nocase">Torous, John, Gerhard Andersson, Andrew Bertagnoli, u.&nbsp;a.</span> 2019. <span>„Towards a consensus around standards for smartphone apps and digital mental health“</span>. <em>World psychiatry</em> 18 (1): 97.
 </div>
 </div>
 </section>

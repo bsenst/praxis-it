@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Stationäre Versorgung – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -915,7 +921,7 @@ cookieconsent.run({
 
 
 <p>Die <a href="https://dktig.de/">Deutsche Krankenhaus TrustCenter und Informationsverarbeitung GmbH (DKTIG)</a> mit Sitz in Leipzig ist ein Partner der Krankenhäuser für Datensicherheit, Datenkommunikation und Dateninformation, getragen von den 16 Landeskrankenhausgesellschaften und der Deutschen Krankenhausgesellschaft. Seit ihrer Gründung 1996 stellt sie Zertifikate für den sicheren Datenaustausch gemäß § 301 SGB V bereit und unterstützt den Zugang zur Telematikinfrastruktur. Zusätzlich betreibt die DKTIG das Deutsche Krankenhaus Verzeichnis und bietet Lösungen wie Software für Nachhaltigkeitsberichte an.</p>
-<p>Das deutsche SCIPHOX-Projekt sollte die Kommunikation zwischen Krankenhausinformationssystemen und Arztpraxen mittels XML standardisieren, insbesondere für Entlassungs- und Überweisungsbriefe. Dafür wurde die Clinical Document Architecture (CDA) von HL7 als Grundlage gewählt, angepasst an nationale Anforderungen wie Versicherungsdaten, um die Lücke zwischen den bisherigen Protokollen HL7 und „*DT“ zu schließen. Das Projekt, gestartet im Jahr 2000, übersetzte und erweiterte den CDA-Standard, um eine nahtlose elektronische Datenübertragung im deutschen Gesundheitswesen zu ermöglichen. <span class="citation" data-cites="HEITMANN2003195">(<a href="referenzen.html#ref-HEITMANN2003195" role="doc-biblioref">Heitmann, Schweiger, und Dudeck 2003</a>)</span></p>
+<p>Das deutsche SCIPHOX-Projekt sollte die Kommunikation zwischen Krankenhausinformationssystemen und Arztpraxen mittels XML standardisieren, insbesondere für Entlassungs- und Überweisungsbriefe. Dafür wurde die Clinical Document Architecture (CDA) von HL7 als Grundlage gewählt, angepasst an nationale Anforderungen wie Versicherungsdaten, um die Lücke zwischen den bisherigen Protokollen HL7 und „*DT“ zu schließen. Das Projekt, gestartet im Jahr 2000, übersetzte und erweiterte den CDA-Standard, um eine nahtlose elektronische Datenübertragung im deutschen Gesundheitswesen zu ermöglichen. <span class="citation" data-cites="HEITMANN2003195">(<a href="referenzen.html#ref-HEITMANN2003195" role="doc-biblioref">Heitmann u.&nbsp;a. 2003</a>)</span></p>
 <section id="arzt--klinikverzeichnis" class="level2">
 <h2 class="anchored" data-anchor-id="arzt--klinikverzeichnis">Arzt- &amp; Klinikverzeichnis</h2>
 <p>Ein Klinik- und Ärzteverzeichnis ist eine Ressource, um passende medizinische Einrichtungen und Fachärzte zu finden. Dabei gibt es sowohl krankheitsbezogene Verzeichnisse, die spezialisierte Kliniken für bestimmte Erkrankungen auflisten, als auch allgemeine Verzeichnisse, die einen Überblick über Krankenhäuser und Kliniken verschiedenster Fachrichtungen bieten. Solche Verzeichnisse erleichtern die Suche nach qualifizierter medizinischer Versorgung und ermöglichen eine gezielte Auswahl nach Qualitätsstandards, Standort oder Fachgebiet.</p>
@@ -987,9 +993,10 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="transparenz">Transparenz</h2>
 <p>Der Artikel „HealthLocator: A Public, Digital Tool for Navigating Quality Care Choices“ wurde am 30. Oktober 2025 in NEJM Catalyst Innovations in Care Delivery (Volume 6, Nummer 12) veröffentlicht. Die Autoren um Subashnie Devkaran und Kollegen vom Mayo Clinic Core Center stellen mit HealthLocator eine frei zugängliche, digitale Plattform vor, die die Uneinheitlichkeit bestehender Krankenhaus-Bewertungssysteme überwinden soll. Die Plattform bewertet über 5.000 US-Krankenhäuser anhand eines einzigen zusammengesetzten Scores aus drei Domänen – Qualitätsoutcomes, Patientenerfahrung und Patientensicherheit – basierend auf öffentlich verfügbaren CMS- und HCAHPS-Daten. Zusätzlich werden ein „reliable excellence“-Indikator für durchgehend hochperformante Kliniken, Hochvolumen-Kennzahlen sowie ein neuartiges, risikoadjustiertes 6-Monats-Überlebensmodell für operative Eingriffe bereitgestellt, das Manipulationsmöglichkeiten durch den Missbrauch von Beobachtungsaufenthalten vermeidet. HealthLocator versteht sich als patientenzentriertes, transparentes Public-Service-Tool, das kontinuierlich weiterentwickelt werden soll und langfristig die Vertrauenswürdigkeit und Qualitätsverbesserung im US-Gesundheitswesen fördern möchte.</p>
 <p>Der Artikel „A Bilingual On-Premises AI Agent for Clinical Drafting: Implementation Report of Seamless Electronic Health Records Integration in the Y-KNOT Project“ wurde am 24. November 2025 in JMIR Medical Informatics (Vol 13, e76848) veröffentlicht. Er beschreibt die erfolgreiche Entwicklung und den klinischen Einsatz eines vollständig on-premises laufenden, bilingualen (Koreanisch/Englisch) KI-Agenten basierend auf einem 8-Milliarden-Parameter-LLM (Llama-3-Basis), der nahtlos in das bestehende Elektronische Krankenaktensystem (EHR) des Severance Hospital in Seoul integriert wurde. Im Rahmen des Y-KNOT-Projekts entstand ein System, das automatisch Entlassungsberichte der Notaufnahme und präanästhesiologische Beurteilungen erstellt, strikte koreanische Datensouveränitätsvorgaben einhält, keine externen Cloud-Dienste nutzt und bestehende Arbeitsabläufe der Ärzte nicht stört. Die Implementierung erfolgte innerhalb von nur fünf Monaten bei Gesamtkosten unter 1,5 Millionen US-Dollar und stellt weltweit die erste produktive, vollständig in ein EHR integrierte Lösung dieser Art dar.</p>
+<p>Der Artikel „How Digital Diaries Are Changing Communication and Recovery in the Intensive Care Unit and Beyond“ von Jenna Congdon, erschienen am 20. Februar 2026 im Journal of Medical Internet Research, beschreibt die Vorteile digitaler Intensivtagebücher in der Intensivmedizin. Diese sicheren, app-basierten Journale ermöglichen es Pflegekräften und Angehörigen, tägliche Ereignisse, Nachrichten, Fotos und Videos festzuhalten, um Patienten nach schweren Erkrankungen verlorene Zeit zu rekonstruieren. Besonders hervorgehoben wird die App Post-ICU, entwickelt von Jurriaan van Rijswijk und eingesetzt in über 20 Krankenhäusern, vor allem in Europa. Digitale Tagebücher verbessern die Kommunikation zwischen Personal und Familien, reduzieren Unterbrechungen im Klinikalltag, mindern Symptome von Post-Intensive-Care-Syndrom wie Angst, Depression und PTSD bei Patienten und Angehörigen und fördern eine humanzentrierte, trauma-informierte Versorgung auch nach der Entlassung. Trotz Herausforderungen wie Datenschutzbedenken oder Zeitaufwand für das Schreiben überwiegen positive Rückmeldungen von Nutzern.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-duncan2022synthesizing" class="csl-entry" role="listitem">
 Duncan, Rhona, Rebekah Eden, Leanna Woods, Ides Wong, und Clair Sullivan. 2022. <span>„Synthesizing dimensions of digital maturity in hospitals: systematic review“</span>. <em>Journal of medical Internet research</em> 24 (3): e32994.
 </div>

@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Chatbot – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -31,24 +34,23 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./agentische-ki.html" rel="next">
-<link href="./grosse-sprachmodelle.html" rel="prev">
+<link href="./llm-leistungsvergleich.html" rel="prev">
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -90,10 +92,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -810,6 +812,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -902,6 +909,11 @@ cookieconsent.run({
 <p>Der Artikel mit dem Titel „Are AI Tools Ready to Answer Patients’ Questions About Their Medical Care?“ von Rita Rubin erschien online am 6. März 2026 in JAMA. Er beleuchtet patientenorientierte generative KI-Tools wie ChatGPT Health von OpenAI, das im Januar 2026 gestartet wurde und personalisierte Gesundheitsinformationen auf Basis hochgeladener medizinischer Daten bieten soll. Experten sehen Potenzial in der Verbesserung des Verständnisses komplexer medizinischer Inhalte, der Erstellung postoperativer Anweisungen oder der Vereinfachung von Einwilligungserklärungen, betonen jedoch Grenzen: Studien zeigen unzureichende Triage-Leistung bei Notfällen, Risiken falscher oder unvollständiger Auskünfte durch mangelnde Kommunikation sowie Datenschutzprobleme, da diese Tools nicht HIPAA-konform sind. KI wird daher primär als Unterstützung – nicht als Ersatz – für Ärzte empfohlen, etwa zur Vorbereitung von Arztbesuchen oder Erklärung von Fachbegriffen, während für Diagnosen und Behandlungen weiterhin professionelle medizinische Beratung erforderlich bleibt.</p>
 <p>Der Podcast „AI Tools for Patients Have Arrived” vom 6. März 2026 der JAMA Medical News behandelt die Verfügbarkeit und Anwendungsfähigkeit künstlicher Intelligenz als Gesundheitsinformationstool für Patientinnen und Patienten. Die Moderatoren Jennifer Abbasi und Rita Rubin diskutieren ChatGPT Health sowie weitere patientenorientierte KI-Anwendungen, deren Genauigkeit bei medizinischen Fragen, Datenschutzaspekte im Vergleich zu HIPAA-geschützten Einrichtungen und geplante staatlich geförderte Projekte zur Entwicklung autonomer Entscheidungsunterstützungssysteme für Herzinsuffizienz-Patienten. Ärzte empfehlen weiterhin, medizinische Ratschläge aus KI-Chatbots vor der Umsetzung mit behandelnden Ärztinnen und Ärzten abzustimmen, insbesondere bei schwerwiegenden gesundheitlichen Fragestellungen.</p>
 <p>Der Blogbeitrag „Exploring the feasibility of conversational diagnostic AI in a real-world clinical study“ vom 11. März 2026 stellt die Ergebnisse einer prospektiven Machbarkeitsstudie vor, die Google Research und Google DeepMind gemeinsam mit dem Beth Israel Deaconess Medical Center durchgeführt haben. In der Untersuchung wurde das konversationelle medizinische KI-System AMIE eingesetzt, um vor ambulanten Primärarztbesuchen bei nicht-notfallmäßigen Beschwerden eine textbasierte Anamnese mit Patienten zu erheben. Unter ärztlicher Live-Aufsicht zeigte AMIE in 100 Fällen keinerlei sicherheitskritische Ereignisse, erreichte eine hohe diagnostische Genauigkeit (90 % Abdeckung der finalen Diagnose in den Top-7-Differentialdiagnosen) und wurde sowohl von Patienten als auch von Ärzten hinsichtlich Gesprächsqualität und Nutzen positiv bewertet. Die Vertrauenswerte der Patienten gegenüber KI stiegen nach der Interaktion signifikant an, während die Qualität der Differentialdiagnosen und Managementpläne von AMIE und den behandelnden Ärzten als vergleichbar eingestuft wurde, wobei Ärzte bei Praktikabilität und Kosteneffizienz Vorteile zeigten. Die Studie markiert einen wichtigen Schritt hin zu einer evidenzbasierten Bewertung konversationeller medizinischer KI im realen klinischen Umfeld.</p>
+<p>Der Artikel mit dem Titel „AI-augmented communication improves HIV PrEP initiation and persistence in populations disproportionately impacted by HIV“ erschien am 7. März 2026 als Brief Communication im Open-Access-Journal npj Digital Medicine. Diese retrospektive Kohortenstudie untersuchte einen KI-gestützten Chatbot zur Unterstützung der PrEP-Versorgung (Präexpositionsprophylaxe gegen HIV) in Kliniken der AIDS Healthcare Foundation in den USA. Unter 155.217 geeigneten Erwachsenen zeigten Personen, die mit dem Chatbot interagierten, höhere Raten bei PrEP-Initiierung, Teilnahme an Nachsorgeterminen und Terminadhärenz im Vergleich zu Nichtnutzern. Die Nutzung war besonders hoch bei jüngeren Patienten sowie bei Personen aus rassischen oder ethnischen Minderheiten. Die Ergebnisse deuten darauf hin, dass KI-unterstützte Kommunikation bestimmte Aspekte der PrEP-Versorgung verbessern kann.</p>
+<p>Das Paper <strong>„Advancing Conversational Diagnostic AI with Multimodal Reasoning“</strong> (arXiv:2505.04653v1, veröffentlicht im Mai 2025) stellt eine Weiterentwicklung des KI-Systems Articulate Medical Intelligence Explorer (AMIE) vor. Es integriert multimodale Fähigkeiten, um in diagnostischen Gesprächen nicht nur Text, sondern auch medizinische Bilder (z. B. Hautfotos, EKGs) und Dokumente (z. B. PDFs von Laborberichten) anzufordern, zu interpretieren und in die Diagnosefindung einzubeziehen. Basierend auf Gemini 2.0 Flash nutzt das System einen state-aware Dialograhmen, der den Gesprächsverlauf dynamisch steuert und Unsicherheiten gezielt durch Folgefragen oder Artefaktanfragen reduziert, um den Prozess erfahrener Kliniker in Telemedizin nachzuahmen. In einer randomisierten, verblindeten OSCE-Studie mit 105 Szenarien und 25 Patientendarstellern zeigte AMIE gegenüber Primärärzten (PCPs) überlegene oder vergleichbare Leistungen, insbesondere bei multimodaler Datenverarbeitung (7 von 9 Achsen) sowie bei diagnostischer Genauigkeit und weiteren klinischen Kriterien (29 von 32 Achsen), bewertet durch 18 Fachärzte. Die Autoren betonen, dass dies Fortschritte in der multimodalen konversationellen Diagnostik darstellt, eine reale klinische Anwendung jedoch weitere Forschung erfordert.</p>
+<p>„Evaluation format, not model capability, drives triage failure in the assessment of consumer health AI“ untersucht, warum eine in Nature Medicine berichtete hohe Untertriage-Rate von ChatGPT Health vor allem ein Artefakt des Prüfungsformats und nicht der klinischen Leistungsfähigkeit großer Sprachmodelle ist. Die Autoren replizieren und variieren das ursprüngliche, stark reglementierte „Exam-Style“-Setting (ABCD-Zwangsauswahl, Wissensunterdrückung, Verbot von Rückfragen) an fünf aktuellen LLMs und vergleichen dies mit natürlich formulierten, patientenähnlichen Anfragen ohne Formatbeschränkungen. Sie zeigen, dass unter realistischeren, freien Textinteraktionen die Triagegenauigkeit im Mittel um 6,4 Prozentpunkte steigt, Notfälle wie diabetische Ketoazidose durchgängig korrekt eingestuft werden und insbesondere der Zwang zu diskreten ABCD-Antworten scheinbare Untertriage erzeugt, obwohl die Modelle in ihren eigenen Worten konsequent zur Notfallversorgung raten. Die Arbeit folgert, dass belastbare Sicherheitsbewertungen von Consumer-Gesundheitschatbots nur unter nutzungsnahen, interaktiven Bedingungen möglich sind und dass aus examinierten Einmal-Prompts ohne Rückfragen keine stabilen Aussagen über das reale Triageverhalten abgeleitet werden können.</p>
+<p>Die Studie „ChatGPT Health performance in a structured test of triage recommendations“ wurde am 23. Februar 2026 in <em>Nature Medicine</em> veröffentlicht. Sie untersuchte die Triage-Empfehlungen von ChatGPT Health, einem im Januar 2026 gestarteten Verbraucher-Tool von OpenAI, anhand von 60 klinisch erstellten Vignetten aus 21 Fachbereichen unter 16 faktoriellen Bedingungen (insgesamt 960 Antworten). Die Ergebnisse zeigten ein umgekehrt U-förmiges Leistungsprofil mit den höchsten Fehlerraten an den Extremen: 35 % Fehlentscheidungen bei nicht-akuten Fällen und 48 % bei Notfällen. Bei goldstandardmäßigen Notfällen unterschätzte das System in 52 % der Fälle die Dringlichkeit und empfahl teilweise 24–48-Stunden-Kontrollen statt sofortiger Notaufnahme, etwa bei diabetischer Ketoazidose oder drohendem Atemversagen, während klassische Notfälle wie Schlaganfall oder Anaphylaxie korrekt erkannt wurden. Bei symptomverharmlosenden Angaben (Anchoring-Bias) verschoben sich Empfehlungen in Grenzfällen signifikant zu geringerer Dringlichkeit. Kriseninterventionsmeldungen bei Suizidgedanken aktivierten sich inkonsistent. Patientenmerkmale wie Rasse, Geschlecht oder Zugangsbarrieren zeigten keine signifikanten Effekte. Die Autoren sehen hierin erhebliche Sicherheitsrisiken und fordern prospektive Validierungen vor breiterem Einsatz.</p>
+<p>Der Artikel „Are AI Tools Ready to Answer Patients’ Questions About Their Medical Care?“ von Rita Rubin erschien am 6. März 2026 online in JAMA. Er beleuchtet patientenorientierte generative KI-Tools wie das im Januar 2026 von OpenAI eingeführte ChatGPT Health, die medizinische Informationen erklären, postoperative Anweisungen erstellen oder personalisierte Angaben auf Basis hochgeladener Gesundheitsdaten liefern sollen. Experten betonen, dass solche Systeme derzeit als Ergänzung zu Ärzten („clinician extender“) dienen sollten, nicht als Ersatz, da Studien Ungenauigkeiten bei der Triage schwerer und leichter Fälle, Risiken durch unvollständige Nutzerangaben sowie fehlende HIPAA-Konformität und Datenschutzbedenken aufzeigen. Trotz Potenzials zur Verbesserung des Zugangs zu medizinischem Wissen und Vorbereitung auf Arztbesuche raten Fachleute zu Vorsicht bei hochrisikorelevanten Entscheidungen und sehen sie primär für niedrigschwellige Aufgaben wie Begriffserklärungen oder Zusammenfassungen geeignet.</p>
 
 
 </section>
@@ -1366,8 +1378,8 @@ cookieconsent.run({
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./grosse-sprachmodelle.html" class="pagination-link" aria-label="Große Sprachmodelle">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Große Sprachmodelle</span></span>
+      <a href="./llm-leistungsvergleich.html" class="pagination-link" aria-label="Leistungsvergleich Sprachmodelle">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

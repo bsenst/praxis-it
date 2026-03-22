@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Öffentliches Gesundheitswesen – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -929,8 +935,8 @@ cookieconsent.run({
 <li><a href="https://www.daly.rki.de/">daly.rki.de</a></li>
 </ul>
 <p>Der Versorgungsatlas des Zentralinstituts für die kassenärztliche Versorgung (Zi) bietet auf <a href="https://www.versorgungsatlas.de/dashboard">versorgungsatlas.de/dashboard</a> ein interaktives Dashboard, das die Prävalenztrends von sechs chronischen Krankheiten (Asthma, COPD, Diabetes, Herzinsuffizienz, Hypertonie, KHK) in Deutschland von 2015 bis 2023 visualisiert. Basierend auf bundesweiten Abrechnungsdaten der vertragsärztlichen Versorgung zeigt es regionale Unterschiede, geschlechts- und altersspezifische Trends und wird jährlich aktualisiert. Nutzer können durch interaktive Karten, Tabellen und Diagramme die Daten flexibel analysieren, unterstützt durch kompakte Factsheets zum Download.</p>
-<p>Der Morbiditäts- und Sozialatlas des BARMER Instituts für Gesundheitssystemforschung (bifg) ermöglicht eine interaktive Analyse der Verbreitung zahlreicher Krankheitsbilder in Deutschland unter Berücksichtigung regionaler und soziodemografischer Faktoren. Basierend auf hochgerechneten Routinedaten der BARMER-Versicherten werden Prävalenzen von Krankheiten dargestellt, die durch die Systematik des morbiditätsorientierten Risikostrukturausgleichs (MRSA) klassifiziert sind. Der Atlas bietet Visualisierungen wie Karten, Altersgruppen-Diagramme und sozioökonomische Analysen sowie interaktive Hierarchiegraphen zur Darstellung von Komorbiditäten, etwa bei Diabetes mellitus. Diese umfassende Dokumentation unterstützt die Gesundheitsforschung und -versorgung, indem sie detaillierte Einblicke in den Gesundheitszustand der Bevölkerung liefert. <span class="citation" data-cites="morbiditaets_und_sozialatlas_2025">(<a href="referenzen.html#ref-morbiditaets_und_sozialatlas_2025" role="doc-biblioref">Augustin, Spanier, und Walter 2025</a>)</span></p>
-<p>Der Gesundheitsatlas Deutschland des Wissenschaftlichen Instituts der AOK (WIdO) bietet Informationen zur gesundheitlichen Situation der Bevölkerung in Deutschland. Er analysiert die Häufigkeit von über 20 Volkserkrankungen, darunter Herz-Kreislauf-Erkrankungen, Diabetes mellitus Typ 2, psychische Erkrankungen und Krebserkrankungen, auf Bundesländer- und Kreisebene. Mithilfe eines alters-, geschlechts- und morbiditätsadjustierten Hochrechnungsverfahrens, basierend auf Daten von 27 Millionen AOK-Versicherten, liefert der Atlas zuverlässige Prävalenzdaten für die Gesamtbevölkerung. Visualisierungen und Datentabellen ermöglichen differenzierte Analysen nach Region, Geschlecht und Altersgruppen. Ziel ist es, Transparenz zu schaffen und Handlungsansätze für Prävention und Gesundheitsförderung zu unterstützen. <span class="citation" data-cites="gesundheitsatlas_deutschland_2025">(<a href="referenzen.html#ref-gesundheitsatlas_deutschland_2025" role="doc-biblioref"><span>„Gesundheitsatlas Deutschland“</span> 2025</a>)</span></p>
+<p>Der Morbiditäts- und Sozialatlas des BARMER Instituts für Gesundheitssystemforschung (bifg) ermöglicht eine interaktive Analyse der Verbreitung zahlreicher Krankheitsbilder in Deutschland unter Berücksichtigung regionaler und soziodemografischer Faktoren. Basierend auf hochgerechneten Routinedaten der BARMER-Versicherten werden Prävalenzen von Krankheiten dargestellt, die durch die Systematik des morbiditätsorientierten Risikostrukturausgleichs (MRSA) klassifiziert sind. Der Atlas bietet Visualisierungen wie Karten, Altersgruppen-Diagramme und sozioökonomische Analysen sowie interaktive Hierarchiegraphen zur Darstellung von Komorbiditäten, etwa bei Diabetes mellitus. Diese umfassende Dokumentation unterstützt die Gesundheitsforschung und -versorgung, indem sie detaillierte Einblicke in den Gesundheitszustand der Bevölkerung liefert. <span class="citation" data-cites="morbiditaets_und_sozialatlas_2025">(<a href="referenzen.html#ref-morbiditaets_und_sozialatlas_2025" role="doc-biblioref">Augustin u.&nbsp;a. 2025</a>)</span></p>
+<p>Der Gesundheitsatlas Deutschland des Wissenschaftlichen Instituts der AOK (WIdO) bietet Informationen zur gesundheitlichen Situation der Bevölkerung in Deutschland. Er analysiert die Häufigkeit von über 20 Volkserkrankungen, darunter Herz-Kreislauf-Erkrankungen, Diabetes mellitus Typ 2, psychische Erkrankungen und Krebserkrankungen, auf Bundesländer- und Kreisebene. Mithilfe eines alters-, geschlechts- und morbiditätsadjustierten Hochrechnungsverfahrens, basierend auf Daten von 27 Millionen AOK-Versicherten, liefert der Atlas zuverlässige Prävalenzdaten für die Gesamtbevölkerung. Visualisierungen und Datentabellen ermöglichen differenzierte Analysen nach Region, Geschlecht und Altersgruppen. Ziel ist es, Transparenz zu schaffen und Handlungsansätze für Prävention und Gesundheitsförderung zu unterstützen. <span class="citation" data-cites="gesundheitsatlas_deutschland_2025">(<a href="referenzen.html#ref-gesundheitsatlas_deutschland_2025" role="doc-biblioref"><em>Gesundheitsatlas Deutschland</em> 2025</a>)</span></p>
 </section>
 <section id="digital-public-health" class="level2">
 <h2 class="anchored" data-anchor-id="digital-public-health">Digital Public Health</h2>
@@ -948,6 +954,7 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="infektiologie">Infektiologie</h2>
 <p>Die Studie „Essential Strategies for Leveraging AI in the Global HIV Response“, veröffentlicht in NEJM AI im Mai 2025, beleuchtet zentrale Strategien zur sinnvollen Integration von Künstlicher Intelligenz (KI) in die weltweite HIV-Bekämpfung. Die Autor:innen argumentieren, dass KI zwar großes Potenzial zur Verbesserung von Effizienz, Ressourcenzuteilung und patientenzentrierter Versorgung bietet, aber kein Ersatz für nachhaltige Finanzierung, politische Entschlossenheit und funktionierende Gesundheitssysteme ist. Der Artikel gliedert die vorgeschlagenen Maßnahmen in drei Kernbereiche: Daten, Regulierung und Governance; gemeindebasierte und klientenorientierte Ansätze; sowie internationale Zusammenarbeit und Investitionen in eine globale KI-Infrastruktur. Besonders betont wird die Bedeutung ethischer Datenpraktiken, lokaler Teilhabe, digitaler Bildung und eines gerechten Zugangs zu Technologien, um bestehende Ungleichheiten nicht zu verschärfen. <span class="citation" data-cites="doi:10.1056/AIp2500023">(<a href="referenzen.html#ref-doi:10.1056/AIp2500023" role="doc-biblioref">Reid u.&nbsp;a. 2025</a>)</span></p>
 <p>Die Studie „Analyzing Reddit Social Media Content in the United States Related to H5N1: Sentiment and Topic Modeling Study“ analysiert Reddit-Beiträge aus elf US-Bundesstaaten zur H5N1-Vogelgrippe zwischen 2022 und 2024 mithilfe feinjustierter BERT-Sentiment-Modelle und Topic-Modelling-Verfahren. Rund 90 % der 2152 ausgewerteten Kommentare zeigen negative Emotionen—vor allem Trauer, Ärger und Angst—wobei Ausbruchsangst mit Fallzahlen synchron verläuft und andere Emotionen zeitlich verzögert auftreten. Themen wie Preisanstieg und Frustration über Biosicherheitsmaßnahmen waren besonders präsent; die Ergebnisse unterstreichen die Bedeutung sozialer Medien für das Verständnis kollektiver Reaktionen während Epidemien und für das gezielte Risikokommunikation. <span class="citation" data-cites="pang2025h5n1">(<a href="referenzen.html#ref-pang2025h5n1" role="doc-biblioref">Pang u.&nbsp;a. 2025</a>)</span></p>
+<p>„Digital intervention increases influenza vaccination rates for people with diabetes in a decentralized randomized trial“ ist eine randomisierte kontrollierte Studie, die 2021 in der Zeitschrift npj Digital Medicine veröffentlicht wurde. In der Untersuchung erhielt eine Interventionsgruppe von Personen mit Diabetes über sechs Monate monatliche digitale Nachrichten über eine Online-Plattform mit Informationen zu Grippe und Impfung sowie Handlungsaufforderungen. Die Impfrate lag in der Interventionsgruppe bei 64,2 % und damit signifikant um 3,1 Prozentpunkte höher als in der Kontrollgruppe mit 61,1 %. Eine höhere Interaktion mit den Nachrichten war mit einer bis zu 8 % stärkeren Impfbereitschaft assoziiert. Die Ergebnisse deuten darauf hin, dass kostengünstige digitale Maßnahmen die Grippeimpfrate in dieser Risikogruppe steigern können.</p>
 </section>
 <section id="healthcare-geodata" class="level2">
 <h2 class="anchored" data-anchor-id="healthcare-geodata">Healthcare Geodata</h2>
@@ -980,21 +987,21 @@ cookieconsent.run({
 <p>Der Artikel „Using AI to Assess Potential Zoonotic Threats“ von Cliff Dominy, erschienen am 3. März 2026 im Journal of Medical Internet Research, stellt eine neue maschinelle Lernmethode vor, die das Zoonose-Potenzial von aviären Influenzaviren vorhersagt. Basierend auf einer Preprint-Studie von Liam Brierley und Kollegen wird ein KI-Modell beschrieben, das genomische Merkmale analysiert und mit einer Genauigkeit von 91,9 % erkennt, welche Vogelgrippe-Stämme ein Spillover-Risiko auf den Menschen bergen. Der Ansatz integriert biophysikalische Informationen wie Proteinmotive und übertrifft traditionelle phylogenetische Methoden, indem er funktionale Ähnlichkeiten zu bekannten zoonotischen Stämmen identifiziert, insbesondere in Genen für RNA-Polymerase, Hämagglutinin, Nukleoprotein und NS1. Das Modell dient als Frühwarnsystem gegen zukünftige Pandemien, könnte die Impfstoffentwicklung verbessern und ist potenziell auf andere Erreger übertragbar, wenngleich Limitationen wie fehlende Kausalitätserklärungen und mangelnde Vorhersage für andere Säugetiere bestehen.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-morbiditaets_und_sozialatlas_2025" class="csl-entry" role="listitem">
-Augustin, Beatrix, Stefanie Spanier, und Candy Walter. 2025. <em>Dokumentation zum Morbiditäts- und Sozialatlas</em>. Berlin: BARMER Institut für Gesundheitssystemforschung (bifg). <a href="https://www.bifg.de/atlas">https://www.bifg.de/atlas</a>.
+Augustin, Beatrix, Stefanie Spanier, und Candy Walter. 2025. <em>Dokumentation zum Morbiditäts- und Sozialatlas</em>. BARMER Institut für Gesundheitssystemforschung (bifg). <a href="https://www.bifg.de/atlas">https://www.bifg.de/atlas</a>.
 </div>
 <div id="ref-gesundheitsatlas_deutschland_2025" class="csl-entry" role="listitem">
-<span>„Gesundheitsatlas Deutschland“</span>. 2025. Gesundheitsatlas Deutschland. <a href="https://www.gesundheitsatlas-deutschland.de">https://www.gesundheitsatlas-deutschland.de</a>.
+<em>Gesundheitsatlas Deutschland</em>. 2025. Gesundheitsatlas Deutschland. <a href="https://www.gesundheitsatlas-deutschland.de">https://www.gesundheitsatlas-deutschland.de</a>.
 </div>
 <div id="ref-grah2025anwendungen" class="csl-entry" role="listitem">
 Grah, Joana Sarah, Christopher Irrgang, Lars Schaade, Katharina Ladewig, und Nils Körber. 2025. <span>„Anwendungen, Herausforderungen und ein vertrauensw<span>ü</span>rdiger Umgang mit k<span>ü</span>nstlicher Intelligenz im Bereich Public Health“</span>. <em>Bundesgesundheitsblatt-Gesundheitsforschung-Gesundheitsschutz</em>, 1–9.
 </div>
 <div id="ref-su141811698" class="csl-entry" role="listitem">
-Joshi, Sudhanshu, Manu Sharma, Rashmi Prava Das, Joanna Rosak-Szyrocka, Justyna Żywiołek, Kamalakanta Muduli, und Mukesh Prasad. 2022. <span>„Modeling Conceptual Framework for Implementing Barriers of AI in Public Healthcare for Improving Operational Excellence: Experiences from Developing Countries“</span>. <em>Sustainability</em> 14 (18). <a href="https://doi.org/10.3390/su141811698">https://doi.org/10.3390/su141811698</a>.
+Joshi, Sudhanshu, Manu Sharma, Rashmi Prava Das, u.&nbsp;a. 2022. <span>„Modeling Conceptual Framework for Implementing Barriers of AI in Public Healthcare for Improving Operational Excellence: Experiences from Developing Countries“</span>. <em>Sustainability</em> 14 (18). <a href="https://doi.org/10.3390/su141811698">https://doi.org/10.3390/su141811698</a>.
 </div>
 <div id="ref-pang2025h5n1" class="csl-entry" role="listitem">
-Pang, Oscar, Zahra Movahedi Nia, Murray Gillies, Doris Leung, Nicola Bragazzi, Itlala Gizo, und Jude Dzevela Kong. 2025. <span>„Analyzing Reddit Social Media Content in the United States Related to H5N1: Sentiment and Topic Modeling Study“</span>. <em>Journal of Medical Internet Research</em> 27: e70746. <a href="https://doi.org/10.2196/70746">https://doi.org/10.2196/70746</a>.
+Pang, Oscar, Zahra Movahedi Nia, Murray Gillies, u.&nbsp;a. 2025. <span>„Analyzing Reddit Social Media Content in the United States Related to H5N1: Sentiment and Topic Modeling Study“</span>. <em>Journal of Medical Internet Research</em> 27: e70746. <a href="https://doi.org/10.2196/70746">https://doi.org/10.2196/70746</a>.
 </div>
 <div id="ref-doi:10.1056/AIp2500023" class="csl-entry" role="listitem">
 Reid, Michael J. A., Mmapaseka Letsike, Bilal A. Mateen, und Yulin Hswen. 2025. <span>„Essential Strategies for Leveraging AI in the Global HIV Response“</span>. <em>NEJM AI</em> 2 (6): AIp2500023. <a href="https://doi.org/10.1056/AIp2500023">https://doi.org/10.1056/AIp2500023</a>.
@@ -1006,7 +1013,7 @@ Rogers, Kristin, Alanna Miller, Ashley Girgis, Emily C Clark, Sarah E Neil-Sztra
 Wang, Junyu, Nikolaos Nikolaou, Matthias an der Heiden, und Christopher Irrgang. 2024. <span>„High-resolution modeling and projection of heat-related mortality in Germany under climate change“</span>. <em>Communications Medicine</em> 4 (1): 206.
 </div>
 <div id="ref-wong2022dawn" class="csl-entry" role="listitem">
-Wong, Brian Li Han, Laura Maaß, Alice Vodden, Robin van Kessel, Sebastiano Sorbello, Stefan Buttigieg, und Anna Odone. 2022. <span>„The dawn of digital public health in Europe: Implications for public health policy and practice“</span>. <em>The Lancet Regional Health–Europe</em> 14.
+Wong, Brian Li Han, Laura Maaß, Alice Vodden, u.&nbsp;a. 2022. <span>„The dawn of digital public health in Europe: Implications for public health policy and practice“</span>. <em>The Lancet Regional Health–Europe</em> 14.
 </div>
 </div>
 </section>

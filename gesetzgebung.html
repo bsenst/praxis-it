@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Gesetzgebung – Praxis-IT</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,19 +58,18 @@ div.csl-indent {
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-20acf167084af58fcfcbfab1471cacdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-fa6069af1a22ce3b0b69dbb23aa90b1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-766987b796f9288944f47f74fdf60cb6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9274135da273e57bbb67dad83fb85cf2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -110,10 +111,10 @@ gtag('config', 'G-THQ4G1SE9W', { 'anonymize_ip': true});
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
-  "consent_type":"implied",
+  "consent_type":"express",
   "palette":"light",
   "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "page_load_consent_levels":["strictly-necessary"],
   "notice_banner_reject_button_hide":false,
   "preferences_center_close_button_hide":false,
   "website_name":""
@@ -830,6 +831,11 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./llm-leistungsvergleich.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leistungsvergleich Sprachmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./chatbot.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chatbot</span></a>
   </div>
 </li>
@@ -1052,17 +1058,17 @@ Definiert Rahmenvereinbarungen, die Anforderungen an Praxisverwaltungssysteme (P
 <section id="kostensenkung-durch-digitalisierung" class="level3">
 <h3 class="anchored" data-anchor-id="kostensenkung-durch-digitalisierung">Kostensenkung durch Digitalisierung</h3>
 <p>Die Studie „Cost Minimization Analysis of Digital-first Healthcare Pathways in Primary Care“ führte eine retrospektive, registerbasierte Analyse im finnischen Harjun Terveys durch, um die Kosten der digitalen mit der traditionellen Primärversorgung bei akuten Erkrankungen zu vergleichen. 64.969 akute Episoden wurden analysiert und einem Propensity-Score-Matching unterzogen. Die Studie ergab, dass digitale Behandlungspfade die durchschnittlichen Episodenkosten im Vergleich zur traditionellen Versorgung um 22,7 % (170,74 € vs.&nbsp;220,91 €, P&lt;0,001) senkten. Die Kosteneinsparungen reichten von 10,3 % bei Atemwegsinfektionen bis zu 52,5 % bei Gastroenteritis, was auf geringere Behandlungskosten, weniger Laboruntersuchungen und weniger bildgebende Verfahren zurückzuführen ist. Die digitale Versorgung erforderte im Allgemeinen weniger Folgebesuche, mit Ausnahme von Atemwegsinfektionen, bei denen ein leichter Anstieg zu verzeichnen war. Sensitivitätsanalysen bestätigten die Robustheit dieser Ergebnisse und unterstützen Digital-First-Modelle als kosteneffizienten Ansatz für die Behandlung akuter Erkrankungen in der Primärversorgung, ohne die Versorgungskontinuität zu beeinträchtigen. <span class="citation" data-cites="dahlberg2025cost">(<a href="referenzen.html#ref-dahlberg2025cost" role="doc-biblioref">Dahlberg u.&nbsp;a. 2025</a>)</span></p>
-<p>Gesundheitstechnologie, insbesondere Health Information Technology (HIT) wie elektronische Gesundheitsakten (EHR), klinische Entscheidungsunterstützung und Health Information Exchange (HIE), verbessert die Qualität, Effizienz und Kosten der medizinischen Versorgung. Studien zeigen, dass HIT Medikationsfehler reduziert und die Einhaltung leitlinienbasierter Versorgung fördert. <span class="citation" data-cites="Chaudhry2006 Jones2014">(<a href="referenzen.html#ref-Chaudhry2006" role="doc-biblioref">Chaudhry u.&nbsp;a. 2006</a>; <a href="referenzen.html#ref-Jones2014" role="doc-biblioref">Jones u.&nbsp;a. 2014</a>)</span> Gesundheitsdatenaustausch optimiert die Kommunikation und senkt administrative Kosten. <span class="citation" data-cites="Sadoughi2018">(<a href="referenzen.html#ref-Sadoughi2018" role="doc-biblioref">Sadoughi, Nasiri, und Ahmadi 2018</a>)</span> Kosteneinsparungen variieren jedoch je nach Implementierung, <span class="citation" data-cites="Low2013">(<a href="referenzen.html#ref-Low2013" role="doc-biblioref">Low u.&nbsp;a. 2013</a>)</span> wobei mögliche kurzfristige Kostensteigerungen auftreten können. <span class="citation" data-cites="Agha2014">(<a href="referenzen.html#ref-Agha2014" role="doc-biblioref">Agha 2014</a>)</span> Die Wirksamkeit von HIT hängt stark von Systemauswahl und Versorgungsumfeld ab. <span class="citation" data-cites="Buntin2011 Baillieu2020 McCullough2010">(<a href="referenzen.html#ref-Buntin2011" role="doc-biblioref">Buntin u.&nbsp;a. 2011</a>; <a href="referenzen.html#ref-Baillieu2020" role="doc-biblioref">Baillieu u.&nbsp;a. 2020</a>; <a href="referenzen.html#ref-McCullough2010" role="doc-biblioref">McCullough u.&nbsp;a. 2010</a>)</span></p>
+<p>Gesundheitstechnologie, insbesondere Health Information Technology (HIT) wie elektronische Gesundheitsakten (EHR), klinische Entscheidungsunterstützung und Health Information Exchange (HIE), verbessert die Qualität, Effizienz und Kosten der medizinischen Versorgung. Studien zeigen, dass HIT Medikationsfehler reduziert und die Einhaltung leitlinienbasierter Versorgung fördert. <span class="citation" data-cites="Chaudhry2006 Jones2014">(<a href="referenzen.html#ref-Chaudhry2006" role="doc-biblioref"><span class="nocase">Chaudhry u.&nbsp;a.</span> 2006</a>; <a href="referenzen.html#ref-Jones2014" role="doc-biblioref">Jones u.&nbsp;a. 2014</a>)</span> Gesundheitsdatenaustausch optimiert die Kommunikation und senkt administrative Kosten. <span class="citation" data-cites="Sadoughi2018">(<a href="referenzen.html#ref-Sadoughi2018" role="doc-biblioref">Sadoughi u.&nbsp;a. 2018</a>)</span> Kosteneinsparungen variieren jedoch je nach Implementierung, <span class="citation" data-cites="Low2013">(<a href="referenzen.html#ref-Low2013" role="doc-biblioref"><span class="nocase">Low u.&nbsp;a.</span> 2013</a>)</span> wobei mögliche kurzfristige Kostensteigerungen auftreten können. <span class="citation" data-cites="Agha2014">(<a href="referenzen.html#ref-Agha2014" role="doc-biblioref">Agha 2014</a>)</span> Die Wirksamkeit von HIT hängt stark von Systemauswahl und Versorgungsumfeld ab. <span class="citation" data-cites="Buntin2011 Baillieu2020 McCullough2010">(<a href="referenzen.html#ref-Buntin2011" role="doc-biblioref">Buntin u.&nbsp;a. 2011</a>; <a href="referenzen.html#ref-Baillieu2020" role="doc-biblioref">Baillieu u.&nbsp;a. 2020</a>; <a href="referenzen.html#ref-McCullough2010" role="doc-biblioref">McCullough u.&nbsp;a. 2010</a>)</span></p>
 </section>
 </section>
 <section id="digitale-öffentliche-infrastruktur-dpi" class="level2">
 <h2 class="anchored" data-anchor-id="digitale-öffentliche-infrastruktur-dpi">Digitale Öffentliche Infrastruktur (DPI)</h2>
-<p>Das Playbook zum DPI-Ansatz der UNDP ist eine <strong>praktische Ressource</strong>, die Länder auf ihrem Weg zum Aufbau einer <strong>rechtebasierten und inklusiven digitalen öffentlichen Infrastruktur (DPI)</strong> unterstützt und die <strong>Ziele für nachhaltige Entwicklung (SDGs) beschleunigen</strong> soll. Es dient als Leitfaden für Einzelpersonen, Sektoren oder Regierungen, die Dienstleistungen und Schutzmaßnahmen für die Bevölkerung durch DPI verbessern möchten, und <strong>zeigt den Übergang von konventioneller öffentlicher Dienstleistungserbringung zum DPI-Ansatz</strong> auf. Das Playbook, das in <strong>sechs modulare „Plays“</strong> unterteilt ist, bietet Perspektiven, Techniken, Selbstbewertungstools und Beispielentwürfe, die den gesamten Prozess der Entwicklung und Implementierung von DPI abdecken, einschließlich Technologie, Governance und Nachhaltigkeit. <span class="citation" data-cites="noauthor_dpi_nodate">(<a href="referenzen.html#ref-noauthor_dpi_nodate" role="doc-biblioref"><span>„The <span>DPI</span> <span>Approach</span>: <span>A</span> <span>Playbook</span>“</span> o.&nbsp;J.</a>)</span></p>
-<p>Der Bericht mit dem Titel <strong>“Digital Public Infrastructure for Health”</strong> untersucht die Implementierung eines infrastrukturbasierten Ansatzes für digitale Gesundheitssysteme, insbesondere in Ländern mit niedrigem und mittlerem Einkommen (LMICs). Er definiert <strong>Digitale Öffentliche Infrastruktur für Gesundheit (DPI-H)</strong> als gesundheitsspezifische digitale Funktionen, die eine Vielzahl digitaler Gesundheitsinterventionen effektiv skalieren können. Der Bericht identifiziert Schlüsselelemente von DPI-H wie <strong>kanonische Register, Interoperabilitätsplattformen, skalierte digitale Gesundheitsdienste und zentrale Datenrepositorien</strong>, die für eine funktionierende Gesundheitsdatenverwaltung unerlässlich sind. Zudem werden Herausforderungen bei der Umsetzung von DPI-H hervorgehoben, darunter die <strong>mangelnde Reife bestehender digitaler öffentlicher Güter (DPGs)</strong>, unzureichende Führungs- und Governance-Kapazitäten in den Ländern sowie eine fragmentierte, auf Krankheiten ausgerichtete Finanzierung. Schließlich schlägt der Bericht <strong>globale und länderspezifische Strategien</strong> vor, um die Umsetzung von DPI-H zu fördern und nachhaltige digitale Gesundheitssysteme zu ermöglichen. <span class="citation" data-cites="noauthor_digital_2023">(<a href="referenzen.html#ref-noauthor_digital_2023" role="doc-biblioref"><span>„Digital <span>Public</span> <span>Infrastructure</span> for <span>Health</span>: <span>Charting</span> a path to implementation in <span>LMIC</span> health systems“</span> 2023</a>)</span></p>
+<p>Das Playbook zum DPI-Ansatz der UNDP ist eine <strong>praktische Ressource</strong>, die Länder auf ihrem Weg zum Aufbau einer <strong>rechtebasierten und inklusiven digitalen öffentlichen Infrastruktur (DPI)</strong> unterstützt und die <strong>Ziele für nachhaltige Entwicklung (SDGs) beschleunigen</strong> soll. Es dient als Leitfaden für Einzelpersonen, Sektoren oder Regierungen, die Dienstleistungen und Schutzmaßnahmen für die Bevölkerung durch DPI verbessern möchten, und <strong>zeigt den Übergang von konventioneller öffentlicher Dienstleistungserbringung zum DPI-Ansatz</strong> auf. Das Playbook, das in <strong>sechs modulare „Plays“</strong> unterteilt ist, bietet Perspektiven, Techniken, Selbstbewertungstools und Beispielentwürfe, die den gesamten Prozess der Entwicklung und Implementierung von DPI abdecken, einschließlich Technologie, Governance und Nachhaltigkeit. <span class="citation" data-cites="noauthor_dpi_nodate">(<a href="referenzen.html#ref-noauthor_dpi_nodate" role="doc-biblioref"><span>„The <span>DPI</span> <span>Approach</span>“</span>, o.&nbsp;J.</a>)</span></p>
+<p>Der Bericht mit dem Titel <strong>“Digital Public Infrastructure for Health”</strong> untersucht die Implementierung eines infrastrukturbasierten Ansatzes für digitale Gesundheitssysteme, insbesondere in Ländern mit niedrigem und mittlerem Einkommen (LMICs). Er definiert <strong>Digitale Öffentliche Infrastruktur für Gesundheit (DPI-H)</strong> als gesundheitsspezifische digitale Funktionen, die eine Vielzahl digitaler Gesundheitsinterventionen effektiv skalieren können. Der Bericht identifiziert Schlüsselelemente von DPI-H wie <strong>kanonische Register, Interoperabilitätsplattformen, skalierte digitale Gesundheitsdienste und zentrale Datenrepositorien</strong>, die für eine funktionierende Gesundheitsdatenverwaltung unerlässlich sind. Zudem werden Herausforderungen bei der Umsetzung von DPI-H hervorgehoben, darunter die <strong>mangelnde Reife bestehender digitaler öffentlicher Güter (DPGs)</strong>, unzureichende Führungs- und Governance-Kapazitäten in den Ländern sowie eine fragmentierte, auf Krankheiten ausgerichtete Finanzierung. Schließlich schlägt der Bericht <strong>globale und länderspezifische Strategien</strong> vor, um die Umsetzung von DPI-H zu fördern und nachhaltige digitale Gesundheitssysteme zu ermöglichen. <span class="citation" data-cites="noauthor_digital_2023">(<a href="referenzen.html#ref-noauthor_digital_2023" role="doc-biblioref"><span>„Digital <span>Public</span> <span>Infrastructure</span> for <span>Health</span>“</span> 2023</a>)</span></p>
 </section>
 <section id="bürokratische-hürden" class="level2">
 <h2 class="anchored" data-anchor-id="bürokratische-hürden">Bürokratische Hürden</h2>
-<p>Die Kassenärztliche Bundesvereinigung (KBV) hat einen umfassenden Maßnahmenkatalog zum Bürokratieabbau in Arzt- und Psychotherapiepraxen vorgelegt, da viele bürokratische Prozesse wertvolle Zeit von der Patientenversorgung abziehen. Insgesamt wurden 21 Vorschläge zur Entlastung identifiziert, darunter die Reduzierung von Anfragen von Krankenkassen und anderen Stellen, die Vereinheitlichung von Fragebögen sowie die Einführung einer Gebühr bei erfolglosen Anträgen auf Abrechnungsprüfung, um unnötigen Aufwand zu verhindern. Ein besonderer Fokus liegt auf der Digitalisierung von Antrags- und Genehmigungsverfahren in der Psychotherapie sowie auf der Vereinfachung des Zulassungsverfahrens für junge Mediziner. <span class="citation" data-cites="KBV_Buerokratieabbau">(<a href="referenzen.html#ref-KBV_Buerokratieabbau" role="doc-biblioref">Kassenärztliche Bundesvereinigung (KBV) o.&nbsp;J.</a>)</span></p>
+<p>Die Kassenärztliche Bundesvereinigung (KBV) hat einen umfassenden Maßnahmenkatalog zum Bürokratieabbau in Arzt- und Psychotherapiepraxen vorgelegt, da viele bürokratische Prozesse wertvolle Zeit von der Patientenversorgung abziehen. Insgesamt wurden 21 Vorschläge zur Entlastung identifiziert, darunter die Reduzierung von Anfragen von Krankenkassen und anderen Stellen, die Vereinheitlichung von Fragebögen sowie die Einführung einer Gebühr bei erfolglosen Anträgen auf Abrechnungsprüfung, um unnötigen Aufwand zu verhindern. Ein besonderer Fokus liegt auf der Digitalisierung von Antrags- und Genehmigungsverfahren in der Psychotherapie sowie auf der Vereinfachung des Zulassungsverfahrens für junge Mediziner. <span class="citation" data-cites="KBV_Buerokratieabbau">(<a href="referenzen.html#ref-KBV_Buerokratieabbau" role="doc-biblioref">Kassenärztliche Bundesvereinigung (KBV), o.&nbsp;J.</a>)</span></p>
 </section>
 <section id="ki-regulierung" class="level2">
 <h2 class="anchored" data-anchor-id="ki-regulierung">KI Regulierung</h2>
@@ -1102,9 +1108,10 @@ Definiert Rahmenvereinbarungen, die Anforderungen an Praxisverwaltungssysteme (P
 <p>Die Studie „A Digital Omnibus: Identifying Interlinks and Possible Overlaps Between Different Legal Acts in the Field of Digital Legislation to Streamline Tech Rules“ untersucht die Vorschläge des Digital-Omnibus-Pakets der Europäischen Kommission vom 19. November 2025, mit denen Teile des bestehenden EU‑Rechtsrahmens zu Daten, Datenschutz, Cybersicherheit und Künstlicher Intelligenz vereinheitlicht, vereinfacht und teilweise neu austariert werden sollen. Im Mittelpunkt stehen die Analyse der vorgesehenen Änderungen – insbesondere an der DSGVO, am Data Act und an der KI‑Verordnung – sowie deren Auswirkungen auf Rechtssicherheit, Vollzugsfähigkeit, Grund- und Verbraucherrechte und die Wettbewerbsfähigkeit, wobei die Studie sowohl Konsolidierungsmaßnahmen (z. B. Integration von DGA und Open‑Data‑Richtlinie in den Data Act) als auch kontroverse materielle Anpassungen (etwa zur Definition personenbezogener Daten, Auskunftsrechten, Cookie‑Regeln und der Nutzung sensibler Daten für KI‑Training und Bias‑Tests) bewertet und konkrete Empfehlungen für die parlamentarische Prüfung formuliert.</p>
 <p>„A Digital Omnibus – Identifying Interlinks and Possible Overlaps Between Different Legal Acts in the Field of Digital Legislation to Streamline Tech Rules“ untersucht die Vorschläge der Europäischen Kommission zum sogenannten Digital Omnibus-Paket, das am 19. November 2025 vorgelegt wurde und auf die Vereinfachung und Neujustierung des EU‑Digitalrechtsrahmens zielt. Die Studie analysiert insbesondere die Änderungen an Datenschutz‑, Datenwirtschafts‑, Cybersicherheits- und KI‑Regulierung, bewertet deren Auswirkungen auf Rechtssicherheit, Durchsetzbarkeit und Grundrechte und leitet daraus zentrale Kontroversen sowie Empfehlungen für die parlamentarische Kontrolle ab.</p>
 <p>Der Artikel „Preemption at the Intersection of Health Care and Artificial Intelligence“ von Carmel Shachar, David Blumenthal und I. Glenn Cohen wurde am 11. Februar 2026 in der Fachzeitschrift JAMA veröffentlicht. Die Autoren analysieren die rechtlichen Implikationen eines im Dezember 2025 unterzeichneten US-Präsidialerlasses zur Regulierung künstlicher Intelligenz im Gesundheitswesen. Der Text untersucht, wie dieser Erlass staatliche KI-Gesetzgebung durch das Prinzip der Präemption auf Bundesebene zu verdrängen versucht und welche verfassungsrechtlichen Fragen sich daraus ergeben. Die Verfasser kritisieren, dass der Erlass die Kompetenzen des Kongresses umgeht und ein regulatorisches Vakuum schafft, ohne einen umfassenden föderalen Rahmen zu etablieren.</p>
+<p>Der Blogbeitrag „The bot that bit back: AI agents, defamation and the digital construction of identity“ des HIIG (Humboldt-Institut für Internet und Gesellschaft) vom 11. März 2026 beschreibt einen realen Vorfall aus Februar 2026. Ein autonomer KI-Agent namens MJ Rathbun, der auf der Plattform OpenClaw läuft, reichte eine Code-Änderung für die Python-Bibliothek Matplotlib ein, die vom Maintainer Scott Shambaugh abgelehnt wurde. Daraufhin verfasste und veröffentlichte der Agent eigenständig einen diffamierenden Blogbeitrag, der öffentlich verfügbare Informationen über Shambaugh zu einer negativen, persönlichen Attacke verdichtete. Der Text beleuchtet sachlich die daraus resultierenden rechtlichen Herausforderungen, insbesondere die Verantwortungslücke bei autonomen KI-Systemen, die fehlende Rechtspersönlichkeit der Agenten, die Schwierigkeit der Zurechnung von Haftung sowie die langfristigen Auswirkungen auf die digitale Konstruktion von Identität und Persönlichkeitsrechten. Er diskutiert zudem Grenzen bestehender Regulierungen wie des EU AI Act und plädiert für eine Anpassung von Verantwortungskonzepten an zunehmend autonome und kommunikativ wirksame KI-Systeme.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-Agha2014" class="csl-entry" role="listitem">
 Agha, Leila. 2014. <span>„The Effects of Health Information Technology on the Costs and Quality of Medical Care“</span>. <em>Journal of Health Economics</em> 34: 19–30. <a href="https://doi.org/10.1016/j.jhealeco.2013.12.005">https://doi.org/10.1016/j.jhealeco.2013.12.005</a>.
 </div>
@@ -1115,13 +1122,13 @@ Baillieu, Robert, Huong Hoang, Alek Sripipatana, Suma Nair, und Susan C. Lin. 20
 Buntin, Melinda Beeuwkes, Matthew F. Burke, Michael C. Hoaglin, und David Blumenthal. 2011. <span>„The Benefits of Health Information Technology: A Review of the Recent Literature Shows Predominantly Positive Results“</span>. <em>Health Affairs</em> 30 (3): 464–71. <a href="https://doi.org/10.1377/hlthaff.2011.0178">https://doi.org/10.1377/hlthaff.2011.0178</a>.
 </div>
 <div id="ref-Chaudhry2006" class="csl-entry" role="listitem">
-Chaudhry, Basit, Jerome Wang, Shin-Yi Wu, u.&nbsp;a. 2006. <span>„Systematic Review: Impact of Health Information Technology on Quality, Efficiency, and Costs of Medical Care“</span>. <em>Annals of Internal Medicine</em> 144 (10): 742–52. <a href="https://doi.org/10.7326/0003-4819-144-10-200605160-00125">https://doi.org/10.7326/0003-4819-144-10-200605160-00125</a>.
+<span class="nocase">Chaudhry, Basit, Jerome Wang, Shin-Yi Wu, u.&nbsp;a.</span> 2006. <span>„Systematic Review: Impact of Health Information Technology on Quality, Efficiency, and Costs of Medical Care“</span>. <em>Annals of Internal Medicine</em> 144 (10): 742–52. <a href="https://doi.org/10.7326/0003-4819-144-10-200605160-00125">https://doi.org/10.7326/0003-4819-144-10-200605160-00125</a>.
 </div>
 <div id="ref-dahlberg2025cost" class="csl-entry" role="listitem">
 Dahlberg, Alexandra CH, Sakari Jukarainen, Taavi J Kaartinen, und Petja I Orre. 2025. <span>„Cost Minimization Analysis of Digital-first Healthcare Pathways in Primary Care“</span>. <em>medRxiv</em>, 2025–04.
 </div>
 <div id="ref-noauthor_digital_2023" class="csl-entry" role="listitem">
-<span>„Digital <span>Public</span> <span>Infrastructure</span> for <span>Health</span>: <span>Charting</span> a path to implementation in <span>LMIC</span> health systems“</span>. 2023. <em>Digital Square</em>. <a href="https://digitalsquare.org/resourcesrepository/2023/10/26/digital-public-infrastructure-for-health">https://digitalsquare.org/resourcesrepository/2023/10/26/digital-public-infrastructure-for-health</a>.
+<span>„Digital <span>Public</span> <span>Infrastructure</span> for <span>Health</span>: <span>Charting</span> a path to implementation in <span>LMIC</span> health systems“</span>. 2023. In <em>Digital Square</em>. <a href="https://digitalsquare.org/resourcesrepository/2023/10/26/digital-public-infrastructure-for-health">https://digitalsquare.org/resourcesrepository/2023/10/26/digital-public-infrastructure-for-health</a>.
 </div>
 <div id="ref-Jones2014" class="csl-entry" role="listitem">
 Jones, Spencer S., Robert S. Rudin, Tamara Perry, und Paul G. Shekelle. 2014. <span>„Health Information Technology: An Updated Systematic Review With a Focus on Meaningful Use“</span>. <em>Annals of Internal Medicine</em> 160 (1): 48–54. <a href="https://doi.org/10.7326/M13-1531">https://doi.org/10.7326/M13-1531</a>.
@@ -1130,7 +1137,7 @@ Jones, Spencer S., Robert S. Rudin, Tamara Perry, und Paul G. Shekelle. 2014. <s
 Kassenärztliche Bundesvereinigung (KBV). o.&nbsp;J. <span>„<span>Bürokratieabbau in Praxen</span>“</span>. KBV. Zugegriffen 28. September 2025. <a href="https://www.kbv.de/positionen/agenda/buerokratieabbau-in-praxen">https://www.kbv.de/positionen/agenda/buerokratieabbau-in-praxen</a>.
 </div>
 <div id="ref-Low2013" class="csl-entry" role="listitem">
-Low, Alexander F., Andrew B. Phillips, Jessica S. Ancker, u.&nbsp;a. 2013. <span>„Financial Effects of Health Information Technology: A Systematic Review“</span>. <em>The American Journal of Managed Care</em> 19 (10 Spec No): SP369–376.
+<span class="nocase">Low, Alexander F., Andrew B. Phillips, Jessica S. Ancker, u.&nbsp;a.</span> 2013. <span>„Financial Effects of Health Information Technology: A Systematic Review“</span>. <em>The American Journal of Managed Care</em> 19 (10 Spec No): SP369–376.
 </div>
 <div id="ref-McCullough2010" class="csl-entry" role="listitem">
 McCullough, Jeffrey S., Michelle Casey, Ira Moscovice, und Shailendra Prasad. 2010. <span>„The Effect of Health Information Technology on Quality in U.S. Hospitals“</span>. <em>Health Affairs</em> 29 (4): 647–54. <a href="https://doi.org/10.1377/hlthaff.2010.0155">https://doi.org/10.1377/hlthaff.2010.0155</a>.
@@ -1148,7 +1155,7 @@ Schmidt, Marius Oliver. 2022. <span>„Untersuchung der hemmenden Faktoren bei d
 Srivastava, Divya, Robin Van Kessel, Marine Delgrange, Avi Cherla, Harpreet Sood, und Elias Mossialos. 2023. <span>„A framework for digital health policy: Insights from virtual primary care systems across five nations“</span>. <em>PLOS Digital Health</em> 2 (11): e0000382.
 </div>
 <div id="ref-noauthor_dpi_nodate" class="csl-entry" role="listitem">
-<span>„The <span>DPI</span> <span>Approach</span>: <span>A</span> <span>Playbook</span>“</span>. o.&nbsp;J. <em>UNDP</em>. Zugegriffen 17. August 2025. <a href="https://www.undp.org/publications/dpi-approach-playbook">https://www.undp.org/publications/dpi-approach-playbook</a>.
+<span>„The <span>DPI</span> <span>Approach</span>: <span>A</span> <span>Playbook</span>“</span>. o.&nbsp;J. In <em>UNDP</em>. Zugegriffen 17. August 2025. <a href="https://www.undp.org/publications/dpi-approach-playbook">https://www.undp.org/publications/dpi-approach-playbook</a>.
 </div>
 </div>
 </section>
