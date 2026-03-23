@@ -121,6 +121,7 @@ book:
     - part: patientinnen.qmd
       chapters:
       - digitale-stellvertretung.qmd
+      - praevention.qmd
     - part: digitale-innovation.qmd
       chapters:
       - transformation.qmd
