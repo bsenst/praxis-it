@@ -16,3 +16,4 @@ Der Artikel „App-based therapy for female patients with urinary incontinence i
 
 * [uro-nordrhein.de/uro-bot](https://www.uro-nordrhein.de/uro-bot)
 
+„Künstliche Intelligenz in chirurgischen Disziplinen: Einsatz, Nutzen und Potenzial – ein Delphi-Expertenkonsensus“ untersucht strukturierte Einschätzungen von 16 interdisziplinären Fachleuten zur Rolle von KI entlang aller Phasen chirurgischer Behandlungsprozesse. Im Rahmen eines modifizierten Delphi-Verfahrens wurden Stellungnahmen zu aktuellem Stand, zukünftigen Möglichkeiten und erforderlichen Transformationsschritten konsentiert, um Potenziale zur Qualitäts- und Sicherheitsverbesserung der Patientenversorgung systematisch herauszuarbeiten. Die Arbeit identifiziert zugleich bestehende Defizite bei Digitalisierung, rechtlichen Rahmenbedingungen und Infrastruktur und leitet daraus praxisorientierte Empfehlungen für Medizin, Politik und Gesundheitswirtschaft ab.
