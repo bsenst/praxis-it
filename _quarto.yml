@@ -106,6 +106,7 @@ book:
       - rettungsdienst.qmd
     - part: "Gesundheitswesen"
       chapters:
+      - ausbildung.qmd 
       - zahnarzt.qmd
       - pflege.qmd
       - krankenhaus.qmd
@@ -120,6 +121,7 @@ book:
     - part: patientinnen.qmd
       chapters:
       - digitale-stellvertretung.qmd
+      - praevention.qmd
     - part: digitale-innovation.qmd
       chapters:
       - transformation.qmd

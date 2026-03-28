@@ -1,0 +1,5 @@
+# Prävention
+
+## Forschung
+
+PERFECT: Personalized Exercise Recommendation Framework and architECTure ist ein wissenschaftliches Paper aus dem Jahr 2023 (ursprünglich als Preprint auf medRxiv veröffentlicht, später in einer Fachzeitschrift erschienen). Es beschreibt ein mHealth-System, das mithilfe von Smartphone- und Smartwatch-Apps sowie einem contextual multi-arm bandit-Algorithmus (einem Reinforcement-Learning-Ansatz) personalisierte Walking-Übungen für gesunde Probandinnen empfiehlt. Das System berücksichtigt Echtzeit-Herzfrequenzdaten, Biomarker und Kontextfaktoren, um die aerobe Kapazität zu steigern und die tägliche Bewegungszeit signifikant zu erhöhen. In einer Proof-of-Concept-Studie mit 20 weiblichen Studentinnen (16 Absolventinnen) zeigten sich hohe Zufriedenheitswerte und gesteigertes Vertrauen in die sichere Umsetzung der Empfehlungen.

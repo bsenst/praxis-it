@@ -1,3 +1,6 @@
 # Schmerzmedizin
 
 * [copeia.de - Digitale Unterstützung für die Therapie mit Cannabisarzneimitteln](https://copeia.de/)
+
+Thought about this
+Der Artikel „A Therapeutic Conversational Agent (Solace) for Management of Chronic Pain: Acceptability and Usability Study", veröffentlicht am 20. März 2026 in JMIR Rehabilitation and Assistive Technologies, beschreibt eine Akzeptanz- und Usability-Studie zu Solace, einem generativen KI-gestützten therapeutischen Chatbot zur Schmerzbehandlung. In der Studie interagierten 175 Teilnehmer mit chronischen Schmerzen jeweils mindestens 30 Minuten mit dem System, wobei die Systemusability mit einem durchschnittlichen SUS-Wert von 85,04 als exzellent bewertet wurde und eine hohe therapeutische Allianz zwischen Nutzern und Chatbot festgestellt wurde. Zudem zeigten sich nach der Interaktion Verbesserungen in den Bereichen Angst, Schmerzbeeinträchtigung, Kinesiophobie und Schmerzwiderstandsfähigkeit, während Sicherheitsmechanismen zur Erkennung von Suizidgedanken oder Medikamentenanfragen ordnungsgemäß funktionierten. Die Autoren schlussfolgern, dass Solace ein brauchbares und akzeptables Werkzeug für das Schmerzmanagement darstellt, wobei randomisierte klinische Studien notwendig sind, um die Wirksamkeit weiter zu evaluieren.
