@@ -38,6 +38,8 @@ Digitale Lösungen in Arztpraxen ermöglichen die effiziente Verwaltung von Pati
 
 : Übersicht Softwarelösungen digitale Anamnese & Dokumentation
 
+* [aimax.care](https://www.aimax.care/de)
+
 ## Dokumentation
 
 | Anbieter                            | Webseite                                                           | Beschreibung |
