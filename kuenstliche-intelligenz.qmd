@@ -356,6 +356,8 @@ Die OECD-Publikation **„Scaling Artificial Intelligence in Health“** (2026) 
 
 „Changes in Clinician Time Expenditure and Visit Quantity With Adoption of Artificial Intelligence–Powered Scribes: A Multisite Study“ ist eine Originalarbeit aus dem JAMA, die am 1. April 2026 online veröffentlicht wurde. Die Studie untersucht in einem multisite, longitudinalen Kohortendesign an fünf US-amerikanischen akademischen Gesundheitseinrichtungen den Zusammenhang zwischen der Einführung von KI-gestützten Schreibkräften (AI Scribes) und Veränderungen in der Zeit, die Kliniker mit der elektronischen Patientenakte (EHR) verbringen, sowie der wöchentlichen Anzahl durchgeführter Patientenkontakte. In der Differenz-in-Differenzen-Analyse mit 8581 Klinikern (davon 1809 AI-Scribe-Adopter) zeigte sich eine Reduktion der gesamten EHR-Zeit um 13,4 Minuten und der Dokumentationszeit um 16,0 Minuten pro acht Stunden geplanter Patientenzeit sowie ein Anstieg von 0,49 wöchentlichen Visiten. Die Effekte waren bei Primary-Care-Spezialisten, Advanced Practice Clinicians, weiblichen Klinikern und bei Nutzern mit einer AI-Scribe-Nutzungsintensität von 50 % oder mehr am stärksten ausgeprägt. Die Autoren schlussfolgern, dass die Adoption von AI-Scribes mit moderaten, initial positiven Veränderungen bei zentralen EHR-Aktivitätsmaßen und der Visitenzahl assoziiert ist.
 
+* [openmed.life](https://openmed.life/)
+
 ## Demonstrationen
 
 * [projector.tensorflow.org](https://projector.tensorflow.org/)
