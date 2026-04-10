@@ -358,6 +358,8 @@ Die OECD-Publikation **„Scaling Artificial Intelligence in Health“** (2026) 
 
 * [openmed.life](https://openmed.life/)
 
+Der Artikel mit dem Titel „Artificial intelligence translation in healthcare: an urgent call for evidence-informed policy frameworks“ fordert eine evidenzbasierte Regulierung von KI-Übersetzungstools im Gesundheitswesen. Die Autoren weisen auf die rasche Verbreitung solcher Tools hin – laut einer Umfrage nutzen oder planen bereits 57 % der US-Ärzte deren Einsatz –, während regulatorische Rahmenbedingungen hinterherhinken. Sie beschreiben erhebliche Leistungsunterschiede zwischen gut versorgten Sprachen wie Spanisch, bei denen KI teilweise mit professionellen Übersetzungen konkurrieren kann, und digital unterrepräsentierten Sprachen wie Haitianisch-Kreolisch, bei denen deutlich höhere Fehlerraten auftreten und Patientensicherheit gefährdet wird. Die Autoren plädieren für eine risikostratifizierte Validierungsstrategie mit zwei Pfaden („Streamlined Pathway“ für gut belegte Sprachkombinationen und „Standard Pathway“ für unterrepräsentierte Sprachen), eine patientenzentrierte Bewertung anhand von Verständlichkeit statt reiner linguistischer Genauigkeit sowie die Einrichtung zentraler Aufsichtsorgane bei HHS oder FDA zur verbindlichen Vorabvalidierung und Nachmarktüberwachung, um eine zweigeteilte Versorgungsqualität zu verhindern.
+
 ## Demonstrationen
 
 * [projector.tensorflow.org](https://projector.tensorflow.org/)
