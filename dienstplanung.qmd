@@ -56,6 +56,7 @@ Der [AOK-Urlaubsplaner](https://www.aok.de/fk/nordost/tools/weitere-inhalte/aok-
 * [timefold.ai](https://timefold.ai/)
 * [github.com/TimefoldAI/timefold-solver-python](https://github.com/TimefoldAI/timefold-solver-python)
 * [github.com/graphhopper/jsprit](https://github.com/graphhopper/jsprit)
+* [explorer.graphhopper.com](https://explorer.graphhopper.com/)
 * [portatour.com/de](https://www.portatour.com/de)
 * [geocapture.de/funktionen/tourenplanung/pflegedienst](https://www.geocapture.de/funktionen/tourenplanung/pflegedienst)
 * [github.com/inria-UFF/VRPSolverEasy](https://github.com/inria-UFF/VRPSolverEasy)
