@@ -47,3 +47,30 @@ Diese Merkmale fördern Transparenz, Flexibilität und Effizienz, was zur Zufrie
 Der [AOK-Urlaubsplaner](https://www.aok.de/fk/nordost/tools/weitere-inhalte/aok-urlaubsplaner/) ist ein PDF-Formular, das hilft die Urlaubs- und Abwesenheitszeiten zu erfassen. Mit diesem kostenlosen PDF-Dokument, das im Adobe Acrobat Reader bearbeitet werden kann, lassen sich Urlaubswünsche, Resturlaub und andere Abwesenheiten einfach festhalten.
 
 * [calendar.online](https://calendar.online/)
+
+## Routenplanung
+
+* [antsroute.com/de/](https://antsroute.com/de/)
+* [toptaas.de](https://www.toptaas.de/)
+* [github.com/TimefoldAI/timefold-quickstarts](https://github.com/TimefoldAI/timefold-quickstarts)
+* [timefold.ai](https://timefold.ai/)
+* [github.com/TimefoldAI/timefold-solver-python](https://github.com/TimefoldAI/timefold-solver-python)
+* [github.com/graphhopper/jsprit](https://github.com/graphhopper/jsprit)
+* [portatour.com/de](https://www.portatour.com/de)
+* [geocapture.de/funktionen/tourenplanung/pflegedienst](https://www.geocapture.de/funktionen/tourenplanung/pflegedienst)
+* [github.com/inria-UFF/VRPSolverEasy](https://github.com/inria-UFF/VRPSolverEasy)
+
+Der Artikel „Mobile clinics routing and scheduling in the Witzenberg region of South Africa“ von Hannah J. Callaghan, Linke Potgieter und Nadia Le Roux beschreibt eine dreiphasige, interdisziplinäre Studie zur Optimierung des Routen- und Einsatzplans dreier mobiler Kliniken in der ländlichen Witzenberg-Region Südafrikas. Mithilfe qualitativer Erhebungen, eines dreistufigen mathematischen Modells (Multi-Vehicle-Routing-Problem, Knapsack-Problem und periodisches Vehicle-Routing-Problem) sowie der Analytic Hierarchy Process (AHP) mit Entscheidungsträgern wurden fairere Arbeitsbelastungen zwischen den Kliniken, eine bessere Kontinuität der Versorgung und eine Reduktion der Gesamtfahrstrecke um 23 % erreicht. Die entwickelten Zeitpläne ermöglichen zudem mehr Zeit für Verwaltungsaufgaben oder Unterstützung in den stationären Kliniken. Die Ergebnisse wurden von den beteiligten Gesundheitsverantwortlichen akzeptiert und befinden sich in der Umsetzungsphase.
+
+Der vorliegende Artikel mit dem Titel **„Routing mobile health clinics: An integrated routing and resupply plan based on synchronization“** (arXiv:2412.17299v1) beschäftigt sich mit der Optimierung des Einsatzes mobiler Gesundheitskliniken (Mobile Health Clinics, MHCs) in entlegenen oder unterversorgten Regionen. Die Autoren Faisal Alkaabneh und Sam Jotham Sutharson entwickeln ein neues Modell, das neben der klassischen Routenplanung auch eine en-route-Resupply-Strategie mit einem separaten Versorgungslaster integriert. Dabei entsteht das Vehicle Routing Problem with Multiple Synchronization Constraints and Heterogeneous Demand (VRPMSC-HD), das als Mixed-Integer Linear Program (MILP) formuliert und mit einer adaptiven Large-Neighborhood-Search-Metahaheuristic (ALNS) für größere Instanzen gelöst wird. Die Ergebnisse zeigen, dass der Synchronisationsansatz trotz einer durchschnittlichen Erhöhung der Gesamtfahrstrecke um 6,79 % die späteste Rückkehr der MHCs zum Depot im Mittel um 16,06 % verkürzt und damit die Auslastung der teuren mobilen Kliniken signifikant verbessert. Im Vergleich zum klassischen Multi-Trip-Modell, bei dem die MHCs mehrmals zum Depot zurückkehren müssen, ermöglicht die en-route-Versorgung eine deutlich effizientere Nutzung der Flotte bei akzeptablen Mehrkosten in der Gesamtdistanz.
+
+## Dienstplanoptimierung
+
+* [sage.com](https://www.sage.com/)
+* [zep.de](https://www.zep.de/)
+* [planningpme.com](https://www.planningpme.com/)
+* [timo24.de](https://www.timo24.de/)
+* [libreplan.dev](https://www.libreplan.dev/)
+* [github.com/optapy/optapy](https://github.com/optapy/optapy)
+* [hexaly.com](https://www.hexaly.com/)
+* [gurobi.com/solutions/industries/healthcare](https://www.gurobi.com/solutions/industries/healthcare)
