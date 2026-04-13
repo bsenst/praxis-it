@@ -132,6 +132,7 @@ book:
       - lokale-ki.qmd
       - entscheidungsunterstuetzung.qmd
       - krankheitsverstaendnis.qmd
+      - seltene-krankheiten.qmd
       - monitoring.qmd
       - grosse-sprachmodelle.qmd
       - llm-leistungsvergleich.qmd
