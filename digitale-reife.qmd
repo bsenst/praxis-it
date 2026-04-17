@@ -97,3 +97,5 @@ Der Bericht „Framework for Selecting Digital Health Maturity Assessments“ de
 | Weik | Reifegradmodell für hausärztliche Versorgung nach Weik |
 
 * [aiomics.de/p/ki-assessment](https://www.aiomics.de/p/ki-assessment)
+
+Der Artikel „Doctor's office websites reflect regional differences in digitalization“ untersucht die digitale Transformation im ambulanten Gesundheitswesen anhand von Arztwebsites in zwei deutschen Regionen. Die Studie zeigt, dass Websites als Kommunikationsplattform zwischen Patienten und Praxen dienen und unterschiedlich stark in Praxisprozesse integriert sind. Während städtisch geprägte Regionen wie Nordrhein-Westfalen häufiger digitale Funktionen wie Videosprechstunden, Online-Terminbuchung und Rezeptbestellungen anbieten, weisen ländlichere Regionen wie Brandenburg geringere Digitalisierungsgrade auf. Insgesamt spiegeln Arztwebsites regionale Unterschiede in der digitalen Reife wider und ermöglichen eine zeitnahe Analyse des Fortschritts der Digitalisierung im Gesundheitssektor.
