@@ -54,6 +54,8 @@ Die Studie „Digital Media for Primary Health Care in Austria“ untersucht den
 
 * [hin.ch](https://www.hin.ch/de/index.cfm)
 
+Die Plattform „SwissMed AI Tools“ bietet eine strukturierte Übersicht über KI-Anwendungen für medizinisches Fachpersonal in der Schweiz. Sie umfasst über 60 geprüfte Tools aus Bereichen wie Dokumentation, Diagnostik, Administration und Patientenkommunikation, mit Fokus auf Datenschutz (revDSG/GDPR) und praxisnahe Integration.
+
 ### National Health Service Vereinigtes Königreich
 
 Die Studie „Informing NHS policy in ‘digital-first primary care’: a rapid evidence synthesis“ untersucht digitale Kommunikationsmodelle in der Primärversorgung, bei denen der erste Kontakt eines Patienten mit einem Arzt über digitale Kanäle erfolgt. Ziel war es, NHS England durch eine schnelle Evidenzsynthese zu unterstützen, die in zwei Phasen durchgeführt wurde: zunächst eine Literaturübersicht und anschließend die Beantwortung spezifischer Fragen zu digitalen Engagement-Modellen. Die Ergebnisse zeigen, dass die Nutzung digitaler Alternativen zu persönlichen Konsultationen gering ist und vor allem jüngere, weibliche, besser gebildete und einkommensstärkere Patienten diese nutzen. Es gibt Hinweise, dass Online-Triage-Tools die Nachfrage von der Primärversorgung ablenken können, jedoch variieren die Ergebnisse. Barrieren wie unzureichende NHS-Technologie und Bedenken von Mitarbeitern hinsichtlich Arbeitsbelastung und Vertraulichkeit wurden identifiziert, jedoch fehlen ausreichende empirische Daten, um diese Bedenken zu bestätigen oder zu widerlegen. [@rodgers2019informing]

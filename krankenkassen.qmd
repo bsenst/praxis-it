@@ -175,3 +175,5 @@ Der Bericht „DiGA Report“ bietet eine strukturierte Übersicht über jährli
 * [diga-report.de](https://diga-report.de)
 
 * [bkk-pwc.de/versorgungskompass](https://www.bkk-pwc.de/versorgungskompass)
+
+Die Pressemitteilung „KI erkennt frühe Warnsignale in Kassen-Daten“ beschreibt das Forschungsprojekt ClaimsBERT, das ein KI-Foundation-Modell zur Analyse von Abrechnungs- und Versorgungsdaten entwickelt. Ziel ist die frühzeitige Identifikation von Risiken für schwere Erkrankungen und Pflegebedürftigkeit. Grundlage sind GKV-Routinedaten, die mithilfe von Transformer-Modellen ausgewertet werden, um Muster und zeitliche Zusammenhänge zu erkennen. Das Projekt läuft von 2026 bis 2029 und wird durch den Innovationsfonds des Gemeinsamen Bundesausschusses gefördert.

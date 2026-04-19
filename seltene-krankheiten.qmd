@@ -1,0 +1,3 @@
+# Seltene Krankheiten 
+
+Der Artikel „Artificial Intelligence, Connected Care, and Enabling Digital Health Technologies in Rare Diseases With a Focus on Lysosomal Storage Disorders: Scoping Review“ untersucht systematisch den Einsatz digitaler Gesundheitstechnologien bei seltenen Erkrankungen mit Schwerpunkt auf lysosomalen Speicherkrankheiten. Die Autoren zeigen, dass insbesondere KI und vernetzte Versorgung zunehmend zur Diagnostik, Überwachung und Patientenbetreuung eingesetzt werden, jedoch die Evidenzbasis überwiegend aus kleinen, heterogenen Studien besteht und belastbare Aussagen zur Wirksamkeit fehlen. Es bestehen deutliche Forschungslücken, insbesondere bei patientenbezogenen Outcomes, multizentrischen Studien und standardisierten Dateninfrastrukturen.
