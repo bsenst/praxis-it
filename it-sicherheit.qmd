@@ -304,3 +304,4 @@ Der Abschlussbericht „Sicherheit von Praxisverwaltungssystemen (SiPra)“ stel
 
 UK Biobank health data keeps ending up on GitHub: Wiederholt werden sensible Gesundheits- und Genomdaten von Forschenden versehentlich auf öffentlichen Plattformen veröffentlicht. Trotz strenger Zugriffsregeln und Takedown-Maßnahmen zeigt sich ein anhaltendes Governance- und Datenschutzproblem, einschließlich nachweisbarer Re-Identifizierungsrisiken. [biobank.rocher.lc](https://biobank.rocher.lc/)
 
+* [cyfun.eu/de](https://cyfun.eu/de)
