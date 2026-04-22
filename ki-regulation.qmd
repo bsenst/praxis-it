@@ -1,0 +1,3 @@
+# Regulation Künstlicher Intelligenz
+
+„Guidance and Quality Criteria on AI Prediction Algorithms in Medical Devices“ ist ein Überblicksbericht aus dem August 2020, der zentrale Leitlinien und Qualitätskriterien für KI-basierte Vorhersagealgorithmen im Gesundheitswesen zusammenfasst. Der Bericht strukturiert den Lebenszyklus solcher Algorithmen in sechs Phasen – von Datenvorbereitung über Entwicklung und Validierung bis hin zu Implementierung und Anwendung – und betont dabei Aspekte wie Datenqualität, Bias, Generalisierbarkeit, Transparenz sowie klinische Wirkung. Ziel ist es, eine Orientierung für die sichere, effektive und regulierungskonforme Nutzung von KI in medizinischen Softwareprodukten zu bieten.
