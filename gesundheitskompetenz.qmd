@@ -1,0 +1,5 @@
+# Gesundheitskompetenz
+
+## Soziale Medien
+
+Der Artikel „How Do Dieticians on Instagram Teach?“ untersucht die Wirksamkeit von Ernährungsbildung auf Instagram anhand des Kirkpatrick-Modells (KM) und dessen Erweiterung (NWKM). Die Studie zeigt, dass Instagram ein effektives Medium für Gesundheitsbildung sein kann: Nutzer berichten über Zufriedenheit, gesteigertes Wissen, veränderte Einstellungen und sogar Verhaltensänderungen. Während die Ebenen Reaktion (L1) und Lernen (L2) gut nachweisbar sind, lassen sich auch Hinweise auf Verhaltensänderungen (L3) und Ergebnisse (L4) erkennen. Allerdings bleibt die Bewertung praktischer Fähigkeiten begrenzt. Insgesamt eignet sich das KM zur Evaluation von Social-Media-basierter Gesundheitsbildung, insbesondere zur Verbesserung und Anpassung von Inhalten.
