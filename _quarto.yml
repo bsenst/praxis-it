@@ -130,6 +130,7 @@ book:
       chapters:
       - daten-und-infrastruktur.qmd
       - maschinelles-lernen.qmd
+      - ki-regulation.qmd
       - lokale-ki.qmd
       - entscheidungsunterstuetzung.qmd
       - krankheitsverstaendnis.qmd
