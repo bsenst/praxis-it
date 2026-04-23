@@ -362,6 +362,8 @@ Der Artikel mit dem Titel „Artificial intelligence translation in healthcare: 
 
 Der Editorial-Artikel „Show us the evidence for the value of medical AI“ betont, dass Behauptungen über den Nutzen medizinischer KI durch angemessene und proportionale Evidenz gestützt werden müssen. Obwohl KI-Systeme zunehmend im Gesundheitswesen eingesetzt werden, fehlt es häufig an belastbaren Nachweisen für ihren tatsächlichen klinischen Mehrwert. Die Autoren kritisieren, dass bisher vor allem technische Leistungsmetriken bewertet werden, diese jedoch keinen direkten Rückschluss auf Verbesserungen der Patientenversorgung erlauben. Gefordert wird ein klarer Rahmen, der unterschiedliche Anspruchsniveaus von KI-Anwendungen mit passenden Evidenzanforderungen verknüpft. Zudem sollen prospektive Studien, Implementierungsanalysen und kontinuierliches Monitoring stärker berücksichtigt werden. Ziel ist es, voreilige Implementierungen zu vermeiden und die Bewertung von KI systematisch, transparent und evidenzbasiert zu gestalten.
 
+* [trackingai.org](https://trackingai.org/home)
+
 ## Demonstrationen
 
 * [projector.tensorflow.org](https://projector.tensorflow.org/)
