@@ -118,3 +118,5 @@ Der Artikel „Praxistaugliche Gesamtlösung – Digitaler Impfnachweis für die
 ## Digitalisierung stärkt Impfmedizin
 Digitale Impfmanagementsysteme übertreffen konventionelles Impfmanagement durch strukturierte Datenerfassung, automatisierte Erinnerungen und bessere Nachverfolgung. Sie steigern Impfquoten, schließen Impflücken effektiver und fördern Transparenz sowie Engagement. Studien belegen höhere Effizienz, Sicherheit und Versorgungsqualität. [@schelling2019;@hackell2022;@donckels2023;@vigezzi2025;@chaney2023]
 :::
+
+* [mach-den-impfcheck.de](https://www.mach-den-impfcheck.de/)
