@@ -366,6 +366,8 @@ Der Editorial-Artikel „Show us the evidence for the value of medical AI“ bet
 
 Der Editorial-Artikel „Health Systems Govern Only the Tip of the AI Iceberg“ aus NEJM AI (2026) analysiert die zunehmende Nutzung generativer KI durch Ärztinnen und Ärzte und die unzureichende institutionelle Steuerung. Die Autoren zeigen, dass über zwei Drittel der Mediziner KI im Alltag einsetzen, häufig außerhalb formaler Gesundheitssysteme. Klassische Governance-Ansätze, die auf spezifische Einzelfall-Anwendungen ausgerichtet sind, greifen bei generalistischen KI-Systemen nicht, da deren Risiken und Nutzen stark vom Nutzungskontext abhängen. Dadurch entsteht eine Diskrepanz zwischen streng regulierten klinischen KI-Tools und unkontrollierter Nutzung frei verfügbarer KI-Plattformen. Die fehlende institutionelle Einbindung führt zu Risiken hinsichtlich Datenschutz, Sicherheit und Transparenz. Abschließend fordern die Autoren eine grundlegende Reform der KI-Governance, die auch die reale Nutzungspraxis berücksichtigt.
 
+Der Artikel „Evaluation of Human Factors–Related Risks in AI-Enabled Medical Devices — A Practical Guide“ aus NEJM AI analysiert systematisch Risiken, die aus der Interaktion zwischen Mensch und KI-gestützten Medizinprodukten entstehen. Im Fokus stehen Fehlinterpretationen, Automationsbias, Vertrauensprobleme und Kompetenzverlust. Die Autoren entwickeln praxisnahe Leitlinien zur Integration von Usability, Training, Monitoring und Regulierung über den gesamten Produktlebenszyklus hinweg, um Sicherheit und Wirksamkeit zu verbessern.
+
 ## Demonstrationen
 
 * [projector.tensorflow.org](https://projector.tensorflow.org/)
