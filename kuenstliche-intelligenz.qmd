@@ -368,6 +368,8 @@ Der Editorial-Artikel „Health Systems Govern Only the Tip of the AI Iceberg“
 
 Der Artikel „Evaluation of Human Factors–Related Risks in AI-Enabled Medical Devices — A Practical Guide“ aus NEJM AI analysiert systematisch Risiken, die aus der Interaktion zwischen Mensch und KI-gestützten Medizinprodukten entstehen. Im Fokus stehen Fehlinterpretationen, Automationsbias, Vertrauensprobleme und Kompetenzverlust. Die Autoren entwickeln praxisnahe Leitlinien zur Integration von Usability, Training, Monitoring und Regulierung über den gesamten Produktlebenszyklus hinweg, um Sicherheit und Wirksamkeit zu verbessern.
 
+Der Artikel „The General Attitudes towards Artificial Intelligence Scale (GAAIS): Confirmatory Validation and Associations with Personality, Corporate Distrust, and General Trust“ untersucht, wie Einstellungen gegenüber Künstlicher Intelligenz (KI) gemessen werden können und welche psychologischen Faktoren diese beeinflussen. Die Studie bestätigt eine zweidimensionale Struktur (positive und negative Einstellungen) und zeigt, dass insbesondere Persönlichkeit (z. B. Introversion, Gewissenhaftigkeit, Verträglichkeit) sowie Vertrauen eine wichtige Rolle spielen. Introvertierte Personen bewerten KI insgesamt positiver, während Misstrauen gegenüber Unternehmen mit negativeren Einstellungen verbunden ist. Allgemeines Vertrauen in Menschen fördert hingegen positive Wahrnehmungen von KI. Die Ergebnisse verdeutlichen, dass Vertrauen in Organisationen und individuelle Persönlichkeitsmerkmale zentrale Einflussfaktoren für die Akzeptanz von KI sind.
+
 ## Demonstrationen
 
 * [projector.tensorflow.org](https://projector.tensorflow.org/)
