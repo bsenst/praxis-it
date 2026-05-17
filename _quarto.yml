@@ -42,6 +42,7 @@ book:
     - part: index.qmd
       chapters:
       - digitale-reife.qmd
+      - digitales-arbeitsleben.qmd
       - digitale-kompetenz.qmd
       - digitale-trennung.qmd
     - part: einleitung.qmd
@@ -62,6 +63,7 @@ book:
     - part: "Klinische Kompetenzen"
       chapters:
       - anamneseerhebung.qmd
+      - ambient-scribe.qmd
       - symptomchecker.qmd
       - medizinisches-wissen.qmd
       - labor.qmd
