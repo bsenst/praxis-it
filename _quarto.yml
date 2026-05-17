@@ -63,6 +63,7 @@ book:
     - part: "Klinische Kompetenzen"
       chapters:
       - anamneseerhebung.qmd
+      - ambient-scribe.qmd
       - symptomchecker.qmd
       - medizinisches-wissen.qmd
       - labor.qmd
