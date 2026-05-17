@@ -120,3 +120,5 @@ Digitale Impfmanagementsysteme übertreffen konventionelles Impfmanagement durch
 :::
 
 * [mach-den-impfcheck.de](https://www.mach-den-impfcheck.de/)
+
+Der Beitrag „IMPRESS: Impfverhalten verstehen, Preparedness steigern“ beschreibt ein Projekt des Robert Koch-Instituts zur systematischen Erfassung der Impfakzeptanz in Deutschland. Ziel ist es, durch regelmäßiges Monitoring im RKI-Panel „Gesundheit in Deutschland“ besser zu verstehen, warum Menschen sich impfen oder nicht impfen lassen. Die gewonnenen Daten sollen helfen, gezielte Maßnahmen zur Erhöhung der Impfquoten und zur Reduzierung von Ungleichheiten beim Impfschutz zu entwickeln sowie die Reaktionsfähigkeit auf zukünftige Epidemien zu verbessern.
