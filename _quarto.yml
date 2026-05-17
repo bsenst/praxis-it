@@ -42,6 +42,7 @@ book:
     - part: index.qmd
       chapters:
       - digitale-reife.qmd
+      - digitales-arbeitsleben.qmd
       - digitale-kompetenz.qmd
       - digitale-trennung.qmd
     - part: einleitung.qmd
