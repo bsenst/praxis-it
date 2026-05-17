@@ -370,6 +370,8 @@ Der Artikel „Evaluation of Human Factors–Related Risks in AI-Enabled Medical
 
 Der Artikel „The General Attitudes towards Artificial Intelligence Scale (GAAIS): Confirmatory Validation and Associations with Personality, Corporate Distrust, and General Trust“ untersucht, wie Einstellungen gegenüber Künstlicher Intelligenz (KI) gemessen werden können und welche psychologischen Faktoren diese beeinflussen. Die Studie bestätigt eine zweidimensionale Struktur (positive und negative Einstellungen) und zeigt, dass insbesondere Persönlichkeit (z. B. Introversion, Gewissenhaftigkeit, Verträglichkeit) sowie Vertrauen eine wichtige Rolle spielen. Introvertierte Personen bewerten KI insgesamt positiver, während Misstrauen gegenüber Unternehmen mit negativeren Einstellungen verbunden ist. Allgemeines Vertrauen in Menschen fördert hingegen positive Wahrnehmungen von KI. Die Ergebnisse verdeutlichen, dass Vertrauen in Organisationen und individuelle Persönlichkeitsmerkmale zentrale Einflussfaktoren für die Akzeptanz von KI sind.
 
+Der Beitrag „Can AI Say ‘I Don’t Know’?“ beschreibt die Risiken übermäßig selbstsicherer KI-Systeme in der Medizin und argumentiert, dass klinische KI Unsicherheit explizit erkennen und kommunizieren muss. Die Autoren fordern, die Fähigkeit „I don’t know“ zu sagen, als messbare Kernkompetenz sowohl für Ärztinnen und Ärzte als auch für KI-Systeme im Rahmen kompetenzbasierter medizinischer Ausbildung und Regulierung zu etablieren.
+
 ## Demonstrationen
 
 * [projector.tensorflow.org](https://projector.tensorflow.org/)
