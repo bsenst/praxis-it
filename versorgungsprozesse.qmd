@@ -120,3 +120,12 @@ Der Artikel „Development of a Contextualized, Research-Based Flemish Assessmen
 Der Artikel „Exploring Patient Journey Mapping and the Learning Health System: Scoping Review“ aus JMIR Human Factors untersucht die Verbindung zwischen Patient Journey Mapping und dem Konzept des Learning Health System (LHS). Die Autoren zeigen, dass visuelle Darstellungen von Patientenpfaden helfen können, Versorgungsprozesse zu analysieren und Verbesserungspotenziale zu identifizieren. Gleichzeitig besteht eine deutliche Forschungslücke bei der systematischen Integration dieser Daten in ein LHS. Die Ergebnisse legen nahe, dass Patientenerfahrungen eine wertvolle Datenquelle darstellen, um kontinuierliche Lernzyklen im Gesundheitssystem zu unterstützen und die Versorgungsqualität ganzheitlich zu verbessern.
 
 * [tabflows.com](https://www.tabflows.com/)
+
+* [Avi Medical](https://avimedical.com)
+* [MED:ON MVZ](https://med-on-mvz.de)
+* [Medicover Deutschland](https://medicover.de)
+* [Vantis](https://vantis-health.com)
+* [Centric Health Deutschland](https://centrichealth.de)
+* [Sanoptis](https://sanoptis.com)
+* [Evidia](https://evidia.de)
+* [Zahneins](https://zahneins.com)
