@@ -92,6 +92,8 @@ Quelle: [@KZBV_EDV_Statistik]
 
 [PraxiPal](https://www.praxipal.com/) ist ein in 2024 gegründetes Berliner Startup, das eine KI-gestützte virtuelle Rezeptionistin für Arztpraxen anbietet. Die Lösung automatisiert Telefonanrufe, entlastet das Praxispersonal und verbessert die Erreichbarkeit für Patienten.
 
+* [DentNet](https://www.dentnet.de/)
+
 ## Forschung
 
 ### Künstliche Intelligenz
