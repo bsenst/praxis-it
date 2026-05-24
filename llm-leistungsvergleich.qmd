@@ -4,6 +4,8 @@ Der Artikel „A clinical environment simulator for dynamic AI evaluation“ ers
 
 „Large language models in healthcare: a systematic evaluation on medical Q/A datasets“ ist eine systematische Studie zur Leistungsbewertung großer Sprachmodelle im medizinischen Frage-Antwort-Kontext. Untersucht werden mehrere LLMs wie GPT-4 und Med-PaLM-2 anhand von Benchmarks wie PubMedQA, MedQA und MedMCQA. Die Ergebnisse zeigen Unterschiede in der Genauigkeit je nach Modellgröße, Trainingsdaten und Domänenspezialisierung sowie bestehende Herausforderungen wie Halluzinationen und Bias.
 
+* [clinbench.com](https://clinbench.com/)
+
 * [PubMedQA](https://github.com/pubmedqa/pubmedqa/tree/master)
 * [MedConceptsQA](https://github.com/nadavlab/MedConceptsQA)
 * [MedQA-CS](https://github.com/bio-nlp/medqa-cs)
@@ -28,6 +30,12 @@ Der Working Paper „On the Performance of an Explainable Language Model on PubM
 ## MedExQA
 
 „MedExQA: Medical Question Answering Benchmark with Multiple Explanations“ stellt ein neues medizinisches Frage-Antwort-Benchmark vor, das mehrere Erklärungen pro Antwort integriert. Ziel ist es, die Bewertung von Large Language Models über reine Genauigkeitsmetriken hinaus zu erweitern. Der Datensatz umfasst fünf unterrepräsentierte medizinische Fachgebiete und legt einen Fokus auf die Qualität und Nachvollziehbarkeit von Modellantworten.
+
+## MedQA
+
+„MedQA-CS: Objective Structured Clinical Examination (OSCE)-Style Benchmark for Evaluating LLM Clinical Skills“ beschreibt ein neues Evaluationsframework für große Sprachmodelle im klinischen Kontext. Die Studie überträgt das OSCE-Prinzip aus der medizinischen Ausbildung auf LLMs und bewertet deren klinische Fähigkeiten in interaktiven, mehrstufigen Patientensimulationen. Ziel ist eine realitätsnähere Messung klinischer Kompetenz jenseits klassischer Multiple-Choice-Benchmarks.
+
+„What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams“ beschreibt die Einführung des MEDQA-Datensatzes für medizinische Open-Domain-Question-Answering-Systeme. Der Datensatz basiert auf realen medizinischen Prüfungsfragen aus verschiedenen Ländern und ist darauf ausgelegt, die Leistungsfähigkeit von KI-Systemen bei komplexem klinischem Reasoning und evidenzbasierter Beantwortung zu testen.
 
 ## MMLU Clinical Knowledge
 
