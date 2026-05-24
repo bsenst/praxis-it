@@ -8,6 +8,9 @@ Der Artikel „A clinical environment simulator for dynamic AI evaluation“ ers
 * [MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench)
 * [PubMedQA](https://github.com/pubmedqa/pubmedqa/tree/master)
 * [MedMCQA](https://github.com/medmcqa/medmcqa)
+* [MMLU Clinical Knowledge Benchmark](https://huggingface.co/datasets/shuyuej/MMLU-Clinical-Knowledge-Benchmark)
+
+* [unitxt.ai](https://www.unitxt.ai/en/latest/)
 
 ## PubMedQA
 
@@ -18,3 +21,8 @@ Der Working Paper „On the Performance of an Explainable Language Model on PubM
 „Improving Small Language Models on PubMedQA via Generative Data Augmentation“ untersucht, wie kleine Sprachmodelle (SLMs) im medizinischen Frage-Antwort-Bereich durch synthetisch erzeugte Trainingsdaten verbessert werden können. Die Autoren zeigen, dass GPT-4-basierte Datenaugmentation die Leistung kleiner Modelle wie BioGPT deutlich steigert. Auf dem Datensatz PubMedQA erreichte ein feinabgestimmtes BioGPT-Modell mit weniger als 1,6 Milliarden Parametern eine höhere Genauigkeit als Few-Shot-GPT-4. Die Studie verdeutlicht zudem, dass domänenspezifisches Vortraining und hochwertige generative Datenaugmentation entscheidend für leistungsfähige und zugleich effiziente medizinische KI-Modelle sind.
 
 “PubMed Reasoner: Dynamic Reasoning-based Retrieval for Evidence-Grounded Biomedical Question Answering” presents a multi-stage biomedical QA system specifically evaluated on PubMedQA. It improves trustworthy question answering by combining self-critic MeSH query refinement, iterative reflective retrieval over PubMed, and evidence-grounded generation with explicit citations. On the PubMedQA benchmark, the system achieves 78.32% accuracy, slightly surpassing human performance, and also shows consistent gains on MMLU Clinical Knowledge. The key focus is improving reliability and factual grounding in biomedical question answering through retrieval-first reasoning over authoritative literature while maintaining computational efficiency.
+
+## MMLU Clinical Knowledge
+
+„Large language models encode clinical knowledge“ (Nature, 2023) beschreibt die systematische Bewertung großer Sprachmodelle hinsichtlich ihres medizinischen Wissens. Die Studie führt mit MultiMedQA einen Benchmark für medizinische Frage-Antwort-Daten ein und zeigt, dass skalierte und instruction-tuned Modelle wie Flan-PaLM hohe Leistungen in klinischen Prüfungsfragen erreichen. Gleichzeitig werden deutliche Grenzen in Bezug auf Sicherheit, Faktentreue und klinische Anwendbarkeit aufgezeigt. Besonders die Auswertung durch Ärztinnen und Ärzte verdeutlicht, dass trotz starker Performance weiterhin Risiken durch Halluzinationen, Bias und fehlende Kontextsensitivität bestehen.
+
