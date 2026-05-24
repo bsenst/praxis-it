@@ -4,13 +4,14 @@ Der Artikel „A clinical environment simulator for dynamic AI evaluation“ ers
 
 „Large language models in healthcare: a systematic evaluation on medical Q/A datasets“ ist eine systematische Studie zur Leistungsbewertung großer Sprachmodelle im medizinischen Frage-Antwort-Kontext. Untersucht werden mehrere LLMs wie GPT-4 und Med-PaLM-2 anhand von Benchmarks wie PubMedQA, MedQA und MedMCQA. Die Ergebnisse zeigen Unterschiede in der Genauigkeit je nach Modellgröße, Trainingsdaten und Domänenspezialisierung sowie bestehende Herausforderungen wie Halluzinationen und Bias.
 
+* [PubMedQA](https://github.com/pubmedqa/pubmedqa/tree/master)
 * [MedConceptsQA](https://github.com/nadavlab/MedConceptsQA)
 * [MedQA-CS](https://github.com/bio-nlp/medqa-cs)
 * [MedQA](https://github.com/jind11/MedQA)
 * [MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench)
-* [PubMedQA](https://github.com/pubmedqa/pubmedqa/tree/master)
 * [MedMCQA](https://github.com/medmcqa/medmcqa)
 * [MMLU Clinical Knowledge Benchmark](https://huggingface.co/datasets/shuyuej/MMLU-Clinical-Knowledge-Benchmark)
+* [MedExQA](https://github.com/knowlab/MedExQA)
 
 * [unitxt.ai](https://www.unitxt.ai/en/latest/)
 
