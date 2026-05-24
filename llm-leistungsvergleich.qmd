@@ -41,6 +41,14 @@ Der Working Paper „On the Performance of an Explainable Language Model on PubM
 
 “PubMed Reasoner: Dynamic Reasoning-based Retrieval for Evidence-Grounded Biomedical Question Answering” presents a multi-stage biomedical QA system specifically evaluated on PubMedQA. It improves trustworthy question answering by combining self-critic MeSH query refinement, iterative reflective retrieval over PubMed, and evidence-grounded generation with explicit citations. On the PubMedQA benchmark, the system achieves 78.32% accuracy, slightly surpassing human performance, and also shows consistent gains on MMLU Clinical Knowledge. The key focus is improving reliability and factual grounding in biomedical question answering through retrieval-first reasoning over authoritative literature while maintaining computational efficiency.
 
+## AMEGA
+
+„Autonomous medical evaluation for guideline adherence of large language models“ beschreibt die Entwicklung des AMEGA-Benchmarks zur systematischen Bewertung großer Sprachmodelle hinsichtlich ihrer Einhaltung medizinischer Leitlinien. Die Studie analysiert 17 LLMs anhand von 20 klinischen Szenarien aus 13 Fachgebieten und bewertet deren diagnostische und therapeutische Entscheidungsfähigkeit. Die Ergebnisse zeigen eine insgesamt hohe Leistungsfähigkeit moderner Modelle, aber weiterhin deutliche Defizite insbesondere bei komplexen klinischen Entscheidungsprozessen wie Differenzialdiagnosen und Behandlungsstrategien.
+
+## MedHELM
+
+„MedHELM“ ist ein wissenschaftliches Evaluationsframework zur systematischen Bewertung von Large Language Models in medizinischen Anwendungsszenarien. Die Studie entwickelt eine klinisch validierte Taxonomie mit 121 Aufgaben sowie einen umfassenden Benchmark aus 35 Tests zur realitätsnahen Leistungsanalyse. Im Fokus stehen dabei unterschiedliche medizinische Tätigkeitsbereiche, die Kosten-Leistungs-Bewertung sowie die Übereinstimmung von KI- und klinischen Bewertungen.
+
 ## MedExQA
 
 „MedExQA: Medical Question Answering Benchmark with Multiple Explanations“ stellt ein neues medizinisches Frage-Antwort-Benchmark vor, das mehrere Erklärungen pro Antwort integriert. Ziel ist es, die Bewertung von Large Language Models über reine Genauigkeitsmetriken hinaus zu erweitern. Der Datensatz umfasst fünf unterrepräsentierte medizinische Fachgebiete und legt einen Fokus auf die Qualität und Nachvollziehbarkeit von Modellantworten.
