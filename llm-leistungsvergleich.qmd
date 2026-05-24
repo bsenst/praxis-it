@@ -2,6 +2,8 @@
 
 Der Artikel „A clinical environment simulator for dynamic AI evaluation“ erschien am 12. März 2026 in der Zeitschrift Nature Medicine als Perspective. Die Autoren um Luyang Luo, Sung Eun Kim und Pranav Rajpurkar schlagen darin den Clinical Environment Simulator (CES) vor, ein Evaluationsframework für klinische Large Language Models (LLMs). Im Gegensatz zu bisherigen statischen Benchmarks simuliert der CES digitale Krankenhausumgebungen, in denen Entscheidungen der KI dynamisch den Zustand von Patienten, Bettenbelegung, Personalauslastung und Ressourcen verändern. Das System besteht aus einem Hospital Engine für systemweite Parameter und einem Patient Engine für Krankheitsverläufe und Therapieantworten. Dadurch lassen sich zeitliche Kausalitäten, ressourcenbewusste Entscheidungen sowie Resilienz gegenüber simultanen Notfällen und Systemausfällen testen. Der CES bewertet die KI nicht nur an klinischen Ergebnissen, sondern auch an betrieblichen Metriken und stellt damit einen Paradigmenwechsel hin zu einer realistischeren Integration von KI in Gesundheitssysteme dar.
 
+„Large language models in healthcare: a systematic evaluation on medical Q/A datasets“ ist eine systematische Studie zur Leistungsbewertung großer Sprachmodelle im medizinischen Frage-Antwort-Kontext. Untersucht werden mehrere LLMs wie GPT-4 und Med-PaLM-2 anhand von Benchmarks wie PubMedQA, MedQA und MedMCQA. Die Ergebnisse zeigen Unterschiede in der Genauigkeit je nach Modellgröße, Trainingsdaten und Domänenspezialisierung sowie bestehende Herausforderungen wie Halluzinationen und Bias.
+
 * [MedConceptsQA](https://github.com/nadavlab/MedConceptsQA)
 * [MedQA-CS](https://github.com/bio-nlp/medqa-cs)
 * [MedQA](https://github.com/jind11/MedQA)
