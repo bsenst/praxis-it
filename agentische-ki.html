@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -43,14 +62,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d5ffb9aa5b2f0983996bee8b16f070de.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d8691ed87f836503ed584c4e30a30e04.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-d5ffb9aa5b2f0983996bee8b16f070de.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b1874b952968578edf0f6b982a5645cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-41434df6dc3221c606a48c11799eca0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-b1874b952968578edf0f6b982a5645cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -941,11 +960,22 @@ cookieconsent.run({
 <li><a href="https://openclaw.ai/">openclaw.ai</a></li>
 <li><a href="https://www.moltbook.com/">moltbook.com</a></li>
 </ul>
-<p>„A Field Guide to Deploying AI Agents in Clinical Practice“ beschreibt ein praxisorientiertes Handbuch für die Implementierung generativer KI‑Agenten auf Basis elektronischer Gesundheitsdaten in der klinischen Versorgung. Ausgehend von der Fallstudie des irAE-Agenten zur Erkennung immunvermittelter Nebenwirkungen in der Onkologie analysieren die Autor:innen die Umsetzungserfahrungen in einem großen Klinikverbund. Sie identifizieren fünf zentrale „Heavy Lifts“ – Datenintegration, Modellvalidierung, ökonomische Wertschöpfung, Drift-Management und Governance –, die den Großteil des Projektaufwands ausmachen und deutlich über klassische Modell- und Prompt-Optimierung hinausgehen. Der Beitrag zielt darauf, diese soziotechnischen Herausforderungen systematisch aufzubereiten und in Form übertragbarer organisatorischer und projektspezifischer Handlungsempfehlungen für Gesundheitsorganisationen bereitzustellen.</p>
-<p>Der Titel lautet <strong>„Symphony for Medical Coding: A Next-Generation Agentic System for Scalable and Explainable Medical Coding“</strong>; die Arbeit beschreibt ein System zur automatisierten medizinischen Kodierung, das auf nachvollziehbare, agentische Abläufe setzt. Im Kern verfolgt die Studie das Ziel, Freitext aus klinischer Dokumentation in standardisierte medizinische Codes zu überführen und dabei sowohl hohe Genauigkeit als auch erklärbare Entscheidungen zu ermöglichen. Die Autoren berichten, dass Symphony in mehreren öffentlichen und realen Datensätzen leistungsstärker als frühere Verfahren abschneidet und zudem evidenzbasierte Textstellen für die jeweilige Kodierung ausgibt.</p>
-<p>Der Artikel „Ethical perspectives on AI Agents and Agentic AI“ von Michael Hahn, Max Tretter und Peter Dabrock, erschienen am 25. März 2026 in der Open-Access-Zeitschrift <em>AI and Ethics</em> (Volume 6, Article 218), untersucht die ethischen Implikationen neuartiger KI-Systeme. Er stellt zunächst die Konzepte von AI Agents (einzelne, zielgerichtete Systeme mit begrenzter Autonomie und Tool-Nutzung) und Agentic AI (multi-agent-Systeme mit höherer Komplexität, Anpassungsfähigkeit und Agency) vor und grenzt sie von klassischer generativer KI ab. Im Mittelpunkt steht die These, dass diese Systeme durch ihre breite Handlungsfähigkeit (broad agency), ihren stärkeren Einfluss auf die menschliche Autonomie und die tiefere Verflechtung von Mensch und Technik klassische ethische Prinzipien der KI-Ethik besonders herausfordern. Anhand der fünf zentralen Prinzipien – Transparenz, Gerechtigkeit und Fairness, Non-Maleficence (Schadensvermeidung), Verantwortung und Rechenschaftspflicht sowie Privatsphäre – analysiert der Beitrag, wie diese durch die erhöhte Autonomie, die umfassende Datenzugriffe und die multi-step-Interaktionen der Systeme unter Druck geraten. Die Autoren plädieren für eine fortlaufende interdisziplinäre Auseinandersetzung und nutzen das weite reflektive Gleichgewicht als methodischen Rahmen, um eine verantwortungsvolle Entwicklung und Nutzung dieser Technologien zu fördern.</p>
+<p>„A Field Guide to Deploying AI Agents in Clinical Practice“ beschreibt ein praxisorientiertes Handbuch für die Implementierung generativer KI‑Agenten auf Basis elektronischer Gesundheitsdaten in der klinischen Versorgung. Ausgehend von der Fallstudie des irAE-Agenten zur Erkennung immunvermittelter Nebenwirkungen in der Onkologie analysieren die Autor:innen die Umsetzungserfahrungen in einem großen Klinikverbund. Sie identifizieren fünf zentrale „Heavy Lifts“ – Datenintegration, Modellvalidierung, ökonomische Wertschöpfung, Drift-Management und Governance –, die den Großteil des Projektaufwands ausmachen und deutlich über klassische Modell- und Prompt-Optimierung hinausgehen. Der Beitrag zielt darauf, diese soziotechnischen Herausforderungen systematisch aufzubereiten und in Form übertragbarer organisatorischer und projektspezifischer Handlungsempfehlungen für Gesundheitsorganisationen bereitzustellen. <span class="citation" data-cites="gallifant2025field">(<a href="referenzen.html#ref-gallifant2025field" role="doc-biblioref"><span class="nocase">Gallifant u.&nbsp;a.</span> 2025</a>)</span></p>
+<p>Der Titel lautet <strong>„Symphony for Medical Coding: A Next-Generation Agentic System for Scalable and Explainable Medical Coding“</strong>; die Arbeit beschreibt ein System zur automatisierten medizinischen Kodierung, das auf nachvollziehbare, agentische Abläufe setzt. Im Kern verfolgt die Studie das Ziel, Freitext aus klinischer Dokumentation in standardisierte medizinische Codes zu überführen und dabei sowohl hohe Genauigkeit als auch erklärbare Entscheidungen zu ermöglichen. Die Autoren berichten, dass Symphony in mehreren öffentlichen und realen Datensätzen leistungsstärker als frühere Verfahren abschneidet und zudem evidenzbasierte Textstellen für die jeweilige Kodierung ausgibt. <span class="citation" data-cites="edin2026symphony">(<a href="referenzen.html#ref-edin2026symphony" role="doc-biblioref">Edin u.&nbsp;a. 2026</a>)</span></p>
+<p>Der Artikel „Ethical perspectives on AI Agents and Agentic AI“ von Michael Hahn, Max Tretter und Peter Dabrock, erschienen am 25. März 2026 in der Open-Access-Zeitschrift <em>AI and Ethics</em> (Volume 6, Article 218), untersucht die ethischen Implikationen neuartiger KI-Systeme. Er stellt zunächst die Konzepte von AI Agents (einzelne, zielgerichtete Systeme mit begrenzter Autonomie und Tool-Nutzung) und Agentic AI (multi-agent-Systeme mit höherer Komplexität, Anpassungsfähigkeit und Agency) vor und grenzt sie von klassischer generativer KI ab. Im Mittelpunkt steht die These, dass diese Systeme durch ihre breite Handlungsfähigkeit (broad agency), ihren stärkeren Einfluss auf die menschliche Autonomie und die tiefere Verflechtung von Mensch und Technik klassische ethische Prinzipien der KI-Ethik besonders herausfordern. Anhand der fünf zentralen Prinzipien – Transparenz, Gerechtigkeit und Fairness, Non-Maleficence (Schadensvermeidung), Verantwortung und Rechenschaftspflicht sowie Privatsphäre – analysiert der Beitrag, wie diese durch die erhöhte Autonomie, die umfassende Datenzugriffe und die multi-step-Interaktionen der Systeme unter Druck geraten. Die Autoren plädieren für eine fortlaufende interdisziplinäre Auseinandersetzung und nutzen das weite reflektive Gleichgewicht als methodischen Rahmen, um eine verantwortungsvolle Entwicklung und Nutzung dieser Technologien zu fördern. <span class="citation" data-cites="hahn2026ethical">(<a href="referenzen.html#ref-hahn2026ethical" role="doc-biblioref">Hahn u.&nbsp;a. 2026</a>)</span></p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-edin2026symphony" class="csl-entry" role="listitem">
+Edin, Joakim, Andreas Motzfeldt, Simon Flachs, und Lars Maaløe. 2026. <span>„Symphony for Medical Coding: A Next-Generation Agentic System for Scalable and Explainable Medical Coding“</span>. <em>arXiv preprint arXiv:2603.29709</em>.
+</div>
+<div id="ref-gallifant2025field" class="csl-entry" role="listitem">
+<span class="nocase">Gallifant, Jack, Katherine C Kellogg, Matt Butler, u.&nbsp;a.</span> 2025. <span>„A Field Guide to Deploying AI Agents in Clinical Practice“</span>. <em>arXiv preprint arXiv:2509.26153</em>.
+</div>
+<div id="ref-hahn2026ethical" class="csl-entry" role="listitem">
+Hahn, Michael, Max Tretter, und Peter Dabrock. 2026. <span>„Ethical perspectives on AI Agents and Agentic AI“</span>. <em>AI and Ethics</em> 6 (2): 218.
+</div>
+</div>
 
 <div class="callout callout-style-default callout-tip callout-titled" title="Hinweis">
 <div class="callout-header d-flex align-content-center">
