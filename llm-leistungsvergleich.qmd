@@ -4,18 +4,45 @@ Der Artikel „A clinical environment simulator for dynamic AI evaluation“ ers
 
 „Large language models in healthcare: a systematic evaluation on medical Q/A datasets“ ist eine systematische Studie zur Leistungsbewertung großer Sprachmodelle im medizinischen Frage-Antwort-Kontext. Untersucht werden mehrere LLMs wie GPT-4 und Med-PaLM-2 anhand von Benchmarks wie PubMedQA, MedQA und MedMCQA. Die Ergebnisse zeigen Unterschiede in der Genauigkeit je nach Modellgröße, Trainingsdaten und Domänenspezialisierung sowie bestehende Herausforderungen wie Halluzinationen und Bias.
 
-* [clinbench.com](https://clinbench.com/)
+## Medical AI Benchmarks & Datasets
 
-* [PubMedQA](https://github.com/pubmedqa/pubmedqa/tree/master)
-* [MedConceptsQA](https://github.com/nadavlab/MedConceptsQA)
-* [MedQA-CS](https://github.com/bio-nlp/medqa-cs)
-* [MedQA](https://github.com/jind11/MedQA)
-* [MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench)
-* [MedMCQA](https://github.com/medmcqa/medmcqa)
-* [MMLU Clinical Knowledge Benchmark](https://huggingface.co/datasets/shuyuej/MMLU-Clinical-Knowledge-Benchmark)
-* [MedExQA](https://github.com/knowlab/MedExQA)
+### Text & QA Benchmarks
+- [PubMedQA](https://github.com/pubmedqa/pubmedqa/tree/master)
+- [MedConceptsQA](https://github.com/nadavlab/MedConceptsQA)
+- [MedQA-CS](https://github.com/bio-nlp/medqa-cs)
+- [MedQA](https://github.com/jind11/MedQA)
+- [MedMCQA](https://github.com/medmcqa/medmcqa)
+- [MedExQA](https://github.com/knowlab/MedExQA)
+- [MedXpertQA](https://github.com/TsinghuaC3I/MedXpertQA)
+- [HEAD-QA](https://huggingface.co/datasets/dvilares/head_qa)
+- [MMLU Clinical Knowledge Benchmark](https://huggingface.co/datasets/shuyuej/MMLU-Clinical-Knowledge-Benchmark)
+- [MMLU-Pro](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro)
+- [MedXpertQA-Text](https://huggingface.co/datasets/OctoMed/MedXpertQA-Text)
+- [MMLU-PRO-Health](https://huggingface.co/datasets/OctoMed/MMLU-PRO-Health)
 
-* [unitxt.ai](https://www.unitxt.ai/en/latest/)
+### Multimodal & Medical Image Benchmarks
+- [MedFrameQA](https://huggingface.co/datasets/OctoMed/MedFrameQA)
+- [MedXpertQA-MM](https://huggingface.co/datasets/OctoMed/MedXpertQA-MM)
+- [MMMU-PRO-Medicine](https://huggingface.co/datasets/OctoMed/MMMU-PRO-Medicine)
+- [NEJM Image Challenge](https://huggingface.co/datasets/OctoMed/NEJM-Image-Challenge)
+- [MMMU](https://github.com/MMMU-Benchmark/MMMU)
+- [PMC-VQA](https://github.com/xiaoman-zhang/PMC-VQA)
+- [MM-NeuroOnco](https://github.com/gfnnnb/MM-NeuroOnco)
+
+### Medical Imaging Datasets (Kaggle)
+- [Coronahack Chest X-Ray Dataset](https://www.kaggle.com/datasets/praveengovi/coronahack-chest-xraydataset)
+- [Fundus Images (APTOS, DDR, IDRiD, etc.)](https://www.kaggle.com/datasets/sehastrajits/fundus-aptosddridirdeyepacsmessidor)
+- [Messidor-2 Preprocessed](https://www.kaggle.com/datasets/mariaherrerot/messidor2preprocess)
+- [Breast Cancer Semantic Segmentation (BCSS)](https://www.kaggle.com/datasets/whats2000/breast-cancer-semantic-segmentation-bcss)
+
+### Agent / Tool-use Benchmark
+- [MedAgentBench](https://github.com/stanfordmlgroup/MedAgentBench)
+- [clinbench.com](https://clinbench.com/)
+
+### Tools & Frameworks
+- [unitxt.ai](https://www.unitxt.ai/en/latest/)
+
+## Weiteres
 
 Die Studie „Reliability of LLMs as medical assistants for the general public: a randomized preregistered study“, veröffentlicht am 9. Februar 2026 in Nature Medicine, untersucht die Zuverlässigkeit großer Sprachmodelle (LLMs) wie GPT-4o, Llama 3 und Command R+ als medizinische Berater für Laien. In einem randomisierten kontrollierten Versuch mit 1.298 Teilnehmern aus dem Vereinigten Königreich bearbeiteten Probanden zehn realistische medizinische Szenarien, um mögliche Erkrankungen zu erkennen und eine angemessene Handlungsempfehlung (Disposition) zu wählen. Während die Modelle allein in 94,9 % der Fälle relevante Erkrankungen korrekt identifizierten und in 56,3 % die richtige Disposition empfahlen, erreichten Teilnehmer mit LLM-Unterstützung deutlich schlechtere Werte (unter 34,5 % bei Erkrankungen und unter 44,2 % bei Disposition), die nicht besser als in der Kontrollgruppe ohne KI waren. Die Autoren führen dies auf Interaktionsprobleme zwischen Nutzern und Modellen zurück und betonen, dass gängige Benchmarks sowie Simulationen die tatsächlichen Schwächen in realen Mensch-KI-Interaktionen nicht vorhersagen. Sie empfehlen daher systematische Tests mit echten Nutzern vor einem breiten Einsatz von LLMs in der öffentlichen Gesundheitsberatung.
 

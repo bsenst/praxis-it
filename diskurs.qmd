@@ -437,10 +437,10 @@ Die [MarburgerBund App](https://www.marburger-bund.de/marburgerbund-app) soll Mi
 | TI-Summit | [tisummit.de](https://www.tisummit.de/)     |
 | Nationales Digital Health Symposium | [gmds2025.de](https://gmds2025.de/) |
 | MEDICA    | [medica.de](https://www.medica.de/) |
+| Digitalforum Gesundheit | [digitalforum-gesundheit.de](https://www.digitalforum-gesundheit.de/) |
+| bitkom Digital Health Conference | [health-conference.de](https://health-conference.de/) |
 
-: Tabelle Veranstaltungen Digitale Medizin 
-
-* [digitalforum-gesundheit.de](https://www.digitalforum-gesundheit.de/)
+: Tabelle Nationale Veranstaltungen Digitale Medizin 
 
 | Kalender              | URL                                         |
 |---------------------------|---------------------------------------------|
