@@ -1,0 +1,2 @@
+Die Studie „Physician-Reported Safety Outcomes of AI-Generated Hospital Course Summaries“ untersucht den prospektiven Einsatz eines agentischen LLM-Workflows zur Erstellung von Krankenhausverlaufszusammenfassungen im klinischen Alltag. In einer Pilotstudie mit 384 Entlassungen wurden KI-generierte Zusammenfassungen häufig übernommen, überwiegend als sicher bewertet und mit einer signifikanten Reduktion ärztlicher Burnout-Werte assoziiert.
+
