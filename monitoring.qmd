@@ -1,3 +1,5 @@
 # Monitoring 
 
 * [Postvisit.ai](http://Postvisit.ai)
+
+Der Artikel „Why and How to Monitor Deployed AI Systems in Health Care“ aus NEJM Catalyst (2026) beschreibt einen strukturierten Rahmen für das Monitoring von KI-Systemen nach ihrer Einführung in die klinische Versorgung. Im Zentrum stehen drei Dimensionen: Systemintegrität, Modellperformance und klinischer Impact. Ziel ist es, Sicherheit, Zuverlässigkeit, Fairness und langfristigen Nutzen von KI-Anwendungen im Gesundheitswesen kontinuierlich zu gewährleisten. Zusätzlich werden praxisnahe Empfehlungen zu Metriken, Verantwortlichkeiten und Reaktionsprozessen bei Leistungsänderungen gegeben.
