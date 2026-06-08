@@ -1,0 +1,5 @@
+# Medizininformatik
+
+## Fast Healthcare Interoperability Resources (FHIR)
+
+Der Artikel „Reinforcement Learning for Tool-Calling Agents in Fast Healthcare Interoperability Resources (FHIR)“ untersucht, wie Reinforcement Learning die Zuverlässigkeit von KI-Agenten für klinische FHIR-Daten verbessert. Die Autoren zeigen, dass ein RL-post-trainiertes Qwen3-8B-Modell bei komplexen Multi-Step-Abfragen über elektronische Gesundheitsdaten 77 % Genauigkeit erreicht und damit stärkere Closed-Source-Modelle übertrifft. Im Fokus stehen CodeAct-Agenten, FHIR-Graphnavigation, Tool-Calling sowie execution-grounded Rewards für strukturierte klinische Reasoning-Aufgaben.
