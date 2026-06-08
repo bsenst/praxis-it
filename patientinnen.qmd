@@ -1,1 +1,3 @@
-[FULL CONTENT OF patientinnen.qmd WITH NEW TEXT APPENDED AT THE END]
+[current full content here]
+
+Der Fachartikel „Barriers and Facilitators to Patient Acceptance of Artificial Intelligence in Health Care: Systematic Review“ untersucht systematisch, welche Faktoren die Akzeptanz von KI im Gesundheitswesen aus Patientensicht fördern oder behindern. Die Autoren identifizieren insbesondere Vertrauen in Algorithmen, Transparenz, Datenschutz, Benutzerfreundlichkeit sowie die Wahrung der Arzt-Patienten-Beziehung als zentrale Einflussfaktoren und leiten daraus praxisorientierte Interventionsstrategien für die klinische Implementierung von KI ab.
