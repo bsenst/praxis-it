@@ -299,6 +299,10 @@ Netzwerkmedizin ist ein interdisziplinäres Forschungsfeld, das Systembiologie u
 
 Die Studie „Artificial Intelligence and Network Medicine: Path to Precision Medicine“ untersucht die Integration von Netzwerkmedizin (NM) und künstlicher Intelligenz (AI) zur Förderung präziser Therapien. Über die letzten zwei Jahrzehnte hat NM geholfen, Krankheitsmechanismen zu definieren und Medikamentenziele zu identifizieren. Die Kombination mit AI, insbesondere Deep-Learning-Techniken, ermöglicht die Analyse großer multiomischer Datensätze, um präzisere Vorhersagen und biologische Erkenntnisse zu gewinnen. Die Autoren fassen Konzepte dieser gemeinsamen Anwendung zusammen, beleuchten Erfolge und diskutieren aktuelle Herausforderungen. Die Studie basiert auf einem Symposium der Menarini Foundation im Juni 2024 in Mailand.
 
+## Demonstrationen
+
+* [projector.tensorflow.org](https://projector.tensorflow.org/)
+
 ## Weiteres
 
 Die Studie „Superhuman performance of a large language model on the reasoning tasks of a physician“ untersucht die diagnostischen und klinischen Entscheidungsfähigkeiten eines fortschrittlichen Large Language Models (LLM, o1) im Vergleich zu Mediziner:innen in verschiedenen realitätsnahen Szenarien. Die Autoren führten sechs Experimente durch, in denen das LLM komplexe klinische Aufgaben wie die Erstellung von Differentialdiagnosen, die Wahl diagnostischer Tests, probabilistisches Schließen und Managemententscheidungen lösen musste – jeweils im direkten Vergleich zu Hunderten von Ärzt:innen und unter Nutzung realer Notfallmedizin-Falldaten. Das Modell übertraf in allen experimentellen Bereichen sowohl GPT-4 als auch menschliche Expert:innen, insbesondere bei Aufgaben mit begrenzter Informationslage, wie sie typischerweise in Notfällen auftreten. Die Ergebnisse zeigen, dass der o1-LLM aktuell als erster KI-gestützter Ansatz die in der Medizin etablierten Benchmark-Anforderungen des „superhuman performance“ erfüllt und damit eine neue Ära für den klinischen Einsatz von KI in Sichtweite rückt. Die Autoren betonen die Dringlichkeit prospektiver Studien für den praktischen Einsatz und die Überwachung solcher Systeme im Gesundheitswesen.
@@ -372,7 +376,4 @@ Der Artikel „The General Attitudes towards Artificial Intelligence Scale (GAAI
 
 Der Beitrag „Can AI Say ‘I Don’t Know’?“ beschreibt die Risiken übermäßig selbstsicherer KI-Systeme in der Medizin und argumentiert, dass klinische KI Unsicherheit explizit erkennen und kommunizieren muss. Die Autoren fordern, die Fähigkeit „I don’t know“ zu sagen, als messbare Kernkompetenz sowohl für Ärztinnen und Ärzte als auch für KI-Systeme im Rahmen kompetenzbasierter medizinischer Ausbildung und Regulierung zu etablieren.
 
-## Demonstrationen
-
-* [projector.tensorflow.org](https://projector.tensorflow.org/)
-
+„Seven Deadly Sins in Artificial Intelligence for Digital Medicine“ beschreibt ein konzeptionelles Rahmenwerk für sieben zentrale Fehlermuster beim Einsatz von KI in der Medizin: Blindes Vertrauen, Überregulierung, Dehumanisierung, fehlgeleitete Optimierung, Überinformation und falsche Prognosen, Fehlanwendung statistischer Aussagen sowie selbstreferenzielle Evaluation. Die Autoren entwickelten das Modell auf Basis wissenschaftlicher Literatur, regulatorischer Vorgaben und interdisziplinärer Analysen und validierten es anschließend durch eine internationale Befragung von 914 Teilnehmenden aus 143 Ländern. Die Studie zeigt eine breite Übereinstimmung hinsichtlich der Risiken von KI in der Medizin und leitet daraus sieben positive Leitprinzipien für eine vertrauenswürdige, menschenzentrierte medizinische KI ab.
