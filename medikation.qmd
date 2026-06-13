@@ -24,6 +24,7 @@ Mehrere Onlinedienstleister bieten digitale Lösungen zur Vereinfachung des Medi
 : Beispiele digitale Medikationsanwendungen
 
 * [medstopper.com](https://medstopper.com/)
+* [psiac.de](https://www.psiac.de/)
 
 Digitale Medikationsanwendungen erhöhen die Therapieadhärenz um 7 % bis 40 % und werden von Nutzern als nützlich und einfach zu bedienen wahrgenommen, mit einer durchschnittlichen Zufriedenheit von 8,1 von 10. Sie bieten Funktionen wie Erinnerungen, Medikamenteninformationen und Gesundheitstipps. [@perez2019mobile]
 
