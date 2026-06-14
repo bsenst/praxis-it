@@ -376,3 +376,6 @@ Der Beitrag „Can AI Say ‘I Don’t Know’?“ beschreibt die Risiken überm
 
 * [projector.tensorflow.org](https://projector.tensorflow.org/)
 
+„Designing Trustworthy Clinical AI“ ist ein Online-Beitrag aus JAMA, der sich mit der Entwicklung vertrauenswürdiger klinischer KI-Systeme befasst. Im Mittelpunkt stehen Designprinzipien wie Verständlichkeit, Interpretierbarkeit und klinische Relevanz sowie die Bedeutung realweltlicher Evaluationen. Der Beitrag diskutiert zudem die ARISE-Initiative, die KI-Systeme unter realen Versorgungsbedingungen systematisch bewertet, um deren Sicherheit und Generalisierbarkeit zu prüfen.
+
+„Grundwerte in der digitalisierten Gesellschaft – Der Einfluss Künstlicher Intelligenz auf Freiheit, Gerechtigkeit und Solidarität“ ist ein Positionspapier. Das Papier analysiert die gesellschaftlichen Auswirkungen von KI-Systemen und formuliert Forderungen zu Transparenz, Datenschutz, Diskriminierungsfreiheit, Bildung, Regulierung und nachhaltiger KI-Governance. Im Mittelpunkt stehen die Grundwerte Freiheit, Gerechtigkeit und Solidarität sowie die Frage, wie KI demokratisch, nachvollziehbar und gemeinwohlorientiert gestaltet werden kann.

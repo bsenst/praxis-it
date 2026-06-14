@@ -48,7 +48,14 @@ book:
     - part: einleitung.qmd
       chapters:
       - zeitdruck.qmd
-    - praxisverwaltung.qmd
+    - part: praxisverwaltung.qmd
+      chapters:
+      - buchhaltung.qmd
+      - qualitaetsmanagement.qmd
+      - dienstplanung.qmd
+      - materialwirtschaft.qmd
+      - datenschutz.qmd
+      - it-sicherheit.qmd
     - part: kommunikation.qmd
       chapters:
       - telefonanlage.qmd
@@ -72,14 +79,6 @@ book:
       - medikation.qmd
       - ambulantes-operieren.qmd
       - psychotherapie.qmd
-    - part: "Praxisverwaltung"
-      chapters:
-      - buchhaltung.qmd
-      - qualitaetsmanagement.qmd
-      - dienstplanung.qmd
-      - materialwirtschaft.qmd
-      - datenschutz.qmd
-      - it-sicherheit.qmd
     - part: "Medizinische Fachgebiete"
       chapters:
       - allgemeinmedizin.qmd
@@ -93,6 +92,7 @@ book:
       - orthopaedie.qmd
       - schmerzmedizin.qmd
       - rehabilitation.qmd
+      - arbeitsmedizin.qmd
       - geriatrie.qmd
       - neurologie.qmd
       - radiologie.qmd
@@ -120,6 +120,7 @@ book:
       - gesetzgebung.qmd
       - forschung.qmd
       - oekonomie.qmd
+      - medizininformatik.qmd
     - diskurs.qmd
     - part: patientinnen.qmd
       chapters:

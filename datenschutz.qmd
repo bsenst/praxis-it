@@ -77,7 +77,7 @@
 
 | Name                          | Beschreibung                                                                                                  | URL                                                                                              |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| Dieter macht den Datenschutz  | Ein Tool, das Datenschutz einfach und verständlich macht.                                                    | [dietermachtdatenschutz.de]([https://dietermachtdatenschutz.de/](https://www.dieter-datenschutz.de/))                                  |
+| Dieter macht den Datenschutz  | Ein Tool, das Datenschutz einfach und verständlich macht.                                                    | [dietermachtdatenschutz.de](https://www.dieter-datenschutz.de/)                                  |
 | DataGuard                     | Unterstützt Unternehmen bei Datenschutzbestimmungen mit Fokus auf Automatisierung und Compliance.            | [dataguard.de](https://www.dataguard.de/)                                                      |
 | SECJUR                        | Online-Tool zur Erstellung von Datenschutzrichtlinien und Unterstützung bei DSGVO-Konformität.               | [secjur.com](https://www.secjur.com/)                                                           |
 | teachDATA                    | Kostenlose Online-Schulungen zur DSGVO für Mitarbeiter, einfach und verständlich gestaltet.                  | [teachdata.de](https://www.teachdata.de/)                                                       |
@@ -94,3 +94,5 @@
 | Datenschutzexperte            | Lösungen speziell für die Gesundheitsbranche, um Datenschutz und DSGVO-Konformität zu gewährleisten.         | [datenschutzexperte.de](https://www.datenschutzexperte.de/branchen/gesundheit)                  |
 
 : Übersicht Softwarelösungen Datenschutz
+
+Das Open-Source-Projekt Privacy Guardrail ist eine lokale Browser-Erweiterung des German Research Center for Artificial Intelligence zur Erkennung und Anonymisierung personenbezogener Daten vor dem Einfügen in KI-Chatoberflächen wie ChatGPT, Claude und Gemini. Die Erweiterung nutzt Rust/WASM-basierte Mustererkennung sowie optional lokale Transformer-NER-Modelle via ONNX Runtime Web und verarbeitet alle Inhalte ausschließlich lokal im Browser ohne Telemetrie oder externe Datenübertragung. Unterstützt werden unter anderem E-Mail-Adressen, Telefonnummern, Kreditkarten, IBANs, IP-Adressen sowie frei formulierte personenbezogene Informationen. Das Projekt befindet sich aktuell in einer öffentlichen Beta-Version und adressiert Datenschutzrisiken bei der Nutzung generativer KI-Systeme durch lokale Vorverarbeitung sensibler Inhalte.
