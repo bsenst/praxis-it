@@ -1,11 +1,172 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "Praxis IT"
-  author: "Benjamin Senst"
+  title: "Praxis-IT"
+  downloads: ["pdf"]
+  repo-url: "https://github.com/bsenst/praxis-it"
+  issue-url: "https://github.com/bsenst/praxis-it/issues"
+  repo-actions: ["edit", "issue"]
+  sidebar:
+    collapse-level: 1
+  cookie-consent:
+    language: de
+  google-analytics: 
+    tracking-id: "G-THQ4G1SE9W"
+  body-header: | 
+    ---
+    draft: true
+    ---
+  body-footer: |
+    ::: {.callout-tip title="Hinweis"}
+    Der Text erhebt keinen Anspruch auf Vollständigkeit oder Korrektheit und stellt keine Rechtsberatung dar. Anmerkungen können in der rechten Seitenleiste mit [Hypothes.is](https://web.hypothes.is/) sozialem Annotierungswerkzeug oder am unteren Ende einer Seite mit [GitHub Giscus Diskussionen](https://github.com/giscus/giscus) hinterlassen werden.
+    :::
+
+    ::: {.callout-tip title="Kontaktaufnahme"}
+    Zur Kontaktaufnahme nutzen Sie das Kontaktformular auf [dilob-mhb.de](https://www.dilob-mhb.de/) oder buchen Sie einen Termin über [zeeg.me/mhb-dilob](https://zeeg.me/mhb-dilob).
+    :::
+  margin-footer: |
+    Projektpartner
+    2024-2025
+
+    [![](https://fotos.verwaltungsportal.de/seitengenerator/407f55ff710519029305c290b37aa683252916/DiLoB-Logo-Transparent.png){width=100}](https://www.dilob-mhb.de/)
+
+    [![](https://fotos.verwaltungsportal.de/seitengenerator/407f55ff710519029305c290b37aa683252916/logo-mhb.png){width=100}](https://www.mhb-fontane.de/de/DiLoB)
+
+    [![](https://fotos.verwaltungsportal.de/seitengenerator/407f55ff710519029305c290b37aa683252916/logo-technische-hochschule.png){width=100}](https://informatik.th-brandenburg.de/forschung-und-kooperation/schwerpunkte-und-themen/medizininformatik-und-e-health/)
+  page-footer:
+    border: true
+    background: light
   chapters:
-    - index.qmd
-    - einleitung.qmd
-    - transformation.qmd
-    # ... (full original would be restored but for now placeholder)
+    - part: index.qmd
+      chapters:
+      - digitale-reife.qmd
+      - digitales-arbeitsleben.qmd
+      - digitale-kompetenz.qmd
+      - digitale-trennung.qmd
+    - part: einleitung.qmd
+      chapters:
+      - zeitdruck.qmd
+    - part: praxisverwaltung.qmd
+      chapters:
+      - buchhaltung.qmd
+      - qualitaetsmanagement.qmd
+      - dienstplanung.qmd
+      - materialwirtschaft.qmd
+      - datenschutz.qmd
+      - it-sicherheit.qmd
+    - part: kommunikation.qmd
+      chapters:
+      - telefonanlage.qmd
+      - telefonassistenz.qmd
+      - webseite.qmd
+      - kimdienst.qmd
+      - kurznachrichtendienst.qmd
+      - terminbuchung.qmd
+      - videosprechstunde.qmd
+      - telemedizin.qmd
+      - wartezimmer.qmd
+    - part: "Klinische Kompetenzen"
+      chapters:
+      - anamneseerhebung.qmd
+      - ambient-scribe.qmd
+      - symptomchecker.qmd
+      - medizinisches-wissen.qmd
+      - labor.qmd
+      - wunddokumentation.qmd
+      - impfsoftware.qmd
+      - medikation.qmd
+      - ambulantes-operieren.qmd
+      - psychotherapie.qmd
+    - part: "Medizinische Fachgebiete"
+      chapters:
+      - allgemeinmedizin.qmd
+      - augenheilkunde.qmd
+      - dermatologie.qmd
+      - diabetologie.qmd
+      - ernaehrung.qmd
+      - nephrologie.qmd
+      - gefaessmedizin.qmd
+      - rheumatologie.qmd
+      - orthopaedie.qmd
+      - schmerzmedizin.qmd
+      - rehabilitation.qmd
+      - arbeitsmedizin.qmd
+      - geriatrie.qmd
+      - neurologie.qmd
+      - radiologie.qmd
+      - pulmologie.qmd
+      - gastroenterologie.qmd
+      - kinderheilkunde.qmd
+      - onkologie.qmd
+      - palliativmedizin.qmd
+      - frauenheilkunde.qmd
+      - urologie.qmd
+      - hno.qmd
+      - allergologie.qmd
+      - rettungsdienst.qmd
+    - part: "Gesundheitswesen"
+      chapters:
+      - ausbildung.qmd 
+      - zahnarzt.qmd
+      - pflege.qmd
+      - krankenhaus.qmd
+      - apotheken.qmd
+      - oeffentliche-gesundheit.qmd
+      - krankenkassen.qmd
+      - kassenaerztliche-vereinigung.qmd
+      - versorgungsprozesse.qmd
+      - gesetzgebung.qmd
+      - forschung.qmd
+      - oekonomie.qmd
+      - medizininformatik.qmd
+    - diskurs.qmd
+    - part: patientinnen.qmd
+      chapters:
+      - digitale-stellvertretung.qmd
+      - praevention.qmd
+      - gesundheitskompetenz.qmd
+    - part: digitale-innovation.qmd
+      chapters:
+      - transformation.qmd
+      - zukunftsforschung.qmd
+    - part: kuenstliche-intelligenz.qmd
+      chapters:
+      - daten-und-infrastruktur.qmd
+      - maschinelles-lernen.qmd
+      - ki-regulation.qmd
+      - lokale-ki.qmd
+      - entscheidungsunterstuetzung.qmd
+      - krankheitsverstaendnis.qmd
+      - seltene-krankheiten.qmd
+      - monitoring.qmd
+      - grosse-sprachmodelle.qmd
+      - llm-leistungsvergleich.qmd
+      - chatbot.qmd
+      - agentische-ki.qmd
+    - ethik.qmd
+    - international.qmd
+    - zusammenfassung.qmd
+    - referenzen.qmd
+
+bibliography: referenzen.bib
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    include-in-header: gtm_code_head.html
+    include-before-body: gtm_code_body.html
+    lang: de
+    number-sections: false
+    comments:
+      giscus: 
+        repo: bsenst/praxis-it
+      hypothesis:
+        theme: classic
+        openSidebar: false
+        showHighlights: whenSidebarOpen
+  pdf:
+    documentclass: scrreprt
