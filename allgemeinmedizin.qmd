@@ -14,3 +14,7 @@ Die 2022 gegründete [Sektion Digitalisierung der DEGAM](https://www.degam.de/di
 * [kompetenzzentrum-nordrhein.de](https://kompetenzzentrum-nordrhein.de/)
 * [allgemeinmedizin-bw.de/angebote/kompetenzzentrum-kwbw](https://www.allgemeinmedizin-bw.de/angebote/kompetenzzentrum-kwbw)
 * [kann-niedersachsen.de](https://kann-niedersachsen.de/)
+
+## Weiteres
+
+„Delivering Lifestyle Interventions for Chronic Disease Care Sustainably and at Scale through Virtual Shared Medical Appointments in Primary Care“ beschreibt ein Versorgungsmodell mit virtuellen Shared Medical Appointments in der Primärversorgung zur Umsetzung von Lifestyle-Interventionen bei chronischen Erkrankungen. Die Studie aus NEJM Catalyst zeigt, dass dieses Gruppenformat nachhaltig skalierbar ist und insbesondere bei Patient:innen mit Hypertonie mit verbesserten Blutdruckwerten assoziiert war. Im Fokus stehen Umsetzungsaspekte wie Finanzierung, Rekrutierung und Integration in die Routineversorgung.
