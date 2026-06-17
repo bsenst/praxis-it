@@ -1,1 +1,11 @@
-dummy
+project:
+  type: book
+
+book:
+  title: "Praxis IT"
+  author: "Benjamin Senst"
+  chapters:
+    - index.qmd
+    - einleitung.qmd
+    - transformation.qmd
+    # ... (full original would be restored but for now placeholder)
