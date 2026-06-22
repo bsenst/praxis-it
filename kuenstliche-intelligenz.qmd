@@ -73,6 +73,7 @@ Kaggle-Datensätze und Kaggle-Wettbewerbe illustrieren den Einsatz künstlicher 
 
 Die Website [Alles KI](https://alles-ki.com/de) bietet einen Überblick über KI-Anwendungen zum Einsatz im Alltag.
 
+
 ## Datengetriebene Lösungen
 
 Die Dienstleistung von [Intrexx](https://www.intrexx.com/de/gesundheitswesen/) konzentriert sich auf die Bereitstellung einer Low-Code-Plattform, um Datenaustausch bestehender digitaler Systeme nahtlos zu ermöglichen. Intrexx ermöglicht die Erstellung von Datenanwendungen mit minimalem Programmieraufwand, indem es intuitive Tools wie den [Daten-Designer](https://www.intrexx.com/de/plattform/daten-builder/) für zentralisierte, datenschutzkonforme Datenverwaltung bereitstellt. Automatisierung wird durch vordefinierte [Workflows](https://www.intrexx.com/de/plattform/prozess-builder/) realisiert, wodurch Routineaufgaben effizienter und fehlerärmer werden. Der Intrexx [Applikations-Builder](https://www.intrexx.com/de/plattform/applikations-builder/) ermöglicht es Datenmodelle, Formulare und Workflows zu erstellen und an spezifische Anforderungen anzupassen. Es bedarf keine umfassenden IT-Kenntnisse, dank der Low-Code-Ansätze wie Drag-and-Drop und vorgefertigter Schnittstellen.
@@ -299,6 +300,10 @@ Netzwerkmedizin ist ein interdisziplinäres Forschungsfeld, das Systembiologie u
 
 Die Studie „Artificial Intelligence and Network Medicine: Path to Precision Medicine“ untersucht die Integration von Netzwerkmedizin (NM) und künstlicher Intelligenz (AI) zur Förderung präziser Therapien. Über die letzten zwei Jahrzehnte hat NM geholfen, Krankheitsmechanismen zu definieren und Medikamentenziele zu identifizieren. Die Kombination mit AI, insbesondere Deep-Learning-Techniken, ermöglicht die Analyse großer multiomischer Datensätze, um präzisere Vorhersagen und biologische Erkenntnisse zu gewinnen. Die Autoren fassen Konzepte dieser gemeinsamen Anwendung zusammen, beleuchten Erfolge und diskutieren aktuelle Herausforderungen. Die Studie basiert auf einem Symposium der Menarini Foundation im Juni 2024 in Mailand.
 
+## Demonstrationen
+
+* [projector.tensorflow.org](https://projector.tensorflow.org/)
+
 ## Weiteres
 
 Die Studie „Superhuman performance of a large language model on the reasoning tasks of a physician“ untersucht die diagnostischen und klinischen Entscheidungsfähigkeiten eines fortschrittlichen Large Language Models (LLM, o1) im Vergleich zu Mediziner:innen in verschiedenen realitätsnahen Szenarien. Die Autoren führten sechs Experimente durch, in denen das LLM komplexe klinische Aufgaben wie die Erstellung von Differentialdiagnosen, die Wahl diagnostischer Tests, probabilistisches Schließen und Managemententscheidungen lösen musste – jeweils im direkten Vergleich zu Hunderten von Ärzt:innen und unter Nutzung realer Notfallmedizin-Falldaten. Das Modell übertraf in allen experimentellen Bereichen sowohl GPT-4 als auch menschliche Expert:innen, insbesondere bei Aufgaben mit begrenzter Informationslage, wie sie typischerweise in Notfällen auftreten. Die Ergebnisse zeigen, dass der o1-LLM aktuell als erster KI-gestützter Ansatz die in der Medizin etablierten Benchmark-Anforderungen des „superhuman performance“ erfüllt und damit eine neue Ära für den klinischen Einsatz von KI in Sichtweite rückt. Die Autoren betonen die Dringlichkeit prospektiver Studien für den praktischen Einsatz und die Überwachung solcher Systeme im Gesundheitswesen.
@@ -372,10 +377,14 @@ Der Artikel „The General Attitudes towards Artificial Intelligence Scale (GAAI
 
 Der Beitrag „Can AI Say ‘I Don’t Know’?“ beschreibt die Risiken übermäßig selbstsicherer KI-Systeme in der Medizin und argumentiert, dass klinische KI Unsicherheit explizit erkennen und kommunizieren muss. Die Autoren fordern, die Fähigkeit „I don’t know“ zu sagen, als messbare Kernkompetenz sowohl für Ärztinnen und Ärzte als auch für KI-Systeme im Rahmen kompetenzbasierter medizinischer Ausbildung und Regulierung zu etablieren.
 
-## Demonstrationen
-
-* [projector.tensorflow.org](https://projector.tensorflow.org/)
-
 „Designing Trustworthy Clinical AI“ ist ein Online-Beitrag aus JAMA, der sich mit der Entwicklung vertrauenswürdiger klinischer KI-Systeme befasst. Im Mittelpunkt stehen Designprinzipien wie Verständlichkeit, Interpretierbarkeit und klinische Relevanz sowie die Bedeutung realweltlicher Evaluationen. Der Beitrag diskutiert zudem die ARISE-Initiative, die KI-Systeme unter realen Versorgungsbedingungen systematisch bewertet, um deren Sicherheit und Generalisierbarkeit zu prüfen.
 
 „Grundwerte in der digitalisierten Gesellschaft – Der Einfluss Künstlicher Intelligenz auf Freiheit, Gerechtigkeit und Solidarität“ ist ein Positionspapier. Das Papier analysiert die gesellschaftlichen Auswirkungen von KI-Systemen und formuliert Forderungen zu Transparenz, Datenschutz, Diskriminierungsfreiheit, Bildung, Regulierung und nachhaltiger KI-Governance. Im Mittelpunkt stehen die Grundwerte Freiheit, Gerechtigkeit und Solidarität sowie die Frage, wie KI demokratisch, nachvollziehbar und gemeinwohlorientiert gestaltet werden kann.
+
+„Developing current procedural terminology codes that describe the work performed by machines“ beschreibt die Entwicklung eines CPT-Rahmenwerks zur systematischen Kodierung von KI-basierten medizinischen Leistungen. Im Mittelpunkt steht eine Taxonomie, die maschinelle Leistungen im Gesundheitswesen in assistive, augmentative und autonome Kategorien einordnet. Ziel ist eine standardisierte Grundlage für Abrechnung, Bewertung und Regulierung von KI im klinischen Kontext.
+
+„Current Applications of AI in Billing & Clinical Plastic Surgery“ beschreibt den Einsatz künstlicher Intelligenz in der plastisch-chirurgischen Versorgung und in administrativen Abrechnungsprozessen. Im Fokus stehen Anwendungen von Natural Language Processing zur automatisierten CPT-Codierung aus klinischen Texten sowie die Optimierung von Revenue-Cycle-Prozessen. Zusätzlich werden klinische Einsatzbereiche wie Risikoprädiktion und postoperative Überwachung diskutiert. Insgesamt zeigt der Artikel Effizienzsteigerungen und potenzielle Reduktionen von Abrechnungsfehlern durch KI-Systeme auf.
+
+Der Artikel „Why are humans still in the loop with advancing AI capabilities?“ analysiert sachlich die fortbestehende Rolle des Menschen in der Medizin trotz leistungsfähiger KI-Systeme. Im Zentrum stehen die Argumente, dass ärztliche Kompetenz über reines Wissen hinausgeht, Kommunikation mehr als Empathie umfasst und Verantwortung („Character“) eine nicht delegierbare menschliche Eigenschaft bleibt.
+
+Three Epochs of Artificial Intelligence in Health Care beschreibt die historische Einordnung und Entwicklung künstlicher Intelligenz im Gesundheitswesen anhand von drei klar unterscheidbaren Phasen. Der Text zeigt, wie sich von symbolischen Systemen (AI 1.0) über tief lernende Modelle (AI 2.0) bis hin zu Foundation Models und generativer KI (AI 3.0) sowohl Fähigkeiten als auch Risiken erheblich verändert haben. Besonders hervorgehoben werden die zunehmende Generalisierbarkeit moderner Modelle sowie neue Herausforderungen wie Halluzinationen und Unsicherheiten in der klinischen Anwendung.

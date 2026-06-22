@@ -14,3 +14,7 @@ Die rettungsdienstlichen Plattformen, die sich der Free Open Access Medical Educ
 * [Nerdfallmedizin](https://nerdfallmedizin.de/) archiviert Videos und Fälle, ergänzt durch 
 * [Notfallguru](https://www.notfallguru.de) mit Leitsymptomen und Checklisten. 
 * [Die Rettungsaffen](https://dierettungsaffen.com/) beleuchtet rechtliche Aspekte wie Beweislastumkehr in Podcasts und Handouts.
+
+## Weiteres
+
+Der Beitrag „Design Challenges in Converting a Paper Checklist to Digital Format for Dynamic Medical Settings“ beschreibt die Entwicklung einer digitalen Checkliste für die Traumaversorgung in dynamischen und zeitkritischen Behandlungssituationen. Im Mittelpunkt stehen die Herausforderungen bei der Übertragung papierbasierter Arbeitsabläufe in mobile digitale Anwendungen, insbesondere hinsichtlich Benutzerfreundlichkeit, Notizerfassung, Anpassungsfähigkeit und Prozessunterstützung. Anhand einer iterativen, nutzerzentrierten Entwicklung werden Gestaltungslösungen und Erkenntnisse aus praktischen Tests vorgestellt.
