@@ -47,6 +47,7 @@ Plattformen wie washabich.de und gesund.bund.de bieten verlässliche Gesundheits
 * [selbst-verstehen.de](https://selbst-verstehen.de/)
 * [balumed.com](https://balumed.com/)
 * [befundly.com](https://befundly.com/home)
+* [dittocare.com](https://www.dittocare.com/)
 
 Es gibt Nachweise, die die Wirksamkeit von [TheraKey](https://www.therakey.de/) hervorheben. Es ist ein digitales Therapiebegleitprogramm, das Patient:innen mit chronischen Erkrankungen bei der Aufklärung, dem Selbstmanagement und der Therapietreue unterstützt. Evaluationen zeigen, dass 78 % der Nutzer:innen nach dem Einsatz des Onlineportals besser mit ihrer Erkrankung umgehen können. In einer Studie mit 185 Menschen zeigte nach drei Monaten Verbesserungen bei Selbstmanagement, Wohlbefinden, Adhärenz und einer Reduktion krankheitsbezogener Belastung. 84 % der Befragten vertrauten den TheraKey-Inhalten mehr als anderen Onlinequellen. [@kulzer2022626;@red2017therakey;@red2013online]
 
