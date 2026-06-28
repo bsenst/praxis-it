@@ -1,4 +1,4 @@
- # PatientInnen
+# PatientInnen
 
 Die Studie mit dem Titel "Patients' perspectives on digital health tools" (2023) untersucht, welche Faktoren aus Sicht von Patientinnen und Patienten die Nutzung digitaler Gesundheitsanwendungen erleichtern oder behindern. Ziel der Arbeit war es, vorhandene wissenschaftliche Literatur systematisch zu analysieren, um ein besseres Verständnis für die Bedürfnisse, Erwartungen und Hürden von Patient:innen im Umgang mit digitalen Gesundheitstools zu gewinnen. Die Analyse von 71 relevanten Studien ergab dabei, dass Patient Empowerment, Selbstmanagement und Personalisierung als zentrale fördernde Faktoren gelten, während geringe digitale und gesundheitliche Kompetenzen sowie Datenschutzbedenken als zentrale Hürden identifiziert wurden. Die Autor:innen betonen die Bedeutung partizipativer Designansätze, um digitale Gesundheitslösungen stärker an den tatsächlichen Bedürfnissen von Patient:innen auszurichten. [@madanian2023patients]
 
