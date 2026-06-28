@@ -1,4 +1,4 @@
- # PatientInnen
+# PatientInnen
 
 Die Studie mit dem Titel "Patients' perspectives on digital health tools" (2023) untersucht, welche Faktoren aus Sicht von Patientinnen und Patienten die Nutzung digitaler Gesundheitsanwendungen erleichtern oder behindern. Ziel der Arbeit war es, vorhandene wissenschaftliche Literatur systematisch zu analysieren, um ein besseres Verständnis für die Bedürfnisse, Erwartungen und Hürden von Patient:innen im Umgang mit digitalen Gesundheitstools zu gewinnen. Die Analyse von 71 relevanten Studien ergab dabei, dass Patient Empowerment, Selbstmanagement und Personalisierung als zentrale fördernde Faktoren gelten, während geringe digitale und gesundheitliche Kompetenzen sowie Datenschutzbedenken als zentrale Hürden identifiziert wurden. Die Autor:innen betonen die Bedeutung partizipativer Designansätze, um digitale Gesundheitslösungen stärker an den tatsächlichen Bedürfnissen von Patient:innen auszurichten. [@madanian2023patients]
 
@@ -14,6 +14,8 @@ Die Studie „Consumer Data is Key to Artificial Intelligence Value: Welcome to 
 
 * [Caritas Bürgergeld KI Chat](https://ki-chat.das-steht-dir-zu.de/)
 * [Caritas Online-Beratung](https://www.caritas.de/hilfeundberatung/onlineberatung/onlineberatung)
+* [theconversationproject.org](https://theconversationproject.org/)
+* [prepareforyourcare.org](https://prepareforyourcare.org/en/prepare/welcome)
 
 ### Patientenverfügung
 

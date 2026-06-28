@@ -1,6 +1,7 @@
 # Gastroenterologie 
 
 * [hcv-tracker.de](https://www.hcv-tracker.de/)
+* [ENDO-AID CADe](https://www.olympus.de/medical/de/Produkte-und-L%C3%B6sungen/Produkte/Product/ENDO-AID.html)
 
 ## Forschung 
 
@@ -41,3 +42,5 @@ Der Artikel „Development and Current State of Digital Therapeutics for Irritab
 „Face-to-Face Versus Digital, Telephone-Delivered, and Self-Help Cognitive Behavioral Therapy for Irritable Bowel Syndrome: Systematic Review and Bayesian Indirect Treatment Comparison Meta-Analysis“ ist eine Studie von Tao et al. und analysiert in einer systematischen Review und bayesschen indirekten Behandlungskomparisons-Meta-Analyse 22 randomisierte kontrollierte Studien mit 3161 Teilnehmern mit Reizdarmsyndrom (IBS). Sie vergleicht die Wirksamkeit von persönlicher kognitiver Verhaltenstherapie (CBT) mit digitaler, telefonischer und Selbsthilfe-CBT hinsichtlich Symptomsschwere, Lebensqualität und Bauchschmerzintensität. Die Ergebnisse zeigen vergleichbare Effekte aller CBT-Formen, wobei jedoch bei den meisten Vergleichen die effektiven Stichprobengrößen unzureichend sind und die Evidenzsicherheit moderat bis niedrig ausfällt. Die Autoren empfehlen weitere hochwertige Studien aufgrund hoher Heterogenität und Bias-Risiken.
 
 Der Bericht „Virtual Gastrointestinal Care Solutions – Health Technology Assessment“ des Peterson Health Technology Institute (PHTI) bewertet virtuelle Versorgungsangebote für gastrointestinale Erkrankungen hinsichtlich klinischem Nutzen und ökonomischem Effekt auf Basis eines systematischen, evidenzbasierten Bewertungsrahmens für digitale Gesundheitstechnologien. Er behandelt die Krankheitslast von IBS, beschreibt Standard- und multidisziplinäre Versorgung, ordnet verschiedene virtuelle Lösungsarten (u. a. „wraparound“ und „clinician-led“ Lösungen) ein und analysiert klinische Endpunkte wie Symptomverbesserung, Lebensqualität sowie Nutzererfahrung und Gesundheitsgerechtigkeit. Zudem werden populationsbezogene Budget-Impact-Modelle eingesetzt, um erwartete Einsparungen für Kostenträger abzuschätzen, die berichteten Ergebnisse jedoch als Durchschnittswerte mit methodisch transparent dargelegten Unsicherheiten gekennzeichnet.
+
+A novel cloud-based artificial intelligence for real-time detection of colorectal neoplasia – a randomized controlled trial (EAGLE) untersucht erstmals den Einsatz einer cloudbasierten KI zur Echtzeit-Erkennung kolorektaler Neoplasien während der Koloskopie. In einer randomisierten Studie mit 841 Patientinnen und Patienten verbesserte das System die Adenomdetektionsrate sowie die Erkennung großer Polypen und sessiler serratierter Läsionen deutlich. Gleichzeitig blieb die technische Latenz für den Echtzeitbetrieb niedrig und die Zahl unnötiger Resektionen stieg nicht an.
