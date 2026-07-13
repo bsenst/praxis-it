@@ -7,3 +7,7 @@ Die Deutsche Gesellschaft für Ernährung e. V. (DGE) bietet auf ihrem YouTube
 ## Ernährungstagebuch
 
 * [foodtracker.page](https://foodtracker.page/)
+
+## Weiteres
+
+Der Artikel „Key Features of Engagement Strategies in Nutrition Apps for Adults: Scoping Review“ untersucht 59 Studien zu Ernährungs-Apps für Erwachsene und analysiert Strategien zur Förderung der Nutzerbindung. Am häufigsten wurden Push-Benachrichtigungen, verhaltenswissenschaftliche Konzepte, Personalisierung und Zielsetzungsfunktionen eingesetzt. Die Autoren stellen fest, dass Definitionen und Messgrößen für Nutzerengagement sehr uneinheitlich sind. Künftige Forschung sollte gemeinsame Standards für Engagement, nutzerzentrierte Entwicklung und robustere Evaluationsmethoden etablieren, um die langfristige Wirksamkeit digitaler Ernährungsinterventionen zu verbessern.
