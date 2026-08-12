@@ -43,3 +43,6 @@ MedicBot ist ein KI-Assistent für Arztpraxen, der administrative Aufgaben unter
 | Pollie AI                  | [pollie.ai](https://pollie.ai)                       |
 
 : Übersicht Telefonassistenzsysteme für Unternehmen
+
+* [heycall-e.com](https://www.heycall-e.com/)
+* [vocalbridgeai.com](https://vocalbridgeai.com/)
