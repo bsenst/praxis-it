@@ -87,6 +87,7 @@ Das [Topol Digital Fellowships-Programm](https://topol.hee.nhs.uk/digital-fellow
 Der Artikel „Landscape of Digital Technologies Used in the National Health Service in England: Content Analysis“ analysiert die Verbreitung digitaler Technologien in den 106 Clinical Commissioning Groups (CCGs) des englischen National Health Service anhand von 135 Jahresberichten aus den Jahren 2020 und 2021. Die Autoren identifizieren 31 konkrete Technologien, die sie neun digitalen Themen zuordnen und mithilfe der Digital Options Theory drei übergeordneten Konstrukten zuweisen: der Identifikation von Patientenbedürfnissen, der Entwicklung neuer Arbeitsmuster sowie der Steigerung von Effizienz und öffentlicher Zugänglichkeit. Die häufigsten Themen sind Informationsportale, Telehealth und Online-Triage; fast die Hälfte der CCGs fällt in die Gruppe der „digitally disengaged“, darunter sämtliche Londoner CCGs. Die Studie zeigt deutliche regionale Unterschiede in der digitalen Ausstattung der NHS und betont die Notwendigkeit gezielter Unterstützung bei digitaler Inklusion und Gesundheitskompetenz.
 
 * [gppracticeresources.co.uk](https://gppracticeresources.co.uk/)
+* [doctors.net.uk](https://www.doctors.net.uk/)
 
 ### Vereinigte Staaten von Amerika (USA)
 
