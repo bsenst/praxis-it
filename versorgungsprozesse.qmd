@@ -131,3 +131,5 @@ Der Artikel „Exploring Patient Journey Mapping and the Learning Health System:
 * [Zahneins](https://zahneins.com)
 
 „Breaking Barriers in Obesity Care — Scaling a Primary Care Weight Management Program Statewide“ beschreibt den landesweiten Ausbau eines primärversorgungsbasierten Adipositasprogramms von UNC Health. Im Fokus steht, wie strukturierte hausärztliche Versorgung mit spezialisierten, zertifizierten Behandlungsansätzen kombiniert wird und wie digitale Gesundheitslösungen sowie Telemedizin genutzt werden, um den Zugang insbesondere in ländlichen Regionen zu verbessern und die Versorgung skalierbar zu gestalten.
+
+More Indirect Patient Care Activities per Visit: 11-Year Analysis of Family Physician Electronic Health Records in Canada zeigt anhand kanadischer EHR-Daten von 2011 bis 2021 eine deutliche Zunahme indirekter patientenbezogener Arbeit. Die Zahl der Überweisungen pro Patientenkontakt stieg um 57 %, die der Laboruntersuchungen um 29 %, während die Zahl der Verordnungen pro Kontakt weitgehend konstant blieb. Die Ergebnisse sprechen für einen wachsenden administrativen Aufwand in der hausärztlichen Versorgung.
