@@ -40,3 +40,4 @@ Understanding the implementation and adoption of a technological intervention to
 **Handheld Cardiac Ultrasound Guided by Artificial Intelligence to Detect Heart Failure Across Primary Care** untersucht den Einsatz KI-gestützter tragbarer Herzultraschallgeräte zur frühzeitigen Erkennung von Herzinsuffizienz in der hausärztlichen Versorgung. Ein Pilotprojekt in neun Praxen in Granada, Madrid und Barcelona zeigte einen möglichen diagnostischen Schnellzugang für Patientinnen und Patienten mit Dyspnoe, wobei auch unerfahrene Ärztinnen und Ärzte nach strukturierter Schulung KI-gestützte Echokardiografie einsetzen konnten. Die Autoren schätzen die Untersuchungskosten auf etwa 20 € pro Patient gegenüber rund 280 € für eine kardiologische Überweisung und sehen Potenzial für eine Reduktion unnötiger Überweisungen und eine frühere Behandlung.
 
 * [thesmartmeasures.com](https://www.thesmartmeasures.com/)
+* [green-center.org](https://www.green-center.org/)
