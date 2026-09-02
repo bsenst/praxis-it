@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d6b8742b75e79636fcc5909dc2b5043e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c2086162099ffcee3a7b1c03d9052df9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -1008,6 +1011,10 @@ cookieconsent.run({
 <p>Die Forschungsarbeit „Where is the patient’s chair? Differences in general practitioner consultation room layouts - an exploratory questionnaire“ (Version 2; peer review: 2 approved) von Mayara Floss, Kyle Hoedebecke und Josep Vidal-Alaball, veröffentlicht am 17. April 2020 auf F1000Research, untersucht weltweite Unterschiede in der Gestaltung von Sprechzimmern bei Allgemeinmedizinern. Basierend auf 502 Antworten einer Online-Umfrage aus dem Jahr 2018 zeigte sich, dass in Europa und Amerika am häufigsten eine Anordnung mit einem Schreibtisch zwischen Arzt und Patient vorherrscht, während in Asien-Pazifik und Afrika die Variante mit einem 90-Grad-Winkel zwischen Arzt und Patient am verbreitetsten ist. Ärzte, die vor 1990 oder zwischen 1990 und 2010 ihr Studium abschlossen, bevorzugten tendenziell die klassische Schreibtisch-Trennung, wohingegen jüngere Absolventen nach 2010 öfter die 90-Grad-Anordnung wählten. Die Studie schließt mit der Empfehlung, weitere Daten sowie Patientenpräferenzen einzubeziehen.</p>
 <p>Der Artikel „Changes In Primary Care Physicians’ Electronic Health Record Patterns After They Reduced Clinical Visit Volume“ von Gabe G. Weinreb und Kollegen wurde im Februar 2026 in der Zeitschrift Health Affairs veröffentlicht. Die Studie untersucht anhand nationaler Epic-EHR-Metadaten aus den Jahren 2019–2022 Veränderungen im Nutzungsverhalten elektronischer Patientenakten bei 772 Hausärzten, die ihre monatliche Besuchsanzahl um mindestens 10 Prozent senkten, im Vergleich zu 16.477 Ärzten ohne Reduktion. Ein Jahr nach der Reduktion sank die Besuchsanzahl der betroffenen Ärzte relativ um 32,6 Prozent, die EHR-Zeit jedoch nur um 21,2 Prozent, was zu einem Anstieg der EHR-Minuten pro Besuch um 21,3 Prozent führte. Zudem nahmen elektronische Nachrichten im Posteingang sowie EHR-Zeit außerhalb planmäßiger Arbeitszeiten pro Besuch zu, und die Patientenpanele wurden komplexer. Die Ergebnisse zeigen, dass eine Reduktion der Besuche die asynchrone EHR-Arbeit in der Primärversorgung nur unvollständig verringert und innovative Lösungen für effizientere asynchrone Prozesse erforderlich sind.</p>
 <p>Der Artikel „Insufficient Quality of Mental Health Information on German-Speaking TikTok: A Content Analysis“ analysiert die Qualität psychischer Gesundheitsinformationen auf TikTok. Die Studie zeigt, dass mehr als die Hälfte der untersuchten deutschsprachigen Videos fehlerhafte oder irreführende Inhalte enthält und die Informationsqualität stark von Autorenschaft und Thema abhängt.</p>
+<p>“Exploring How Patients Are Supported to Use Online Services in Primary Care in England Through “Digital Facilitation”: Survey Study” untersucht, wie Hausarztpraxen Patientinnen und Patienten bei der Nutzung digitaler Versorgungsangebote unterstützen. Die Studie zeigt, dass Unterstützungsangebote überwiegend passiv oder informell erfolgen, viele Patientinnen und Patienten diese Angebote nicht wahrnehmen und insbesondere ältere Menschen stärker von gezielter digitaler Unterstützung profitieren könnten.</p>
+<p><strong>Trends in Patient Portal Messages, Office Visits, and Telephone Encounters</strong> analysiert die Entwicklung digitaler und klassischer Kommunikationswege zwischen Patientinnen, Patienten und Behandelnden in den USA. Die Auswertung zeigt, dass Nachrichten über Patientenportale zwischen 2020 und 2025 stark zugenommen haben und die ambulante Versorgung ergänzen, anstatt persönliche Arztbesuche zu ersetzen. Gleichzeitig werden Unterschiede in der Nutzung nach Alter, Geschlecht, sozialer Benachteiligung und Wohnort sichtbar, was auf bestehende Ungleichheiten beim digitalen Zugang hinweist.</p>
+<p>Der Artikel „Access systems in general practice: a systematic scoping review“ untersucht internationale Zugangssysteme zur hausärztlichen Versorgung und fasst die Evidenz aus 49 Studien zusammen. Die Analyse zeigt, dass viele Modelle vor allem auf Nachfragebewältigung und Effizienzsteigerung ausgerichtet sind, während patientenzentrierte Ergebnisse wie Zufriedenheit, Kontinuität und Gleichheit des Zugangs häufig weniger untersucht werden. Besonders digitale Konsultationen, Telefontriage und flexible Terminmodelle werden als zentrale, aber kontextabhängige Ansätze beschrieben.</p>
+<p>„National Trends in Patient Messaging—The Growing Electronic Inbox“ zeigt anhand von rund 8 Milliarden Begegnungen aus dem Epic-Cosmos-Datensatz, dass patientenseitige Portalnachrichten zwischen 2020 und 2025 um 153 % zunahmen, während Bürobesuche nur um 17 % stiegen und Telefonkontakte um 6 % zurückgingen. Die Ergebnisse verdeutlichen, dass asynchrone Kommunikation die traditionelle Versorgung ergänzt und dadurch die gesamte Kommunikations- und Arbeitsbelastung der klinischen Teams erhöht. Erforderlich sind daher angepasste Personalmodelle, strukturierte Inbox-Prozesse, angemessene Vergütung und eine sorgfältige Evaluation digitaler Assistenzsysteme.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">

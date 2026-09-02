@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d6b8742b75e79636fcc5909dc2b5043e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c2086162099ffcee3a7b1c03d9052df9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -1089,6 +1092,12 @@ cookieconsent.run({
 <p>Der Preprint „CheXthought“ beschreibt einen groß angelegten Datensatz für die Thoraxröntgen-Befundung, der nicht nur Bilder und Berichte, sondern auch menschliche klinische Denkprozesse („Chain-of-Thought“) und visuelle Aufmerksamkeit erfasst. Enthalten sind über 103.000 reasoning traces und mehr als 6,6 Millionen visuelle Annotationen aus 50.312 Chest-X-rays, erstellt von 501 Radiologinnen und Radiologen aus 71 Ländern. Die Autoren zeigen, dass Modelle mit diesen Daten weniger Halluzinationen erzeugen, Befunde besser räumlich verankern, Unsicherheit transparenter kommunizieren und zeitliche Veränderungen in Serienaufnahmen robuster interpretieren. Zudem wird demonstriert, dass visuelle Suchtrajektorien als Inferenz-Hinweis die diagnostische Leistung verbessern können. Die Arbeit positioniert CheXthought als Grundlage für transparentere und besser interpretierbare medizinische Vision-Language-Modelle.</p>
 <p>„A data- and compute-efficient chest X-ray foundation model beyond aggressive scaling“ beschreibt mit CheXficient ein effizientes multimodales Foundation Model für Thorax-Röntgenbilder, das durch aktive Datenkuratierung statt reiner Datenskalierung trainiert wird. Das Modell nutzt nur 22,7 % von 1,235 Mio. Bild-Report-Paaren und weniger als 27,3 % des Rechenaufwands, erreicht dabei jedoch vergleichbare oder bessere Ergebnisse als vollständig trainierte Basismodelle. Die Autoren zeigen, dass gezielte Auswahl informativer und unterrepräsentierter Fälle die Generalisierbarkeit verbessert, insbesondere bei seltenen thorakalen Erkrankungen. Evaluierungen über 20 Benchmarks umfassen Zero-Shot-Klassifikation, Cross-Modal-Retrieval, Segmentierung und radiologische Berichtsgenerierung. Die Arbeit stellt damit eine ressourceneffiziente Alternative zum bisherigen „Scale-at-all-costs“-Paradigma in medizinischen Foundation Models vor.</p>
 <p>Die Arbeit „Improving Performance, Robustness, and Fairness of Radiographic AI Models with Finely-Controllable Synthetic Data“ beschreibt mit RoentGen-v2 ein neues Diffusionsmodell zur Erzeugung synthetischer Thorax-Röntgenbilder. Das Modell kann nicht nur radiologische Befunde, sondern auch demografische Merkmale wie Geschlecht, Alter und Ethnie gezielt steuern. Die Autoren zeigen, dass ein zweistufiges Training – Vortraining auf synthetischen Daten und anschließendes Fine-Tuning mit realen Daten – die Leistung, Generalisierbarkeit und Fairness diagnostischer KI-Modelle deutlich verbessert. Besonders relevant ist die Reduktion von Fairness-Lücken zwischen demografischen Gruppen bei gleichzeitig höherer Klassifikationsgenauigkeit. Die Studie stellt zudem Datensätze, Modelle und Code als Open Source bereit.</p>
+<p>„Real-World Imaging Data: Opportunities and Challenges“ beschreibt das Potenzial routinemäßig erhobener medizinischer Bilddaten für Forschung, klinische Studien und biopharmazeutische Anwendungen. Hervorgehoben werden insbesondere der zusätzliche Informationswert gegenüber EHR- und Abrechnungsdaten sowie zentrale Herausforderungen durch Bias, heterogene Aufnahmeprotokolle, DICOM-basierte Datenstrukturen, Deidentifizierung, Speicherung und Datenharmonisierung. Als wichtige Gegenmaßnahmen werden standardisierte Datenmodelle, sorgfältige Kohortengestaltung, Verknüpfung mit klinischen Daten und externe Validierung genannt.</p>
+<p>„Foundation models in biomedical imaging: turning hype into reality“ untersucht den Einsatz von Foundation Models in der biomedizinischen Bildgebung und deren Grenzen bei der klinischen Umsetzung. Die Autoren stellen mit REAL-FM ein mehrdimensionales Bewertungsframework vor und zeigen, dass aktuelle Modelle zwar stark in der Mustererkennung sind, aber Schwächen bei kausalem Schlussfolgern, Robustheit und Sicherheit aufweisen. Für den klinischen Einsatz bleiben repräsentative Daten, prospektive Validierung, Workflow-Integration und menschliche Aufsicht entscheidend. <span class="citation" data-cites="muneer2026foundation">(<a href="referenzen.html#ref-muneer2026foundation" role="doc-biblioref">Muneer u.&nbsp;a. 2026</a>)</span></p>
+<p>Causal-SAM-LLM: Large Language Models as Causal Reasoners for Robust Medical Segmentation untersucht den Einsatz großer Sprachmodelle zur Verbesserung der Robustheit medizinischer Bildsegmentierung gegenüber unbekannten Domänen. Das Framework kombiniert sprachbasierte Entkopplung von bildgebungsabhängigen Stileffekten mit einer sprachgesteuerten Intervention zur Korrektur von Segmentierungsfehlern. In Experimenten mit BTCV, CHAOS, AMOS und BraTS erreicht es gegenüber Vergleichsverfahren höhere OOD-Dice-Werte und geringere Hausdorff-Distanzen bei weniger als 9 % der trainierbaren Parameter eines vollständigen Modells.</p>
+<p>The Emergence of Foundation Models in U.S. Radiology: A Narrative Review of Clinical Utility, Safety, and Evaluation untersucht den Einsatz von Foundation Models in der US-amerikanischen Radiologie. Die Arbeit zeigt großes Potenzial für multimodale Diagnostik, Befundung und Workflow-Unterstützung, zugleich aber erhebliche Defizite bei klinischer Validierung, Sicherheit, Generalisierbarkeit, Regulierung und institutioneller Integration. Als zentrale Voraussetzungen für eine verantwortungsvolle Einführung werden Human-in-the-Loop-Systeme, kontinuierliches Monitoring, faire Datengrundlagen und klarere regulatorische Rahmenbedingungen hervorgehoben.</p>
+<p>RadFusion: Towards Threshold-Controllable Radiology Report Generation beschreibt ein Verfahren zur steuerbaren Erstellung radiologischer Befunde. Das System kombiniert einen Bildklassifikator, ein VQA-basiertes Berichtssystem und ein LLM, sodass Berichte an unterschiedliche Sensitivitäts- und Spezifitätsanforderungen angepasst werden können. Auf MIMIC-CXR folgten die erzeugten Berichte der ROC-Kurve des Klassifikators; gegenüber unkontrollierter Berichtsgenerierung stieg die Sensitivität bei gleicher Spezifität um 6,9 % und die Spezifität bei gleicher Sensitivität um 20,7 %.</p>
+<p>„Deep learning-derived biological age from preoperative chest radiographs predicts mortality following surgical and transcatheter procedures for structural heart disease beyond EuroSCORE II“ untersucht die prognostische Aussagekraft einer mittels Deep Learning aus präoperativen Thoraxröntgenaufnahmen bestimmten biologischen Alters. In einer retrospektiven Kohorte von 1269 Patientinnen und Patienten übertraf das biologische Alter EuroSCORE II bei der Vorhersage der 30-Tage-Mortalität, insbesondere bei TAVI-Patienten (AUC 0,952 vs.&nbsp;0,745). Die Ergebnisse sprechen dafür, dass die automatisierte Bestimmung des biologischen Alters eine ergänzende, ohne zusätzliche Untersuchung verfügbare Risikostratifizierung ermöglichen könnte.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
@@ -1103,6 +1112,9 @@ Krishna, Satheesh, Nishaant Bhambra, Robert Bleakney, und Rajesh Bhayana. 2024. 
 </div>
 <div id="ref-luo2024rexplain" class="csl-entry" role="listitem">
 Luo, Luyang, Jenanan Vairavamurthy, Xiaoman Zhang, u.&nbsp;a. 2024. <span>„Rexplain: Translating radiology into patient-friendly video reports“</span>. <em>arXiv preprint arXiv:2410.00441</em>.
+</div>
+<div id="ref-muneer2026foundation" class="csl-entry" role="listitem">
+Muneer, Amgad, Kai Zhang, Ibraheem Hamdi, u.&nbsp;a. 2026. <span>„Foundation models in biomedical imaging: turning hype into reality“</span>. <em>Nature Biomedical Engineering</em> 10: 1557–75. <a href="https://doi.org/10.1038/s41551-026-01762-z">https://doi.org/10.1038/s41551-026-01762-z</a>.
 </div>
 <div id="ref-najjar2023redefining" class="csl-entry" role="listitem">
 Najjar, Reabal. 2023. <span>„Redefining radiology: a review of artificial intelligence integration in medical imaging“</span>. <em>Diagnostics</em> 13 (17): 2760.

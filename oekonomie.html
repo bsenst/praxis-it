@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,14 +46,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d6b8742b75e79636fcc5909dc2b5043e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c2086162099ffcee3a7b1c03d9052df9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -945,6 +948,7 @@ cookieconsent.run({
 <p>Der Viewpoint-Artikel „Measuring the Return on Investment for Clinician-Facing Artificial Intelligence Technologies“ von Lisa S. Rotenstein, Robert M. Wachter und David W. Bates wurde am 23. Februar 2026 online in JAMA Internal Medicine veröffentlicht. Er befasst sich mit der zunehmenden Verbreitung klinikergerichteter KI-Technologien im Gesundheitswesen, wie KI-gestützten Schreibassistenten, automatisierten Antwortentwürfen auf Patientennachrichten, EMR-Zusammenfassungen, Radiologie-Auswerte-Tools und entscheidungsunterstützenden Systemen. Ziel dieser Technologien ist die Reduktion administrativer Belastungen, die Verbesserung von Arbeitsabläufen und die Unterstützung klinischer Entscheidungen. Der Beitrag diskutiert verschiedene Ansätze, um den Return on Investment (ROI) solcher KI-Werkzeuge objektiv zu messen und zu bewerten, da deren Adoption in Gesundheitseinrichtungen zunimmt.</p>
 <p>Der Artikel „Quantifying Consumer Interest in Medicare Advantage: Development and Usability Study Using Google Trends Data“ untersucht, wie stark das Interesse von Verbraucherinnen und Verbrauchern an Medicare-Advantage-Plänen durch Online-Suchverhalten messbar ist. Die Studie zeigt, dass Google-Trends-Daten ein valider Indikator für saisonale Nachfrage sind und eng mit Werbeaktivitäten sowie Einschreibungen korrelieren. Besonders während der Einschreibungsphase (Oktober bis Dezember) steigen Suchanfragen signifikant an, was auf den Einfluss intensiver Marketingkampagnen privater Versicherer hinweist. Die Ergebnisse legen nahe, dass digitales Suchverhalten als Frühindikator für Verbraucherentscheidungen genutzt werden kann und zugleich Informationsasymmetrien sowie potenzielle Fehlsteuerungen durch Werbung sichtbar macht.</p>
 <p>Der Bericht „Q1 2026 funding overview: Capital continues concentrating and four other market signals“ von Rock Health analysiert die Entwicklung des Digital-Health-Marktes im ersten Quartal 2026. Die Ergebnisse zeigen eine deutliche Kapitalbündelung in wenige große Deals, steigende durchschnittliche Finanzierungsvolumina sowie eine fortschreitende Integration von KI als Standardtechnologie. Gleichzeitig bleibt der Exit-Markt volatil, während Direct-to-Consumer-Modelle wieder an Bedeutung gewinnen und politische Rahmenbedingungen zunehmend bestimmen, welche Geschäftsmodelle skalieren können.</p>
+<p>„Thinking about the Impact of Artificial Intelligence on U.S. Health Care Costs and Spending Growth“ untersucht die möglichen Auswirkungen künstlicher Intelligenz auf Preise, Gesundheitsausgaben und deren Wachstum in den USA. Die Autoren kommen zu dem Schluss, dass KI unter den derzeit vorherrschenden Vergütungs- und Marktstrukturen kurzfristig bis mittelfristig eher zu steigenden Gesamtausgaben beitragen könnte, obwohl zugleich Verbesserungen bei Zugänglichkeit und Versorgungsqualität möglich sind. Eine stärkere Ausrichtung auf wertbasierte Vergütung sowie angepasste regulatorische und finanzielle Anreize könnten erforderlich sein, damit KI tatsächlich zur Begrenzung des Kostenwachstums beiträgt.</p>
 
 
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d6b8742b75e79636fcc5909dc2b5043e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c2086162099ffcee3a7b1c03d9052df9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -1281,6 +1284,13 @@ cookieconsent.run({
 <p>“autoscoRA: Deep Learning zur Automatisierung des Sharp/van der Heijde Scorings bei rheumatoider Arthritis” beschreibt mit autoscoRA ein Deep-Learning-basiertes System zur automatisierten Bewertung radiologischer Gelenkschäden bei rheumatoider Arthritis. Ziel ist es, den zeitaufwendigen und variablen manuellen Sharp/van-der-Heijde-Score zu ersetzen. Das Modell wurde auf über 12.000 Röntgenbildern trainiert und zeigt eine hohe Übereinstimmung mit Expertenbewertungen (ICC ~0,9). Es kann sowohl Gelenkspaltverschmälerung als auch Erosionen zuverlässig erkennen und teilweise sogar die Konsistenz menschlicher Zweitbewerter übertreffen.</p>
 <p>„Rheumatic Digital Twin: Proposed Machine Learning–Based Multimodal Framework to Inform Clinical Decision-Making“ beschreibt im Journal of Medical Internet Research (JMIR Publications) ein konzeptionelles KI-basiertes Digital-Twin-Framework für rheumatische Erkrankungen. Ziel ist die multimodale Integration longitudinaler Patientendaten zur verbesserten Prognose und Therapieunterstützung. Die Arbeit stammt aus einem Umfeld der Leiden University Medical Center und fokussiert auf Transformer-basierte Repräsentationsmodelle.</p>
 <p>„Agreement between large language models, human reviewers, and authors in evaluating STROBE checklists for observational studies in rheumatology“ ist eine Studie aus EULAR Rheumatology Open (Digital Rheumatology), die die Übereinstimmung zwischen großen Sprachmodellen, menschlichen Gutachtern und Studienautoren bei der Bewertung von STROBE-Checklisten für Beobachtungsstudien in der Rheumatologie untersucht. Insgesamt zeigt sich eine hohe Gesamtübereinstimmung, jedoch mit deutlichen Schwächen der Modelle bei komplexen methodischen Kriterien im Vergleich zu Expertenurteilen.</p>
+<p>Der Beitrag „Large Language Models in der Rheumatologie“ untersucht den Einsatz großer Sprachmodelle zur Wissensvermittlung in der Rheumatologie. LLMs können medizinisches Wissen für klinische Entscheidungsunterstützung, Lehre, Patientenedukation und wissenschaftliches Arbeiten zeitnah und kontextbezogen aufbereiten. Zugleich bleiben Validierung, Transparenz, Datenschutz, Verzerrungen und die Wahrung ärztlicher Verantwortung zentrale Voraussetzungen für einen verantwortungsvollen Einsatz.</p>
+<p>Digital rheumatology: Structured prompting as reusable clinical tools beschreibt ein 5-stufiges Modell für die Entwicklung von der einfachen Suche hin zu wiederverwendbaren, strukturierten KI-Werkzeugen für klinisches Reasoning. Der Beitrag zeigt anhand eines Proof-of-Concepts, wie versionierte Prompts mit definierten Eingaben, Logikgates, Verifikationsschritten und Ausgaben klinische Entscheidungsprozesse strukturieren können. Die Methode soll klinisches Denken unterstützen, ist jedoch nicht als validiertes klinisches Entscheidungsunterstützungssystem oder Ersatz für ärztliche Beurteilung gedacht.</p>
+<p>Digital rheumatology—Structured prompting as reusable clinical tools beschreibt einen fünfstufigen Ansatz für die Nutzung von KI in der klinischen Rheumatologie – von der klassischen Suche bis zu strukturierten, versionierten und auditierbaren Prompts („Skills“). Als Proof of Concept wird ein multidisziplinäres diagnostisches Reasoning-Tool vorgestellt, dessen Logik durch wiederholte Fehleranalyse weiterentwickelt wurde. Die Autoren betonen jedoch, dass solche Werkzeuge bislang nicht klinisch validiert sind und ärztliches Urteil, Verifikation, Datenschutz und institutionelle Governance nicht ersetzen.</p>
+<p>„Humanoid Colleagues and the Rheumatology Workforce: Preparing for a New Era“ entwickelt einen konzeptionellen Rahmen für die mögliche Integration humanoider Roboter in die rheumatologische Weiterbildung. Vorgeschlagen wird ein vierstufiges Modell von Beobachtung und Simulation über kompetenzbasierte Prüfung und überwachten Patientenkontakt bis zur parallelen Evaluation mit menschlichen Fellows. Die Systeme sollen dauerhaft unter ärztlicher Aufsicht bleiben; diagnostische und therapeutische Letztverantwortung verbleibt beim Rheumatologen. :contentReference<span data-index="0">oaicite:0</span></p>
+<p>„Perceptions, knowledge and adoption of artificial intelligence in rheumatology: results from a British Society for Rheumatology survey“ untersucht die Wahrnehmung, Nutzung und KI-Kompetenz von 218 Beschäftigten in der britischen Rheumatologie. 39–40 % nutzten KI wöchentlich oder täglich; besonders häufig wurden Large Language Models für medizinische Informationen und Dokumentation eingesetzt. Gleichzeitig bestanden große Bedenken hinsichtlich Datenschutz und Haftung, während nur 6 % ihre KI-Kenntnisse als ausgezeichnet bewerteten. Die Ergebnisse sprechen für gezielte Fortbildung, klare Governance und eine sichere klinische Implementierung von KI.</p>
+<p>„‘It helps me stay on track’: patient experiences using a mobile app for self-management of systemic sclerosis with a focus on fatigue in women“ untersucht die Erfahrungen von 15 Frauen mit systemischer Sklerose nach einer 12-wöchigen Nutzung der RENEW-App ohne persönliches Peer-Coaching. Die App wurde als intuitiv, relevant und hilfreich für Fatigue-Selbstmanagement wahrgenommen; besonders geschätzt wurden praktische Strategien, individualisierbare Ziele sowie Patientenberichte und Videos. Gleichzeitig wurden Verbesserungen bei Barrierefreiheit, Personalisierung und Möglichkeiten zum Peer-Austausch vorgeschlagen.</p>
+<p>„AI-assisted rheumatology triage changes with referral framing“ untersucht, wie Formulierungen in Überweisungen die KI-gestützte rheumatologische Triage beeinflussen. In einem Experiment mit über 200.000 Modellabfragen veränderten insbesondere psychologisierende Beschreibungen und klinisches Anchoring die Entscheidungen, während demografische Merkmale wie Ethnie, sozioökonomischer Status oder Sprachbarrieren keinen nachweisbaren Effekt hatten. Die Autoren empfehlen, objektive klinische Informationen von interpretativem Framing zu trennen und Dringlichkeit sowie psychologische Zuschreibungen als überprüfbare Sicherheitssignale zu behandeln.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">

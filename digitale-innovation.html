@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d6b8742b75e79636fcc5909dc2b5043e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c2086162099ffcee3a7b1c03d9052df9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -1164,6 +1167,10 @@ cookieconsent.run({
 <p>Open-Source-Software ist in ambulanten Arztpraxen bisher wenig verbreitet, während sie in anderen Bereichen des Gesundheitswesens, insbesondere in Gesundheitsämtern, zunehmend an Bedeutung gewinnt. In Arztpraxen dominieren proprietäre Praxisverwaltungssysteme, da diese oft spezialisierte Funktionen für Abrechnung, Dokumentation und Telematikinfrastruktur bieten. Open-Source-Lösungen wie <strong>OpenEMR</strong> oder <strong>Thera-Pi</strong> existieren zwar, werden aber vergleichsweise selten genutzt, da viele Praxen auf zertifizierte, kommerzielle Software angewiesen sind und Wechselbarrieren hoch sind. Im Gegensatz dazu haben Gesundheitsämter in den letzten Jahren verstärkt auf Open Source gesetzt. Ein prominentes Beispiel ist <strong>SORMAS</strong>, das in vielen deutschen Gesundheitsämtern zur digitalen Kontaktnachverfolgung während der COVID-19-Pandemie eingesetzt wurde. Auch das Open-Source-Projekt <strong>Agora</strong> zeigt, dass öffentliche Stellen zunehmend auf offene, transparente Softwarelösungen setzen.</p>
 <p>Der <a href="https://medatixx.de/healthhub">medatixx-HealthHub</a> ist ein digitales Ökosystem, das Praxen und Gesundheitsdienstleister durch moderne FHIR-Standards nahtlos vernetzt. Es ermöglicht Softwareanbietern, ihre Lösungen sicher und standardisiert in die medatixx-Praxissoftware zu integrieren, während Praxen aus einem Marktplatz digitaler Anwendungen wählen können, um Prozesse effizienter zu gestalten. Die Plattform fördert Zusammenarbeit, verbessert Kommunikation und unterstützt die Digitalisierung im Gesundheitswesen, wobei Sicherheit durch einen Akkreditierungs- und Testprozess gewährleistet wird.</p>
 <p>„Asklaion Projekte Open-Source-Programme für die Arztpraxis“ beschreibt eine Sammlung lokal ausführbarer Open-Source-Anwendungen für den Praxisalltag. Im Fokus stehen datenschutzkonforme Tools für Dokumentation, Planung, Kommunikation und Organisation, die vollständig ohne Cloud-Anbindung arbeiten. Die Plattform ergänzt dies durch eine Akademie zum Erlernen von KI- und Vibecoding-Grundlagen für medizinische Anwender.</p>
+<ul>
+<li><a href="https://asklaion.de/">asklaion.de</a></li>
+<li><a href="https://ai-for-you.de/">ai-for-you.de</a></li>
+</ul>
 </section>
 <section id="zertifizierung-digitaler-anwendungen" class="level2">
 <h2 class="anchored" data-anchor-id="zertifizierung-digitaler-anwendungen">Zertifizierung Digitaler Anwendungen</h2>
@@ -1261,6 +1268,9 @@ cookieconsent.run({
 <p><strong>„Microfoundations of Innovation as Process: Usher’s Cumulative Synthesis Model“</strong> von Raghu Garud und Marja Turunen ist ein Kapitel im Sammelband <em>The Oxford Handbook of Organizational Change and Innovation</em> (herausgegeben von Marshall Scott Poole und Andrew H. Van de Ven, Oxford University Press, 2021). Der Beitrag stellt das vierstufige Modell der kumulativen Synthese von Abbott Payson Usher (Perception of an unsatisfactory pattern, Setting the stage, Primary act of insight, Critical revision and development) als Mikrofundierung für Innovationsprozesse vor, erweitert es um neuere Erkenntnisse und kontrastiert es mit Schumpeters makroökonomischer Perspektive. Die Autoren betonen die nicht-lineare, probabilistische und verteilte Natur von Innovation, die sich aus alltäglichen Akten der Fertigkeit und Einsicht ergibt, und illustrieren dies unter anderem am Beispiel der Entstehung der Post-it-Notes bei 3M. Sie plädieren dafür, Innovation als integralen Bestandteil des Organisierens zu verstehen, anstatt sie als separate Aktivität zu betrachten, und schlagen damit eine Brücke zwischen Exploration und Exploitation in Organisationen.</p>
 <p>Der Artikel „Regionally asymmetric knowledge capabilities and open innovation: Exploring ‘Globalisation 2’—A new model of industry organisation“ von Phil Cooke, erschienen 2005 in der Zeitschrift Research Policy (Volume 34, Issue 8, S. 1128–1149), stellt eine kritische Bestandsaufnahme der Debatte über Innovationssysteme dar. Er kontrastiert Ansätze wie das Triple-Helix-Modell und Kritiken am Regionalismus mit dem Konzept regionaler Wissensfähigkeiten. Cooke entwickelt daraus das Modell „Globalisation 2“, das eine von unten nach oben wirkende, wissensgetriebene Globalisierung beschreibt, die auf offener Innovation und asymmetrischen regionalen Wissenskapazitäten basiert und den früheren top-down-Ansatz von „Globalisation 1“ ablöst.</p>
 <p>Die Perspective „The Market Dynamics for Third-Party AI Tools Trying to Compete With Electronic Health Record Developers“ von Julia Adler-Milstein, Sara G. Murray und Robert M. Wachter wurde am 31. März 2026 online in der Zeitschrift JAMA veröffentlicht. Der Artikel analysiert die Marktbedingungen für KI-Tools im Gesundheitswesen und stellt fest, dass Entwickler elektronischer Patientenakten (EHR) gegenüber unabhängigen Drittanbietern deutliche Vorteile besitzen. Laut einer 2025er-Analyse nutzen 79 % der US-Krankenhäuser KI-Modelle ihres EHR-Anbieters, während nur 59 % Tools von Drittanbietern einsetzen. Die Autoren beschreiben Vorteile der EHR-Hersteller in den Bereichen Infrastruktur, Workflow-Integration, Beschaffung, Preismodelle und Risikobewertung und erläutern diese anhand einer Tabelle. Sie schlagen gezielte politische Maßnahmen vor, um den Wettbewerb zu verbessern, ohne jedoch in allen Bereichen einfache Lösungen zu sehen. Ziel sei es, die innovativsten KI-Lösungen unabhängig vom Anbieter zu fördern und langfristig die Innovationskraft im Gesundheits-KI-Ökosystem zu erhalten.</p>
+<p><strong>Impact Report</strong> fasst zehn Jahre Arbeit von DrivenData im Bereich Data Science und Künstliche Intelligenz für gesellschaftlichen Nutzen zusammen. Der Bericht zeigt anhand konkreter Projekte, wie datengetriebene Methoden in Bereichen wie Gesundheit, Naturschutz, Bildung, Menschenrechte und internationale Entwicklung eingesetzt werden, um reale Herausforderungen zu lösen. Gleichzeitig verdeutlicht er, dass nachhaltige Wirkung nicht nur durch einzelne Projekte entsteht, sondern durch den Aufbau von Wissen, Open-Source-Werkzeugen und einer internationalen Community für Data Science for Social Good.</p>
+<p>Der Beitrag <strong>„Conceptualization, Operationalization, and Measurement of Adherence to Patient-Facing Digital Health Applications: Protocol for a Scoping Review“</strong> beschreibt das Protokoll einer systematischen Scoping-Review zur Adhärenz bei digitalen Gesundheitsanwendungen (DHAs). Ziel ist es, bestehende Definitionen, Messmethoden und Operationalisierungen von Adhärenz zu vergleichen sowie Unterschiede zwischen regulierten und nicht regulierten Anwendungen herauszuarbeiten. Die Ergebnisse sollen eine konsistente wissenschaftliche Grundlage für die Bewertung digitaler Gesundheitsanwendungen schaffen und regulatorische sowie gesundheitsökonomische Entscheidungen unterstützen.</p>
+<p>„The Multicriteria Decision Analysis for Extended Reality (MCDA-XR) Governance Framework for Health Care Adoption: Mixed Methods Development Study“ entwickelt einen Governance-Rahmen zur strukturierten Bewertung der Einführung von Extended Reality (XR) im Gesundheitswesen. MCDA-XR umfasst 10 Kriterien aus den Bereichen Mensch, Organisation und Technik und kombiniert strategische Bedeutung mit organisatorischer Bereitschaft. In einer formativen Untersuchung mit 33 Stakeholdern wurde Sicherheit und Komfort als wichtigstes Kriterium bewertet (Mittelwert 4,61/5), während die Ergebnisse insbesondere die Identifikation von Bereichen mit hoher Bedeutung und geringer Bereitschaft ermöglichen. Eine prospektive Validierung in realen Versorgungssituationen steht noch aus.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d6b8742b75e79636fcc5909dc2b5043e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c2086162099ffcee3a7b1c03d9052df9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -972,6 +975,9 @@ cookieconsent.run({
 <p><a href="https://www.heidihealth.com/de-de">Heidi Health</a> bietet eine KI-gestützte Plattform zur automatischen Erstellung medizinischer Notizen, die Ärzt:innen Zeit spart und den Fokus auf die Patientenversorgung legt. Die Lösung unterstützt mehrsprachige Dokumentation, benutzerdefinierte Vorlagen und sichere Datenverarbeitung gemäß DSGVO und ISO 27001. <a href="https://www.tandemhealth.ai/de/product">Tandem Health</a> entwickelt ein KI-basiertes Betriebssystem für klinische Arbeitsabläufe, das sich nahtlos in PVS/KIS integriert und automatische Dokumentenerstellung sowie ICD-10-Codierung ermöglicht. Beide Lösungen zielen darauf ab, administrative Aufgaben zu reduzieren und die Effizienz in der medizinischen Praxis zu steigern.</p>
 <p>Die Studie mit dem Titel „Health Care Professionals’ Experiences and Opinions About Generative AI and Ambient Scribes in Clinical Documentation“ untersucht systematisch die Erfahrungen und Meinungen von Gesundheitsfachkräften zum Einsatz generativer KI und ambienter Scribes in der klinischen Dokumentation. Dabei werden sowohl mögliche Vorteile, Herausforderungen als auch ethische Fragestellungen und Auswirkungen auf Arbeitsabläufe betrachtet. Die Methodik der Studie basiert auf einer Scoping-Review, die relevante Originalstudien aus den Jahren 2023 bis 2025 systematisch erfasst und anhand des Technology Acceptance Model analysiert. Ziel ist es, ein umfassendes Verständnis des aktuellen Forschungsstands zu gewinnen und zukünftige Forschungsbedarfe aufzuzeigen. Ausschließlich peer-reviewed Studien mit Fokus auf Gesundheitspersonal werden berücksichtigt, um die Akzeptanz und Wahrnehmung dieser innovativen Technologien aus der Perspektive der Anwender zu erfassen. <span class="citation" data-cites="sanchez2025health">(<a href="referenzen.html#ref-sanchez2025health" role="doc-biblioref">Sanchez u.&nbsp;a. 2025</a>)</span></p>
 <p>Der Artikel „Automatic documentation of professional health interactions: A systematic review“ untersucht den Stand der Forschung zu KI-basierten Systemen zur automatischen Dokumentation von Arzt-Patienten-Gesprächen. Im Fokus stehen sogenannte „digitale Scribes“, die Gespräche mittels Spracherkennung (ASR) und natürlicher Sprachverarbeitung (NLP) in strukturierte medizinische Dokumentation umwandeln. Die Analyse von acht relevanten Studien zeigt, dass vor allem neuronale Netzwerke eingesetzt werden, jedoch bislang keine Lösungen großflächig klinisch validiert oder kommerziell etabliert sind. Zentrale Herausforderungen liegen in der komplexen medizinischen Fachsprache, der Identifikation relevanter Inhalte sowie in rechtlichen und ethischen Fragestellungen. Trotz des Potenzials zur Entlastung von Ärzten und Verbesserung der Arzt-Patienten-Interaktion fehlt es derzeit an belastbaren klinischen Daten zur Wirksamkeit und Nutzerakzeptanz. <span class="citation" data-cites="falcetta2023automatic">(<a href="referenzen.html#ref-falcetta2023automatic" role="doc-biblioref">Falcetta u.&nbsp;a. 2023</a>)</span></p>
+<ul>
+<li><a href="https://muunai.com/de">muunai.com</a></li>
+</ul>
 <section id="regulation" class="level2">
 <h2 class="anchored" data-anchor-id="regulation">Regulation</h2>
 <p>Die Studie „Regulation of AI scribes in clinical practice“ untersucht die wachsende Verwendung von KI-Schreibtechnologien in der Medizin, die klinische Konsultationen in Echtzeit transkribieren und Notizen für elektronische Patientenakten erstellen. Diese Technologien versprechen, die Effizienz zu steigern, indem sie die Zeit für Dokumentation reduzieren, doch es gibt Unsicherheiten bezüglich der Verantwortlichkeiten und der Regulierung. Die Studie hebt hervor, dass KI-Schreiber in Großbritannien, der EU und den USA als „Software als Medizinprodukt“ klassifiziert sind und strenge regulatorische Standards erfüllen müssen. Sie betont die Notwendigkeit klarer Richtlinien für die Überwachung durch Kliniker und die rechtlichen Beziehungen zwischen Klinikern, Organisationen und Anbietern, um Patientensicherheit und Datenschutz zu gewährleisten. Abschließend fordert die Studie NHS-weite Leitlinien, um die Implementierung zu vereinheitlichen und Risiken zu minimieren. <span class="citation" data-cites="shemtob2025regulation">(<a href="referenzen.html#ref-shemtob2025regulation" role="doc-biblioref">Shemtob u.&nbsp;a. 2025</a>)</span></p>
@@ -1012,6 +1018,11 @@ cookieconsent.run({
 <p>„Privacy Considerations of Artificial Intelligence Scribes“ behandelt Datenschutzaspekte beim Einsatz von KI-Scribes in der klinischen Dokumentation. Im Mittelpunkt stehen Risiken durch die Aufzeichnung und Verarbeitung von Arzt-Patienten-Gesprächen, Unterschiede in Speicher- und Trainingspraktiken von Anbietern sowie die Anforderungen an rechtliche, ethische und organisatorische Governance. Besonders hervorgehoben werden Fragen der Datenhaltung, Einwilligung und regulatorischen Einbettung im Gesundheitswesen.</p>
 <p>„AI Scribes: Are We Measuring What Matters?“ beleuchtet den aktuellen Stand KI-gestützter Dokumentationssysteme im Gesundheitswesen. Der Beitrag zeigt, dass AI-Scribes den Dokumentationsaufwand und die Bearbeitungszeit deutlich reduzieren können, betont jedoch, dass belastbare Erkenntnisse zu Patientensicherheit, Fehlerprofilen, Auswirkungen auf klinische Entscheidungsprozesse und regulatorischen Anforderungen weiterhin fehlen. Im Mittelpunkt steht die Forderung nach einer systematischen Bewertung von Nutzen und Risiken über reine Effizienzkennzahlen hinaus.</p>
 <p><strong>Exploring AI scribes in Norwegian general practice: a qualitative individual interview study</strong> untersucht die Erfahrungen norwegischer Hausärztinnen und Hausärzte mit KI-gestützten Dokumentationssystemen im Praxisalltag. Der Beitrag zeigt, dass AI Scribes den Dokumentationsaufwand reduzieren, die Arzt-Patienten-Interaktion verbessern und Arbeitsabläufe effizienter gestalten können, zugleich jedoch eine sorgfältige Qualitätskontrolle, klare Datenschutzregelungen und einen verantwortungsvollen Umgang mit KI-generierten Inhalten erfordern.</p>
+<p>„Evaluation of an AI Medical Scribe After 236,153 Notes Generated Across Care Levels in a European Health System: Mixed Methods Retrospective Observational Study“ untersucht den Einsatz eines KI-Schreibassistenten in einem schwedischen Gesundheitssystem anhand von 236.153 Notizen und 1.295 klinisch tätigen Personen. Bei den dauerhaft nutzenden Befragten sank die selbstberichtete Dokumentationszeit von 6,69 auf 4,72 Minuten pro Notiz; zugleich wurden weniger administrativer Stress und eine stärkere wahrgenommene Präsenz bei Patient:innen berichtet. Die Studie ist jedoch beobachtend, basiert beim primären Zeitmaß auf retrospektiven Selbstauskünften und schließt überwiegend etablierte Nutzer ein, sodass die Ergebnisse nicht ohne Weiteres auf alle klinisch Tätigen übertragbar sind.</p>
+<p>DeepMed Zurich beschreibt eine KI-Plattform zur Unterstützung der klinischen Dokumentation und administrativen Arbeitsabläufe im Gesundheitswesen. Im Mittelpunkt stehen die Module ReportWriter, SecureChat und SOP Audit, die Dokumentation, vertrauliche KI-Assistenz und Qualitätsprüfung von Prozessdokumenten kombinieren. Besonderes Gewicht legt das Unternehmen auf Datenschutz, Schweizer Cloud-Infrastruktur, die Integration in bestehende klinische Prozesse sowie den Human-in-the-loop-Ansatz, bei dem medizinische Verantwortung und fachliche Freigabe stets beim medizinischen Personal verbleiben.</p>
+<p>Re-Centering Clinical Documentation in the Age of AI Scribes: Four Aims of the Patient Chart Note beschreibt ein Rahmenkonzept für die klinische Dokumentation im Zeitalter KI-gestützter Ambient-Scribes. Der Beitrag argumentiert, dass Dokumentation weiterhin primär der klinischen Entscheidungsfindung, der Kommunikation, der rechtlichen Absicherung und der Patientenaufklärung dienen sollte. Zudem warnen die Autoren vor einem zu frühen Einsatz von KI-Schreibassistenten in der medizinischen Ausbildung, da kognitive Auslagerung (cognitive off-loading) und Kompetenzverluste die Entwicklung klinischer Denkprozesse beeinträchtigen können.</p>
+<p>„Ambient scribe in general practice: a multi-perspective before-after longitudinal mixed-methods study“ untersucht den Einsatz eines Ambient Scribes in der hausärztlichen Versorgung. In 535 beobachteten Konsultationen von 12 Hausärztinnen und Hausärzten reduzierte sich die Dokumentationszeit um 42,7 Sekunden pro Konsultation, während sich die Gesamtdauer der Konsultationen nicht signifikant veränderte. Gleichzeitig zeigten sich eine geringere wahrgenommene Arbeitsbelastung, aber auch Risiken wie ungenaue Zusammenfassungen, weniger detaillierte Dokumentation und mögliche Beeinträchtigungen bei sensiblen Gesprächsthemen und der klinischen Entscheidungsfindung.</p>
+<p>„AI Scribes Move Quickly Into Canadian Care Settings“ beschreibt die zunehmende Einführung KI-gestützter Dokumentationssysteme im kanadischen Gesundheitswesen. Die Erfahrungen von Ärzten zeigen Potenziale bei Dokumentationsaufwand, Arbeitsbelastung und patientenzentrierter Kommunikation, zugleich bleiben Genauigkeit, Datenschutz, Einwilligung und ärztliche Kontrolle zentrale Anforderungen.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">

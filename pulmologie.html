@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d6b8742b75e79636fcc5909dc2b5043e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c2086162099ffcee3a7b1c03d9052df9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -1169,6 +1172,9 @@ cookieconsent.run({
 <p>„Forecasting the Impacts of Artificial Intelligence Assistance in Virtual Consultations for Chronic Obstructive Pulmonary Disease: Exploratory Futures Wheel Study“ untersucht die möglichen Auswirkungen eines speziell entwickelten KI-Assistenzsystems für virtuelle Konsultationen bei chronisch obstruktiver Lungenerkrankung (COPD). Mithilfe der Futures-Wheel-Methode analysierten Patienten und Gesundheitsfachkräfte potenzielle Folgen in acht Bereichen, darunter Arzt-Patienten-Beziehung, Psychologie, Ethik, Recht, Technologie und Gesundheitsversorgung. Die Teilnehmenden erwarteten überwiegend positive Effekte wie stärkere Patienteneinbindung, verbesserte Kommunikation, effizientere Abläufe, bessere Schulungs- und Unterstützungsfunktionen sowie eine patientenzentriertere Versorgung. Gleichzeitig wurden Risiken und Voraussetzungen identifiziert, darunter regulatorische Anforderungen, ethische Aspekte, ausreichende Ressourcen und die Notwendigkeit einer verantwortungsvollen Nutzung. Die Studie kommt zu dem Schluss, dass KI die virtuelle COPD-Versorgung sinnvoll unterstützen kann, jedoch eine sorgfältige Planung, Governance und Implementierung erforderlich sind.</p>
 <p>„Lung Facts“ der International Respiratory Coalition ist eine offene Datenressource zur epidemiologischen und ökonomischen Analyse von Lungenerkrankungen. Die Plattform bündelt aktuelle GBD-basierte Informationen nach Ländern und Krankheitsbildern und dient als Grundlage für gesundheitspolitische Planung und Advocacy im Bereich der Atemwegsgesundheit.</p>
 <p>„Elevated COPD patient engagement and timely care prioritisation facilitated by use of text message accuRx Florey questionnaire in routine primary care“ beschreibt den Einsatz eines textbasierten digitalen Fragebogens zur verbesserten Versorgung von COPD-Patienten in der Primärversorgung. Die Ergebnisse zeigen, dass durch die Integration des accuRx-Florey-Systems eine strukturierte Datenerhebung, bessere Patientenpriorisierung und eine gesteigerte Engagement-Rate (61 % Response) erreicht werden kann. Insgesamt deutet die Anwendung auf ein effizienteres, digital unterstütztes Versorgungsmodell im Praxisalltag hin.</p>
+<p>„RESPClinBench: Benchmarking Multimodal Clinical Decision-Making and Longitudinal Disease Management in Respiratory Specialty Care“ untersucht sieben aktuelle Sprachmodelle anhand von 623 realitätsnahen respiratorischen Fällen zu COPD-Management und pulmonalen Rundherden. Die Ergebnisse zeigen moderate Gesamtleistungen, deutliche Lücken bei der expliziten Abdeckung klinischer Maßnahmen sowie relevante Sicherheitsprobleme: Bei der multimodalen Beurteilung traten Bildhalluzinationen in 31,85 % und schwerwiegende medizinische Risiken in 8,16 % der Antworten auf.</p>
+<p>Die systematische Übersichtsarbeit <strong>„Risk prediction for lung cancer screening: a systematic review and meta-regression“</strong> bewertet die seit 2020 entwickelten Risikomodelle für das Lungenkrebsscreening. Insgesamt wurden 91 Modelle identifiziert, die entweder die Auswahl geeigneter Personen für ein Low-Dose-CT-Screening oder die Risikobewertung von nach dem Screening entdeckten Lungenknoten unterstützen. Während biomarker- und bildgebungsbasierte Modelle häufig eine höhere Vorhersagegenauigkeit erreichten als klassische Regressionsmodelle, fehlten bei vielen Modellen externe Validierungen und belastbare Daten zur klinischen Anwendbarkeit. Die Autoren empfehlen daher, bestehende Modelle zu validieren und prospektiv zu evaluieren, anstatt weitere neue Modelle zu entwickeln.</p>
+<p>„Quantum Kernel Estimation for the Discovery of Early Lung Cancer Detection“ untersucht quantenklassische Machine-Learning-Verfahren zur Erkennung von Lungenkrebs anhand zellfreier DNA. Quantenkernel-Modelle waren insbesondere bei Fragmentomics-Daten konkurrenzfähig gegenüber klassischen SVM-Modellen, während 20 ausgewählte Merkmale insgesamt stabilere Ergebnisse als 40 Merkmale lieferten. Bei den Methylierungsdaten blieb die klassische SVM am leistungsfähigsten.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">

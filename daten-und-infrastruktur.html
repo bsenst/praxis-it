@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,14 +46,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d6b8742b75e79636fcc5909dc2b5043e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c2086162099ffcee3a7b1c03d9052df9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -958,12 +961,14 @@ cookieconsent.run({
 <p>Der Artikel „Privacy and Security Throughout the Health Data Life Cycle: From Primary Care to Research Networks” von Bradley A. Malin, Chao Yan und Luca Bonomi wurde am 24. März 2026 als frühe Veröffentlichung in der Annual Review of Biomedical Data Science publiziert. Die Autoren untersuchen die Risiken und Schutzmaßnahmen im gesamten Lebenszyklus von Gesundheitsdaten, beginnend bei der Datengenerierung in der Primärversorgung bis hin zur sekundären Nutzung in Forschungsnetzwerken und KI-Modellentwicklung. Der Beitrag beleuchtet regulatorische, organisatorische und technologische Rahmenbedingungen sowie technische Ansätze wie Zugriffskontrolle, Differential Privacy und synthetische Datengenerierung zur Risikominderung. Zudem werden Herausforderungen bei der Skalierung dieser Methoden und die Abwägung zwischen Datenschutz und Datenutilität thematisiert.</p>
 <p>„Synthetic data, synthetic trust: navigating data challenges in the digital revolution“ ist ein Viewpoint-Artikel, der im November 2025 in der Zeitschrift The Lancet Digital Health erschienen ist. Die Autoren Arman Koul, Deborah Duran und Tina Hernandez-Boussard warnen vor den Risiken einer unkritischen Verwendung synthetischer Daten beim Training medizinischer KI-Modelle. Obwohl synthetische Daten Datenschutzprobleme lösen und begrenzte reale Datensätze ergänzen können, besteht die Gefahr, dass sie bestehende Verzerrungen verstärken, die Generalisierbarkeit von Modellen verringern und zu einer sogenannten „synthetic trust“ – einer unbegründeten Zuversicht in die klinische Validität solcher Modelle – führen. Der Artikel plädiert für strikte Safeguards, darunter klare Standards für Trainingsdaten, Fragilitätstests während der Entwicklung sowie transparente Angaben zur synthetischen Herkunft bei der Anwendung, um die Integrität und Fairness klinischer KI-Anwendungen zu gewährleisten.</p>
 <ul>
-<li><a href="https://huggingface.co/collections/OpenMed/pgc-psychiatric-gwas-summary-statistics">OpenMed/pgc-psychiatric-gwas-summary-statistics</a></li>
-<li><a href="https://honic.eu/">honic.eu/</a></li>
-<li><a href="https://www.ifa.uni-luebeck.de/shrn">ifa.uni-luebeck.de/shrn</a></li>
-<li><a href="https://neurodesk.org/">neurodesk.org</a></li>
-<li><a href="https://www.flipit-research.network/">flipit-research.network</a></li>
-<li><a href="https://quantumproject.eu/">quantumproject.eu</a></li>
+<li><p><a href="https://huggingface.co/collections/OpenMed/pgc-psychiatric-gwas-summary-statistics">OpenMed/pgc-psychiatric-gwas-summary-statistics</a></p></li>
+<li><p><a href="https://honic.eu/">honic.eu/</a></p></li>
+<li><p><a href="https://www.ifa.uni-luebeck.de/shrn">ifa.uni-luebeck.de/shrn</a></p></li>
+<li><p><a href="https://neurodesk.org/">neurodesk.org</a></p></li>
+<li><p><a href="https://www.flipit-research.network/">flipit-research.network</a></p></li>
+<li><p><a href="https://quantumproject.eu/">quantumproject.eu</a></p></li>
+<li><p><a href="https://docs.cloud.google.com/healthcare-api/docs/resources/public-datasets/idc?hl=de">NCI Imaging Data Commons-BigQuery-Dataset</a></p></li>
+<li><p><a href="https://docs.cloud.google.com/healthcare-api/docs/resources/public-datasets/nih-chest?hl=de">NIH-Dataset von Röntgenaufnahmen mit 100.000 anonymisierten Bildern</a></p></li>
 </ul>
 <p>Das in der Zeitschrift <em>npj Digital Medicine</em> veröffentlichte Scoping Review mit dem Titel „A scoping review on using real-world data to evaluate the effectiveness of mHealth applications“ untersucht, inwieweit natürlich entstehende Real-World-Daten (RWD) aus dem Routinebetrieb patientenorientierter mHealth-Apps in peer-reviewed Studien zur Bewertung der Wirksamkeit genutzt werden. Die Analyse von 72 Studien zu 61 verschiedenen Anwendungen zeigt, dass der Großteil der Untersuchungen auf mentaler Gesundheit und metabolischen Erkrankungen fokussiert und überwiegend auf aktiv durch Nutzer eingegebene Daten (insbesondere In-App-Surveys) zurückgreift. Gerätegenerierte Daten werden seltener verwendet, Systemdaten wie EHR- oder Claims-Daten nur in Ausnahmefällen. Die meisten Studien weisen niedrige Evidenzlevel auf und basieren auf Single-Group-Pre-Post-Designs ohne Vergleichsgruppen; nur wenige Arbeiten setzen vergleichende oder quasi-experimentelle Ansätze ein. Die Review verdeutlicht damit bestehende Lücken bei der Nutzung von RWD für robuste, longitudinale und vergleichende Wirksamkeitsbewertungen von mHealth-Anwendungen.</p>
 <section id="datenkooperativen" class="level2">
@@ -1000,6 +1005,9 @@ cookieconsent.run({
 <p>“SynPop-DE: Synthetic population of 40 million German households using generative neural networks” beschreibt die Erstellung einer synthetischen Bevölkerung für Deutschland mit über 40 Millionen Haushalten und mehr als 82 Millionen Personen. Die Daten werden mithilfe eines Autoencoders und eines generativen adversarialen Netzwerks erzeugt und anschließend an die Ergebnisse des Zensus 2022 angepasst. Das Ergebnis ist ein frei verfügbares Datenset, das sozioökonomische, wohnungsbezogene sowie Einkommens- und Ausgabenmerkmale kombiniert und zugleich hohe Datenqualität, analytische Nutzbarkeit und Datenschutz gewährleistet.</p>
 <p>Der Datenatlas Zivilgesellschaft bündelt offene Daten aus gemeinnützigen Organisationen und Initiativen in Deutschland. Nutzerinnen und Nutzer können Datensätze zu Themen wie Windenergie, Elektromobilität, Kinderbetreuung oder Datenkompetenzen entdecken und weiterverwenden. Ergänzt wird das Angebot durch Datengeschichten, Workshops, Netzwerktreffen und Unterstützungsangebote für Open Data in der Zivilgesellschaft.</p>
 <p>Der Fachartikel „Unlocking the Power of Digital Commons: Data Cooperatives as a Pathway for Data Sovereign, Innovative and Equitable Digital Communities“ untersucht Datenkooperativen als Modell für demokratische, faire und souveräne Datenverwaltung in digitalen Gemeinschaften. Die Autorinnen und Autoren argumentieren, dass Datenkooperativen eine Alternative zur Konzentration digitaler Macht bei großen Plattformunternehmen darstellen und kleine Gemeinschaften sowie KMU durch gemeinschaftliche Datenverwaltung stärken können. Der Beitrag analysiert internationale Fallstudien aus Bereichen wie Finanzen, Landwirtschaft, Energie, Gesundheit und Smart Cities und entwickelt daraus politische Handlungsempfehlungen für digitale Inklusion, offene Standards und nachhaltige Datenökosysteme. Besonders hervorgehoben werden Datenhoheit, partizipative Governance, offene digitale Föderationsplattformen sowie die wirtschaftlichen und sozialen Potenziale kooperativer Datenmodelle.</p>
+<p>„RELEASE-AI: A Lifecycle Framework for Artificial Intelligence Development and Disclosure Control in Trusted Research Environments“ stellt einen umfassenden Rahmen vor, der Risikominderungsstrategien über den gesamten Lebenszyklus von KI-/ML-Projekten in Trusted Research Environments (TREs) integriert. Der Ansatz gliedert sich in sechs Phasen (Design, Governance, Entwicklung, Evaluation, Disclosure Control und Release) und weist den beteiligten Akteuren klare Verantwortlichkeiten zu. Zentral sind eine neuartige Risikokategorisierung von Projekten, der Einsatz von Tools wie SACRO-ML sowie Datenschutz- und Best-Practice-Maßnahmen, um innovative Forschung bei gleichzeitig hohem Datenschutzstandard und öffentlichem Vertrauen zu ermöglichen.</p>
+<p>A Community-Driven Strategic Plan, 2027 – 2030 beschreibt einen gemeinschaftlich entwickelten strategischen Rahmen zur Stärkung der Resilienz öffentlich finanzierter Forschungsdateninfrastrukturen. Der Plan identifiziert strukturelle Risiken wie fragmentierte Finanzierung, personelle Engpässe und Single Points of Failure und bündelt die vorgeschlagenen Maßnahmen in drei Säulen: systematische Risikoanalyse und Monitoring, diversifizierte Finanzierung und Governance sowie koordinierte Kommunikation, Advocacy und Krisenreaktion. Ziel ist eine dauerhaft zugängliche, wiederherstellbare und nutzbare Forschungsdateninfrastruktur, die auf gemeinsamen Standards, redundanten Strukturen und sektorübergreifender Zusammenarbeit basiert.</p>
+<p>„FIP Check: A Rubric-Based Tool for Assessing FAIR Implementation Profiles and Enabling Resources“ stellt ein rubric-basiertes Verfahren zur Bewertung von FAIR Implementation Profiles (FIPs) und FAIR Enabling Resources (FERs) vor. Der Ansatz bewertet einzelne Ressourcen granular, berücksichtigt abgestufte FAIRness statt binärer Ergebnisse und macht Bewertungskriterien sowie Expertenurteile transparent nachvollziehbar. Ein Pilot mit sieben biomedizinischen Datenrepositorien zeigte insbesondere Schwächen bei F3, I1 und R1.2 und ermöglicht dadurch gezielte Verbesserungen der FAIR-Implementierung.</p>
 
 
 </section>

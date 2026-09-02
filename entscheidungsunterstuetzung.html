@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,14 +46,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d6b8742b75e79636fcc5909dc2b5043e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8f31cd0cc32b67b26277ca86543f1eba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c2086162099ffcee3a7b1c03d9052df9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-e28208614fb3d1498544756ab0bada49.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -963,7 +966,15 @@ cookieconsent.run({
 <p>Der Beitrag <strong>„Blueprint for Safety: Implementing a Clinically Governed AI Digital Assistant for Patient Guidance“</strong> beschreibt den Aufbau und die Einführung eines klinisch überwachten KI-Assistenten für die Patientenberatung. Im Mittelpunkt stehen ein mehrstufiges Risikoklassifikationssystem, konsequente Sicherheitsmechanismen sowie eine kontinuierliche klinische Qualitätskontrolle. Die vorgestellten Ergebnisse zeigen, dass sich Patientenanfragen effizienter bearbeiten lassen, ohne die Patientensicherheit zu gefährden.</p>
 <p>„Improving clinical practice using clinical decision support systems: a systematic review of trials to identify features critical for success“ untersucht systematisch randomisierte kontrollierte Studien zu klinischen Entscheidungssupportsystemen (CDSS) und identifiziert Merkmale, die mit einer verbesserten klinischen Praxis verbunden sind. Die Analyse zeigt insbesondere, dass Systeme mit automatisierter Integration in den klinischen Workflow, Bereitstellung von Empfehlungen zur Entscheidungszeit und -ort sowie computergestützter Generierung signifikant häufiger erfolgreich sind. Insgesamt wird deutlich, dass die Reduktion des Aufwands für klinische Anwender ein zentraler Erfolgsfaktor für CDSS darstellt.</p>
 <p>„Effects of workload, work complexity, and repeated alerts on alert fatigue in a clinical decision support system“ untersucht, wie verschiedene Faktoren im klinischen Entscheidungsunterstützungssystem (CDSS) die Alarmakzeptanz von Ärztinnen und Ärzten beeinflussen. Die Studie zeigt, dass insbesondere komplexe Arbeitsbedingungen und wiederholte Alerts die Wahrscheinlichkeit erhöhen, dass Hinweise ignoriert werden, während reine Arbeitslast keinen signifikanten Effekt zeigt. Zudem finden sich keine Hinweise auf eine Desensibilisierung über die Zeit. Die Ergebnisse stützen damit vor allem das Modell der kognitiven Überlastung als zentrale Ursache von Alert Fatigue.</p>
-<p>“An overview of clinical decision support systems: benefits, risks, and strategies for success” CDSS improve decisionmaking guideline adherence reduce errors risks alert fatigue overreliance data issues strategies UX design EHR integr. alert tuning monitoring</p>
+<p>„An overview of clinical decision support systems: benefits, risks, and strategies for success“ bietet einen Überblick über computergestützte klinische Entscheidungsunterstützungssysteme (CDSS). Die Arbeit beschreibt Typen, evidenzbasierte Anwendungsfälle mit nachgewiesenem Nutzen für Patientensicherheit, Leitlinienadhärenz und Kosten sowie häufige Risiken wie Alert Fatigue, Workflow-Störungen und Überabhängigkeit. Abschließend werden evidenzbasierte Empfehlungen für Design, Implementierung, Evaluation und Wartung formuliert.</p>
+<p>„Evidence over explanations: put medical AI to the test“ argumentiert, dass post-hoc-Erklärungen und XAI die epistemische Lücke zwischen Modellverhalten und gerechtfertigten klinischen Aussagen nicht schließen. Stattdessen fordern die Autoren Governance durch Testbarkeit: präregistrierte empirische Prüfungen der kausalen Ausrichtung (Vermeidung von Shortcuts) und der Invarianz über Scanner, Standorte und Subgruppen hinweg sowie Monitoring und Rollback. Sie schlagen Institutional AI mit auditierbarer Provenienz, prospektiver Validierung, externen Audits und adversariellen Evaluationen für LLMs vor.</p>
+<p>„Machine Learning for Myocardial Infarction Compared With Guideline-Recommended Diagnostic Pathways“ evaluiert das maschinelle Lernmodell CoDE-ACS zur Wahrscheinlichkeitsberechnung eines Myokardinfarkts bei Patienten mit Verdacht auf akutes Koronarsyndrom. In einer internationalen Kohorte von 4105 Patienten identifizierte CoDE-ACS bei Präsentation 56 % als niedriges Risiko (NPV 99,7 %) und damit deutlich mehr als die ESC-0-Stunden- (25 %) und High-STEACS-Pfade (35 %). Bei seriellen Troponinmessungen nach 1 oder 2 Stunden blieb die Leistung konsistent (65–68 % niedriges Risiko, NPV 99,7 %), während weniger Patienten eine weitere Beobachtung benötigten als bei den ESC-Algorithmen. Die diagnostische Performance war mit den leitlinienbasierten Pfaden vergleichbar.</p>
+<p>„Prospective validation of a machine learning algorithm for the diagnosis of acute heart failure“ beschreibt die externe Validierung des CoDE-HF-Algorithmus in einer prospektiven Kohorte von 1030 Patienten mit akuter Atemnot. Der Algorithmus integriert NT-proBNP kontinuierlich mit klinischen Variablen und erreichte bei Patienten ohne vorbestehende Herzinsuffizienz eine AUC von 0,839 sowie verbesserte Rule-out- und Rule-in-Schwellenwerte gegenüber alleinigen NT-proBNP-Grenzwerten. Die Ergebnisse bestätigen eine individualisierte, datenbasierte Unterstützung der Diagnostik insbesondere bei Patienten ohne Vorerkrankung.</p>
+<p>“Artificial Swarm Intelligence” beschreibt eine Technologie, die vernetzte menschliche Gruppen mittels KI-Algorithmen zu Echtzeit-Systemen verbindet und deren kollektive Intelligenz deutlich verstärkt. Studien belegen unter anderem eine Reduktion diagnostischer Fehler bei Radiologen um 33 Prozent, eine Steigerung der Entscheidungsgenauigkeit um über 25 Prozent sowie eine deutliche Überlegenheit gegenüber traditionellen Umfragen und Märkten bei Prognosen.</p>
+<p>„Learning Processes in the Judge–Advisor System: A Neglected Advantage of Advice Taking“ untersucht in drei Experimenten Lernprozesse im Judge-Advisor-System. Die Ergebnisse zeigen, dass Ratschläge die Genauigkeit nachfolgender initialer Urteile verbessern, insbesondere bei hoher Ratgeberqualität. Externe Informationen zur Ratgebergenauigkeit sind dafür nicht entscheidend. Lernprozesse erklären den Großteil der Genauigkeitsgewinne (rund 75–84 %), während die eigentliche Ratgewichtung nur einen kleineren Anteil beiträgt.</p>
+<p><strong>How Generative AI Should Transform Clinical Decision Support</strong> beschreibt, wie große Sprachmodelle (LLMs) die klinische Entscheidungsunterstützung gezielt erweitern können, ohne bestehende regelbasierte Systeme zu ersetzen. Im Mittelpunkt stehen hybride Architekturen, die deterministische Regeln, klassische Clinical NLP-Verfahren und LLMs kombinieren, um entscheidungsrelevante Informationen aus heterogenen Patientendaten zusammenzuführen. Der Beitrag betont außerdem die Bedeutung von nachvollziehbarer Quellenangabe, kontinuierlicher Governance und Laufzeitüberwachung für einen sicheren klinischen Einsatz.</p>
+<p>“How Generative AI Should Transform Clinical Decision Support” untersucht, wie LLMs die klinische Entscheidungsunterstützung durch entscheidungsbezogene Synthese heterogener Patientendaten erweitern können. Empfohlen wird eine hybride Architektur aus deterministischen Regeln, klinischem NLP, Retrieval und begrenzter LLM-Nutzung, ergänzt durch Quellenverknüpfung, kontinuierliches Monitoring und Lebenszyklus-Governance.</p>
+<p>Evaluation and mitigation of the limitations of large language models in clinical decision-making untersucht die Leistungsfähigkeit aktueller LLMs unter realistischen klinischen Bedingungen. Die Modelle diagnostizierten schlechter als Ärzt:innen, folgten Leitlinien unzuverlässig und waren für autonome klinische Entscheidungen nicht geeignet.</p>
 
 
 
