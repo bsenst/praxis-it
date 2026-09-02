@@ -15,6 +15,7 @@ Oncologics ist eine kostenlose Lernplattform für medizinische Fachkreise, die s
 NanCI ist eine KI-gestützte Forschungsplattform des National Cancer Institute (NCI), die Wissenschaftlerinnen beim Entdecken, Organisieren und Vernetzen mit relevanter wissenschaftlicher Literatur unterstützt. Sie bietet personalisierte Paper-Empfehlungen, interaktive KI-Zusammenfassungen und -Analysen von Publikationen, Ordnerorganisation, Integration mit PubMed, PMC, bioRxiv und Semantic Scholar sowie Funktionen zur Community-Vernetzung. Die Plattform wird von über 1.000 Einzelnutzerinnen und mehr als 200 Institutionen – darunter Harvard Medical School, NIH, Stanford, Oxford und Johns Hopkins – genutzt und ist als Webversion sowie iOS-App verfügbar.
 
 * [avor.med](https://avor.med)
+* [ambora.org](https://app.ambora.org/)
 
 AVOR – KI-gestützte Therapieentscheidungen für die Hämatologie und Onkologie: Die Plattform bereitet medizinische Evidenz aus Leitlinien, Zulassungen und Studien strukturiert auf, um Ärztinnen und Ärzte bei komplexen Therapieentscheidungen im klinischen Alltag zu unterstützen. Ziel ist eine evidenzbasierte, effiziente und kontinuierlich aktualisierte Entscheidungsgrundlage in einem dynamischen Fachgebiet.
 

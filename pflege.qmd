@@ -22,6 +22,8 @@ Die [MEDIFOX DAN GmbH](https://www.medifoxdan.de/) mit Hauptsitz in Hildesheim i
 
 [Ascom](https://www.ascom.com/de/losungen/langzeitpflege/) ist ein globales Unternehmen, das Kommunikations- und Koordinationslösungen für Langzeitpflege, Krankenhäuser und Unternehmen anbietet. Ascom entwickelt Systeme wie Bewohnerruf, Aktivitätsüberwachung und zielgerichtetes Alarmmanagement. Lösungen wie Myco Smartphones und cloudbasierte Dienste wie Staff Safety as a Service unterstützen Pflegekräfte und Bewohner:innen, etwa bei AnglicareSA in Australien oder Allium Healthcare in Singapur. Ascom kombiniert Software, Mobilgeräte und Services für maßgeschneiderte, skalierbare Pflege- und Sicherheitslösungen.
 
+* [connext.de/themen/vivaflow](https://www.connext.de/themen/vivaflow.aspx)
+
 ## Forschung
 
 Das Impulspapier „Die digitale Dividende in der Pflege“ von Julia Bringmann und Michaela Evans-Borchers thematisiert die Herausforderungen und Potenziale der Digitalisierung in der Pflege. Es beleuchtet, warum digitale und KI-basierte Anwendungen oft nicht die erhoffte Entlastung für Pflegekräfte bringen, und schlägt Lösungen vor. Das Papier fordert evidenzbasierte Nachweise für den Nutzen digitaler Technologien, verbesserte Finanzierung und Akzeptanzförderung durch erfahrbare Mehrwerte. Es definiert vier Handlungsfelder: Schließen von Evidenzlücken, Kommunikation wirksamer Anwendungen, Förderung bewährter Technologien und Vermeidung von Fehlwirkungen. Vorschläge umfassen Metaanalysen, regionale Wissenstransfer-Netzwerke, gezielte Förderprogramme wie ein Langzeitpflegezukunftsgesetz und die Stärkung der Mitbestimmung, um eine „digitale Dividende“ zu realisieren, die Pflegekräfte entlastet und die Versorgungsqualität sichert. [@bringmanndigitale]

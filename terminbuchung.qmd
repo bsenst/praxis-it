@@ -86,3 +86,5 @@ Die Studie mit dem Titel „Impact of the Federated Data Platform’s digital su
 * [open-reception.com](https://open-reception.com/)
 
 „Automated Calls Added to SMS Reminders Reduce Missed Appointments among High-Risk Patients“ beschreibt eine NEJM Catalyst Fallstudie zur Reduktion von versäumten Arztterminen durch die Ergänzung von SMS-Erinnerungen um automatisierte IVR-Anrufe. In einer randomisierten Untersuchung zeigte sich eine signifikante Reduktion von No-Shows sowie eine höhere Terminwahrnehmung, insbesondere bei Hochrisikopatienten. Die Studie unterstreicht die Skalierbarkeit digitaler Outreach-Ansätze im Gesundheitswesen und deren Potenzial zur Effizienzsteigerung und Verbesserung der Versorgungsgerechtigkeit.
+
+"Investigating Patient Use and Experience of Online Appointment Booking in Primary Care: Mixed Methods Study" untersucht die Nutzung und Wahrnehmung digitaler Terminbuchung in der hausärztlichen Versorgung. Die Studie zeigt, dass Nutzung und Bekanntheit stark von Praxisfaktoren, Alter, sozialer Benachteiligung und chronischen Erkrankungen abhängen. Besonders wichtig sind einfache Zugänge und die Sicherstellung gerechter digitaler Teilhabe.
