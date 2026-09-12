@@ -8,6 +8,8 @@ Der Artikel „Automatic documentation of professional health interactions: A sy
 
 * [muunai.com](https://muunai.com/de)
 
+„Ambient Scribe Data Set“ beschreibt einen Datensatz mit 199 Arzt-Patienten-Gesprächen, jeweils mit Audio, Transkription und Zusammenfassung. Er umfasst fünf Sprachen, mehrere medizinische Fachgebiete und verschiedene Besuchstypen und eignet sich unter anderem zur Entwicklung und Evaluation mehrsprachiger Ambient-Scribe-Modelle. [imerit.ai/ambient-scribe-data-set](https://imerit.ai/ambient-scribe-data-set/) [kaggle.com/datasets/imeritinc/multilingual-ambient-scribe-dataset](https://www.kaggle.com/datasets/imeritinc/multilingual-ambient-scribe-dataset)
+
 ## Regulation
 
 Die Studie „Regulation of AI scribes in clinical practice“ untersucht die wachsende Verwendung von KI-Schreibtechnologien in der Medizin, die klinische Konsultationen in Echtzeit transkribieren und Notizen für elektronische Patientenakten erstellen. Diese Technologien versprechen, die Effizienz zu steigern, indem sie die Zeit für Dokumentation reduzieren, doch es gibt Unsicherheiten bezüglich der Verantwortlichkeiten und der Regulierung. Die Studie hebt hervor, dass KI-Schreiber in Großbritannien, der EU und den USA als „Software als Medizinprodukt“ klassifiziert sind und strenge regulatorische Standards erfüllen müssen. Sie betont die Notwendigkeit klarer Richtlinien für die Überwachung durch Kliniker und die rechtlichen Beziehungen zwischen Klinikern, Organisationen und Anbietern, um Patientensicherheit und Datenschutz zu gewährleisten. Abschließend fordert die Studie NHS-weite Leitlinien, um die Implementierung zu vereinheitlichen und Risiken zu minimieren. [@shemtob2025regulation]
