@@ -50,3 +50,5 @@ Open-source DeepResearch – Freeing our search agents zeigt, wie ein offener ag
 
 „MatrAIx“ beschreibt eine Simulationsinfrastruktur zur Evaluation von KI-Modellen und digitalen Produkten mit 8,3 Milliarden Persona-Agenten. Die Plattform simuliert Nutzerverhalten in Umfragen, Chatbots, Web- und App-Szenarien und liefert daraus Evaluationsberichte sowie Telemetriedaten. Ziel ist es, Produkte und KI-Systeme vor ihrem Einsatz unter realitätsnahen Bedingungen zu bewerten.
 
+**„ADVOCATing for Patients With Heart Failure“** beschreibt die ARPA-H-Initiative ADVOCATE zur Entwicklung autonomer KI-Agenten für die Behandlung von Patientinnen und Patienten mit Herzinsuffizienz. Ziel ist es, Systeme zu entwickeln, die ohne zwingende menschliche Intervention klinische Aufgaben übernehmen und perspektivisch eine FDA-Zulassung erreichen können. Im Mittelpunkt stehen dabei Fragen zu Sicherheit, Verantwortlichkeit, Finanzierung und dem Nachweis einer Überlegenheit gegenüber der Standardversorgung.
+
