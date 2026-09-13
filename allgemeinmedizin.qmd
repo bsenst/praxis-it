@@ -41,3 +41,7 @@ Understanding the implementation and adoption of a technological intervention to
 
 * [thesmartmeasures.com](https://www.thesmartmeasures.com/)
 * [green-center.org](https://www.green-center.org/)
+
+„Why bringing back the family doctor might not be so simple“ untersucht, ob das politische Ziel einer Rückkehr zum „family doctor“-Modell im englischen NHS unter den heutigen Bedingungen realisierbar ist. Der Beitrag zeigt einen Zielkonflikt zwischen schnellerem Zugang und langfristiger Versorgungskontinuität: 55,5 % der GP-Praxistermine wurden im Juni 2026 von anderen Gesundheitsberufen erbracht, während 81 % der dauerhaft angestellten GPs weniger als Vollzeit arbeiteten. Die diskutierten Alternativen reichen von individueller zu teamorientierter Kontinuität, während die aktuelle Priorisierung von taggleichem Zugang die Beziehungs- und Kontinuitätsversorgung erschweren kann.
+
+„Continuity in a fragmented healthcare system – organizational and individual determinants“ untersucht anhand von Registerdaten aus der Region Skåne, wie organisatorische und individuelle Faktoren die Versorgungskontinuität in der schwedischen Primärversorgung beeinflussen. Besonders stark waren niedriger ärztlicher Personalwechsel und kleinere Versorgungszentren mit höherer Kontinuität verbunden; Unterschiede zwischen Versorgungseinrichtungen waren ausgeprägter als Unterschiede zwischen Patientengruppen.
