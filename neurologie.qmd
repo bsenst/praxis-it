@@ -28,6 +28,7 @@ Die DMKG-App ist ein elektronischer Kopfschmerzkalender der Deutschen Migräne- 
 : Übersicht digitale Anwendungen Neurologie
 
 * [neotiv-care.com](https://neotiv-care.com/)
+* [mocacognition.com](https://portal.mocacognition.com/org/lilly/de)
 
 [TinySteps](https://alexion.de/tinysteps) ist eine kostenlose Bewegungs-App, entwickelt von Alexion Pharma Germany GmbH in Zusammenarbeit mit Patient:innen, Physiotherapeut:innen und Neurolog:innen, um Menschen mit Myasthenia gravis (MG) und Neuromyelitis-Optica-Spektrum-Erkrankungen (NMOSD) zu mehr Aktivität im Alltag zu verhelfen. Die App bietet kurze, herunterladbare Übungsvideos, die auch offline genutzt werden können, sowie Live-Übungen alle zwei Wochen, wissenswerte Artikel und eine Erinnerungsfunktion. Sie ist kein medizinisches Produkt, sondern dient als Vorlage für Bewegung nach therapeutischer Rücksprache, mit dem Ziel, die Lebensqualität Betroffener durch kleine, machbare Schritte zu verbessern. TinySteps ist sofort nutzbar, ohne Anmeldung, und wurde speziell auf die Bedürfnisse neuromuskulär Erkrankter abgestimmt.
 
