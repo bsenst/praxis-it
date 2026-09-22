@@ -11,6 +11,7 @@ Die [Cortex.DIREKT-App](https://www.cortex-direkt.de/sign_in) ist der Nachrichte
 Die DMKG-App ist ein elektronischer Kopfschmerzkalender der Deutschen Migräne- und Kopfschmerzgesellschaft e.V. Nutzende können sich an Einträge erinnern lassen und eine übersichtliche Zusammenfassung in der App ansehen oder herunterladen. Sie unterstützt zudem die Kopfschmerzforschung in Deutschland als Teil des „Kopfschmerzregister“-Projekts, indem pseudonymisierte Daten für wissenschaftliche Auswertungen genutzt werden, um die Kopfschmerzversorgung langfristig zu verbessern. Die App ist kostenlos, werbefrei und sowohl für Android als auch iOS verfügbar. Weitere Infos gibt es unter [www.kopfschmerzregister.de](https://www.kopfschmerzregister.de).
 
 * [schmerzklinik.de/die-migraene-app](https://schmerzklinik.de/die-migraene-app/)
+* [abbvie-care.de/migraene-verstehen](https://www.abbvie-care.de/migraene-verstehen/)
 
 ## Weitere digitale Anwendungen
 
