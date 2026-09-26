@@ -9,3 +9,7 @@ Der Artikel mit dem Titel „AI-Driven Interventions for Imminent Hospital Admis
 ### Gesundheitskompetenz
 
 Die Studie „Interactive Computer-Adaptive Chronic Kidney Disease (I-C-CKD) Education for Hospitalized African American Patients: Protocol for a Randomized Controlled Trial“ untersucht, ob eine computergestützte, individuell angepasste und kulturell auf afroamerikanische Patienten zugeschnittene Aufklärung das Wissen und die Motivation zur Selbstfürsorge bei stationären afroamerikanischen Patienten mit fortgeschrittener chronischer Nierenerkrankung verbessert. Im Rahmen eines randomisierten kontrollierten Studienaufbaus wird die Wirkung dieser innovativen Bildungsmaßnahme mit der üblichen Krankenhausversorgung verglichen. Ziel ist es, die Gesundheitskompetenz zu stärken, bestehende Versorgungsungleichheiten zu reduzieren und langfristig bessere Behandlungsergebnisse für diese Patientengruppe zu erzielen. [@king2025interactive]
+
+## Weiteres
+
+„Virtual Solutions for Chronic Kidney Disease Management“ bewertet virtuelle Lösungen zur CKD-Versorgung. Die Bewertung zeigt keine konsistente Evidenz dafür, dass diese Lösungen das Fortschreiten der Erkrankung verlangsamen oder die Gesundheitsausgaben auf Populationsebene senken. Verbesserungen bei geplanten Dialyse-Starts sind vorhanden, bleiben jedoch aufgrund der geringen betroffenen Patientenzahl ohne nennenswerte klinische oder ökonomische Wirkung. Die Evidenz unterstützt keine breitere Einführung.
