@@ -118,3 +118,5 @@ Die Studie „Electronic prescription as a driver for digitalization in Finnish 
 ## Weitere
 
 * [www.telekonnekt.de](https://www.telekonnekt.de/)
+
+TI Differentialdiagnose ist eine portable technische Orientierungshilfe zur gezielten Eingrenzung von Störungen der Telematikinfrastruktur. Die Anwendung prüft Arbeitsplatz und Praxisnetzwerk, Internet, TI-Verbindung und technische TI-Dienste und ordnet Auffälligkeiten mit möglichen nächsten Schritten ein. Die Diagnose bleibt lokal und verarbeitet keine Patientendaten; sie ersetzt jedoch keine vollständige Funktions- oder Sicherheitsprüfung.
