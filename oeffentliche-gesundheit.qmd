@@ -112,3 +112,6 @@ Das „Harvard Chan School Department of Epidemiology Seminar mit Karl Lauterbac
 * [EWARS Mobile](https://play.google.com/store/apps/details?id=com.jdu.ewars.collect.prod)
 * [DHIS2 is a global collaboration led by HISP UiO](https://dhis2.org/)
 * [eIDSR](https://play.google.com/store/apps/details?id=tz.go.moh.eidsr)
+
+
+* [Burden of Disease Calculator (Shiny)](https://github.com/rhenriquezitg/bodcalc)
