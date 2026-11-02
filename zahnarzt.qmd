@@ -94,6 +94,8 @@ Quelle: [@KZBV_EDV_Statistik]
 
 * [DentNet](https://www.dentnet.de/)
 
+Annelie [meetannelie.com](https://meetannelie.com/) ist eine webbasierte Anwendung zur zahnärztlichen Behandlungsdokumentation. Behandler:innen erfassen Behandlungsangaben in strukturierten, am Behandlungsablauf orientierten Formularen. Daraus entstehen formulierte Dokumentationstexte zur fachlichen Prüfung und Verwendung in der bestehenden Praxissoftware. Der Schwerpunkt liegt auf weniger wiederkehrender Formulierungsarbeit und nachvollziehbaren Behandlungsangaben. 
+
 ## Forschung
 
 ### Künstliche Intelligenz
